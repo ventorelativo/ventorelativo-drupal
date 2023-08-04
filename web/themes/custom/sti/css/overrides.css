@@ -1,18 +1,27 @@
-.node__content {
-  & .navbar-brand {
-    display: block !important;
-  }
+.path-frontpage {
+  & main {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-  & h2 {
-    text-transform: uppercase;
-    font-size: 1.5rem;
-  }
+    & .navbar-brand {
+      display: block !important;
+    }
 
-  & h3 {
-    font-size: 1.25rem;
+    & h2 {
+      text-transform: uppercase;
+      font-size: 1.5rem;
+    }
 
-    & a {
-      text-decoration: none;
+    & h3 {
+      font-size: 1.25rem;
+
+      & a {
+        text-decoration: none;
+      }
     }
   }
+
 }

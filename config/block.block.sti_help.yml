@@ -11,7 +11,7 @@ _core:
 id: sti_help
 theme: sti
 region: content
-weight: -3
+weight: -2
 provider: null
 plugin: help_block
 settings:

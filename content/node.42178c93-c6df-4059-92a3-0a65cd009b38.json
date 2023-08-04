@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-08-04T17:05:09+00:00",
+            "value": "2023-08-04T17:35:27+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-08-04T17:05:09+00:00",
+            "value": "2023-08-04T17:35:27+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -84,5 +84,11 @@
             "pathauto": 1
         }
     ],
-    "body": []
+    "body": [
+        {
+            "value": "<h2>Alessandro Gandi<\/h2><h3><a href=\"tel:+3356852322\">335 68 52 322<\/a><\/h3><h3><a href=\"\/contattami\">contattami<\/a><\/h3>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
 }

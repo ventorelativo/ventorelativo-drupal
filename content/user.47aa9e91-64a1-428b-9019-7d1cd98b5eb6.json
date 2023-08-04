@@ -54,5 +54,13 @@
             "value": true
         }
     ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 0
+        }
+    ],
     "user_picture": []
 }

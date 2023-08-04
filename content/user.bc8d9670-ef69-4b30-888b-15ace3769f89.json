@@ -52,16 +52,18 @@
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "roles": [
-        {
-            "target_id": "administrator",
-            "target_type": "user_role",
-            "target_uuid": "f320dea5-6f26-47ac-8e6f-f9aafe81a839"
-        }
-    ],
+    "roles": [],
     "default_langcode": [
         {
             "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 0
         }
     ],
     "user_picture": []
