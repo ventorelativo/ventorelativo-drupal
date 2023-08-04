@@ -1,10 +1,10 @@
-uuid: 4fd0d408-4545-4931-97b7-6985ec95e5c7
-langcode: en
+uuid: 6a96034c-4589-4d2a-b216-ae6f3102a084
+langcode: it
 status: true
 dependencies: {  }
 _core:
   default_config_hash: zglzjmYxi0G0ag9MZ02y0LSJOdpWRwJxyP_OvFojFyo
 id: basic
-label: 'Basic block'
+label: 'Blocco base'
 revision: 0
-description: 'A basic block contains a title and a body.'
+description: 'Un blocco di base contiene un titolo e un corpo.'

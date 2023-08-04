@@ -1,6 +1,6 @@
-uuid: f231b6af-ff1a-43da-8056-325740c3f86a
-langcode: en
-status: true
+uuid: 353bf491-5603-4958-8c85-dcff93aab165
+langcode: it
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
@@ -11,7 +11,7 @@ dependencies:
 _core:
   default_config_hash: YKgw0f77GEmCu6_6Om9Mbig0mON9JdfVuMxTtd0WQaI
 id: taxonomy_term
-label: 'Taxonomy term'
+label: 'Termine della tassonomia'
 module: taxonomy
 description: 'Content belonging to a certain taxonomy term.'
 tag: default
@@ -20,7 +20,7 @@ base_field: nid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: Predefinito
     display_plugin: default
     position: 0
     display_options:
@@ -37,22 +37,22 @@ display:
             previous: ‹‹
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Voci per pagina'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Tutto -'
             offset: false
-            offset_label: Offset
+            offset_label: Scostamento
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Applica
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Ripristina
+          exposed_sorts_label: 'Ordina per'
           expose_sort_order: true
           sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_desc_label: Disc
       access:
         type: perm
         options:
@@ -102,7 +102,7 @@ display:
           exception:
             value: ''
             title_enable: false
-            title: All
+            title: Tutti
           title_enable: true
           title: '{{ arguments.tid }}'
           default_argument_type: fixed
@@ -299,7 +299,7 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Page
+    display_title: Pagina
     display_plugin: page
     position: 1
     display_options:

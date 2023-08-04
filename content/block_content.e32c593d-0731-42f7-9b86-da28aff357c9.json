@@ -1,0 +1,65 @@
+{
+    "uuid": [
+        {
+            "value": "e32c593d-0731-42f7-9b86-da28aff357c9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "6a96034c-4589-4d2a-b216-ae6f3102a084"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-08-04T16:02:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Nome e contatti"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-08-04T16:46:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<h2>Alessandro Gandi<\/h2><h3><a href=\"tel:+3356852322\">335 68 52 322<\/a><\/h3><h3><a href=\"\/contattami\">contattami<\/a><\/h3><p>&nbsp;<\/p>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}

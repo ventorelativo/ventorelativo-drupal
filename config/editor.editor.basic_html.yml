@@ -1,11 +1,13 @@
-uuid: 73426db1-291e-4503-9ad8-149440a15a09
-langcode: en
+uuid: 670fac46-f10c-49b0-b841-368a61e8343a
+langcode: it
 status: true
 dependencies:
   config:
     - filter.format.basic_html
   module:
     - ckeditor5
+_core:
+  default_config_hash: lZlUTSJqWaN3iU0I0fhvQVgqf4ps9fxPPC-g_9aWIRc
 format: basic_html
 editor: ckeditor5
 settings:
@@ -23,10 +25,9 @@ settings:
       - drupalInsertImage
       - '|'
       - heading
+      - code
       - '|'
       - sourceEditing
-      - '|'
-      - code
   plugins:
     ckeditor5_heading:
       enabled_headings:
@@ -46,11 +47,10 @@ settings:
         - '<dl>'
         - '<dt>'
         - '<dd>'
-        - '<span>'
         - '<a hreflang>'
         - '<blockquote cite>'
         - '<ul type>'
-        - '<ol type>'
+        - '<ol start type>'
         - '<h2 id>'
         - '<h3 id>'
         - '<h4 id>'

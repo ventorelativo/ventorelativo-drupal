@@ -1,0 +1,20 @@
+uuid: c4756fb4-d93b-462d-aab9-6f7a9f0464db
+langcode: it
+status: true
+dependencies:
+  theme:
+    - sti
+_core:
+  default_config_hash: 9r1Rvoul1PueWPDqYGJojOqF_uV0LkPE7UD04qPRfUE
+id: sti_local_actions
+theme: sti
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Azioni di amministrazione principali'
+  label_display: '0'
+  provider: core
+visibility: {  }

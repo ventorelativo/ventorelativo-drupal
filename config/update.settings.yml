@@ -1,5 +1,6 @@
 _core:
   default_config_hash: 2QzULf0zovJQx3J06Y9rufzzfi-CY2CTTlEfJJh2Qyw
+langcode: it
 check:
   disabled_extensions: false
   interval_days: 1
@@ -8,6 +9,5 @@ fetch:
   max_attempts: 2
   timeout: 30
 notification:
-  emails:
-    - admin@example.com
+  emails: {  }
   threshold: all

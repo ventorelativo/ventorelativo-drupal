@@ -1,0 +1,27 @@
+uuid: 0e89a965-3ed2-45d0-b7bb-0378cd98b5cd
+langcode: it
+status: false
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - sti
+_core:
+  default_config_hash: G4KtsrMBR3hl05zve-wCnl_6H0aGv1X5EtTU02NO_uA
+id: sti_footer
+theme: sti
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Piè di pagina'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

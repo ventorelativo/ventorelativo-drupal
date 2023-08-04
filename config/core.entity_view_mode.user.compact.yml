@@ -1,5 +1,5 @@
-uuid: e3eabe36-3366-45bf-a3cd-34a63ffa14c5
-langcode: en
+uuid: 92d484c5-b553-40ad-85e8-e42aa4adb8b8
+langcode: it
 status: true
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: 71CSAr_LNPcgu6D6jI4INl1KATkahmeyUFBETAWya8g
 id: user.compact
-label: Compact
+label: Compatto
 targetEntityType: user
 cache: true

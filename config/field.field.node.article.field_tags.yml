@@ -1,5 +1,5 @@
-uuid: 8b7acafc-32aa-4445-9050-7fc31d718287
-langcode: en
+uuid: 8cba44ef-88b4-4d74-8a51-eb90b3edba2c
+langcode: it
 status: true
 dependencies:
   config:
@@ -12,8 +12,8 @@ id: node.article.field_tags
 field_name: field_tags
 entity_type: node
 bundle: article
-label: Tags
-description: 'Enter a comma-separated list. For example: Amsterdam, Mexico City, "Cleveland, Ohio"'
+label: Etichette
+description: 'Inserire un elenco separato da virgole. Per esempio: Amsterdam, Mexico City, "Cleveland, Ohio"'
 required: false
 translatable: true
 default_value: {  }

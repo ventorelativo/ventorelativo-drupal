@@ -1,0 +1,22 @@
+uuid: 88e14f7c-c230-4d3c-8846-cd9e697c88a8
+langcode: it
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sti
+_core:
+  default_config_hash: GgEQ_nOi30NsTLu2WRpw4CmQqbp7beVpQOdgvM6YtTA
+id: sti_content
+theme: sti
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenuto della pagina principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

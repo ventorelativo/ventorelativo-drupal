@@ -1,10 +1,10 @@
-uuid: ee004dbf-19c9-4295-b458-8e0cbe01aed5
-langcode: en
+uuid: 36fd5872-f265-4902-802c-1838b00c9162
+langcode: it
 status: true
 dependencies: {  }
 _core:
   default_config_hash: 7yrlW5z9zdg2eBucB2GPqXKSMQfH9lSRSO4DbWF7AFc
 id: footer
-label: Footer
+label: 'Piè di pagina'
 description: 'Site information links'
 locked: true

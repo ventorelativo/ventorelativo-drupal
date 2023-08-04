@@ -290,7 +290,7 @@ $settings['config_sync_directory'] = '../config';
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = '0KnifTERdlyjXweReRlgHhiR7xUperrU-puZFm9dPXT71yX8NEpMD0lAjXfq_H17k2B_8N11Zw';
 
 /**
  * Deployment identifier.
@@ -756,10 +756,17 @@ $settings['entity_update_backup'] = TRUE;
  */
 $settings['migrate_node_migrate_type_classic'] = FALSE;
 
-// Automatically generated include for settings managed by ddev.
-if (file_exists(__DIR__ . '/settings.ddev.php') && getenv('IS_DDEV_PROJECT') == 'true') {
-  include __DIR__ . '/settings.ddev.php';
-}
+$databases['default']['default'] = array (
+  'database' => '../.ht.sqlite',
+  'prefix' => '',
+  'namespace' => 'Drupal\\sqlite\\Driver\\Database\\sqlite',
+  'driver' => 'sqlite',
+  'autoload' => 'core/modules/sqlite/src/Driver/Database/sqlite/',
+);
+
+// This will ensure the site can only be accessed through the intended host
+// names. Additional host patterns can be added for custom configurations.
+$settings['trusted_host_patterns'] = ['.*'];
 
 /**
  * Load local development override configuration, if available.
@@ -775,6 +782,6 @@ if (file_exists(__DIR__ . '/settings.ddev.php') && getenv('IS_DDEV_PROJECT') == 
  * Keep this code block at the end of this file to take full effect.
  */
 #
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}

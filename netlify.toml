@@ -1,0 +1,23 @@
+[build]
+command = """
+composer install \
+&& ./vendor/bin/drush tome:install -y \
+&& ./vendor/bin/drush cim -y \
+&& ./vendor/bin/drush simple-sitemap:generate -l $URL \
+&& ./vendor/bin/drush tome:static -l $URL
+"""
+
+# Example lines you can add before "tome:static" above if needed:
+#&& LUNR_DRUSH=./vendor/bin/drush node web/modules/contrib/lunr/js/index.node.js default \
+#&& ./vendor/bin/drush simple-sitemap-generate -y -l $DEPLOY_PRIME_URL \
+#&& cp html/404/index.html html/404.html \
+
+publish = "html"
+
+[build.environment]
+PHP_VERSION="8.1"
+
+[[redirects]]
+from = "/home"
+to = "/"
+status = 301

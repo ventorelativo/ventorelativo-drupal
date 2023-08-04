@@ -1,5 +1,5 @@
-uuid: 9cc7acd0-a89c-4dc8-b174-0cc9571fa037
-langcode: en
+uuid: b82727d3-6311-4bb0-a608-b0fff4c2f257
+langcode: it
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: nvrL9bFilzBvm2bjO9rQnFDpBA7dBBUjShSSt6NS-DU
 id: user_cancel_user_action
-label: 'Cancel the selected user account(s)'
+label: 'Elimina i profili utente selezionati'
 type: user
 plugin: user_cancel_user_action
 configuration: {  }

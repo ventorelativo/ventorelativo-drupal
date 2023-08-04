@@ -1,0 +1,18 @@
+.node__content {
+  & .navbar-brand {
+    display: block !important;
+  }
+
+  & h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+
+  & h3 {
+    font-size: 1.25rem;
+
+    & a {
+      text-decoration: none;
+    }
+  }
+}

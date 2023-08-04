@@ -1,6 +1,14 @@
 {
-    "shortcut.bdd15a70-fdbb-4617-a7fb-2c392b86c934": [],
-    "shortcut.fbabf8cf-fab9-48a0-b2f5-30fc3ec7713b": [],
-    "user.0b22119f-e6e0-4d2c-b285-aaa0cfca1d7c": [],
-    "user.e776f8ab-ed29-4bd9-8165-779c2d07a871": []
+    "shortcut.a6931632-e9fb-4426-ab2e-36c8a3970e58": [],
+    "shortcut.62539f7c-1852-47f8-83d2-71254084f25d": [],
+    "user.47aa9e91-64a1-428b-9019-7d1cd98b5eb6": [],
+    "user.bc8d9670-ef69-4b30-888b-15ace3769f89": [],
+    "node.42178c93-c6df-4059-92a3-0a65cd009b38": [
+        "user.bc8d9670-ef69-4b30-888b-15ace3769f89"
+    ],
+    "block_content.e32c593d-0731-42f7-9b86-da28aff357c9": [],
+    "path_alias.2eccfcc2-0313-4d7e-8968-ce391038ad33": [],
+    "path_alias.271e04d8-68de-4769-baf7-b605770c0c61": [
+        "node.42178c93-c6df-4059-92a3-0a65cd009b38"
+    ]
 }

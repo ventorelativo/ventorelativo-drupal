@@ -1,0 +1,11 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+
+overrides:
+  css:
+    theme:
+      css/overrides.css: {}
+  dependencies:
+    - sti/global-styling

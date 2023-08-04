@@ -25,3 +25,9 @@
 
 # Ignore auto-generated environmet files
 /.ddev/docker-compose.host-docker-internal.yaml
+
+# Tome exports
+/html
+
+# SQLite database
+/.ht.sqlite*

@@ -1,11 +1,12 @@
 _core:
   default_config_hash: t7clj3mzmOGrXX0HuCH5usf0vEqRtnMTBFVBIEmZ5pc
-first_day: 0
+langcode: it
+first_day: 1
 country:
-  default: ''
+  default: IT
 timezone:
-  default: UTC
+  default: Europe/Rome
   user:
-    configurable: true
+    configurable: false
     default: 0
     warn: false

@@ -1,0 +1,27 @@
+uuid: 2db825e5-98f8-46b0-aad6-7ae6825498c5
+langcode: it
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - sti
+_core:
+  default_config_hash: rGoyrO1CHjwXRZNseHXVSQD3kBeE-qbyxKzSDxqN80w
+id: sti_account_menu
+theme: sti
+region: nav_additional
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Menu profilo utente'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
