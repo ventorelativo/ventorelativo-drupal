@@ -25,6 +25,7 @@
         "drupal/core-recommended": "^10.0",
         "drupal/lb_claro": "^2.0@alpha",
         "drupal/linkit": "^6.1",
+        "drupal/metatag": "^2.0",
         "drupal/pathauto": "^1.11",
         "drupal/redirect": "^1.8",
         "drupal/seeds_toolbar": "2.x-dev@dev",
