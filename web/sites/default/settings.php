@@ -768,6 +768,7 @@ $databases['default']['default'] = array (
 // names. Additional host patterns can be added for custom configurations.
 $settings['trusted_host_patterns'] = ['.*'];
 
+$settings['skip_permissions_hardening'] = TRUE;
 /**
  * Load local development override configuration, if available.
  *
@@ -785,3 +786,4 @@ $settings['trusted_host_patterns'] = ['.*'];
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
+
