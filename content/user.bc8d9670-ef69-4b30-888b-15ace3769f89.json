@@ -16,7 +16,7 @@
     ],
     "preferred_langcode": [
         {
-            "value": "en"
+            "value": "it"
         }
     ],
     "preferred_admin_langcode": [],
@@ -48,7 +48,7 @@
     ],
     "changed": [
         {
-            "value": "2023-08-04T15:10:25+00:00",
+            "value": "2023-08-05T07:44:15+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -60,10 +60,9 @@
     ],
     "path": [
         {
-            "alias": null,
+            "alias": "",
             "pid": null,
-            "langcode": "en",
-            "pathauto": 0
+            "langcode": "en"
         }
     ],
     "user_picture": []
