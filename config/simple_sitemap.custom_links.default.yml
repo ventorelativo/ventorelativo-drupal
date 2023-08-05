@@ -1,9 +1,8 @@
-langcode: it
 links:
   -
     path: /
     priority: '1.0'
     changefreq: ''
   -
-    path: /contattami
+    path: /contatto
     priority: '0.5'
