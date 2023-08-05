@@ -31,12 +31,13 @@
         "drupal/simple_sitemap": "^4.1",
         "drupal/svg_image": "^3.0",
         "drupal/tome": "^1.0",
+        "drupal/tome_netlify": "1.x-dev@dev",
         "drush/drush": "^11.6"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "sort-packages": true,

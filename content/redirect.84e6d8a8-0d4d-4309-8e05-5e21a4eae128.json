@@ -1,0 +1,52 @@
+{
+    "uuid": [
+        {
+            "value": "84e6d8a8-0d4d-4309-8e05-5e21a4eae128"
+        }
+    ],
+    "hash": [
+        {
+            "value": "u_KDbP2Ih2d7rpY48QlliyOpXAB1Oxu7wUJkWVWVDLY"
+        }
+    ],
+    "type": [
+        {
+            "value": "redirect"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "redirect_source": [
+        {
+            "path": "contatti",
+            "query": []
+        }
+    ],
+    "redirect_redirect": [
+        {
+            "uri": "internal:\/contact",
+            "title": null,
+            "options": []
+        }
+    ],
+    "language": [
+        {
+            "value": "und"
+        }
+    ],
+    "status_code": [
+        {
+            "value": 301
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-08-04T21:53:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

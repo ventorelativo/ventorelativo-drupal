@@ -2,6 +2,8 @@ uuid: 07090b18-84bc-4fce-9684-4424a2725e4d
 langcode: it
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - sti
 _core:
@@ -19,4 +21,8 @@ settings:
   provider: core
   primary: true
   secondary: true
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b77e603005da2400c1164e6852c9cb0",
+    "content-hash": "83608471f74afc0660076fba46fb451a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2695,6 +2695,90 @@
             "homepage": "https://www.drupal.org/project/tome",
             "support": {
                 "source": "https://git.drupalcode.org/project/tome"
+            }
+        },
+        {
+            "name": "drupal/tome_netlify",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/tome_netlify.git",
+                "reference": "bb6eab5f7aaf06392231b075d2a3437bdf49d201"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10",
+                "drupal/tome": "^1 || 1.x-dev",
+                "drupal/tome_netlify_contact": "*",
+                "drupal/tome_static": "*"
+            },
+            "require-dev": {
+                "drupal/redirect": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1670996498",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "samuel.mortenson",
+                    "homepage": "https://www.drupal.org/user/2582268"
+                }
+            ],
+            "description": "Provides integrations between Tome and Netlify.",
+            "homepage": "https://www.drupal.org/project/tome_netlify",
+            "support": {
+                "source": "https://git.drupalcode.org/project/tome_netlify"
+            }
+        },
+        {
+            "name": "drupal/tome_netlify_contact",
+            "version": "dev-1.x",
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10",
+                "drupal/tome_netlify": "^1"
+            },
+            "type": "metapackage",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1670996498",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "samuel.mortenson",
+                    "homepage": "https://www.drupal.org/user/2582268"
+                }
+            ],
+            "description": "Contains Contact Form integrations for Netlify.",
+            "homepage": "https://www.drupal.org/project/tome_netlify",
+            "support": {
+                "source": "https://git.drupalcode.org/project/tome_netlify"
             }
         },
         {
@@ -7433,11 +7517,12 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "drupal-tome/tome_drush": 20,
         "drupal/lb_claro": 15,
-        "drupal/seeds_toolbar": 20
+        "drupal/seeds_toolbar": 20,
+        "drupal/tome_netlify": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

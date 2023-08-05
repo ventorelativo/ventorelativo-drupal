@@ -1,0 +1,19 @@
+uuid: 0c73729f-c6da-46f0-a01c-a08b74fd76d5
+langcode: it
+status: true
+dependencies:
+  module:
+    - tome_netlify_contact
+third_party_settings:
+  tome_netlify_contact:
+    use_netlify: true
+    use_captcha: false
+    use_honeypot: true
+id: contatto
+label: Contatto
+recipients:
+  - alessandro.gandi@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: /contatto/messaggio-inviato

@@ -1,0 +1,90 @@
+{
+    "uuid": [
+        {
+            "value": "b26d060d-53f7-4643-bfcd-e2c4ec1c256d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "0879c2c8-f6b2-4f2d-9411-9b398641d6a3"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-08-04T21:49:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "title": [
+        {
+            "value": "Grazie!"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-08-04T21:30:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-08-04T21:49:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "path": [
+        {
+            "alias": "\/contatto\/messaggio-inviato",
+            "langcode": "it",
+            "pathauto": 0
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Il messaggio \u00e8 stato inviato. Le risponderemo al pi\u00f9 presto.<\/p>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}

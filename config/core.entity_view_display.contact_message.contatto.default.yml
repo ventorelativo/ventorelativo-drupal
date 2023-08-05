@@ -1,0 +1,20 @@
+uuid: 3c189773-62b3-4949-800d-b8eafb006471
+langcode: it
+status: true
+dependencies:
+  config:
+    - contact.form.contatto
+id: contact_message.contatto.default
+targetEntityType: contact_message
+bundle: contatto
+mode: default
+content:
+  message:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

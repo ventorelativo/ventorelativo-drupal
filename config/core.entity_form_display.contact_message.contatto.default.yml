@@ -1,0 +1,45 @@
+uuid: ee100d79-5918-42b0-a4ef-ed60570b0f85
+langcode: it
+status: true
+dependencies:
+  config:
+    - contact.form.contatto
+id: contact_message.contatto.default
+targetEntityType: contact_message
+bundle: contatto
+mode: default
+content:
+  copy:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  mail:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  message:
+    type: string_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 12
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  preview: true

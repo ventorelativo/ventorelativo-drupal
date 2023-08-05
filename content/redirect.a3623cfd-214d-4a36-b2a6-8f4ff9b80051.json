@@ -1,0 +1,52 @@
+{
+    "uuid": [
+        {
+            "value": "a3623cfd-214d-4a36-b2a6-8f4ff9b80051"
+        }
+    ],
+    "hash": [
+        {
+            "value": "868E1qxv3v5tyF65V85C5sKL1iZfWmr2S0xRb1ZE5K8"
+        }
+    ],
+    "type": [
+        {
+            "value": "redirect"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "redirect_source": [
+        {
+            "path": "contattami",
+            "query": []
+        }
+    ],
+    "redirect_redirect": [
+        {
+            "uri": "internal:\/contact",
+            "title": null,
+            "options": []
+        }
+    ],
+    "language": [
+        {
+            "value": "und"
+        }
+    ],
+    "status_code": [
+        {
+            "value": 301
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-08-04T21:41:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
