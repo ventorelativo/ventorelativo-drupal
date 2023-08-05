@@ -769,6 +769,10 @@ $databases['default']['default'] = array (
 $settings['trusted_host_patterns'] = ['.*'];
 
 $settings['skip_permissions_hardening'] = TRUE;
+
+// Test for fonts
+$config['system.performance']['css']['preprocess'] = FALSE;
+
 /**
  * Load local development override configuration, if available.
  *
