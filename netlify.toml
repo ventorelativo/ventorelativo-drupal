@@ -3,7 +3,10 @@ command = """
 composer install \
 && ./vendor/bin/drush tome:install -y \
 && ./vendor/bin/drush cim -y \
+&& ./vendor/bin/drush cron \
 && ./vendor/bin/drush simple-sitemap:generate -l $URL \
+&& ./vendor/bin/drush tome:static -l $URL \
+&& rm -rf html \
 && ./vendor/bin/drush tome:static -l $URL \
 && cp html/404/index.html html/404.html
 """
