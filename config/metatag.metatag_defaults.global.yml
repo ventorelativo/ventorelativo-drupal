@@ -9,10 +9,14 @@ label: Globale
 tags:
   apple_touch_icon_180x180: /themes/custom/sti/favicons/apple-touch-icon.png
   canonical_url: '[current-page:url]'
+  description: "Esperti locali in impianti idraulici, riscaldamento, gas e pannelli solari nel Nord-Ovest dell'Italia. Offriamo soluzioni affidabili e sostenibili per ogni esigenza impiantistica. Contattaci per servizi di alta qualità per la tua casa o azienda."
   icon_16x16: /themes/custom/sti/favicons/favicon-16x16.png
   icon_32x32: /themes/custom/sti/favicons/favicon-32x32.png
   mask_icon:
     href: /themes/custom/sti/favicons/safari-pinned-tab.svg
     color: '#5bbad5'
+  og_description: "Esperti locali in impianti idraulici, riscaldamento, gas e pannelli solari nel Nord-Ovest dell'Italia. Offriamo soluzioni affidabili e sostenibili per ogni esigenza impiantistica. Contattaci per servizi di alta qualità per la tua casa o azienda."
+  og_image: /themes/custom/sti/sti-social-card.png
+  og_site_name: '[site:name]'
   title: '[current-page:title] | [site:name]'
   web_manifest: /themes/custom/sti/favicons/site.webmanifest
