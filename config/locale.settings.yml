@@ -12,5 +12,5 @@ translation:
   overwrite_customized: false
   overwrite_not_customized: true
   update_interval_days: 7
-  path: sites/default/files/translations
+  path: ../translations
   import_enabled: true
