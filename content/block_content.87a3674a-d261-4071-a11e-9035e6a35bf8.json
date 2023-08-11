@@ -1,0 +1,65 @@
+{
+    "uuid": [
+        {
+            "value": "87a3674a-d261-4071-a11e-9035e6a35bf8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "6a96034c-4589-4d2a-b216-ae6f3102a084"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-08-11T11:56:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Footer"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-08-11T11:56:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>P.IVA 12415560015 - C.F. GNDLSN74M26G6741<\/p>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}

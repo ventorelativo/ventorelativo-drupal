@@ -10,10 +10,10 @@ third_party_settings:
     use_captcha: false
     use_honeypot: true
 id: contatto
-label: Contatto
+label: Contatti
 recipients:
   - alessandro.gandi@gmail.com
 reply: ''
 weight: 0
 message: ''
-redirect: /contatto/messaggio-inviato
+redirect: /contatti/messaggio-inviato
