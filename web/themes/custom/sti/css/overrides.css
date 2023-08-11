@@ -11,6 +11,8 @@
     --bs-body-color-rgb: 222, 226, 230;
     --bs-body-bg: #212529;
     --bs-body-bg-rgb: 33, 37, 41;
+    --bs-primary: #668adc;
+    --bs-secondary: #a7acb1;
     --bs-emphasis-color: #fff;
     --bs-emphasis-color-rgb: 255, 255, 255;
     --bs-secondary-color: rgba(222, 226, 230, 0.75);
@@ -121,6 +123,28 @@ h3,
 .h2,
 .h3 {
   font-family: var(--font-family-alt, sans-serif);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: var(--bs-primary);
+  --bs-btn-hover-border-color: var(--bs-primary);
+  --bs-btn-active-bg: var(--bs-primary);
+  --bs-btn-active-border-color: var(--bs-primary);
+  --bs-btn-disabled-color: var(--bs-primary);
+  --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: var(--bs-secondary);
+  --bs-btn-border-color: var(--bs-secondary);
+  --bs-btn-hover-bg: var(--bs-secondary);
+  --bs-btn-hover-border-color: var(--bs-secondary);
+  --bs-btn-active-bg: var(--bs-secondary);
+  --bs-btn-active-border-color: var(--bs-secondary);
+  --bs-btn-disabled-color: var(--bs-secondary);
+  --bs-btn-disabled-border-color: var(--bs-secondary);
 }
 
 .region-content {
