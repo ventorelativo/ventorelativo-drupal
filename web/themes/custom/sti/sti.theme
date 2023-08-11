@@ -1,6 +1,7 @@
 <?php
 
 use Drupal\Core\Template\Attribute;
+use Drupal\Core\Form\FormStateInterface;
 
 /**
  * @file
@@ -48,5 +49,14 @@ function sti_preprocess_block(&$variables) {
       }
 
       break;
+  }
+}
+
+/**
+ * Implements template_preprocess_input().
+ */
+function sti_preprocess_input(&$variables) {
+  if (isset($variables['attributes']['name']) && $variables['attributes']['name'] === 'subject_0_value') {
+    $variables['attributes']['name'] = 'subject';
   }
 }
