@@ -17,7 +17,7 @@
 <div class="navbar-brand d-md-inline-flex align-items-center">
 
   {% if site_logo %}
-  <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="site-logo{{ site_logo_svg ? ' site-logo--svg' }} d-block">
+  <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="site-logo{{ site_logo_svg ? ' site-logo--svg' }} d-inline-block">
     {%- if site_logo_svg -%}
       {{- site_logo_svg|raw -}}
     {%- else -%}
