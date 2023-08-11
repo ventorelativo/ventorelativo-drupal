@@ -9,3 +9,4 @@ label: 'Prima pagina'
 tags:
   canonical_url: '[site:url]'
   shortlink: '[site:url]'
+  title: '[site:name]'

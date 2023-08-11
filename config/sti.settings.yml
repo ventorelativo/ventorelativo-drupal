@@ -18,6 +18,8 @@ logo:
   use_default: 1
 favicon:
   use_default: 1
+  path: themes/custom/sti/favicon.svg
+  mimetype: image/svg+xml
 subtheme_folder: themes/custom
 subtheme_name: 'B5 subtheme'
 subtheme_machine_name: b5subtheme
