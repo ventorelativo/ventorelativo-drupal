@@ -9,5 +9,5 @@ label: 'Modulo di contatto personale'
 recipients: {  }
 reply: ''
 weight: 0
-message: 'Grazie. Le risponderò al più presto possibile.'
+message: 'Il messaggio è stato inviato.'
 redirect: ''

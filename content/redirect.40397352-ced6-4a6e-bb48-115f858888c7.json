@@ -22,7 +22,7 @@
     ],
     "redirect_source": [
         {
-            "path": "contact\/contatto",
+            "path": "contact\/contatti",
             "query": []
         }
     ],

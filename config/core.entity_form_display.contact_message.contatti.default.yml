@@ -3,10 +3,10 @@ langcode: it
 status: true
 dependencies:
   config:
-    - contact.form.contatto
-id: contact_message.contatto.default
+    - contact.form.contatti
+id: contact_message.contatti.default
 targetEntityType: contact_message
-bundle: contatto
+bundle: contatti
 mode: default
 content:
   copy:

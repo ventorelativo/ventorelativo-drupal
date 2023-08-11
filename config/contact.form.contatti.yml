@@ -9,7 +9,7 @@ third_party_settings:
     use_netlify: true
     use_captcha: false
     use_honeypot: true
-id: contatto
+id: contatti
 label: Contatti
 recipients:
   - alessandro.gandi@gmail.com
