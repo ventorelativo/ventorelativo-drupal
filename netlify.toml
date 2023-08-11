@@ -4,6 +4,7 @@ composer install \
 && ./vendor/bin/drush tome:install -y \
 && ./vendor/bin/drush cim -y \
 && ./vendor/bin/drush cron \
+&& ./vendor/bin/drush locale:update \
 && ./vendor/bin/drush simple-sitemap:generate -l $URL \
 && ./vendor/bin/drush tome:static -l $URL \
 && rm -rf html \
