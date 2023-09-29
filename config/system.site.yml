@@ -2,9 +2,9 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: it
 uuid: 69e67bfd-86b4-4d26-842d-a2949abde282
-name: 'Service Termoidraulica'
-mail: alessandro.gandi@gmail.com
-slogan: ''
+name: Ventorelativo
+mail: segreteria@ventorelativo.it
+slogan: 'Parapendio Club'
 page:
   403: ''
   404: /node/3

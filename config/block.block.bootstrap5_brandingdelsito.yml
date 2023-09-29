@@ -1,17 +1,19 @@
-uuid: adc8c2bd-081d-48e4-a7f8-8df6481cb585
+uuid: 446420e7-582d-46a1-b2de-2e4861873323
 langcode: it
 status: true
 dependencies:
   module:
+    - block_class
     - system
   theme:
     - bootstrap5
-_core:
-  default_config_hash: nuW1Z5MdvzbCCEZ9RQojaEWB6Zni32zTq-v5OWbS2sc
-id: bootstrap5_branding
+third_party_settings:
+  block_class:
+    classes: justify-content-center
+id: bootstrap5_brandingdelsito
 theme: bootstrap5
-region: nav_branding
-weight: -6
+region: content
+weight: 0
 provider: null
 plugin: system_branding_block
 settings:
@@ -25,5 +27,5 @@ settings:
 visibility:
   request_path:
     id: request_path
-    negate: true
+    negate: false
     pages: '<front>'

@@ -69,7 +69,6 @@ module:
   seeds_toolbar: 100
   standard: 1000
 theme:
-  olivero: 0
   claro: 0
   stable9: 0
   bootstrap5: 0

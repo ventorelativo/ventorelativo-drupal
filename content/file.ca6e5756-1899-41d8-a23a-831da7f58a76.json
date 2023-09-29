@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "ca6e5756-1899-41d8-a23a-831da7f58a76"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "filename": [
+        {
+            "value": "logo_0.svg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "temporary:\/\/logo_0.svg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/svg+xml"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 10750
+        }
+    ],
+    "status": [
+        {
+            "value": false
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-09-29T16:11:48+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-29T16:11:48+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

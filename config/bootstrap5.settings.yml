@@ -3,8 +3,8 @@ _core:
 langcode: it
 b5_body_schema: light
 b5_body_bg_schema: none
-b5_navbar_schema: dark
-b5_navbar_bg_schema: dark
+b5_navbar_schema: light
+b5_navbar_bg_schema: light
 b5_footer_schema: dark
 b5_footer_bg_schema: secondary
 b5_top_container: container
@@ -15,9 +15,12 @@ features:
   comment_user_verification: true
   favicon: 1
 logo:
-  use_default: 1
+  use_default: 0
+  path: 'public://logo.png'
 favicon:
-  use_default: 1
+  use_default: 0
+  path: 'public://logo_0.svg'
+  mimetype: image/svg+xml
 subtheme_folder: themes/custom
 subtheme_name: 'B5 subtheme'
 subtheme_machine_name: b5subtheme

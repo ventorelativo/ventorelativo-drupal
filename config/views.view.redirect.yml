@@ -247,7 +247,7 @@ display:
         type: basic
         options:
           submit_button: Filtra
-          reset_button: false
+          reset_button: true
           reset_button_label: Ripristina
           exposed_sorts_label: 'Ordina per'
           expose_sort_order: true
