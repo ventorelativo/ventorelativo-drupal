@@ -6,6 +6,7 @@ composer install \
 && ./vendor/bin/drush cron \
 && ./vendor/bin/drush locale:update \
 && ./vendor/bin/drush simple-sitemap:generate -l $URL \
+&& ./vendor/bin/drush un lb_claro \
 && ./vendor/bin/drush tome:static -l $URL
 # && rm -rf html \
 # && ./vendor/bin/drush tome:static -l $URL \
