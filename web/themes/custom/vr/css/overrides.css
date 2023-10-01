@@ -1,8 +1,3 @@
-:root {
-  --font-family: 'Roboto Flex', var(--bs-body-font-family);
-  --font-family-alt: 'Roboto Condensed', var(--font-family);
-}
-
 /* dark mode media query */
 @media (prefers-color-scheme: dark) {
   :root {
@@ -62,50 +57,17 @@
   }
 }
 
-/* roboto-flex-regular - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Roboto Flex';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/roboto-flex-v9-latin-regular.woff2') format('woff2');
-}
-
-/* roboto-condensed-300 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 300;
-  src: url('../fonts/roboto-condensed-v25-latin-300.woff2') format('woff2');
-}
-
-/* roboto-condensed-regular - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/roboto-condensed-v25-latin-regular.woff2') format('woff2');
-}
-
-/* roboto-condensed-700 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/roboto-condensed-v25-latin-700.woff2') format('woff2');
-}
-
 body {
   font-family: var(--font-family, sans-serif);
 }
 
 .navbar-brand {
+
+  & svg,
   & img {
-    height: 36px;
+    height: 5rem;
     margin: 0 0.5em 0 0;
+    width: auto;
   }
 
   & a.site-title {
@@ -156,6 +118,10 @@ h3,
   vertical-align: -0.125em;
 }
 
+main>a#main-content+.container {
+  margin-top: 1.5rem;
+}
+
 /* FRONTPAGE */
 .path-frontpage {
   & main {
@@ -188,6 +154,7 @@ h3,
         letter-spacing: 0;
       }
 
+      & svg,
       & img {
         margin: 0;
         height: 6em;
