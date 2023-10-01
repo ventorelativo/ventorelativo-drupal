@@ -1,0 +1,22 @@
+uuid: a806c526-1b3b-4175-abbf-459fc54385d8
+langcode: it
+status: true
+dependencies:
+  theme:
+    - vr
+_core:
+  default_config_hash: pK7bFjh6qo-99sXgeLBcj6saCmPDCqIzI41RDaWc5B4
+id: vr_local_tasks
+theme: vr
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

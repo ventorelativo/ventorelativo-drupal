@@ -1,0 +1,22 @@
+uuid: 7e2df409-6d1d-432b-aac0-1dbf7162ff2b
+langcode: it
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vr
+_core:
+  default_config_hash: 0WfwpPo2HNGRwxb6zrdzNGzC6rGQNtAvJfBCEtbbIqM
+id: vr_breadcrumbs
+theme: vr
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumb
+  label_display: '0'
+  provider: system
+visibility: {  }

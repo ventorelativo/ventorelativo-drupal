@@ -1,0 +1,22 @@
+uuid: 23f0d50f-ff48-4177-97f3-c816cc03eab0
+langcode: it
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vr
+_core:
+  default_config_hash: kLux_vDNnJdYMStikfN3Fz097giro0eUoZEL9RXvsXU
+id: vr_messages
+theme: vr
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

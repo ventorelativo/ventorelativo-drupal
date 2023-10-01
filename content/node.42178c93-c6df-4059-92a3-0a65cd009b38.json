@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-10-01T08:38:43+00:00",
+            "value": "2023-10-01T09:23:13+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-10-01T08:38:43+00:00",
+            "value": "2023-10-01T09:23:13+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -72,7 +72,11 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
     "path": [
         {
             "alias": "\/home",
@@ -130,8 +134,8 @@
                             "label_display": 0,
                             "provider": "system",
                             "use_site_logo": 1,
-                            "use_site_name": 1,
-                            "use_site_slogan": 1,
+                            "use_site_name": 0,
+                            "use_site_slogan": 0,
                             "context_mapping": []
                         },
                         "weight": 0,
@@ -146,11 +150,11 @@
                             "label_display": 0,
                             "provider": "layout_builder",
                             "view_mode": "full",
-                            "block_revision_id": "4",
+                            "block_revision_id": "6",
                             "block_serialized": null,
                             "context_mapping": [],
                             "type": "basic",
-                            "uuid": "5d150675-42ca-4a1b-91f9-c55e5c7112e7"
+                            "uuid": "e32c593d-0731-42f7-9b86-da28aff357c9"
                         },
                         "weight": 1,
                         "additional": []

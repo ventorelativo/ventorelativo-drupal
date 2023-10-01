@@ -1,0 +1,27 @@
+uuid: 3c222b2c-a6b8-4aae-a21e-08d55f093f7f
+langcode: it
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - vr
+_core:
+  default_config_hash: MKoQSB694c_iJOX-t7ggHbwyZJunNgfO9Ktiu-Nk8HU
+id: vr_main_navigation
+theme: vr
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigazione principale'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

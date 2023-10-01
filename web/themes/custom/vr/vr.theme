@@ -1,0 +1,76 @@
+<?php
+
+use Drupal\Core\Template\Attribute;
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * @file
+ * Ventorelativo theme file.
+ */
+
+/**
+ * Implements hook_preprocess_block().
+ */
+function vr_preprocess_block(&$variables) {
+  // Tweaks for the logo.
+  switch ($variables['base_plugin_id']) {
+    case 'system_branding_block':
+      if (!empty($variables['site_logo']) && file_exists(DRUPAL_ROOT . $variables['site_logo'])) {
+        // Logo language variation suffix support. Check that logo with language
+        // prefix exist and use it (logo-de.png instead of logo.png).
+        $logo_path_info = pathinfo($variables['site_logo']);
+        $lang_code = \Drupal::languageManager()->getCurrentLanguage()->getId();
+        $logo_path_language = $logo_path_info['dirname'] . '/' . $logo_path_info['filename'] . '-' . $lang_code . '.' . $logo_path_info['extension'];
+        if (file_exists(DRUPAL_ROOT . $logo_path_language)) {
+          $variables['site_logo'] = $logo_path_language;
+        }
+
+        $logo_attributes = ['class' => ['site-logo']];
+
+        // Get the logo width and height.
+        /** @var \Drupal\Core\Image\Image $image */
+        $image = \Drupal::service('image.factory')->get(DRUPAL_ROOT . $variables['site_logo']);
+        $logo_attributes['width'] = $image->getWidth() || '100';
+        $logo_attributes['height'] = $image->getHeight() || '50';
+
+        if ($logo_path_info['extension'] === 'svg') {
+          // Inline SVG logo.
+            $variables['site_logo_svg'] = file_get_contents(DRUPAL_ROOT . $variables['site_logo']);
+        }
+        else {
+          $config = \Drupal::config('system.site');
+          $logo_attributes['alt'] = t('@site_name logo', ['@site_name' => Xss::filter($config->get('name'))]);
+          // Keep the old site_logo_alt_text for compatibility with older
+          // custom themes that are using site_logo_alt_text.
+          // @TODO - remove for 2.x version.
+          $variables['site_logo_alt_text'] = $logo_attributes['alt'];
+        }
+
+        $variables['logo_attributes'] = new Attribute($logo_attributes);
+      }
+
+      break;
+  }
+}
+
+/**
+ * Implements template_preprocess_input().
+ */
+function vr_preprocess_input(&$variables) {
+  // Use Netiflyh form subject.
+  if (isset($variables['attributes']['name']) && $variables['attributes']['name'] === 'subject_0_value') {
+    $variables['attributes']['name'] = 'subject';
+  }
+}
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function vr_page_attachments_alter(&$variables) {
+  // Removes Toolbar anti-flicker when anonymous.
+  if(\Drupal::currentUser()->isAnonymous()) {
+    $variables['#attached']['html_head'] = array_filter($variables['#attached']['html_head'], function($item) {
+      return $item[1] !== 'anti_flicker_js';
+    });
+  }
+}

@@ -1,0 +1,27 @@
+uuid: 8b8678c4-8ba3-40ac-ad4f-943fc62730a8
+langcode: it
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - vr
+_core:
+  default_config_hash: KK_ruRcvSEZ0n2GZnnR1KcICKDfY_TlsFSyjuFr_384
+id: vr_footer
+theme: vr
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Piè di pagina'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

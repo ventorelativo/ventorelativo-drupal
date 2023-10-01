@@ -1,0 +1,29 @@
+uuid: 5aeed0b7-aebd-4cfc-9aa8-229e7d62ac6d
+langcode: it
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vr
+_core:
+  default_config_hash: fBl31wZLll48CBnkpqnZ8ozBWye65YCX3UwEH9msPFA
+id: vr_branding
+theme: vr
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

@@ -1,0 +1,20 @@
+uuid: 22fe59d0-e232-4f9a-96bc-0e2297c73898
+langcode: it
+status: true
+dependencies:
+  theme:
+    - vr
+_core:
+  default_config_hash: ap5LaTaNKE39TWuJE1jLb1fPDn4IJJbsKNTrx7R7x2A
+id: vr_local_actions
+theme: vr
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Azioni di amministrazione principali'
+  label_display: '0'
+  provider: core
+visibility: {  }

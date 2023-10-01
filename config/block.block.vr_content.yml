@@ -1,0 +1,22 @@
+uuid: 1438c992-ac5a-4cd1-84f9-146c1273e4c1
+langcode: it
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vr
+_core:
+  default_config_hash: 9OHsFOAIS5GOfMmt6kzEMFwwMFBNeNUbCPgAbNX8qKw
+id: vr_content
+theme: vr
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenuto della pagina principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

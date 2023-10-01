@@ -1,0 +1,27 @@
+uuid: 09de30ee-e777-45af-b978-88956ec75ef7
+langcode: it
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - vr
+_core:
+  default_config_hash: 4N2LOssbCjzXQYeGhZUTLFp71qf6erjs6DIzqGUEspE
+id: vr_account_menu
+theme: vr
+region: nav_additional
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Menu profilo utente'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

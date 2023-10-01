@@ -1,0 +1,26 @@
+uuid: f26bab28-c6a8-4f67-bd22-6d0d0314f308
+langcode: it
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vr
+_core:
+  default_config_hash: TcBuBKSjn92UhP9crpeP8jKfW8nV5tTweFR00EnQti0
+id: vr_page_title
+theme: vr
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titolo della pagina'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

@@ -1,0 +1,22 @@
+uuid: 7f850a48-c4eb-4eb3-824a-72b7e0fbf8bb
+langcode: it
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - vr
+_core:
+  default_config_hash: gm7_cppPAn8Oe_VIzxdKJIceKnfLvYzQRSVxOvEa2Rk
+id: vr_help
+theme: vr
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Aiuto
+  label_display: '0'
+  provider: help
+visibility: {  }
