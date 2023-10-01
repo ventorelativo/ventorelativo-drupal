@@ -15,11 +15,11 @@ features:
   comment_user_verification: true
   favicon: 1
 logo:
-  use_default: 0
-  path: 'public://logo.png'
+  use_default: 1
+  path: ''
 favicon:
-  use_default: 0
-  path: 'public://logo_0.svg'
+  use_default: 1
+  path: ''
   mimetype: image/svg+xml
 subtheme_folder: themes/custom
 subtheme_name: 'B5 subtheme'

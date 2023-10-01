@@ -1,3 +1,8 @@
+:root {
+  --font-family: 'Avenir', 'Avenir Next', var(--bs-body-font-family);
+  --font-family-alt: var(--font-family);
+}
+
 /* dark mode media query */
 @media (prefers-color-scheme: dark) {
   :root {

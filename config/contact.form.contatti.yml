@@ -12,7 +12,7 @@ third_party_settings:
 id: contatti
 label: Contatti
 recipients:
-  - alessandro.gandi@gmail.com
+  - segreteria@ventorelativo.it
 reply: ''
 weight: 0
 message: ''
