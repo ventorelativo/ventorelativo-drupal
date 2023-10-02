@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "271e04d8-68de-4769-baf7-b605770c0c61"
+            "value": "df054f49-a296-42a4-bd30-2faa912de0af"
         }
     ],
     "langcode": [
@@ -11,12 +11,12 @@
     ],
     "path": [
         {
-            "value": "\/node\/42178c93-c6df-4059-92a3-0a65cd009b38"
+            "value": "\/node\/349445f0-0467-4c70-bd0d-b1c54bad789c"
         }
     ],
     "alias": [
         {
-            "value": "\/home"
+            "value": "\/news\/test-news"
         }
     ],
     "status": [

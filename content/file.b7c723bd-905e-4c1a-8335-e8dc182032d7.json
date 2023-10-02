@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "b7c723bd-905e-4c1a-8335-e8dc182032d7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "filename": [
+        {
+            "value": "unep_login_bg.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-10\/unep_login_bg.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 628873
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-10-01T20:38:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-01T20:39:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

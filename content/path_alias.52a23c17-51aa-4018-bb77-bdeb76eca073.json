@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "c3554b30-a945-49da-9954-f8e0e6b63f7d"
+            "value": "52a23c17-51aa-4018-bb77-bdeb76eca073"
         }
     ],
     "langcode": [
@@ -11,12 +11,12 @@
     ],
     "path": [
         {
-            "value": "\/node\/b26d060d-53f7-4643-bfcd-e2c4ec1c256d"
+            "value": "\/node\/8209775b-a8b9-4926-967b-3ba40b8cb3e7"
         }
     ],
     "alias": [
         {
-            "value": "\/contatti\/messaggio-inviato"
+            "value": "\/news"
         }
     ],
     "status": [

@@ -1,22 +1,22 @@
-uuid: 450b4690-8bf4-445d-8d48-cc7e99a991fb
+uuid: a18f2e1d-5a97-468f-bf0b-7e4eb8b0a3d1
 langcode: it
 status: true
 dependencies:
   module:
     - node
-id: pagina_base
-label: 'Pagina base'
+id: news
+label: News
 type: 'canonical_entities:node'
-pattern: '[node:menu-link:parents:join-path][node:title]'
+pattern: 'news/[node:title]'
 selection_criteria:
-  51b8012e-1605-4561-a335-9be1cd2698f4:
+  8b551b92-ee0c-4749-af6a-a57a0289142b:
     id: 'entity_bundle:node'
     negate: false
-    uuid: 51b8012e-1605-4561-a335-9be1cd2698f4
+    uuid: 8b551b92-ee0c-4749-af6a-a57a0289142b
     context_mapping:
       node: node
     bundles:
-      page: page
+      article: article
 selection_logic: and
 weight: -5
 relationships: {  }
