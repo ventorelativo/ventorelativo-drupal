@@ -11,8 +11,8 @@ composer install \
 # && rm -rf html \
 # && ./vendor/bin/drush tome:static -l $URL \
 # && cp html/404/index.html html/404.html \
-# && cp web/themes/custom/sti/favicons/android-chrome-192x192.png html/themes/custom/sti/favicons/android-chrome-192x192.png \
-# && cp web/themes/custom/sti/favicons/android-chrome-512x512.png html/themes/custom/sti/favicons/android-chrome-512x512.png
+# && cp web/themes/custom/vr/favicons/android-chrome-192x192.png html/themes/custom/vr/favicons/android-chrome-192x192.png \
+# && cp web/themes/custom/vr/favicons/android-chrome-512x512.png html/themes/custom/vr/favicons/android-chrome-512x512.png
 """
 
 # Example lines you can add before "tome:static" above if needed:
