@@ -151,12 +151,6 @@ main > a#main-content + .container {
       right: 0;
     }
 
-    & footer {
-      --bs-bg-opacity: 0;
-      position: relative;
-      box-shadow: 0 0 10px #00000020;
-    }
-
     @media (min-width: 992px) {
       font-size: 1.2rem;
     }
@@ -204,6 +198,11 @@ main > a#main-content + .container {
     }
   }
 
+  & footer {
+    --bs-bg-opacity: 0;
+    position: relative;
+    box-shadow: 0 0 10px #00000020;
+  }
 }
 
 main + footer {
