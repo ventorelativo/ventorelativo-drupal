@@ -191,10 +191,14 @@ h3,
   }
 
   & footer {
-    --bs-bg-opacity: 0;
+    /* --bs-bg-opacity: 0; */
     position: relative;
     box-shadow: 0 0 10px #00000020;
   }
+}
+
+footer .region-footer {
+  flex-direction: row;
 }
 
 main + footer {

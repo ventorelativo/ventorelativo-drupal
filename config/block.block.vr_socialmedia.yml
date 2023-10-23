@@ -1,0 +1,25 @@
+uuid: cb9dbe05-fb0c-411c-9a2f-63cc589e681c
+langcode: it
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:55f2ab23-0ee8-498d-9a22-ba8a8d35d8b0'
+  module:
+    - block_content
+  theme:
+    - vr
+id: vr_socialmedia
+theme: vr
+region: footer
+weight: -5
+provider: null
+plugin: 'block_content:55f2ab23-0ee8-498d-9a22-ba8a8d35d8b0'
+settings:
+  id: 'block_content:55f2ab23-0ee8-498d-9a22-ba8a8d35d8b0'
+  label: 'Social media'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
