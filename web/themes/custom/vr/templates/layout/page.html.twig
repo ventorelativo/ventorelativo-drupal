@@ -83,7 +83,7 @@ set footer_classes = ' ' ~
 
 </header>
 
-<main role="main">
+<main role="main" class="pt-5">
   <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
   {%
@@ -98,10 +98,9 @@ set footer_classes = ' ' ~
   set content_classes = (page.sidebar_first and page.sidebar_second) ? 'col-12 col-lg-6' : ((page.sidebar_first or page.sidebar_second) ? 'col-12 col-lg-9' : 'col-12' )
    %}
 
-
   <div class="{{ b5_top_container }}">
     {% if page.breadcrumb %}
-      {{ page.breadcrumb }}
+        {{ page.breadcrumb }}
     {% endif %}
     <div class="row g-0">
       {% if page.sidebar_first %}
