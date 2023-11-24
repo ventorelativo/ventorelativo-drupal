@@ -1,7 +1,6 @@
 table.flights {
   width: 100%;
 
-  & tbody tr:nth-child(n + 26),
   & .for-qw,
   & td[title^="submitted"] em,
   & span.cic,

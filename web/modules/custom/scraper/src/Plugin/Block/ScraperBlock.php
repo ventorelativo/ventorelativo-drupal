@@ -10,7 +10,6 @@ use Drupal\Core\Cache\CacheBackendInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Http\ClientFactory;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
-use Drupal\Core\Render\Markup;
 use Drupal\Core\Session\AccountInterface;
 use Psr\Http\Client\ClientInterface;
 use Symfony\Component\BrowserKit\HttpBrowser;
@@ -102,7 +101,15 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
     $crawler = $client->submit($form);
     $crawler = $crawler->filter($xct_table_selector);
 
-    return $crawler->outerHtml() ?: 'No scraped content.';
+    // Remove all h2 nodes inside .content.
+    $crawler->filter('tbody tr:nth-child(n + 26)')->each(function (Crawler $crawler) {
+      foreach ($crawler as $node) {
+        $node->parentNode->removeChild($node);
+      }
+    });
+
+    return $crawler->outerHtml('Lista dei voli al momento non disponibile.');
+
   }
 
   /**
