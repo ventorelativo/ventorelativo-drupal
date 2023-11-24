@@ -1,0 +1,7 @@
+block.settings.scraper_scraper:
+  type: block_settings
+  label: 'Scraper block'
+  mapping:
+    example:
+      type: string
+      label: Example
