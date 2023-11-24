@@ -50,6 +50,7 @@ module:
   path_alias: 0
   phpass: 0
   redirect: 0
+  scraper: 0
   serialization: 0
   shortcut: 0
   simple_sitemap: 0

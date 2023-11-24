@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "8209775b-a8b9-4926-967b-3ba40b8cb3e7"
+            "value": "6b3089cf-f94a-4c00-ad8b-b379b15d741d"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-11-24T10:54:15+00:00",
+            "value": "2023-11-24T18:55:27+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,18 +42,18 @@
     ],
     "title": [
         {
-            "value": "News"
+            "value": "Voli"
         }
     ],
     "created": [
         {
-            "value": "2023-10-02T06:13:49+00:00",
+            "value": "2023-11-24T18:54:14+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-11-24T10:54:15+00:00",
+            "value": "2023-11-24T18:55:27+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -72,10 +72,14 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
     "path": [
         {
-            "alias": "\/news",
+            "alias": "\/voli",
             "langcode": "it",
             "pathauto": 1
         }
@@ -122,15 +126,14 @@
                         "additional": []
                     },
                     {
-                        "uuid": "32762b24-da08-4efc-8d3f-4879aa118c7a",
+                        "uuid": "15ad521a-a47d-4d8a-b121-b9447b9b3f07",
                         "region": "content",
                         "configuration": {
-                            "id": "views_block:news-news_block",
-                            "label": "",
-                            "label_display": 0,
-                            "provider": "views",
-                            "views_label": "",
-                            "items_per_page": "none",
+                            "id": "scraper_scraper",
+                            "label": "Voli recenti",
+                            "label_display": "visible",
+                            "provider": "scraper",
+                            "example": "Hello world!",
                             "context_mapping": []
                         },
                         "weight": 2,
