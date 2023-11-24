@@ -10,6 +10,7 @@ use Drupal\Core\Cache\CacheBackendInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Http\ClientFactory;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
+use Drupal\Core\Render\Markup;
 use Drupal\Core\Session\AccountInterface;
 use Psr\Http\Client\ClientInterface;
 use Symfony\Component\BrowserKit\HttpBrowser;
@@ -86,13 +87,22 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
    * {@inheritdoc}
    */
   public function scrape(): string {
-    $client = new HttpBrowser();
-    $crawler = $client->request('GET', 'https://www.xcontest.org/world/en/flights-search/?filter%5Bpoint%5D=7.164612+44.898234&filter%5Bradius%5D=18719&filter%5Bmode%5D=START&filter%5Bdate_mode%5D=dmy&filter%5Bdate%5D=2023&filter%5Bvalue_mode%5D=dst&filter%5Bmin_value_dst%5D=&filter%5Bcatg%5D=FAI3&filter%5Broute_types%5D=&filter%5Bavg%5D=&filter%5Bpilot%5D=&list%5Bsort%5D=pts&list%5Bdir%5D=down');
-    // dump($crawler);
-    $scraped = $crawler->filter('div.wsw > p')->first()->html();
-    // dump($scraped);
+    $xct_url_base = "https://www.xcontest.org/world/en/";
+    $xct_url_recent = $xct_url_base . "flights-search/?list[sort]=time_start&filter[point]=7.164612%2044.898234&filter[radius]=18719&filter[mode]=START&filter[date_mode]=dmy&filter[date]=&filter[value_mode]=dst&filter[min_value_dst]=&filter[catg]=FAI3&filter[route_types]=&filter[avg]=&filter[pilot]=";
+    $xct_user = "ergarro";
+    $xct_pass = "@ETde77BMP@HJn8";
+    $xct_table_selector = "table.flights";
 
-    return $scraped;
+    $client = new HttpBrowser();
+    $crawler = $client->request('GET', $xct_url_recent);
+    $form = $crawler->filter('#login')->form([
+      'login[username]' => $xct_user,
+      'login[password]' => $xct_pass,
+    ]);
+    $crawler = $client->submit($form);
+    $crawler = $crawler->filter($xct_table_selector);
+
+    return $crawler->outerHtml() ?: 'No scraped content.';
   }
 
   /**
@@ -102,6 +112,7 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
     $build['content'] = [
       '#markup' => $this->scrape(),
     ];
+    $build['#attached']['library'][] = 'scraper/xct-tables';
 
     return $build;
   }

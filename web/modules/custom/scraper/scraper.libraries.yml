@@ -1,0 +1,5 @@
+# Styles the tables scraped from XContest.
+xct-tables:
+  css:
+    component:
+      css/xct-tables.css: {}
