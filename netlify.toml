@@ -1,6 +1,6 @@
 [build]
 command = """
-composer install --no-dev \
+composer install --no-dev -n \
 && ./vendor/bin/drush tome:install -y \
 && ./vendor/bin/drush cim -y \
 && ./vendor/bin/drush cron \
