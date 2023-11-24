@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @file
+ * VentoRelativo (based on bootstrap5) theme file.
+ */
+
 use Drupal\Component\Utility\Xss;
 use Drupal\Core\Template\Attribute;
 
@@ -35,7 +40,7 @@ function vr_preprocess_block(&$variables) {
 
         if ($logo_path_info['extension'] === 'svg') {
           // Inline SVG logo.
-            $variables['site_logo_svg'] = file_get_contents(DRUPAL_ROOT . $variables['site_logo']);
+          $variables['site_logo_svg'] = file_get_contents(DRUPAL_ROOT . $variables['site_logo']);
         }
         else {
           $config = \Drupal::config('system.site');
@@ -68,8 +73,8 @@ function vr_preprocess_input(&$variables) {
  */
 function vr_page_attachments_alter(&$variables) {
   // Removes Toolbar anti-flicker when anonymous.
-  if(\Drupal::currentUser()->isAnonymous()) {
-    $variables['#attached']['html_head'] = array_filter($variables['#attached']['html_head'], function($item) {
+  if (\Drupal::currentUser()->isAnonymous()) {
+    $variables['#attached']['html_head'] = array_filter($variables['#attached']['html_head'], function ($item) {
       return $item[1] !== 'anti_flicker_js';
     });
   }

@@ -1,4 +1,6 @@
-<?php declare(strict_types = 1);
+<?php
+
+declare(strict_types = 1);
 
 namespace Drupal\scraper\Plugin\Block;
 
@@ -92,8 +94,6 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
 
     return $scraped;
   }
-
-
 
   /**
    * {@inheritdoc}
