@@ -147,7 +147,7 @@ h3,
       content: "";
       background-image: url("../img/homepage.jpg");
       background-size: cover;
-      background-position-y: bottom;
+      background-position: right 20% bottom;
       opacity: 0.8;
       position: absolute;
       top: 0;
@@ -162,12 +162,7 @@ h3,
 
     >a#main-content+.container {
       position: relative;
-      transition: top 0.2s ease-in-out;
-      top: 0vh;
-
-      @media (min-height: 460px) {
-        top: -10vh;
-      }
+      top: -1.5rem;
     }
 
     & .navbar-brand {
