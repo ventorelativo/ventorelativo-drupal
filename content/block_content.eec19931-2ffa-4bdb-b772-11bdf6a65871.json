@@ -1,0 +1,65 @@
+{
+    "uuid": [
+        {
+            "value": "eec19931-2ffa-4bdb-b772-11bdf6a65871"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "6a96034c-4589-4d2a-b216-ae6f3102a084"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-11-25T18:29:10+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Crediti immagine"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-11-25T18:35:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Foto: <a href=\"https:\/\/unsplash.com\/photos\/a-view-of-a-mountain-range-covered-in-fog-98wjqBqQJKc\">Elisa Cerruti - Unsplash<\/a><\/p>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}

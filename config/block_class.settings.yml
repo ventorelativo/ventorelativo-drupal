@@ -7,6 +7,7 @@ default_case: standard
 block_classes_stored:
   - d-inline-flex
   - justify-content-center
+  - credits
 enable_attributes: false
 enable_auto_complete: true
 qty_classes_per_block: 10

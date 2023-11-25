@@ -145,7 +145,7 @@ h3,
 
     &::before {
       content: "";
-      background-image: url(https://source.unsplash.com/98wjqBqQJKc/1600x1000);
+      background-image: url("../img/homepage.jpg");
       background-size: cover;
       background-position-y: bottom;
       opacity: 0.8;
@@ -207,6 +207,18 @@ h3,
     /* --bs-bg-opacity: 0; */
     position: relative;
     box-shadow: 0 0 10px #00000020;
+  }
+
+  & .credits {
+    position: absolute;
+    top: -2rem;
+    right: 1rem;
+    font-size: 0.75rem;
+    color: #CCC;
+
+    & a {
+      color: currentColor;
+    }
   }
 }
 
