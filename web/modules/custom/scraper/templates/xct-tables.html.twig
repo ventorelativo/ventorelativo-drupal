@@ -47,9 +47,9 @@
     </symbol>
   </svg>
   {% set ico_link %}<svg class="icon" width="16" height="16"><use xlink:href="#details"></use></svg> Dettagli del volo{% endset %}
+  <small><em>{{ link('Dati XContest', uri, {'target':['_blank']} ) }}, aggiornati al {{ date|date('d.m.Y - H:m') }}</em></small>
   <div class="table-responsive">
     <table class="xct-flights recents table table-hover table-striped">
-      <caption><small><em>{{ link('Dati XContest', uri, {'target':['_blank']} ) }}, aggiornati al {{ date|date('d.m.Y - H:m') }}</em></small></caption>
       <thead class="{#table-light#}">
         <tr>
           <th class="xct-flights-date">{{ 'Data'|t }}</th>
