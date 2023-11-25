@@ -28,3 +28,7 @@ PHP_VERSION="8.1"
 from = "/home"
 to = "/"
 status = 301
+
+# https://www.netlify.com/blog/how-to-schedule-deploys-with-netlify/
+[functions]
+  node_bundler = "esbuild"
