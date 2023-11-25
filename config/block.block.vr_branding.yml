@@ -3,6 +3,7 @@ langcode: it
 status: true
 dependencies:
   module:
+    - block_class
     - system
   theme:
     - vr
@@ -22,8 +23,4 @@ settings:
   use_site_logo: true
   use_site_name: true
   use_site_slogan: true
-visibility:
-  request_path:
-    id: request_path
-    negate: true
-    pages: '<front>'
+visibility: {  }

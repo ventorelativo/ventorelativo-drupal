@@ -1,9 +1,51 @@
 // Sub theme styling.
-@import 'variables_drupal';
+@import "variables_drupal";
 
 // Bootstrap overriden variables.
 // @see https://getbootstrap.com/docs/5.2/customize/sass/#variable-defaults.
-@import 'variables_bootstrap';
+@import "variables_bootstrap";
 
 // Include bootstrap.
-@import '../../../../themes/contrib/bootstrap5/scss/style';
+@import "../../../../themes/contrib/bootstrap5/scss/style";
+
+.navbar-nav .nav-link.is-active {
+  color: var(--bs-navbar-active-color);
+  font-weight: 500;
+  border-bottom: 1px solid currentColor;
+}
+
+@include media-breakpoint-down(sm) {
+  .region-nav-branding .site-title {
+    display: none;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .region-nav-branding .site-slogan {
+    display: block;
+  }
+}
+
+/* FRONTPAGE */
+.path-frontpage {
+  & .region-nav-branding {
+    & .site-logo {
+      @include media-breakpoint-down(sm) {
+        display: none !important;
+      }
+
+      visibility: hidden;
+      width: 0;
+    }
+
+    & .site-title,
+    & .site-slogan {
+      display: block;
+    }
+  }
+
+  & .tabs-primary .nav-tabs {
+    display: inline-flex;
+    justify-content: center;
+  }
+}
