@@ -7,8 +7,8 @@ mail: segreteria@ventorelativo.it
 slogan: 'Parapendio Club'
 page:
   403: ''
-  404: /node/2
-  front: /node/1
+  404: /node/3
+  front: /node/2
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: it
