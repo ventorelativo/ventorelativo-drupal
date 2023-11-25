@@ -1,56 +1,48 @@
-table.flights {
+table.xct-flights {
   width: 100%;
 
-  & .for-qw,
-  & td[title^="submitted"] em,
-  & span.cic,
-  & span.lau,
-  & .XCutcOffset {
-    display: none;
+  & td {
+    padding: 0.15rem;
+
+    &.xct-flights-name {
+      text-transform: capitalize;
+    }
+
+    &.xct-flights-points strong {
+      color: #FF7901;
+    }
+
+    &.xct-flights-glider em {
+      opacity: 0.8;
+      font-size: 0.8rem;
+    }
+
+    &.xct-flights-link a {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 1.2rem;
+      height: 1.2rem;
+      display: inline-block;
+      overflow: hidden;
+      font-size: 0;
+      border-radius: 50%;
+      color: white;
+      /* background-size: 70%; */
+      /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' stroke='white' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0'/%3E%3C/svg%3E"); */
+      background-color: brown;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      & svg {
+        width: 0.8rem;
+        height: 0.8rem;
+        stroke: white;
+        stroke-width: 1px;
+      }
+    }
   }
 
-  & .plt {
-    text-transform: capitalize;
-  }
-
-  & .sponsor::before {
-    content: attr(title) " - ";
-  }
-
-  & .detail,
-  & [class^="disc-"] {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 1rem;
-    height: 1rem;
-    display: inline-block;
-    overflow: hidden;
-    font-size: 0;
-  }
-
-  /* FAI Triangle */
-  & .disc-ft {
-    /* background-image: url(https://s.xcontest.org/img/ft.gif); */
-    background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBox='0 0 180 180' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='180' height='180' rx='35' fill='%23C15D25'/%3E%3Cpath d='M140.5 123L110 54.5L78 131L42 62' stroke='white' stroke-width='9'/%3E%3Ccircle cx='78' cy='131' r='12' fill='white'/%3E%3Ccircle cx='111' cy='54' r='12' fill='white'/%3E%3Ccircle cx='142' cy='125' r='12' fill='white'/%3E%3Ccircle cx='142' cy='125' r='6' fill='black'/%3E%3Ccircle cx='44' cy='66' r='12' fill='white'/%3E%3Ccircle cx='44' cy='66' r='6' fill='black'/%3E%3C/svg%3E%0A");
-  }
-
-  /* Flat Triangle */
-  & .disc-pt {
-    /* background-image: url(https://s.xcontest.org/img/pt.gif); */
-    background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBox='0 0 180 180' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='180' height='180' rx='35' fill='%23479E38'/%3E%3Cpath d='M130.5 53L141.895 126L38 96.5L130.5 53Z' stroke='white' stroke-width='9'/%3E%3Ccircle cx='131' cy='53' r='12' fill='white'/%3E%3Ccircle cx='38' cy='96' r='12' fill='white'/%3E%3Ccircle cx='143' cy='126' r='12' fill='white'/%3E%3Ccircle cx='143' cy='126' r='6' fill='black'/%3E%3C/svg%3E%0A");
-  }
-
-  /* Free Flight */
-  & .disc-vp {
-    /* background-image: url(https://s.xcontest.org/img/vp.gif); */
-    background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBox='0 0 180 180' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='180' height='180' rx='35' fill='%23C15D25'/%3E%3Cpath d='M140.5 123L110 54.5L78 131L42 62' stroke='white' stroke-width='9'/%3E%3Ccircle cx='78' cy='131' r='12' fill='white'/%3E%3Ccircle cx='111' cy='54' r='12' fill='white'/%3E%3Ccircle cx='142' cy='125' r='12' fill='white'/%3E%3Ccircle cx='142' cy='125' r='6' fill='black'/%3E%3Ccircle cx='44' cy='66' r='12' fill='white'/%3E%3Ccircle cx='44' cy='66' r='6' fill='black'/%3E%3C/svg%3E%0A");
-  }
-
-  & .detail {
-    border-radius: 50%;
-    background-size: 70%;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' stroke='white' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0'/%3E%3C/svg%3E");
-    background-color: brown;
-  }
 }

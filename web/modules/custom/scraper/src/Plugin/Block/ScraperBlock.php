@@ -4,13 +4,11 @@ declare(strict_types = 1);
 
 namespace Drupal\scraper\Plugin\Block;
 
-use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Cache\CacheBackendInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Http\ClientFactory;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
-use Drupal\Core\Session\AccountInterface;
 use Psr\Http\Client\ClientInterface;
 use Symfony\Component\BrowserKit\HttpBrowser;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -85,15 +83,13 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
   /**
    * {@inheritdoc}
    */
-  public function scrape(): string {
-    $xct_url_base = "https://www.xcontest.org/world/en/";
-    $xct_url_recent = $xct_url_base . "flights-search/?list[sort]=time_start&filter[point]=7.164612%2044.898234&filter[radius]=18719&filter[mode]=START&filter[date_mode]=dmy&filter[date]=&filter[value_mode]=dst&filter[min_value_dst]=&filter[catg]=FAI3&filter[route_types]=&filter[avg]=&filter[pilot]=";
+  public function scrape(string $uri): array {
     $xct_user = "ergarro";
     $xct_pass = "@ETde77BMP@HJn8";
     $xct_table_selector = "table.flights";
 
     $client = new HttpBrowser();
-    $crawler = $client->request('GET', $xct_url_recent);
+    $crawler = $client->request('GET', $uri);
     $form = $crawler->filter('#login')->form([
       'login[username]' => $xct_user,
       'login[password]' => $xct_pass,
@@ -101,14 +97,24 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
     $crawler = $client->submit($form);
     $crawler = $crawler->filter($xct_table_selector);
 
-    // Remove all h2 nodes inside .content.
-    $crawler->filter('tbody tr:nth-child(n + 26)')->each(function (Crawler $crawler) {
-      foreach ($crawler as $node) {
-        $node->parentNode->removeChild($node);
-      }
+    $rows = $crawler->filter('tbody tr')->slice(0, 25)->each(function (Crawler $node, $i) {
+      return [
+        'day' => preg_replace('@<(\w+)\b.*?>.*?</\1>@si', '', $node->filter('td:nth-child(2) .full')->html()),
+        'time' => $node->filter('td:nth-child(2) .full em')->text(),
+        'name' => $node->filter('td:nth-child(3) a.plt')->text(),
+        'name_link' => $node->filter('td:nth-child(3) a.plt')->link()->getUri(),
+        'launch' => $node->filter('td:nth-child(4) a.lau')->text(),
+        'launch_link' => $node->filter('td:nth-child(4) a.lau')->link()->getUri(),
+        'route' => $node->filter('td:nth-child(5) em')->text(),
+        'length' => $node->filter('td:nth-child(6) strong')->text(),
+        'points' => $node->filter('td:nth-child(7) strong')->text(),
+        'glider_model' => $node->filter('td:nth-child(8) .sponsor')->attr('title'),
+        'glider_rating' => $node->filter('td:nth-child(8) .sponsor')->text(),
+        'link' => $node->filter('td:nth-child(10) a.detail')->link()->getUri(),
+      ];
     });
 
-    return $crawler->outerHtml('Lista dei voli al momento non disponibile.');
+    return $rows;
 
   }
 
@@ -116,20 +122,20 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
    * {@inheritdoc}
    */
   public function build(): array {
-    $build['content'] = [
-      '#markup' => $this->scrape(),
+    $xct_url_base = "https://www.xcontest.org/world/en/";
+    $xct_url_recent = $xct_url_base . "flights-search/?list[sort]=time_start&filter[point]=7.164612%2044.898234&filter[radius]=18719&filter[mode]=START&filter[date_mode]=dmy&filter[date]=&filter[value_mode]=dst&filter[min_value_dst]=&filter[catg]=FAI3&filter[route_types]=&filter[avg]=&filter[pilot]=";
+    $uri = $xct_url_recent;
+
+    return [
+      '#theme' => 'xct_tables',
+      '#uri' => $uri,
+      '#rows' => $this->scrape($uri),
+      '#attached' => [
+        'library' => [
+          'scraper/xct-tables',
+        ],
+      ],
     ];
-    $build['#attached']['library'][] = 'scraper/xct-tables';
-
-    return $build;
-  }
-
-  /**
-   * {@inheritdoc}
-   */
-  protected function blockAccess(AccountInterface $account): AccessResult {
-    // @todo Evaluate the access condition here.
-    return AccessResult::allowedIf(TRUE);
   }
 
 }

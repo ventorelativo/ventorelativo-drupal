@@ -1,0 +1,84 @@
+{#
+  uri
+  rows:
+    day
+    time
+    name
+    name_link
+    launch
+    launch_link
+    route
+    length
+    points
+    glider_model
+    glider_rating
+    link
+#}
+{% if rows %}
+  <svg width="0" height="0" class="hidden">
+    <symbol xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" id="details">
+      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"></path>
+    </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" id="vp">
+      <rect width="180" height="180" rx="35" fill="#C15D25"></rect>
+      <path d="M140.5 123L110 54.5L78 131L42 62" stroke="white" stroke-width="9"></path>
+      <circle cx="78" cy="131" r="12" fill="white"></circle>
+      <circle cx="111" cy="54" r="12" fill="white"></circle>
+      <circle cx="142" cy="125" r="12" fill="white"></circle>
+      <circle cx="142" cy="125" r="6" fill="black"></circle>
+      <circle cx="44" cy="66" r="12" fill="white"></circle>
+      <circle cx="44" cy="66" r="6" fill="black"></circle>
+    </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" id="pt">
+      <rect width="180" height="180" rx="35" fill="#479E38"></rect>
+      <path d="M130.5 53L141.895 126L38 96.5L130.5 53Z" stroke="white" stroke-width="9"></path>
+      <circle cx="131" cy="53" r="12" fill="white"></circle>
+      <circle cx="38" cy="96" r="12" fill="white"></circle>
+      <circle cx="143" cy="126" r="12" fill="white"></circle>
+      <circle cx="143" cy="126" r="6" fill="black"></circle>
+    </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" id="ft">
+      <rect width="180" height="180" rx="35" fill="#3B85A9"></rect>
+      <path d="M90.5 36L142.895 126H38.1055L90.5 36Z" stroke="white" stroke-width="9"></path>
+      <circle cx="91" cy="36" r="12" fill="white"></circle>
+      <circle cx="39" cy="125" r="12" fill="white"></circle>
+      <circle cx="144" cy="126" r="12" fill="white"></circle>
+      <circle cx="144" cy="126" r="6" fill="black"></circle>
+    </symbol>
+  </svg>
+  {% set ico_link %}<svg class="icon" width="16" height="16"><use xlink:href="#details"></use></svg> Dettagli del volo{% endset %}
+
+  <table class="xct-flights recents">
+    <thead>
+      <tr>
+        <th class="xct-flights-date">{{ 'Data'|t }}</th>
+        <th class="xct-flights-name">{{ 'Pilota'|t }}</th>
+        <th class="xct-flights-launch">{{ 'Decollo'|t }}</th>
+        <th class="xct-flights-route">{{ 'Rotta'|t }}</th>
+        <th class="xct-flights-length">{{ 'Lunghezza'|t }}</th>
+        <th class="xct-flights-points">{{ 'Punti'|t }}</th>
+        <th class="xct-flights-glider">{{ 'Vela'|t }}</th>
+        <th class="xct-flights-link">{{ 'Dettagli'|t }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in rows %}
+      {% set route_title = row.route is same as("FT") ? "Triangolo FAI" : row.route is same as("PT") ? "Triangolo piatto" : "Distanza a 3 punti" %}
+        <tr>
+          <td class="xct-flights-date">{{ row.day }}</td>
+          <td class="xct-flights-name">{{ link(row.name, row.name_link, {'target':['_blank']} ) }}</td>
+          <td class="xct-flights-launch">{{ link(row.launch, row.launch_link, {'target':['_blank']} ) }}</td>
+          <td class="xct-flights-route" title="{{ route_title }}"><svg class="icon" width="16" height="16"><use xlink:href="#{{ row.route|lower }}"></use></svg></td>
+          <td class="xct-flights-length"><strong>{{ row.length }}</strong> km</td>
+          <td class="xct-flights-points"><strong>{{ row.points }}</strong> p.</td>
+          <td class="xct-flights-glider">{{ row.glider_model }} <em>(EN-{{ row.glider_rating }})</em></td>
+          <td class="xct-flights-link">{{ link(ico_link, row.link, {'target':['_blank'], 'title':'Dettagli del volo'} ) }}</td>
+        </tr>
+       {% endfor %}
+      </tbody>
+  </table>
+
+  <small><em>{{ link('Dati XContest', uri, {'target':['_blank']} ) }}, aggiornati al {{ date|date('d/m/Y - H:m') }}</em></small>
+{% else %}
+  <p>{{ 'Nessun volo disponibile al momento. Ripassa più tardi.'|t }}</p>
+{% endif %}
