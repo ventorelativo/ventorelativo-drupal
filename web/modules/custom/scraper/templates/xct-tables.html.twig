@@ -47,38 +47,38 @@
     </symbol>
   </svg>
   {% set ico_link %}<svg class="icon" width="16" height="16"><use xlink:href="#details"></use></svg> Dettagli del volo{% endset %}
-
-  <table class="xct-flights recents">
-    <thead>
-      <tr>
-        <th class="xct-flights-date">{{ 'Data'|t }}</th>
-        <th class="xct-flights-name">{{ 'Pilota'|t }}</th>
-        <th class="xct-flights-launch">{{ 'Decollo'|t }}</th>
-        <th class="xct-flights-route">{{ 'Rotta'|t }}</th>
-        <th class="xct-flights-length">{{ 'Lunghezza'|t }}</th>
-        <th class="xct-flights-points">{{ 'Punti'|t }}</th>
-        <th class="xct-flights-glider">{{ 'Vela'|t }}</th>
-        <th class="xct-flights-link">{{ 'Dettagli'|t }}</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for row in rows %}
-      {% set route_title = row.route is same as("FT") ? "Triangolo FAI" : row.route is same as("PT") ? "Triangolo piatto" : "Distanza a 3 punti" %}
+  <div class="table-responsive">
+    <table class="xct-flights recents table table-hover table-striped">
+      <caption><small><em>{{ link('Dati XContest', uri, {'target':['_blank']} ) }}, aggiornati al {{ date|date('d.m.Y - H:m') }}</em></small></caption>
+      <thead class="{#table-light#}">
         <tr>
-          <td class="xct-flights-date">{{ row.day }}</td>
-          <td class="xct-flights-name">{{ link(row.name, row.name_link, {'target':['_blank']} ) }}</td>
-          <td class="xct-flights-launch">{{ link(row.launch, row.launch_link, {'target':['_blank']} ) }}</td>
-          <td class="xct-flights-route" title="{{ route_title }}"><svg class="icon" width="16" height="16"><use xlink:href="#{{ row.route|lower }}"></use></svg></td>
-          <td class="xct-flights-length"><strong>{{ row.length }}</strong> km</td>
-          <td class="xct-flights-points"><strong>{{ row.points }}</strong> p.</td>
-          <td class="xct-flights-glider">{{ row.glider_model }} <em>(EN-{{ row.glider_rating }})</em></td>
-          <td class="xct-flights-link">{{ link(ico_link, row.link, {'target':['_blank'], 'title':'Dettagli del volo'} ) }}</td>
+          <th class="xct-flights-date">{{ 'Data'|t }}</th>
+          <th class="xct-flights-name">{{ 'Pilota'|t }}</th>
+          <th class="xct-flights-launch">{{ 'Decollo'|t }}</th>
+          <th class="xct-flights-route">{{ 'Rotta'|t }}</th>
+          <th class="xct-flights-length">{{ 'Lunghezza'|t }}</th>
+          <th class="xct-flights-points">{{ 'Punteggio'|t }}</th>
+          <th class="xct-flights-glider">{{ 'Vela'|t }}</th>
+          <th class="xct-flights-link">{{ 'Dettagli'|t }}</th>
         </tr>
-       {% endfor %}
-      </tbody>
-  </table>
-
-  <small><em>{{ link('Dati XContest', uri, {'target':['_blank']} ) }}, aggiornati al {{ date|date('d/m/Y - H:m') }}</em></small>
+      </thead>
+      <tbody>
+        {% for row in rows %}
+        {% set route_title = row.route is same as("FT") ? "Triangolo FAI" : row.route is same as("PT") ? "Triangolo piatto" : "Distanza a 3 punti" %}
+          <tr>
+            <td class="xct-flights-date">{{ row.day }}</td>
+            <td class="xct-flights-name">{{ link(row.name, row.name_link, {'target':['_blank']} ) }}</td>
+            <td class="xct-flights-launch">{{ link(row.launch, row.launch_link, {'target':['_blank']} ) }}</td>
+            <td class="xct-flights-route" title="{{ route_title }}"><svg class="icon" width="16" height="16"><use xlink:href="#{{ row.route|lower }}"></use></svg></td>
+            <td class="xct-flights-length"><strong>{{ row.length }}</strong> <small>km</small></td>
+            <td class="xct-flights-points"><strong>{{ row.points }}</strong> <small>p.</small></td>
+            <td class="xct-flights-glider">{{ row.glider_model }} <em>(EN-{{ row.glider_rating }})</em></td>
+            <td class="xct-flights-link">{{ link(ico_link, row.link, {'target':['_blank'], 'title':'Dettagli del volo'} ) }}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+  </div>
 {% else %}
   <p>{{ 'Nessun volo disponibile al momento. Ripassa più tardi.'|t }}</p>
 {% endif %}
