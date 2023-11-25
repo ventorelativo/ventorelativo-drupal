@@ -12822,7 +12822,7 @@ code {
 .navbar-nav .nav-link.is-active, .navbar-nav .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header .navbar-nav a.is-active {
   color: var(--bs-navbar-active-color);
   font-weight: 500;
-  border-bottom: 1px solid currentColor;
+  text-decoration: underline;
 }
 
 @media (max-width: 575.98px) {

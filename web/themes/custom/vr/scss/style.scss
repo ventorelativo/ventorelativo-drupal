@@ -11,7 +11,7 @@
 .navbar-nav .nav-link.is-active {
   color: var(--bs-navbar-active-color);
   font-weight: 500;
-  border-bottom: 1px solid currentColor;
+  text-decoration: underline;
 }
 
 @include media-breakpoint-down(sm) {
