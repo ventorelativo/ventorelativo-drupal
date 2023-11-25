@@ -12819,10 +12819,22 @@ code {
   overflow-y: auto;
 }
 
+.navbar-nav .nav-link, .navbar-nav .media-library-view--widget .view-header a, .media-library-view--widget .view-header .navbar-nav a {
+  padding-inline: 0 !important;
+  margin-inline: var(--bs-navbar-nav-link-padding-x);
+  border-bottom: 3px solid transparent;
+  text-align: right;
+}
 .navbar-nav .nav-link.is-active, .navbar-nav .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header .navbar-nav a.is-active {
   color: var(--bs-navbar-active-color);
   font-weight: 500;
   text-decoration: underline;
+}
+@media (min-width: 992px) {
+  .navbar-nav .nav-link.is-active, .navbar-nav .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header .navbar-nav a.is-active {
+    text-decoration: none;
+    border-bottom-color: currentColor;
+  }
 }
 
 @media (max-width: 575.98px) {

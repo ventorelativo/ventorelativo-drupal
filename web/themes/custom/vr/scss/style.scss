@@ -8,10 +8,21 @@
 // Include bootstrap.
 @import "../../../../themes/contrib/bootstrap5/scss/style";
 
-.navbar-nav .nav-link.is-active {
-  color: var(--bs-navbar-active-color);
-  font-weight: 500;
-  text-decoration: underline;
+.navbar-nav .nav-link {
+  padding-inline: 0 !important;
+  margin-inline: var(--bs-navbar-nav-link-padding-x);
+  border-bottom: 3px solid transparent;
+  text-align: right;
+
+  &.is-active {
+    color: var(--bs-navbar-active-color);
+    font-weight: 500;
+    text-decoration: underline;
+    @include media-breakpoint-up(lg) {
+      text-decoration: none;
+      border-bottom-color: currentColor;
+    }
+  }
 }
 
 @include media-breakpoint-down(sm) {
