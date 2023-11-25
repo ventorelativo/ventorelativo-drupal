@@ -26,11 +26,7 @@
         }
     ],
     "mail": [],
-    "timezone": [
-        {
-            "value": ""
-        }
-    ],
+    "timezone": [],
     "status": [
         {
             "value": false

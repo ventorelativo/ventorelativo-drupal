@@ -72,11 +72,14 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
     "path": [
         {
-            "alias": "",
-            "pid": null,
+            "alias": "\/news\/test-news",
             "langcode": "it",
             "pathauto": 1
         }

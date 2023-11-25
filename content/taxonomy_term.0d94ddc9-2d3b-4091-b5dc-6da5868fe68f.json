@@ -34,7 +34,12 @@
             "value": "Hike&Fly"
         }
     ],
-    "description": [],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
     "weight": [
         {
             "value": 0
@@ -66,7 +71,7 @@
             "alias": null,
             "pid": null,
             "langcode": "it",
-            "pathauto": 1
+            "pathauto": 0
         }
     ]
 }

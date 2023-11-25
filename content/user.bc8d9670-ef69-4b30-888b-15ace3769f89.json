@@ -60,9 +60,10 @@
     ],
     "path": [
         {
-            "alias": "",
+            "alias": null,
             "pid": null,
-            "langcode": "en"
+            "langcode": "en",
+            "pathauto": 0
         }
     ],
     "user_picture": []
