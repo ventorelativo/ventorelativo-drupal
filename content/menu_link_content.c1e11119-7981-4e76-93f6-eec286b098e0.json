@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "37a74072-8284-456f-83b8-1fa25386d31f"
+            "value": "c1e11119-7981-4e76-93f6-eec286b098e0"
         }
     ],
     "langcode": [
@@ -16,7 +16,7 @@
     ],
     "revision_created": [
         {
-            "value": "2023-11-24T18:54:50+00:00",
+            "value": "2023-11-25T01:50:26+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -40,8 +40,8 @@
     ],
     "link": [
         {
-            "uri": "entity:node\/6b3089cf-f94a-4c00-ad8b-b379b15d741d",
-            "title": null,
+            "uri": "internal:\/voli",
+            "title": "",
             "options": []
         }
     ],
@@ -52,7 +52,7 @@
     ],
     "rediscover": [
         {
-            "value": false
+            "value": true
         }
     ],
     "weight": [
@@ -68,7 +68,7 @@
     "parent": [],
     "changed": [
         {
-            "value": "2023-11-24T18:54:50+00:00",
+            "value": "2023-11-25T01:50:26+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
