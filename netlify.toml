@@ -1,23 +1,27 @@
 [build]
 command = """
-composer install --no-dev -n \
-&& ./vendor/bin/drush tome:install -y \
-&& ./vendor/bin/drush cim -y \
-&& ./vendor/bin/drush cron \
-&& ./vendor/bin/drush locale:update \
-&& ./vendor/bin/drush simple-sitemap:generate -l $URL \
-&& ./vendor/bin/drush un lb_claro \
-&& ./vendor/bin/drush tome:static -l $URL
+export PATH="./vendor/bin:$PATH"
+
+drush tome:install -y \
+&& drush cim -y \
+&& drush cron \
+&& drush simple-sitemap:generate -l $URL \
+&& drush tome:static -l $URL
+
+cp web/themes/custom/vr/img/homepage.jpg html/themes/custom/vr/img/homepage.jpg
+"""
+
+# && drush un lb_claro \
+# && drush locale:update \
 # && rm -rf html \
-# && ./vendor/bin/drush tome:static -l $URL \
+# && drush tome:static -l $URL \
 # && cp html/404/index.html html/404.html \
 # && cp web/themes/custom/vr/favicons/android-chrome-192x192.png html/themes/custom/vr/favicons/android-chrome-192x192.png \
 # && cp web/themes/custom/vr/favicons/android-chrome-512x512.png html/themes/custom/vr/favicons/android-chrome-512x512.png
-"""
 
 # Example lines you can add before "tome:static" above if needed:
-#&& LUNR_DRUSH=./vendor/bin/drush node web/modules/contrib/lunr/js/index.node.js default \
-#&& ./vendor/bin/drush simple-sitemap-generate -y -l $DEPLOY_PRIME_URL \
+#&& LUNR_DRUSH=drush node web/modules/contrib/lunr/js/index.node.js default \
+#&& drush simple-sitemap-generate -y -l $DEPLOY_PRIME_URL \
 
 publish = "html"
 
