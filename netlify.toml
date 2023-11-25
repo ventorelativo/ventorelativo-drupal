@@ -6,12 +6,12 @@ drush tome:install -y \
 && drush cim -y \
 && drush cron \
 && drush simple-sitemap:generate -l $URL \
-&& drush tome:static -l $URL
-
-cp web/themes/custom/vr/img/homepage.jpg html/themes/custom/vr/img/homepage.jpg
+&& drush un lb_claro \
+&& drush tome:static -l $URL \
+&& mkdir -p html/themes/custom/vr/img \
+&& cp -r web/themes/custom/vr/img/homepage.jpg html/themes/custom/vr/img
 """
 
-# && drush un lb_claro \
 # && drush locale:update \
 # && rm -rf html \
 # && drush tome:static -l $URL \
