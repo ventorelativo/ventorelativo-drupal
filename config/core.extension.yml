@@ -51,6 +51,7 @@ module:
   phpass: 0
   redirect: 0
   scraper: 0
+  sdc: 0
   serialization: 0
   shortcut: 0
   simple_sitemap: 0
