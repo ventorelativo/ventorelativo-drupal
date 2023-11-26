@@ -66,15 +66,35 @@ set footer_classes = ' ' ~
         {{ page.nav_branding }}
 
         {% if page.nav_main or page.nav_additional %}
+          {# ORIGINAL BOOTSTRAP NAVBAR TOGGLE
           <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                   aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-
           <div class="collapse navbar-collapse justify-content-md-end" id="navbarSupportedContent">
             {{ page.nav_main }}
             {{ page.nav_additional }}
+          </div>
+          #}
+          <button class="navbar-toggler p-2 border-0" type="button" style="line-height:0"
+                  data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"
+                  aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi" fill="currentColor" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+            </svg>
+            <span class="d-none fs-6 pe-1">Apri menu</span>
+          </button>
+          <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-label="Menu principale">
+            <div class="offcanvas-header p-4 pt-5 pb-0">
+              {# <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Responsive offcanvas</h5> #}
+              <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-4 pt-0 p-lg-0">
+              <hr class="d-lg-none text-white-50">
+              {{ page.nav_main }}
+              {{ page.nav_additional }}
+            </div>
           </div>
         {% endif %}
 

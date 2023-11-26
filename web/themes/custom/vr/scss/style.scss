@@ -8,11 +8,16 @@
 // Include bootstrap.
 @import "../../../../themes/contrib/bootstrap5/scss/style";
 
-.navbar-nav .nav-link {
+.region-nav-main .navbar-nav .nav-link {
   padding-inline: 0 !important;
   margin-inline: var(--bs-navbar-nav-link-padding-x);
   border-bottom: 3px solid transparent;
-  text-align: right;
+  text-align: center;
+  @include media-breakpoint-down(md) {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
 
   &.is-active {
     color: var(--bs-navbar-active-color);
@@ -25,15 +30,17 @@
   }
 }
 
-@include media-breakpoint-down(sm) {
-  .region-nav-branding .site-title {
-    display: none;
+.region-nav-branding {
+  @include media-breakpoint-down(sm) {
+    .site-title {
+      display: none;
+    }
   }
-}
 
-@include media-breakpoint-up(sm) {
-  .region-nav-branding .site-slogan {
-    display: block;
+  @include media-breakpoint-up(sm) {
+    .site-slogan {
+      display: block;
+    }
   }
 }
 
@@ -58,5 +65,11 @@
   & .tabs-primary .nav-tabs {
     display: inline-flex;
     justify-content: center;
+  }
+}
+
+.offcanvas-lg {
+  @include media-breakpoint-down(md) {
+    box-shadow: var(--bs-box-shadow) !important;
   }
 }
