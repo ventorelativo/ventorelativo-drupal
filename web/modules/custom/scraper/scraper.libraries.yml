@@ -3,3 +3,5 @@ xct-tables:
   css:
     component:
       css/xct-tables.css: {}
+  js:
+    js/xct-tables.js: {}

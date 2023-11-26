@@ -3,6 +3,7 @@
   rows:
     day
     time
+    date_time
     name
     name_link
     launch
@@ -69,7 +70,7 @@
         {% for row in rows %}
         {% set route_title = row.route is same as("FT") ? "Triangolo FAI" : row.route is same as("PT") ? "Triangolo piatto" : "Distanza a 3 punti" %}
           <tr>
-            <td class="xct-flights-date">{{ row.day }}</td>
+            <td class="xct-flights-date"><time datetime="{{row.date_time}}">{{ row.day }}<small>{{ row.time }}</small></time></td>
             <td class="xct-flights-name">{{ link(row.name, row.name_link, {'target':['_blank']} ) }}</td>
             <td class="xct-flights-launch">{{ link(row.launch, row.launch_link, {'target':['_blank']} ) }}</td>
             <td class="xct-flights-route" title="{{ route_title }}"><svg class="icon" width="16" height="16"><use xlink:href="#{{ row.route|lower }}"></use></svg></td>

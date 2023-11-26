@@ -6,6 +6,7 @@ namespace Drupal\scraper\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Cache\CacheBackendInterface;
+use Drupal\Core\Datetime\DrupalDateTime;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Http\ClientFactory;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
@@ -99,9 +100,14 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
     $crawler = $crawler->filter($xct_table_selector);
 
     $rows = $crawler->filter('tbody tr')->slice(0, 25)->each(function (Crawler $node, $i) {
+      $day = preg_replace('@<(\w+)\b.*?>.*?</\1>@si', '', $node->filter('td:nth-child(2) .full')->html());
+      $time = $node->filter('td:nth-child(2) .full em')->text('');
+      $dateTime = DrupalDateTime::createFromFormat('d.m.y H:i', trim($day) . " " . trim($time));
+
       return [
-        'day' => preg_replace('@<(\w+)\b.*?>.*?</\1>@si', '', $node->filter('td:nth-child(2) .full')->html()),
-        'time' => $node->filter('td:nth-child(2) .full em')->text(''),
+        'day' => $day,
+        'time' => $time,
+        'date_time' => $dateTime->format('Y-m-d\TH:i:s'),
         'name' => $node->filter('td:nth-child(3) a.plt')->text(''),
         'name_link' => $node->filter('td:nth-child(3) a.plt')->link()?->getUri(),
         'launch' => $node->filter('td:nth-child(4) a.lau')->text(''),
