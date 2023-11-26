@@ -2,8 +2,8 @@ _core:
   default_config_hash: FsPoQBR9MKSFgJCNizl60cAUjLthj3EPn9ii_6rmFws
 compact: 1
 search: 1
-style: dark
-support: 'https://servicetermoidraulica.it'
+style: light
+support: 'https://ventorelativo.netlify.app/'
 custom_style: ''
 light_logo: ''
 dark_logo: ''
