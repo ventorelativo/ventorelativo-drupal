@@ -101,16 +101,16 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
     $rows = $crawler->filter('tbody tr')->slice(0, 25)->each(function (Crawler $node, $i) {
       return [
         'day' => preg_replace('@<(\w+)\b.*?>.*?</\1>@si', '', $node->filter('td:nth-child(2) .full')->html()),
-        'time' => $node->filter('td:nth-child(2) .full em')->text(),
-        'name' => $node->filter('td:nth-child(3) a.plt')->text(),
-        'name_link' => $node->filter('td:nth-child(3) a.plt')->link()->getUri(),
-        'launch' => $node->filter('td:nth-child(4) a.lau')->text(),
-        'launch_link' => $node->filter('td:nth-child(4) a.lau')->link()->getUri(),
-        'route' => $node->filter('td:nth-child(5) em')->text(),
-        'length' => $node->filter('td:nth-child(6) strong')->text(),
-        'points' => $node->filter('td:nth-child(7) strong')->text(),
-        'glider_model' => $node->filter('td:nth-child(8) .sponsor')->attr('title'),
-        'glider_rating' => $node->filter('td:nth-child(8) .sponsor')->text(),
+        'time' => $node->filter('td:nth-child(2) .full em')->text(''),
+        'name' => $node->filter('td:nth-child(3) a.plt')->text(''),
+        'name_link' => $node->filter('td:nth-child(3) a.plt')->link()?->getUri(),
+        'launch' => $node->filter('td:nth-child(4) a.lau')->text(''),
+        'launch_link' => $node->filter('td:nth-child(4) a.lau')->link()?->getUri(),
+        'route' => $node->filter('td:nth-child(5) em')->text(''),
+        'length' => $node->filter('td:nth-child(6) strong')->text(''),
+        'points' => $node->filter('td:nth-child(7) strong')->text(''),
+        'glider_model' => $node->filter('td:nth-child(8)')->attr('title', ''),
+        'glider_rating' => $node->filter('td:nth-child(8)')->text(''),
         'link' => $node->filter('td:nth-child(10) a.detail')->link()->getUri(),
       ];
     });

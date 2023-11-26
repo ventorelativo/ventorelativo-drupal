@@ -100,6 +100,9 @@
             },
             "drupal/seeds_toolbar": {
                 "body class \"light\" and \"dark\" may clash with themes with dark mode - 3377986": "https://git.drupalcode.org/project/seeds_toolbar/-/merge_requests/4.diff"
+            },
+            "symfony/dom-crawler": {
+                "return empty string on Crawler::attr()": "patches/dom-crawler-attr-exception.patch"
             }
         }
     },
