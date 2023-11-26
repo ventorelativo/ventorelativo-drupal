@@ -20,17 +20,63 @@ table.xct-flights {
   }
 
   & td {
+    line-height: 1.25;
+
     &.xct-flights-name {
       text-transform: capitalize;
+    }
+
+    &.xct-flights-date .relative {
+      font-size: 0.8rem;
+      opacity: 0.8;
+      display: block;
     }
 
     &.xct-flights-points strong {
       color: #FF7901;
     }
 
-    &.xct-flights-glider em {
-      opacity: 0.8;
-      font-size: 0.8rem;
+    &.xct-flights-glider {
+      & .category {
+        margin-top: 0.2rem;
+        display: flex;
+        gap: 0.15rem;
+      }
+
+      & .category-level {
+        position: relative;
+        width: 0.5rem;
+        height: 0.4rem;
+        color: yellowgreen;
+
+        &::before,
+        &::after {
+          content: '';
+          position: absolute;
+          left: 0;
+          height: 51%;
+          width: 100%;
+          background: currentColor;
+        }
+
+        &::before {
+          top: 0;
+          transform: skew(40deg);
+        }
+
+        &::after {
+          bottom: 0;
+          transform: skew(-40deg);
+        }
+
+        &:nth-child(2) {
+          color: orange;
+        }
+
+        &:nth-child(3) {
+          color: tomato;
+        }
+      }
     }
 
     &.xct-flights-link a {

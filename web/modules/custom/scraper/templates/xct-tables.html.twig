@@ -68,7 +68,19 @@
       </thead>
       <tbody>
         {% for row in rows %}
-        {% set route_title = row.route is same as("FT") ? "Triangolo FAI" : row.route is same as("PT") ? "Triangolo piatto" : "Distanza a 3 punti" %}
+          {% set route_title = row.route is same as("FT") ? "Triangolo FAI" : row.route is same as("PT") ? "Triangolo piatto" : "Distanza a 3 punti" %}
+          {% set rating %}
+            <div class="category">
+              <div class="category-level"></div>
+              {% if row.glider_rating != "A" %}
+                <div class="category-level"></div>
+              {% endif %}
+              {% if row.glider_rating == "C" %}
+                <div class="category-level"></div>
+              {% endif %}
+            </div>
+          {% endset %}
+
           <tr>
             <td class="xct-flights-date"><time datetime="{{row.date_time}}">{{ row.day }}<small>{{ row.time }}</small></time></td>
             <td class="xct-flights-name">{{ link(row.name, row.name_link, {'target':['_blank']} ) }}</td>
@@ -76,7 +88,7 @@
             <td class="xct-flights-route" title="{{ route_title }}"><svg class="icon" width="16" height="16"><use xlink:href="#{{ row.route|lower }}"></use></svg></td>
             <td class="xct-flights-length"><strong>{{ row.length }}</strong> <small>km</small></td>
             <td class="xct-flights-points"><strong>{{ row.points }}</strong> <small>p.</small></td>
-            <td class="xct-flights-glider">{{ row.glider_model }} <em>({{ row.glider_rating }})</em></td>
+            <td class="xct-flights-glider">{{ row.glider_model }} {{ rating }}</td>
             <td class="xct-flights-link">{{ link(ico_link, row.link, {'target':['_blank'], 'title':'Dettagli del volo'} ) }}</td>
           </tr>
         {% endfor %}

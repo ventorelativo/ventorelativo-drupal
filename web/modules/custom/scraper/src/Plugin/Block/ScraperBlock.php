@@ -116,7 +116,7 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
         'length' => $node->filter('td:nth-child(6) strong')->text(''),
         'points' => $node->filter('td:nth-child(7) strong')->text(''),
         'glider_model' => $node->filter('td:nth-child(8) > div')->attr('title', ''),
-        'glider_rating' => $node->filter('td:nth-child(8)')->text(''),
+        'glider_rating' => $node->filter('td:nth-child(8) span:first-child')->text(''),
         'link' => $node->filter('td:nth-child(10) a.detail')->link()->getUri(),
       ];
     });

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const currentDate = new Date();
 
     const formatDate = (date) => {
-      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      const options = { weekday: 'long' };
       return date.toLocaleDateString('it-IT', options);
     };
 
@@ -12,33 +12,45 @@ document.addEventListener("DOMContentLoaded", function () {
       const timeDifference = currentDate - flightDate;
 
       let relativeTime;
+      const dayOfWeek = formatDate(flightDate);
 
-      if (timeDifference < 60 * 1000) {
-        // Less than a minute ago
-        relativeTime = 'Pochi secondi fa';
-      } else if (timeDifference < 60 * 60 * 1000) {
-        // Within the last hour
-        const minutesAgo = Math.floor(timeDifference / (60 * 1000));
-        relativeTime = `${minutesAgo} minuti fa`;
-      } else if (timeDifference < 24 * 60 * 60 * 1000) {
+      if (timeDifference < 24 * 60 * 60 * 1000) {
         // Within the last 24 hours
-        const hoursAgo = Math.floor(timeDifference / (60 * 60 * 1000));
-        const minutesAgo = Math.floor((timeDifference % (60 * 60 * 1000)) / (60 * 1000));
-        relativeTime = `${hoursAgo} ore e ${minutesAgo} minuti fa`;
+        relativeTime = 'Oggi';
+      } else if (timeDifference < 2 * 24 * 60 * 60 * 1000) {
+        // Yesterday
+        relativeTime = 'Ieri';
       } else if (timeDifference < 7 * 24 * 60 * 60 * 1000) {
         // Within the last week
-        const dayOfWeek = formatDate(flightDate);
-        relativeTime = dayOfWeek === formatDate(currentDate) ? 'Ieri' : `Ultimo ${dayOfWeek}`;
+        relativeTime = `${dayOfWeek} scorso`;
+      } else if (timeDifference < 14 * 24 * 60 * 60 * 1000) {
+        // Within the last 2 weeks
+        const weeksAgo = Math.floor(timeDifference / (7 * 24 * 60 * 60 * 1000));
+        relativeTime = `${dayOfWeek}, ${weeksAgo} settimana fa`;
+      } else if (timeDifference < 30 * 24 * 60 * 60 * 1000) {
+         // Within the last 2 weeks
+         const weeksAgo = Math.floor(timeDifference / (7 * 24 * 60 * 60 * 1000));
+         relativeTime = `${dayOfWeek}, ${weeksAgo} settimane fa`;
       } else {
-        // More than a week ago
-        relativeTime = formatDate(flightDate);
+        // More than a month ago
+        const monthsAgo = Math.floor(timeDifference / (30 * 24 * 60 * 60 * 1000));
+        relativeTime = `${dayOfWeek}, ${monthsAgo} mesi fa`;
       }
 
-      // Create a new <em> element and append it to the existing content
-      const emElement = document.createElement('em');
-      emElement.textContent = relativeTime;
-      console.log(relativeTime);
-      element.appendChild(emElement);
+      // Clear existing content and create a new <em> element
+      // check if there is already an em element with the relative time
+      if (relativeTime) {
+        // capitalize first letter
+        relativeTime = relativeTime.charAt(0).toUpperCase() + relativeTime.slice(1);
+        if (element.querySelector('em.relative')) {
+          element.querySelector('em.relative').textContent = relativeTime;
+        } else {
+          const emElement = document.createElement('em');
+          emElement.classList.add('relative');
+          emElement.textContent = relativeTime;
+          element.appendChild(emElement);
+        }
+      }
     });
   };
 
