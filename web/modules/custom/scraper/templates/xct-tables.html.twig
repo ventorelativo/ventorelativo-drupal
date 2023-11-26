@@ -15,6 +15,8 @@
     link
 #}
 {% if rows %}
+  {{ attach_library('scraper/xct-tables') }}
+
   <svg width="0" height="0" class="hidden">
     <symbol xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" id="details">
       <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"></path>
@@ -47,6 +49,7 @@
     </symbol>
   </svg>
   {% set ico_link %}<svg class="icon" width="16" height="16"><use xlink:href="#details"></use></svg> Dettagli del volo{% endset %}
+
   <small><em>{{ link('Dati XContest', uri, {'target':['_blank']} ) }}, aggiornati al {{ date|date('d.m.Y - H:m') }}</em></small>
   <div class="table-responsive">
     <table class="xct-flights recents table table-hover table-striped">
@@ -72,7 +75,7 @@
             <td class="xct-flights-route" title="{{ route_title }}"><svg class="icon" width="16" height="16"><use xlink:href="#{{ row.route|lower }}"></use></svg></td>
             <td class="xct-flights-length"><strong>{{ row.length }}</strong> <small>km</small></td>
             <td class="xct-flights-points"><strong>{{ row.points }}</strong> <small>p.</small></td>
-            <td class="xct-flights-glider">{{ row.glider_model }} <em>(EN-{{ row.glider_rating }})</em></td>
+            <td class="xct-flights-glider">{{ row.glider_model }} <em>({{ row.glider_rating }})</em></td>
             <td class="xct-flights-link">{{ link(ico_link, row.link, {'target':['_blank'], 'title':'Dettagli del volo'} ) }}</td>
           </tr>
         {% endfor %}

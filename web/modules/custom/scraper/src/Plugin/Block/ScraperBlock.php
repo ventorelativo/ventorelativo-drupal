@@ -131,11 +131,6 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
       '#theme' => 'xct_tables',
       '#uri' => $uri,
       '#rows' => $this->scrape($uri),
-      '#attached' => [
-        'library' => [
-          'scraper/xct-tables',
-        ],
-      ],
     ];
   }
 
