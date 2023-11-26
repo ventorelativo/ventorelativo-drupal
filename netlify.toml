@@ -3,8 +3,9 @@ command = """
 export PATH="./vendor/bin:$PATH"
 
 drush tome:install -y \
-&& drush cim -y \
+&& drush cr \
 && drush cron \
+&& drush locale:update \
 && drush simple-sitemap:generate -l $URL \
 && drush un lb_claro \
 && drush tome:static -l $URL \
@@ -12,7 +13,8 @@ drush tome:install -y \
 && cp -r web/themes/custom/vr/img/homepage.jpg html/themes/custom/vr/img
 """
 
-# && drush locale:update \
+# && mkdir -p html/themes/custom/vr/img \
+# && drush cim -y \
 # && rm -rf html \
 # && drush tome:static -l $URL \
 # && cp html/404/index.html html/404.html \
