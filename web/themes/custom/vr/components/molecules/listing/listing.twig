@@ -1,0 +1,39 @@
+{%
+  set classes = [
+    'card',
+    'mb-3'
+  ]
+%}
+<article{{ attributes.addClass(classes) }}>
+  <div class="row g-0">
+
+    <div class="image col-md-4 order-md-last">
+      {% block image %}{% endblock %}
+    </div>
+
+    <div class="col-md-8">
+      <div class="card-body d-flex flex-column gap-2 h-100">
+
+        <h2 class="card-title h4">
+          {{- title -}}
+        </h2>
+
+        <div class="card-summary">
+            {% block summary %}{% endblock %}
+        </div>
+
+        <p class="card-text"><small class="text-muted">{{ created }}</small></p>
+
+        <div class="mt-auto">
+          <a href="{{ url }}" class="btn btn-small btn-primary">
+            {{- 'Read more'|t -}}
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+</article>

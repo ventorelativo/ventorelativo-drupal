@@ -1,0 +1,8 @@
+<div {{ attributes.addClass('d-flex', 'gap-2') }}>
+  <strong class="visually-hidden">{{ label }}</strong>
+  {% for link in links %}
+    <div>
+      <a href="{{ link['#url'] }}" class="btn btn-sm btn-outline-primary">{{ link['#title'] }}</a>
+    </div>
+  {% endfor %}
+</div>

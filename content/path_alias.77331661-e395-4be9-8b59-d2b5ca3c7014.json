@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "df054f49-a296-42a4-bd30-2faa912de0af"
+            "value": "77331661-e395-4be9-8b59-d2b5ca3c7014"
         }
     ],
     "langcode": [
@@ -11,12 +11,12 @@
     ],
     "path": [
         {
-            "value": "\/node\/349445f0-0467-4c70-bd0d-b1c54bad789c"
+            "value": "\/node\/814f12c7-6a40-4b86-88c2-8424bb0c26cb"
         }
     ],
     "alias": [
         {
-            "value": "\/news\/test-news"
+            "value": "\/news\/flight-training"
         }
     ],
     "status": [

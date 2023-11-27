@@ -1,0 +1,33 @@
+$schema: 'https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json'
+name: Listing
+status: stable
+description: 'A Bootstrap based listing item'
+group: molecules
+props:
+  type: object
+  properties:
+    title:
+      type: string
+      title: Title
+      examples:
+        - 'Ciao Mamma'
+    created:
+      type: string
+      title: Last update
+      examples:
+        - 'Created Wed 25th March 2023'
+    url:
+      title: URL
+      type: string
+
+slots:
+  summary:
+    title: Summary
+    description: 'The contents of the card.'
+    examples:
+      - '<p>Foo is <strong>NOT</strong> bar.</p>'
+  image:
+    title: Image
+    description: 'The image of the card.'
+    examples:
+      - '<svg class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>'

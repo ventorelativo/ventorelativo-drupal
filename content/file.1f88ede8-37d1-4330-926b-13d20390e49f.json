@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "1f88ede8-37d1-4330-926b-13d20390e49f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Screenshot 2023-11-23 at 20.03.04.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-11\/Screenshot 2023-11-23 at 20.03.04.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1268229
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-11-27T19:04:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-11-27T19:04:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

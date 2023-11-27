@@ -67,48 +67,15 @@
  *
  */
 #}
-{%
-  set classes = [
-    'node',
-    'node--type-' ~ node.bundle|clean_class,
-    node.isPromoted() ? 'node--promoted',
-    node.isSticky() ? 'node--sticky',
-    not node.isPublished() ? 'node--unpublished',
-    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
-    'card',
-    'mb-3'
-  ]
-%}
-{{ attach_library('bootstrap5/node') }}
-<article{{ attributes.addClass(classes) }}>
-  <div class="row g-0">
-
-    <div class="col-md-8">
-      <div{{ content_attributes.addClass(['card-body', 'node__content']) }}>
-        <div class="card-text"><small class="text-muted">
-          {{ content.field_tags }}
-        </small></div>
-
-        {{ title_prefix }}
-        {% if label and not page %}
-          <h2{{ title_attributes.addClass('h5') }}>
-            <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-          </h2>
-        {% endif %}
-        {{ title_suffix }}
-
-        <h5 class="card-title">Card title</h5>
-        {{ content|without('field_image', 'field_tags', 'links') }}
-
-        {{ content.links }}
-        {# {{ dump(content|keys) }} #}
-      </div>
-
-    </div>
-    <div class="col-md-4">
-      {# <img src="..." class="img-fluid rounded-start" alt="..."> #}
-      {{ content.field_image }}
-    </div>
-
-  </div>
-</article>
+{% embed 'vr:listing' with {
+    title: label|field_value,
+    url: url,
+  } %}
+  {% block summary %}
+    {{ content|without('field_image', 'field_tags') }}
+    {{ include('vr:tags', { label: content.field_tags|field_label, links: content.field_tags|field_value }, with_context = false) }}
+  {% endblock %}
+  {% block image %}
+    {{ content.field_image }}
+  {% endblock %}
+{% endembed %}
