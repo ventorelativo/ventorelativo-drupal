@@ -1,0 +1,24 @@
+uuid: 5ab98986-60c8-492d-86bf-d0c146e52172
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.sito
+  module:
+    - text
+id: node.sito.body
+field_name: body
+entity_type: node
+bundle: sito
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

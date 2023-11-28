@@ -25,6 +25,7 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  geofield: 0
   help: 0
   history: 0
   image: 0
@@ -34,6 +35,8 @@ module:
   layout_builder: 0
   layout_discovery: 0
   lb_claro: 0
+  leaflet: 0
+  leaflet_more_maps: 0
   link: 0
   linkit: 0
   locale: 0

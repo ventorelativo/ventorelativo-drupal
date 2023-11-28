@@ -1,0 +1,33 @@
+uuid: 4115914d-922a-465c-b205-3ec1b0e5b1b1
+langcode: it
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sito.body
+    - field.field.node.sito.field_position
+    - node.type.sito
+  module:
+    - text
+    - user
+id: node.sito.teaser
+targetEntityType: node
+bundle: sito
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_position: true
+  langcode: true

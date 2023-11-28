@@ -1,0 +1,108 @@
+{
+    "uuid": [
+        {
+            "value": "fcb33f57-afd6-4e15-aa5a-3f6fbd0c19be"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "sito",
+            "target_type": "node_type",
+            "target_uuid": "f0819210-f20b-4018-a18c-6e20415015a5"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-11-28T21:29:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "title": [
+        {
+            "value": "Montoso"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-11-28T17:11:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-11-28T21:29:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/siti\/montoso",
+            "langcode": "it",
+            "pathauto": 1
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><strong>Localit\u00e0:<\/strong><br>Montoso, vicino a Bagnolo Piemonte, Italia<\/p><p><strong>Altitudine:<\/strong><br>1.300 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud-Ovest<\/p><p><strong>Descrizione:<\/strong><br>Il sito di volo Montoso offre un'esperienza mozzafiato nel cuore delle Alpi italiane. Situato a circa 1.300 metri di altitudine, questo sito \u00e8 apprezzato dai parapendisti per la sua esposizione sud-ovest, che regala condizioni di volo ideali per la maggior parte dell'anno.<\/p><p><strong>Caratteristiche:<\/strong><br>Vista Panoramica: Goditi una vista spettacolare sulle Alpi Marittime e sulla valle sottostante mentre solchi i cieli sopra Montoso.<br>Condizioni di Volo Ottimali: L'esposizione sud-ovest del sito crea termiche e correnti ascensionali che rendono il volo un'esperienza entusiasmante.<br>Accesso Facile: Il sito \u00e8 facilmente accessibile da Bagnolo Piemonte e offre un parcheggio comodo per i piloti.<\/p><p><br><strong>Link Utili:<\/strong><br><a href=\"https:\/\/example.com\">Meteo Montoso:<\/a> Controlla le condizioni meteorologiche attuali e previste per Montoso prima di decollare.<br><a href=\"https:\/\/example.com\">Associazione Volo Libero Piemonte<\/a>: Scopri pi\u00f9 informazioni sull'associazione locale di volo libero e le attivit\u00e0 connesse.<\/p><p><br><strong>Consigli Pratici:<\/strong><\/p><p>Prima di volare, assicurati di controllare le condizioni meteorologiche e di consultare le regole locali di volo libero.<br>Rispetta l'ambiente e segue le pratiche di volo sicure per garantire un'esperienza positiva per tutti i piloti.<\/p>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ],
+    "field_position": [
+        {
+            "value": "GEOMETRYCOLLECTION (POINT (7.229815 44.744842), POLYGON ((7.301794 44.767132, 7.303355 44.766801, 7.302802 44.767437, 7.301601 44.767539, 7.301794 44.767132)), POINT (7.251911 44.764238))",
+            "geo_type": "GeometryCollection",
+            "lat": 44.75619049982222,
+            "lon": 7.266584999970816,
+            "left": 7.229815,
+            "top": 44.767539,
+            "right": 7.303355,
+            "bottom": 44.744842,
+            "geohash": "spvn",
+            "latlon": "44.756190499822,7.2665849999708"
+        }
+    ]
+}

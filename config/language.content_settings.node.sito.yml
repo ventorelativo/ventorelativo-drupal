@@ -1,0 +1,11 @@
+uuid: 85d55b14-7f7a-456f-af3f-8c3ed38544c0
+langcode: it
+status: true
+dependencies:
+  config:
+    - node.type.sito
+id: node.sito
+target_entity_type_id: node
+target_bundle: sito
+default_langcode: site_default
+language_alterable: false

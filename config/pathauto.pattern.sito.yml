@@ -1,0 +1,22 @@
+uuid: a0c22feb-2557-436f-b300-8dc0c1f90f70
+langcode: it
+status: true
+dependencies:
+  module:
+    - node
+id: sito
+label: Sito
+type: 'canonical_entities:node'
+pattern: 'siti/[node:title]'
+selection_criteria:
+  d3f6c140-79f2-44b7-9c8a-52f24baba7dc:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: d3f6c140-79f2-44b7-9c8a-52f24baba7dc
+    context_mapping:
+      node: node
+    bundles:
+      sito: sito
+selection_logic: and
+weight: -5
+relationships: {  }

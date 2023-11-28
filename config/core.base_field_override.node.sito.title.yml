@@ -1,0 +1,18 @@
+uuid: b373b95f-9f09-4458-9f59-05b8efaa694d
+langcode: it
+status: true
+dependencies:
+  config:
+    - node.type.sito
+id: node.sito.title
+field_name: title
+entity_type: node
+bundle: sito
+label: Nome
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

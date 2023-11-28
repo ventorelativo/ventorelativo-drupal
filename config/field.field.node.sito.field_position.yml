@@ -1,0 +1,21 @@
+uuid: 3dc5e1c5-bab8-415c-9dc8-52454baaa326
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_position
+    - node.type.sito
+  module:
+    - geofield
+id: node.sito.field_position
+field_name: field_position
+entity_type: node
+bundle: sito
+label: Posizione
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geofield
