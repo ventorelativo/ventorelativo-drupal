@@ -127,7 +127,7 @@
             </table>
           </div>
         {% else %}
-          <p>{{ 'Nessun volo disponibile al momento. Ripassa più tardi.'|t }}</p>
+          <p>Nessun volo disponibile al momento. Ripassa più tardi, oppure controlla su {{ link('XContest', table.url, {'target':['_blank'], 'title':'XContest: ' ~ table.label} ) }}</p>
         {% endif %}
       </div>
     {% endfor %}

@@ -147,9 +147,13 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
     $xct_url_location = "filter[point]=7.116547+44.903584&filter[radius]=20000&";
     $xct_url_vr = $xct_url_base . $xct_url_search . $xct_url_location;
     $xct_url_recent = $xct_url_vr . "list[sort]=time_start&filter[mode]=START&filter[date_mode]=dmy&filter[date]=&filter[value_mode]=dst&filter[catg]=FAI3";
-    $xct_url_daily = $xct_url_vr . "filter[mode]=START&filter[date_mode]=dmy&filter[date]=2023-11-26&filter[value_mode]=dst&filter[catg]=FAI3&list[sort]=pts&list[dir]=down";
+    $xct_url_daily = $xct_url_vr . "filter[mode]=START&filter[date_mode]=dmy&filter[date]=" . date('Y-m-d') . "&filter[value_mode]=dst&filter[catg]=FAI3&list[sort]=pts&list[dir]=down";
     $xct_url_best = $xct_url_vr . "filter[mode]=START&filter[date_mode]=dmy&filter[value_mode]=dst&filter[catg]=FAI3&list[sort]=pts&list[dir]=down";
     $pages = [
+      'recent' => [
+        'label' => 'Recenti',
+        'url' => $xct_url_recent,
+      ],
       'daily' => [
         'label' => 'Migliori giornata',
         'url' => $xct_url_daily,
@@ -157,10 +161,6 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
       'best' => [
         'label' => 'Migliori sempre',
         'url' => $xct_url_best,
-      ],
-      'recent' => [
-        'label' => 'Recenti',
-        'url' => $xct_url_recent,
       ],
     ];
 
