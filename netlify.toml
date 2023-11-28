@@ -8,9 +8,11 @@ drush tome:install -y \
 && drush locale:update \
 && drush simple-sitemap:generate -l $URL \
 && drush un lb_claro \
-&& drush tome:static -l $URL \
-&& mkdir -p html/themes/custom/vr/img \
+&& drush tome:static -l $URL
+mkdir -p html/themes/custom/vr/img \
 && cp -r web/themes/custom/vr/img/homepage.jpg html/themes/custom/vr/img
+mkdir -p html/modules/contrib/leaflet/js/leaflet/dist \
+&& cp -r web/modules/contrib/leaflet/js/leaflet/dist/images html/modules/contrib/leaflet/js/leaflet/dist
 """
 
 # && mkdir -p html/themes/custom/vr/img \
