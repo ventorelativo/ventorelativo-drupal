@@ -70,6 +70,7 @@
 {% embed 'vr:listing' with {
     title: label|field_value,
     url: url,
+    created: date,
   } %}
   {% block summary %}
     {{ content|without('field_image', 'field_tags') }}

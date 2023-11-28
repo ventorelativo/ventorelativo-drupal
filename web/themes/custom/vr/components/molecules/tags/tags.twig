@@ -2,7 +2,7 @@
   <strong class="visually-hidden">{{ label }}</strong>
   {% for link in links %}
     <div>
-      <a href="{{ link['#url'] }}" class="btn btn-sm btn-outline-primary">{{ link['#title'] }}</a>
+      <a href="{{ link['#url'] }}" class="btn btn btn-outline-primary btn-sm" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">{{ link['#title'] }}</a>
     </div>
   {% endfor %}
 </div>

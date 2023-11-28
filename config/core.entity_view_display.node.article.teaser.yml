@@ -10,8 +10,8 @@ dependencies:
     - image.style.large
     - node.type.article
   module:
+    - background_image_formatter
     - nomarkup
-    - svg_image
     - text
     - user
 _core:
@@ -34,17 +34,12 @@ content:
     weight: 1
     region: content
   field_image:
-    type: image
+    type: background_image_formatter
     label: hidden
     settings:
-      image_link: content
       image_style: large
-      image_loading:
-        attribute: lazy
-      svg_attributes:
-        width: null
-        height: null
-      svg_render_as_image: false
+      background_image_output_type: inline
+      background_image_selector: ''
     third_party_settings:
       nomarkup:
         enabled: true

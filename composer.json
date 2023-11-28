@@ -22,6 +22,7 @@
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
         "drupal-tome/tome_drush": "dev-dev-drush12",
+        "drupal/background_image_formatter": "^2.0",
         "drupal/block_class": "2.0.x-dev@dev",
         "drupal/bootstrap5": "^3.0",
         "drupal/bootstrap_layout_builder": "^2.1",

@@ -1,3 +1,13 @@
 [data-component-id="vr:listing"] {
   overflow: hidden;
+
+  & .image {
+    min-height: 10rem;
+
+    &>div {
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+  }
 }
