@@ -26,10 +26,17 @@ table.xct-flights {
       text-transform: capitalize;
     }
 
-    &.xct-flights-date .relative {
-      font-size: 0.8rem;
-      opacity: 0.8;
-      display: block;
+    &.xct-flights-date {
+      & time {
+        min-width: 4.8em;
+        display: inline-block;
+      }
+
+      & .relative {
+        font-size: 0.8rem;
+        opacity: 0.8;
+        display: block;
+      }
     }
 
     &.xct-flights-points strong {

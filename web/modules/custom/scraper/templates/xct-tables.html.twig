@@ -1,23 +1,27 @@
 {#
-  uri
-  rows:
-    day
-    time
-    date_time
-    name
-    name_link
-    launch
-    launch_link
-    route
-    length
-    points
-    glider_model
-    glider_rating
-    link
+  tables:
+    key: recent
+      label: 'Ultimi voli'
+      url: 'https://www.xcontest.org/world/en/[..]
+      rows:
+          day
+          time
+          date_time
+          name
+          name_link
+          launch
+          launch_link
+          route
+          length
+          points
+          glider_model
+          glider_rating
+          link
 #}
-{% if rows %}
-  {{ attach_library('scraper/xct-tables') }}
 
+{% if tables is not empty %}
+  {# Common assets #}
+  {{ attach_library('scraper/xct-tables') }}
   <svg width="0" height="0" class="hidden">
     <symbol xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" id="details">
       <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"></path>
@@ -48,53 +52,87 @@
       <circle cx="144" cy="126" r="12" fill="white"></circle>
       <circle cx="144" cy="126" r="6" fill="black"></circle>
     </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="sort-down" class="bi bi-sort-down" viewBox="0 0 16 16">
+      <path d="M3.5 2.5a.5.5 0 0 0-1 0v8.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L3.5 11.293zm3.5 1a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5M7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z"/>
+    </symbol>
   </svg>
   {% set ico_link %}<svg class="icon" width="16" height="16"><use xlink:href="#details"></use></svg> Dettagli del volo{% endset %}
-  <small><em>{{ link('Dati XContest', uri, {'target':['_blank']} ) }}, aggiornati al {{ date|date('d M Y - H:i') }}</em></small>
+  {% set ico_sort %}<svg class="icon" width="16" height="16"><use xlink:href="#sort-down"></use></svg>{% endset %}
 
-  <div class="table-responsive">
-    <table class="xct-flights recents table table-hover table-striped">
-      <thead class="{#table-light#}">
-        <tr>
-          <th class="xct-flights-date">{{ 'Data'|t }}</th>
-          <th class="xct-flights-name">{{ 'Pilota'|t }}</th>
-          <th class="xct-flights-launch">{{ 'Decollo'|t }}</th>
-          <th class="xct-flights-route">{{ 'Rotta'|t }}</th>
-          <th class="xct-flights-length">{{ 'Lunghezza'|t }}</th>
-          <th class="xct-flights-points">{{ 'Punteggio'|t }}</th>
-          <th class="xct-flights-glider">{{ 'Vela'|t }}</th>
-          <th class="xct-flights-link">{{ 'Dettagli'|t }}</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for row in rows %}
-          {% set route_title = row.route is same as("FT") ? "Triangolo FAI" : row.route is same as("PT") ? "Triangolo piatto" : "Distanza a 3 punti" %}
-          {% set rating %}
-            <div class="category">
-              <div class="category-level"></div>
-              {% if row.glider_rating != "A" %}
-                <div class="category-level"></div>
-              {% endif %}
-              {% if row.glider_rating == "C" %}
-                <div class="category-level"></div>
-              {% endif %}
-            </div>
-          {% endset %}
+  <ul class="nav nav-pills nav-justified flex-column flex-sm-row mb-3" id="pills-tab" role="tablist">
+    {% for key, table in tables %}
+      <li class="nav-item" role="presentation">
+        <button
+          type="button"
+          class="nav-link{{ loop.first ? ' active' }}"
+          id="pills-{{ key }}-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-{{ key }}"
+          role="tab"
+          aria-controls="pills-{{ key }}"
+          aria-selected="{{ loop.first ? ' true' }}">
+            {{ table.label }}
+          </button>
+      </li>
+    {% endfor %}
+  </ul>
 
-          <tr>
-            <td class="xct-flights-date"><time datetime="{{row.date_time}}">{{ row.date_time|date('d M y') }} <small>{{ row.time }}</small></time></td>
-            <td class="xct-flights-name">{{ link(row.name, row.name_link, {'target':['_blank']} ) }}</td>
-            <td class="xct-flights-launch">{{ link(row.launch, row.launch_link, {'target':['_blank']} ) }}</td>
-            <td class="xct-flights-route" title="{{ route_title }}"><svg class="icon" width="16" height="16"><use xlink:href="#{{ row.route|lower }}"></use></svg></td>
-            <td class="xct-flights-length"><strong>{{ row.length }}</strong> <small>km</small></td>
-            <td class="xct-flights-points"><strong>{{ row.points }}</strong> <small>p.</small></td>
-            <td class="xct-flights-glider">{{ row.glider_model }} {{ rating }}</td>
-            <td class="xct-flights-link">{{ link(ico_link, row.link, {'target':['_blank'], 'title':'Dettagli del volo'} ) }}</td>
-          </tr>
-        {% endfor %}
-        </tbody>
-    </table>
+  <div class="tab-content" id="pills-tabContent">
+    {% for key, table in tables %}
+      <div class="tab-pane fade{{ loop.first ? ' show active' }}" id="pills-{{ key }}" role="tabpanel" aria-labelledby="pills-{{ key }}-tab">
+        {% if table.rows %}
+          <small><em>{{ link('Dati XContest', table.url, {'target':['_blank']} ) }}, aggiornati al {{ date|date('d M Y - H:i') }}</em></small>
+
+          <div class="table-responsive">
+            <table class="xct-flights recents table table-hover table-striped">
+              <thead class="{#table-light#}">
+                <tr>
+                  <th class="xct-flights-date">Data{{ key == 'recent' ? ico_sort }}</th>
+                  <th class="xct-flights-name">Pilota</th>
+                  <th class="xct-flights-launch">Decollo</th>
+                  <th class="xct-flights-route">Rotta</th>
+                  <th class="xct-flights-length">Lunghezza</th>
+                  <th class="xct-flights-points">Punteggio{{ key != 'recent' ? ico_sort }}</th>
+                  <th class="xct-flights-glider">Vela</th>
+                  <th class="xct-flights-link">Dettagli</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for row in table.rows %}
+                  {% set route_title = row.route is same as("FT") ? "Triangolo FAI" : row.route is same as("PT") ? "Triangolo piatto" : "Distanza a 3 punti" %}
+                  {% set rating %}
+                    <div class="category">
+                      <div class="category-level"></div>
+                      {% if row.glider_rating != "A" %}
+                        <div class="category-level"></div>
+                      {% endif %}
+                      {% if row.glider_rating == "C" %}
+                        <div class="category-level"></div>
+                      {% endif %}
+                    </div>
+                  {% endset %}
+
+                  <tr>
+                    <td class="xct-flights-date" title="{{ row.date_time|date('U')|format_date('long') }}"><time datetime="{{row.date_time}}">{{ row.date_time|date('d M y') }} <small>{{ row.time }}</small></time></td>
+                    <td class="xct-flights-name">{{ link(row.name, row.name_link, {'target':['_blank']} ) }}</td>
+                    <td class="xct-flights-launch">{{ link(row.launch, row.launch_link, {'target':['_blank']} ) }}</td>
+                    <td class="xct-flights-route" title="{{ route_title }}"><svg class="icon" width="16" height="16"><use xlink:href="#{{ row.route|lower }}"></use></svg></td>
+                    <td class="xct-flights-length"><strong>{{ row.length }}</strong> <small>km</small></td>
+                    <td class="xct-flights-points"><strong>{{ row.points }}</strong> <small>p.</small></td>
+                    <td class="xct-flights-glider">{{ row.glider_model }} {{ rating }}</td>
+                    <td class="xct-flights-link">{{ link(ico_link, row.link, {'target':['_blank'], 'title':'Dettagli del volo'} ) }}</td>
+                  </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+          </div>
+        {% else %}
+          <p>{{ 'Nessun volo disponibile al momento. Ripassa più tardi.'|t }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
   </div>
+
 {% else %}
-  <p>{{ 'Nessun volo disponibile al momento. Ripassa più tardi.'|t }}</p>
+  <p>{{ 'Errore nel recupero dei dati da XContest 😥. Ripassa più tardi.'|t }}</p>
 {% endif %}

@@ -12,8 +12,7 @@ function scraper_theme($existing, $type, $theme, $path) {
   return [
     'xct_tables' => [
       'variables' => [
-        'uri' => NULL,
-        'rows' => [],
+        'tables' => [],
       ],
     ],
   ];

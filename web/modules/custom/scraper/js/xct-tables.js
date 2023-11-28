@@ -42,13 +42,14 @@ document.addEventListener("DOMContentLoaded", function () {
       if (relativeTime) {
         // capitalize first letter
         relativeTime = relativeTime.charAt(0).toUpperCase() + relativeTime.slice(1);
-        if (element.querySelector('em.relative')) {
-          element.querySelector('em.relative').textContent = relativeTime;
+        let relativeEl = element.parentElement.querySelector('em.relative')
+        if (relativeEl) {
+          relativeEl.textContent = relativeTime;
         } else {
           const emElement = document.createElement('em');
           emElement.classList.add('relative');
           emElement.textContent = relativeTime;
-          element.appendChild(emElement);
+          element.after(emElement);
         }
       }
     });
