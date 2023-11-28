@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-11-24T18:55:27+00:00",
+            "value": "2023-11-28T10:09:32+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,7 +42,7 @@
     ],
     "title": [
         {
-            "value": "Voli"
+            "value": "I nostri voli"
         }
     ],
     "created": [
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-11-24T18:55:27+00:00",
+            "value": "2023-11-28T10:09:32+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -79,12 +79,18 @@
     ],
     "path": [
         {
-            "alias": "\/voli",
+            "alias": "\/i-nostri-voli",
             "langcode": "it",
             "pathauto": 1
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p>Benvenuto nella sezione dedicata ai voli del nostro club. Qui, ti immergerai nelle emozionanti esperienze di coloro che hanno solcato i cieli sopra i nostri decolli, creando ricordi indimenticabili tra le nuvole. Scegli la tua avventura tra le nostre tre categorie di voli:<\/p><ul><li><p><strong>Migliori voli della giornata<\/strong><\/p><p>Ogni giorno \u00e8 una nuova sfida e la competizione \u00e8 sempre accesa! Scopri i voli pi\u00f9 audaci, avventurosi e panoramici che i nostri piloti hanno realizzato durante l'ultima giornata. Sarai sorpreso da cosa \u00e8 possibile raggiungere quando si abbraccia il vento e si alza in volo con determinazione.<\/p><\/li><li><p><strong>Migliori voli di sempre<\/strong><\/p><p>Le leggende non nascono in un giorno, ma accumulano storie attraverso i voli epici nel corso del tempo. Qui troverai i voli che hanno fatto la storia di VentoRelativo, quelli che hanno infranto record e hanno plasmato la reputazione dei nostri cieli come destinazione di parapendio di primo livello.<\/p><\/li><li><p><strong>Voli recenti<\/strong><\/p><p>Aggiornati in tempo reale, questa sezione offre un'anteprima dei voli pi\u00f9 recenti che hanno solcato i nostri cieli. Scopri cosa succede al di sopra dei nostri decolli e fatti ispirare dalle avventure pi\u00f9 fresche e entusiasmanti dei nostri piloti.<\/p><\/li><\/ul><p>&nbsp;<\/p>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ],
     "layout_builder__layout": [
         {
             "section": {
@@ -131,9 +137,9 @@
                         "configuration": {
                             "id": "scraper_scraper",
                             "label": "Voli recenti",
-                            "label_display": "visible",
+                            "label_display": 0,
                             "provider": "scraper",
-                            "example": "Hello world!",
+                            "example": "",
                             "context_mapping": []
                         },
                         "weight": 2,
