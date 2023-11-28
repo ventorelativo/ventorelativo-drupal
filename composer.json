@@ -30,6 +30,7 @@
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-recommended": "^10.0",
         "drupal/easy_breadcrumb": "^2.0",
+        "drupal/image_style_quality": "^1.6",
         "drupal/lb_claro": "^2.0@alpha",
         "drupal/linkit": "^6.1",
         "drupal/metatag": "^2.0",

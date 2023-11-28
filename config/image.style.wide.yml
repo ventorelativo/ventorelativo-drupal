@@ -1,7 +1,9 @@
 uuid: 36aeb139-6565-454d-a31f-f82378f2900c
 langcode: it
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - image_style_quality
 _core:
   default_config_hash: LswCVLg8z4Zk1u6pV1Dpj1qUj5YY2CQ7_ojx7bJQ8qk
 name: wide
@@ -15,3 +17,9 @@ effects:
       width: 1090
       height: null
       upscale: false
+  bb33dad4-447b-48e7-9c8a-daff8c6bec8d:
+    uuid: bb33dad4-447b-48e7-9c8a-daff8c6bec8d
+    id: image_style_quality
+    weight: 2
+    data:
+      quality: 40

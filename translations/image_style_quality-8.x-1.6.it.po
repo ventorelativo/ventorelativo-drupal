@@ -1,0 +1,25 @@
+# Italian translation of Image Style Quality (8.x-1.6)
+# Copyright (c) 2023 by the Italian translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Image Style Quality (8.x-1.6)\n"
+"POT-Creation-Date: 2023-03-22 15:42+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Media"
+msgstr "Media"
+msgid "%"
+msgstr "%"
+msgid ""
+"Define the image quality for JPEG manipulations. Ranges from 0 to 100. "
+"Higher values mean better image quality but bigger files."
+msgstr ""
+"Definisce la qualità per la manipolazione delle immagini JPEG. Varia "
+"tra 0 e 100. Valori maggiori indicano una migliore qualità ma file "
+"più ingombranti."
