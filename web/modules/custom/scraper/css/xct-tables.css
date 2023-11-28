@@ -19,6 +19,34 @@ table.xct-flights {
     text-align: center;
   }
 
+  & th,
+  & td {
+    &.sort {
+      position: relative;
+
+      &::before {
+        position: absolute;
+        content: "";
+        background-color: var(--bs-primary-bg-subtle);
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        opacity: 0.25;
+      }
+
+      &>* {
+        position: relative;
+      }
+
+      &>div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+
   & td {
     line-height: 1.25;
 
