@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-11-28T10:47:30+00:00",
+            "value": "2023-11-28T11:07:23+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-11-28T10:47:30+00:00",
+            "value": "2023-11-28T11:07:23+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -79,14 +79,14 @@
     ],
     "path": [
         {
-            "alias": "\/i-nostri-voli",
+            "alias": "\/voli",
             "langcode": "it",
-            "pathauto": 1
+            "pathauto": 0
         }
     ],
     "body": [
         {
-            "value": "<p>Benvenuto nella sezione dedicata ai voli del nostro club. Qui, ti immergerai nelle emozionanti esperienze di coloro che hanno solcato i cieli sopra i nostri decolli, creando ricordi indimenticabili tra le nuvole. Scegli la tua avventura tra le nostre tre categorie di voli:<\/p><ul><li><p><strong>Voli recenti<\/strong><\/p><p>Aggiornati in tempo reale, questa sezione offre un'anteprima dei voli pi\u00f9 recenti che hanno solcato i nostri cieli. Scopri cosa succede al di sopra dei nostri decolli e fatti ispirare dalle avventure pi\u00f9 fresche e entusiasmanti dei nostri piloti.<\/p><\/li><li><p><strong>Migliori voli della giornata<\/strong><\/p><p>Ogni giorno \u00e8 una nuova sfida e la competizione \u00e8 sempre accesa! Scopri i voli pi\u00f9 audaci, avventurosi e panoramici che i nostri piloti hanno realizzato durante l'ultima giornata. Sarai sorpreso da cosa \u00e8 possibile raggiungere quando si abbraccia il vento e si alza in volo con determinazione.<\/p><\/li><li><p><strong>Migliori voli di sempre<\/strong><\/p><p>Le leggende non nascono in un giorno, ma accumulano storie attraverso i voli epici nel corso del tempo. Qui troverai i voli che hanno fatto la storia di VentoRelativo, quelli che hanno infranto record e hanno plasmato la reputazione dei nostri cieli come destinazione di parapendio di primo livello.<\/p><\/li><\/ul><p>&nbsp;<\/p>",
+            "value": "<p>Benvenuto nella sezione dedicata ai voli del nostro club. Qui, ti immergerai nelle emozionanti esperienze di coloro che hanno solcato i cieli sopra i nostri decolli, creando ricordi indimenticabili tra le nuvole. Scegli la tua avventura tra le nostre tre categorie di voli:<\/p><ul><li><p><strong>Voli recenti<\/strong><\/p><p>Aggiornati in tempo reale, questa sezione offre un'anteprima dei voli pi\u00f9 recenti che hanno solcato i nostri cieli. Scopri cosa succede al di sopra dei nostri decolli e fatti ispirare dalle avventure pi\u00f9 fresche e entusiasmanti dei nostri piloti.<\/p><\/li><li><p><strong>Migliori voli della giornata<\/strong><\/p><p>Ogni giorno \u00e8 una nuova sfida e la competizione \u00e8 sempre accesa! Scopri i voli pi\u00f9 audaci, avventurosi e panoramici che i nostri piloti hanno realizzato durante l'ultima giornata. Sarai sorpreso da cosa \u00e8 possibile raggiungere quando si abbraccia il vento e si alza in volo con determinazione.<\/p><\/li><li><p><strong>Migliori voli di sempre<\/strong><\/p><p>Le leggende non nascono in un giorno, ma accumulano storie attraverso i voli epici nel corso del tempo. Qui troverai i voli che hanno fatto la storia di VentoRelativo, quelli che hanno infranto record e hanno plasmato la reputazione dei nostri cieli come destinazione di parapendio di primo livello.<\/p><\/li><\/ul>",
             "format": "full_html",
             "summary": ""
         }
