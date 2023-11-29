@@ -115,6 +115,7 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
         $dateTime = DrupalDateTime::createFromFormat('d.m.y H:i', trim($day) . " " . trim($time));
 
         return [
+          'rank' => $node->filter('td:nth-child(1)')->text(''),
           'day' => $day,
           'time' => $time,
           'date_time' => $dateTime->format('Y-m-d\TH:i:s'),
@@ -146,20 +147,30 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
     $xct_url_search = "flights-search/?";
     $xct_url_location = "filter[point]=7.116547+44.903584&filter[radius]=20000&";
     $xct_url_vr = $xct_url_base . $xct_url_search . $xct_url_location;
-    $xct_url_recent = $xct_url_vr . "list[sort]=time_start&filter[mode]=START&filter[date_mode]=dmy&filter[date]=&filter[value_mode]=dst&filter[catg]=FAI3";
+    $xct_url_recent = $xct_url_vr . "list[sort]=time_start&filter[mode]=START&filter[date_mode]=dmy&filter[value_mode]=dst&filter[catg]=FAI3";
     $xct_url_daily = $xct_url_vr . "filter[mode]=START&filter[date_mode]=dmy&filter[date]=" . date('Y-m-d') . "&filter[value_mode]=dst&filter[catg]=FAI3&list[sort]=pts&list[dir]=down";
+    $xct_url_month = $xct_url_vr . "filter[mode]=START&filter[date_mode]=dmy&filter[date]=" . date('Y-m') . "&filter[value_mode]=dst&filter[catg]=FAI3&list[sort]=pts&list[dir]=down";
+    $xct_url_year = $xct_url_vr . "filter[mode]=START&filter[date_mode]=dmy&filter[date]=" . date('Y') . "&filter[value_mode]=dst&filter[catg]=FAI3&list[sort]=pts&list[dir]=down";
     $xct_url_best = $xct_url_vr . "filter[mode]=START&filter[date_mode]=dmy&filter[value_mode]=dst&filter[catg]=FAI3&list[sort]=pts&list[dir]=down";
     $pages = [
       'recent' => [
-        'label' => 'Recenti',
+        'label' => '⏱️ Recenti',
         'url' => $xct_url_recent,
       ],
-      'daily' => [
-        'label' => 'Migliori giornata',
+      'day' => [
+        'label' => '🐥 Migliori giornata',
         'url' => $xct_url_daily,
       ],
-      'best' => [
-        'label' => 'Migliori sempre',
+      'month' => [
+        'label' => '🐓 Migliori mese',
+        'url' => $xct_url_month,
+      ],
+      'year' => [
+        'label' => '🦅 Migliori anno',
+        'url' => $xct_url_year,
+      ],
+      'ever' => [
+        'label' => '🏆 Migliori sempre',
         'url' => $xct_url_best,
       ],
     ];

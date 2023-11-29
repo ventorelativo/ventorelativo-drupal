@@ -87,6 +87,9 @@
             <table class="xct-flights recents table table-hover table-striped">
               <thead class="{#table-light#}">
                 <tr>
+                  {% if key != 'recent' %}
+                    <th class="xct-flights-rank"><span class="visually-hidden">Posizione</span></th>
+                  {% endif %}
                   <th class="xct-flights-date{{ key == 'recent' ? ' sort' }}"><div><span>Data</span>{{ key == 'recent' ? ico_sort }}</div></th>
                   <th class="xct-flights-name">Pilota</th>
                   <th class="xct-flights-launch">Decollo</th>
@@ -113,6 +116,15 @@
                   {% endset %}
 
                   <tr>
+                    {% if key != 'recent' %}
+                      <td class="xct-flights-rank rank-{{ row.rank }}">
+                        {%- if row.rank <= 3 %}
+                          {%- if row.rank == 1 %}🥇{% elseif row.rank == 2 %}🥈{% elseif row.rank == 3 %}🥉{% endif -%}
+                        {% else %}
+                          {{ row.rank }}
+                        {% endif -%}
+                      </td>
+                    {% endif %}
                     <td class="xct-flights-date{{ key == 'recent' ? ' sort' }}" title="{{ row.date_time|date('U')|format_date('long') }}"><time datetime="{{row.date_time}}">{{ row.date_time|date('d M y') }} <small>{{ row.time }}</small></time></td>
                     <td class="xct-flights-name">{{ link(row.name, row.name_link, {'target':['_blank']} ) }}</td>
                     <td class="xct-flights-launch">{{ link(row.launch, row.launch_link, {'target':['_blank']} ) }}</td>
