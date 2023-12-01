@@ -1,0 +1,11 @@
+_core:
+  default_config_hash: Uhi8_qZk4TddoUw18rRiUrCaca1r3640z2KyXy8VJMQ
+langcode: it
+debug: false
+default_extension: webp
+url_generation:
+  enabled: true
+  text_separator: '---'
+default_font:
+  name: ".\x7f"
+  uri: themes/custom/vr/fonts/geomanist-regular-webfont.ttf

@@ -4,6 +4,9 @@ status: true
 dependencies:
   module:
     - image_style_quality
+third_party_settings:
+  textimage:
+    uri_scheme: public
 _core:
   default_config_hash: LswCVLg8z4Zk1u6pV1Dpj1qUj5YY2CQ7_ojx7bJQ8qk
 name: wide

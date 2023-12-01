@@ -43,6 +43,7 @@
         "drupal/simple_sitemap": "^4.1",
         "drupal/svg_image": "^3.0",
         "drupal/tagify": "^1.0",
+        "drupal/textimage": "^4.3",
         "drupal/tome": "^1.11",
         "drupal/tome_netlify": "1.x-dev@dev",
         "drupal/twbstools": "2.1.x-dev@dev",

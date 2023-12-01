@@ -2,6 +2,9 @@ uuid: 03ba2029-e93f-4ae7-b3ff-71c21b4d6a4c
 langcode: it
 status: true
 dependencies: {  }
+third_party_settings:
+  textimage:
+    uri_scheme: public
 _core:
   default_config_hash: J2n0RpFzS0-bgSyxjs6rSdgxB1rb-bTAgqywNx_964M
 name: large

@@ -2,6 +2,9 @@ uuid: f86e5295-a8fa-499a-98d1-f760d1dbb1d7
 langcode: it
 status: true
 dependencies: {  }
+third_party_settings:
+  textimage:
+    uri_scheme: public
 _core:
   default_config_hash: PY0kMp7KIxvU4kBi5mcnD_DHTKUc1OkYCfaPliXjpa8
 name: linkit_result_thumbnail

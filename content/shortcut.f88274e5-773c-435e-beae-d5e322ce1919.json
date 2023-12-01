@@ -1,0 +1,37 @@
+{
+    "uuid": [
+        {
+            "value": "f88274e5-773c-435e-beae-d5e322ce1919"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "shortcut_set": [
+        {
+            "target_id": "default",
+            "target_type": "shortcut_set",
+            "target_uuid": "40215d6c-be0b-46e1-be0d-8347ebe0d650"
+        }
+    ],
+    "title": [
+        {
+            "value": "Textimage"
+        }
+    ],
+    "weight": [],
+    "link": [
+        {
+            "uri": "internal:\/admin\/config\/media\/textimage",
+            "title": null,
+            "options": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ]
+}

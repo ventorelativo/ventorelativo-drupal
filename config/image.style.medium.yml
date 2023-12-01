@@ -2,6 +2,9 @@ uuid: 032db5e6-fa1d-4b49-a253-a76c7e996a47
 langcode: it
 status: true
 dependencies: {  }
+third_party_settings:
+  textimage:
+    uri_scheme: public
 _core:
   default_config_hash: Y9NmnZHQq20ASSyTNA6JnwtWrJJiSajOehGDtmUFdM0
 name: medium

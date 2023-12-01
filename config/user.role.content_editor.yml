@@ -13,6 +13,7 @@ dependencies:
     - path
     - system
     - taxonomy
+    - textimage
     - toolbar
 _core:
   default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
@@ -39,6 +40,7 @@ permissions:
   - 'edit own article content'
   - 'edit own page content'
   - 'edit terms in tags'
+  - 'generate textimage url derivatives'
   - 'revert all revisions'
   - 'view all revisions'
   - 'view own unpublished content'

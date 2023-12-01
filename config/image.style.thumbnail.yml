@@ -2,6 +2,9 @@ uuid: 982aa429-2c23-42b5-b5c7-0d6322002fc7
 langcode: it
 status: true
 dependencies: {  }
+third_party_settings:
+  textimage:
+    uri_scheme: public
 _core:
   default_config_hash: cCiWdBHgLwj5omG35lsKc4LkW4MBdmcctkVop4ol5x0
 name: thumbnail

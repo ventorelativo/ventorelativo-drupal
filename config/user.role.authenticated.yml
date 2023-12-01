@@ -7,6 +7,7 @@ dependencies:
     - file
     - shortcut
     - system
+    - textimage
 _core:
   default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
 id: authenticated
@@ -18,3 +19,4 @@ permissions:
   - 'access shortcuts'
   - 'access site-wide contact form'
   - 'delete own files'
+  - 'generate textimage url derivatives'

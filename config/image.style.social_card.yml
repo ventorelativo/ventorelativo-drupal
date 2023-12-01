@@ -1,0 +1,79 @@
+uuid: c965c850-6d3b-4b91-bfc6-5d106e9508ce
+langcode: it
+status: true
+dependencies:
+  module:
+    - image_effects
+    - textimage
+third_party_settings:
+  textimage:
+    uri_scheme: public
+name: social_card
+label: 'Social card'
+effects:
+  dd193828-7d0a-4da9-90c6-a64d29f7ad72:
+    uuid: dd193828-7d0a-4da9-90c6-a64d29f7ad72
+    id: image_effects_text_overlay
+    weight: -8
+    data:
+      text_string: '[node:title]'
+      font:
+        name: 'Metropolis Bold'
+        uri: themes/custom/vr/fonts/Metropolis-Bold.ttf
+        size: 32
+        angle: 0
+        color: '#000000FF'
+        stroke_mode: outline
+        stroke_color: '#FFFFFF99'
+        outline_top: 1
+        outline_right: 1
+        outline_bottom: 1
+        outline_left: 1
+        shadow_x_offset: 1
+        shadow_y_offset: 1
+        shadow_width: 0
+        shadow_height: 0
+      layout:
+        padding_top: 10
+        padding_right: 10
+        padding_bottom: 10
+        padding_left: 10
+        x_pos: left
+        y_pos: bottom
+        x_offset: 25
+        y_offset: -25
+        background_color: ''
+        overflow_action: scaletext
+        extended_color: ''
+      text:
+        strip_tags: true
+        decode_entities: true
+        maximum_chars: null
+        excess_chars_text: …
+        maximum_width: 0
+        fixed_width: false
+        align: left
+        line_spacing: 0
+        case_format: upper
+  b9f0a484-6d84-4dc8-8d3f-8c0793115e59:
+    uuid: b9f0a484-6d84-4dc8-8d3f-8c0793115e59
+    id: image_effects_scale_and_smart_crop
+    weight: -10
+    data:
+      width: '1280'
+      height: '640'
+      upscale: true
+      simulate: false
+      algorithm: entropy_slice
+  4993c996-1274-4e4c-be38-94e5c1e3f4e0:
+    uuid: 4993c996-1274-4e4c-be38-94e5c1e3f4e0
+    id: image_effects_background
+    weight: -9
+    data:
+      background_image: themes/custom/vr/social-card.png
+      background_image_width: '1280'
+      background_image_height: '640'
+      placement: center-center
+      x_offset: 0
+      y_offset: 0
+      opacity: 100

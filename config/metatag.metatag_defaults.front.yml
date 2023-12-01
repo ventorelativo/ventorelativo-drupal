@@ -8,5 +8,6 @@ id: front
 label: 'Prima pagina'
 tags:
   canonical_url: '[site:url]'
+  og_image: /themes/custom/vr/social-card.png
   shortlink: '[site:url]'
   title: '[site:name]'
