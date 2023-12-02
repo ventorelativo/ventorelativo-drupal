@@ -3,7 +3,6 @@ langcode: it
 status: true
 dependencies:
   module:
-    - block_class
     - system
   theme:
     - vr

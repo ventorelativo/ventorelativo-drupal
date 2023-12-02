@@ -16,7 +16,7 @@ third_party_settings:
 id: vr_creditiimmagine
 theme: vr
 region: footer
-weight: 0
+weight: -4
 provider: null
 plugin: 'block_content:eec19931-2ffa-4bdb-b772-11bdf6a65871'
 settings:

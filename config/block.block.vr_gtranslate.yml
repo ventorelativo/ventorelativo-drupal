@@ -1,0 +1,20 @@
+uuid: 3c3ecb18-bd11-4cb8-80a1-54f59adebc75
+langcode: it
+status: true
+dependencies:
+  module:
+    - gtranslate
+  theme:
+    - vr
+id: vr_gtranslate
+theme: vr
+region: footer
+weight: -3
+provider: null
+plugin: gtranslate_block
+settings:
+  id: gtranslate_block
+  label: GTranslate
+  label_display: '0'
+  provider: gtranslate
+visibility: {  }

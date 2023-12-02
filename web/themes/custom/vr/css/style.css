@@ -12891,4 +12891,25 @@ code {
   box-shadow: var(--bs-box-shadow-lg);
 }
 
+footer .region-footer {
+  align-items: center;
+}
+
+.block-gtranslate-block {
+  margin-left: auto;
+}
+.block-gtranslate-block .gtranslate_wrapper {
+  display: flex;
+  gap: 0.5rem;
+}
+.block-gtranslate-block .gtranslate_wrapper [data-gt-lang=it] {
+  order: -1;
+}
+.block-gtranslate-block .gtranslate_wrapper .gt_switcher .gt_option {
+  position: absolute !important;
+}
+.block-gtranslate-block .gt-current-lang {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
