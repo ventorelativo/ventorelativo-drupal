@@ -11883,6 +11883,12 @@ a > .ck-content code {
     display: block;
   }
 }
+.ck-content .btn, .ck-content button.link, .ck-content .button, .ck-content a.button, .ck-content .node-preview-container .node-preview-backlink {
+  vertical-align: top;
+}
+.ck-content .btn > svg, .ck-content button.link > svg, .ck-content .button > svg, .ck-content .node-preview-container .node-preview-backlink > svg {
+  margin-inline-end: 0.5em;
+}
 .ck-content .path-frontpage .region-nav-branding .site-logo {
   visibility: hidden;
   width: 0;
@@ -11905,13 +11911,29 @@ a > .ck-content code {
   }
 }
 .ck-content .shadow-hover:hover {
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--bs-box-shadow);
 }
-.ck-content .shadow-hover-sm:hover {
-  box-shadow: var(--box-shadow-sm);
+.ck-content .shadow-sm-hover:hover {
+  box-shadow: var(--bs-box-shadow-sm);
 }
-.ck-content .shadow-hover-lg:hover {
-  box-shadow: var(--box-shadow-lg);
+.ck-content .shadow-lg-hover:hover {
+  box-shadow: var(--bs-box-shadow-lg);
+}
+.ck-content footer .region-footer {
+  align-items: center;
+}
+.ck-content .block-gtranslate-block {
+  margin-left: auto;
+}
+.ck-content .block-gtranslate-block .gtranslate_wrapper {
+  display: flex;
+  gap: 0.5rem;
+}
+.ck-content .block-gtranslate-block .gtranslate_wrapper .gt_switcher .gt_option {
+  position: absolute !important;
+}
+.ck-content .block-gtranslate-block .gt-current-lang {
+  display: none;
 }
 
 /*# sourceMappingURL=ck5style.css.map */

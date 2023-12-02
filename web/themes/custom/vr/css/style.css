@@ -12855,6 +12855,13 @@ code {
   }
 }
 
+.btn, button.link, .button, a.button, .node-preview-container .node-preview-backlink {
+  vertical-align: top;
+}
+.btn > svg, button.link > svg, .button > svg, .node-preview-container .node-preview-backlink > svg {
+  margin-inline-end: 0.5em;
+}
+
 /* FRONTPAGE */
 .path-frontpage .region-nav-branding .site-logo {
   visibility: hidden;
@@ -12901,9 +12908,6 @@ footer .region-footer {
 .block-gtranslate-block .gtranslate_wrapper {
   display: flex;
   gap: 0.5rem;
-}
-.block-gtranslate-block .gtranslate_wrapper [data-gt-lang=it] {
-  order: -1;
 }
 .block-gtranslate-block .gtranslate_wrapper .gt_switcher .gt_option {
   position: absolute !important;

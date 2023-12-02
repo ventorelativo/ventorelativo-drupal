@@ -44,6 +44,15 @@
   }
 }
 
+// Fixes button translations alignment.
+.btn {
+  vertical-align: top;
+
+  & > svg {
+    margin-inline-end: 0.5em;
+  }
+}
+
 /* FRONTPAGE */
 .path-frontpage {
   & .region-nav-branding {
@@ -91,16 +100,13 @@ footer .region-footer {
   align-items: center;
 }
 
+// Translate block
 .block-gtranslate-block {
   margin-left: auto;
 
   .gtranslate_wrapper {
     display: flex;
     gap: 0.5rem;
-
-    [data-gt-lang="it"] {
-      order: -1;
-    }
 
     .gt_switcher .gt_option {
       position: absolute !important;
