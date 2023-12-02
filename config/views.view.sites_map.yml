@@ -286,7 +286,7 @@ display:
       access:
         type: perm
         options:
-          perm: 'view published storage entities'
+          perm: 'view published map_feature storage entities'
       cache:
         type: tag
         options: {  }
