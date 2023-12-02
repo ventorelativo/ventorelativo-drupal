@@ -1,0 +1,98 @@
+uuid: 99eba85a-e812-4640-9f20-740bb8fef855
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.storage.map_feature.field_location
+    - field.field.storage.map_feature.field_type
+    - storage.storage_type.map_feature
+  module:
+    - leaflet
+id: storage.map_feature.default
+targetEntityType: storage
+bundle: map_feature
+mode: default
+content:
+  field_location:
+    type: leaflet_widget_default
+    weight: 2
+    region: content
+    settings:
+      map:
+        leaflet_map: ~Paragliding
+        height: 600
+        auto_center: 1
+        map_position:
+          force: true
+          center:
+            lat: 44.903584
+            lon: 7.116547
+          zoomControlPosition: topleft
+          zoom: 10
+          minZoom: 1
+          maxZoom: 18
+          zoomFiner: 0
+        scroll_zoom_enabled: 1
+      input:
+        show: true
+        readonly: true
+      toolbar:
+        position: topright
+        marker: defaultMarker
+        drawPolyline: true
+        drawRectangle: true
+        drawPolygon: true
+        drawCircle: false
+        drawText: false
+        editMode: true
+        dragMode: true
+        cutPolygon: false
+        removalMode: true
+        rotateMode: false
+      reset_map:
+        control: true
+        options: '{"position":"topleft","title":"Reset View"}'
+      map_scale:
+        control: true
+        options: '{"position":"bottomright","maxWidth":100,"metric":true,"imperial":false,"updateWhenIdle":false}'
+      fullscreen:
+        control: true
+        options: '{"position":"topleft","pseudoFullscreen":false}'
+      path: '{"color":"#3388ff","opacity":"1.0","stroke":true,"weight":3,"fill":"depends","fillColor":"*","fillOpacity":"0.2","radius":"6"}'
+      locate:
+        control: false
+        options: '{"position":"topright","setView":"untilPanOrZoom","returnToPrevBounds":true,"keepCurrentZoomLevel":true,"strings":{"title":"Locate my position"}}'
+        automatic: false
+      geocoder:
+        control: false
+        settings:
+          position: topright
+          input_size: 20
+          providers: {  }
+          min_terms: 4
+          delay: 800
+          zoom: 16
+          popup: false
+          options: ''
+      geometry_validation: 0
+      feature_properties:
+        values: ''
+    third_party_settings: {  }
+  field_type:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  status: true
+  user_id: true

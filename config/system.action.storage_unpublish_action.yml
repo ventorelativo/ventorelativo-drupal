@@ -1,0 +1,13 @@
+uuid: f7428ed2-71c0-4ebe-bdfd-95feca2564ad
+langcode: it
+status: true
+dependencies:
+  module:
+    - storage
+_core:
+  default_config_hash: Eb6ftt7gpDLF88cqKC_-em06xYJeGRj3XvY41Htt7s0
+id: storage_unpublish_action
+label: 'Unpublish storage data'
+type: storage
+plugin: 'entity:unpublish_action:storage'
+configuration: {  }

@@ -42,6 +42,7 @@ module:
   lb_claro: 0
   leaflet: 0
   leaflet_more_maps: 0
+  leaflet_views: 0
   link: 0
   linkit: 0
   locale: 0
@@ -68,6 +69,7 @@ module:
   shortcut: 0
   simple_sitemap: 0
   sqlite: 0
+  storage: 0
   svg_image: 0
   system: 0
   tagify: 0

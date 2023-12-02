@@ -5,29 +5,17 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.sito.body
-    - field.field.node.sito.field_position
+    - field.field.node.sito.field_map_elements
     - node.type.sito
   module:
-    - text
     - user
 id: node.sito.teaser
 targetEntityType: node
 bundle: sito
 mode: teaser
-content:
-  body:
-    type: text_summary_or_trimmed
-    label: hidden
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
-    weight: 101
-    region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 100
-    region: content
+content: {  }
 hidden:
-  field_position: true
+  body: true
+  field_map_elements: true
   langcode: true
+  links: true

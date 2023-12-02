@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "8c2bb722-27bf-4bc1-9c22-31b52d1f1f1d"
+            "value": "bcff317c-2d71-4be3-8a62-8232d506558d"
         }
     ],
     "langcode": [
@@ -16,7 +16,7 @@
     ],
     "revision_created": [
         {
-            "value": "2023-11-24T10:54:15+00:00",
+            "value": "2023-12-02T23:03:08+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -29,7 +29,7 @@
     ],
     "title": [
         {
-            "value": "News"
+            "value": "Siti"
         }
     ],
     "description": [],
@@ -40,8 +40,8 @@
     ],
     "link": [
         {
-            "uri": "entity:node\/8209775b-a8b9-4926-967b-3ba40b8cb3e7",
-            "title": null,
+            "uri": "entity:node\/99f8a4e3-85f1-425f-b973-b0d1ceb09f6e",
+            "title": "",
             "options": []
         }
     ],
@@ -57,7 +57,7 @@
     ],
     "weight": [
         {
-            "value": -48
+            "value": -49
         }
     ],
     "expanded": [

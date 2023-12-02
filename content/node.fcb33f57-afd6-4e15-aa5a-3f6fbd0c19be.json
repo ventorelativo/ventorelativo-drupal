@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-11-28T21:29:12+00:00",
+            "value": "2023-12-02T23:28:02+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-11-28T21:29:12+00:00",
+            "value": "2023-12-02T23:28:02+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -72,11 +72,7 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true
-        }
-    ],
+    "revision_translation_affected": [],
     "path": [
         {
             "alias": "\/siti\/montoso",
@@ -91,18 +87,22 @@
             "summary": ""
         }
     ],
-    "field_position": [
+    "field_map_elements": [
         {
-            "value": "GEOMETRYCOLLECTION (POINT (7.229815 44.744842), POLYGON ((7.301794 44.767132, 7.303355 44.766801, 7.302802 44.767437, 7.301601 44.767539, 7.301794 44.767132)), POINT (7.251911 44.764238))",
-            "geo_type": "GeometryCollection",
-            "lat": 44.75619049982222,
-            "lon": 7.266584999970816,
-            "left": 7.229815,
-            "top": 44.767539,
-            "right": 7.303355,
-            "bottom": 44.744842,
-            "geohash": "spvn",
-            "latlon": "44.756190499822,7.2665849999708"
+            "target_type": "storage",
+            "target_uuid": "70d6f526-ec67-493b-b45f-494758c8c0e0"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "71047eab-4ace-4256-a4a9-2059fc609f95"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "edc72345-188c-427c-ba65-673441de8820"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "ccbb14c0-2618-4d22-963c-843e01c29207"
         }
     ]
 }

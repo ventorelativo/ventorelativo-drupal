@@ -4,10 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.node.sito.body
-    - field.field.node.sito.field_position
+    - field.field.node.sito.field_map_elements
     - node.type.sito
   module:
-    - leaflet
     - path
     - text
 id: node.sito.default
@@ -31,70 +30,15 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_position:
-    type: leaflet_widget_default
-    weight: 122
+  field_map_elements:
+    type: entity_reference_autocomplete
+    weight: 123
     region: content
     settings:
-      map:
-        leaflet_map: ~Paragliding
-        height: 600
-        auto_center: 1
-        map_position:
-          force: true
-          center:
-            lat: 44.903584
-            lon: 7.116547
-          zoomControlPosition: topleft
-          zoom: 10
-          minZoom: 1
-          maxZoom: 18
-          zoomFiner: 0
-        scroll_zoom_enabled: 1
-      input:
-        show: true
-        readonly: false
-      toolbar:
-        position: topright
-        marker: defaultMarker
-        drawPolyline: false
-        drawRectangle: false
-        drawPolygon: true
-        drawCircle: false
-        drawText: false
-        editMode: true
-        dragMode: true
-        cutPolygon: false
-        removalMode: true
-        rotateMode: false
-      reset_map:
-        control: true
-        options: '{"position":"topleft","title":"Reset View"}'
-      map_scale:
-        control: true
-        options: '{"position":"bottomright","maxWidth":100,"metric":true,"imperial":false,"updateWhenIdle":false}'
-      fullscreen:
-        control: true
-        options: '{"position":"topleft","pseudoFullscreen":false}'
-      path: '{"color":"#00FF00","opacity":"1.0","stroke":true,"weight":3,"fill":"depends","fillColor":"*","fillOpacity":"0.2","radius":"6"}'
-      locate:
-        control: false
-        options: '{"position":"topright","setView":"untilPanOrZoom","returnToPrevBounds":true,"keepCurrentZoomLevel":true,"strings":{"title":"Locate my position"}}'
-        automatic: false
-      geocoder:
-        control: false
-        settings:
-          position: topright
-          input_size: 20
-          providers: {  }
-          min_terms: 4
-          delay: 800
-          zoom: 16
-          popup: false
-          options: ''
-      geometry_validation: '1'
-      feature_properties:
-        values: ''
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select

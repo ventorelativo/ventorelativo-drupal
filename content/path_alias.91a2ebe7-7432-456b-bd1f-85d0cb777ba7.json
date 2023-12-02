@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "91a2ebe7-7432-456b-bd1f-85d0cb777ba7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/c115bbb6-5a57-42bd-91f2-cc3ae1e96dc4"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/siti\/roletto"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

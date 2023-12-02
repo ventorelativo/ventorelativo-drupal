@@ -1,0 +1,13 @@
+uuid: 6be398ac-fc82-4b3f-a2ba-5beda88c6458
+langcode: it
+status: true
+dependencies: {  }
+id: map_feature
+label: 'Elemento mappa'
+description: ''
+help: ''
+new_revision: false
+revision_expose: false
+revision_log: false
+name_pattern: '[storage:string-representation]'
+has_canonical: false

@@ -6,12 +6,11 @@ dependencies:
     - menu_ui
 third_party_settings:
   menu_ui:
-    available_menus:
-      - main
-    parent: 'main:'
-name: Sito
+    available_menus: {  }
+    parent: ''
+name: 'Sito di volo'
 type: sito
-description: ''
+description: 'Utilizza un <em>sito di volo</em> per aggiungere una zona di volo, compresiva di decollo, atterraggio, e indicazioni per raggiungere e volare la zone.'
 help: ''
 new_revision: true
 preview_mode: 1

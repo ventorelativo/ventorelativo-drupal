@@ -1,0 +1,23 @@
+uuid: 7b1770d7-5bc4-4062-b429-5d15acf15c8a
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_type
+    - storage.storage_type.map_feature
+  module:
+    - options
+id: storage.map_feature.field_type
+field_name: field_type
+entity_type: storage
+bundle: map_feature
+label: Tipo
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: takeoff
+default_value_callback: ''
+settings: {  }
+field_type: list_string

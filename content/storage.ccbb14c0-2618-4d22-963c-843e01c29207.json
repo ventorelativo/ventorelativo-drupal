@@ -1,0 +1,89 @@
+{
+    "uuid": [
+        {
+            "value": "ccbb14c0-2618-4d22-963c-843e01c29207"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "map_feature",
+            "target_type": "storage_type",
+            "target_uuid": "6be398ac-fc82-4b3f-a2ba-5beda88c6458"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-12-02T23:25:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "user_id": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "name": [
+        {
+            "value": "Linea elettrica Montoso (test)"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-12-02T23:25:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-12-02T23:26:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "field_location": [
+        {
+            "value": "LINESTRING (7.281532 44.761481, 7.287369 44.747767)",
+            "geo_type": "LineString",
+            "lat": 44.75462400480936,
+            "lon": 7.284450500782456,
+            "left": 7.281532,
+            "top": 44.761481,
+            "right": 7.287369,
+            "bottom": 44.747767,
+            "geohash": "spvnt",
+            "latlon": "44.754624004809,7.2844505007825"
+        }
+    ],
+    "field_type": [
+        {
+            "value": "obstacle"
+        }
+    ]
+}

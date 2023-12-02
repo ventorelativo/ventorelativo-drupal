@@ -1,0 +1,89 @@
+{
+    "uuid": [
+        {
+            "value": "7d08efdc-04d7-4fd7-aaf0-2e851c5f1db6"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "map_feature",
+            "target_type": "storage_type",
+            "target_uuid": "6be398ac-fc82-4b3f-a2ba-5beda88c6458"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-12-02T22:11:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "user_id": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "name": [
+        {
+            "value": "Freidur"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-12-02T22:11:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-12-02T22:11:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "field_location": [
+        {
+            "value": "POINT (7.302904 44.973042)",
+            "geo_type": "Point",
+            "lat": 44.973042,
+            "lon": 7.302904,
+            "left": 7.302904,
+            "top": 44.973042,
+            "right": 7.302904,
+            "bottom": 44.973042,
+            "geohash": "spvpy5jfcyxv",
+            "latlon": "44.973042,7.302904"
+        }
+    ],
+    "field_type": [
+        {
+            "value": "takeoff"
+        }
+    ]
+}

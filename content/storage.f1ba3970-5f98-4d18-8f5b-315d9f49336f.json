@@ -1,0 +1,89 @@
+{
+    "uuid": [
+        {
+            "value": "f1ba3970-5f98-4d18-8f5b-315d9f49336f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "map_feature",
+            "target_type": "storage_type",
+            "target_uuid": "6be398ac-fc82-4b3f-a2ba-5beda88c6458"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-12-02T22:12:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "user_id": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "name": [
+        {
+            "value": "Roletto LZ"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-12-02T22:12:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-12-02T22:12:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "field_location": [
+        {
+            "value": "GEOMETRYCOLLECTION (POLYGON ((7.338181 44.919921, 7.338856 44.919051, 7.338551 44.918888, 7.338406 44.918994, 7.33824 44.918941, 7.337655 44.919799, 7.338181 44.919921)), POINT (7.338202 44.919473))",
+            "geo_type": "GeometryCollection",
+            "lat": 44.919404876508594,
+            "lon": 7.338255561521515,
+            "left": 7.337655,
+            "top": 44.919921,
+            "right": 7.338856,
+            "bottom": 44.918888,
+            "geohash": "spvpwc",
+            "latlon": "44.919404876509,7.3382555615215"
+        }
+    ],
+    "field_type": [
+        {
+            "value": "landing"
+        }
+    ]
+}

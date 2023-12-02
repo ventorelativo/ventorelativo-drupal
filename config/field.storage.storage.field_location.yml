@@ -1,13 +1,13 @@
-uuid: 57c9b3aa-3377-4f8d-a427-5651ad99f0aa
+uuid: 603f1589-0194-4d10-8e06-054f3cf6169a
 langcode: it
 status: true
 dependencies:
   module:
     - geofield
-    - node
-id: node.field_position
-field_name: field_position
-entity_type: node
+    - storage
+id: storage.field_location
+field_name: field_location
+entity_type: storage
 type: geofield
 settings:
   backend: geofield_backend_default

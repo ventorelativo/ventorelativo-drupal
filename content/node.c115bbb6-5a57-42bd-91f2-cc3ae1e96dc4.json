@@ -1,0 +1,112 @@
+{
+    "uuid": [
+        {
+            "value": "c115bbb6-5a57-42bd-91f2-cc3ae1e96dc4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "sito",
+            "target_type": "node_type",
+            "target_uuid": "f0819210-f20b-4018-a18c-6e20415015a5"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-12-02T23:31:34+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "title": [
+        {
+            "value": "Roletto"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-12-02T22:16:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-12-02T23:31:34+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/siti\/roletto",
+            "langcode": "it",
+            "pathauto": 1
+        }
+    ],
+    "body": [
+        {
+            "value": "<p class=\"code-line\" data-line=\"2\" dir=\"auto\"><strong>Localit\u00e0:<\/strong><br>Roletto, provincia di Torino, Italia<\/p><p class=\"code-line\" data-line=\"5\" dir=\"auto\"><strong>Decolli Ufficiali:<\/strong><\/p><ol class=\"code-line\" data-line=\"7\" dir=\"auto\"><li class=\"code-line\" data-line=\"7\" dir=\"auto\"><strong>Decollo Pig\u00ec (vicino alla Rocca Vautero):<\/strong><\/li><\/ol><ul class=\"code-line\" data-line=\"8\" dir=\"auto\"><li class=\"code-line\" data-line=\"8\" dir=\"auto\"><strong>Altitudine:<\/strong> [Inserire altitudine]<\/li><li class=\"code-line\" data-line=\"9\" dir=\"auto\"><strong>Esposizione:<\/strong> [Inserire esposizione]<\/li><li class=\"code-line\" data-line=\"10\" dir=\"auto\"><strong>Caratteristiche:<\/strong> Questo decollo offre un'avvincente esperienza di volo con una vista panoramica sulla Rocca Vautero. Assicurati di goderti la bellezza del paesaggio circostante prima di solcare i cieli.<\/li><\/ul><ol class=\"code-line\" data-line=\"12\" dir=\"auto\" start=\"2\"><li class=\"code-line\" data-line=\"12\" dir=\"auto\"><strong>Decollo Monte Freidur:<\/strong><\/li><\/ol><ul class=\"code-line\" data-line=\"13\" dir=\"auto\"><li class=\"code-line\" data-line=\"13\" dir=\"auto\"><strong>Altitudine:<\/strong> [Inserire altitudine]<\/li><li class=\"code-line\" data-line=\"14\" dir=\"auto\"><strong>Esposizione:<\/strong> [Inserire esposizione]<\/li><li class=\"code-line\" data-line=\"15\" dir=\"auto\"><strong>Caratteristiche:<\/strong> Sperimenta l'emozione del volo dal Monte Freidur, con condizioni ideali per piloti di diversi livelli. Un'opportunit\u00e0 unica per esplorare i cieli sopra Roletto.<\/li><\/ul><p class=\"code-line\" data-line=\"17\" dir=\"auto\"><strong>Atterraggio:<\/strong><br>Campo d'erba di fronte al campo da calcio\/centro sportivo di Roletto.<\/p><p class=\"code-line\" data-line=\"20\" dir=\"auto\"><strong>Parcheggio:<\/strong><br>Parcheggio disponibile presso il campo da calcio di Roletto.<\/p><p class=\"code-line\" data-line=\"23\" dir=\"auto\"><strong>Link Utili:<\/strong><\/p><ul class=\"code-line\" data-line=\"24\" dir=\"auto\"><li class=\"code-line\" data-line=\"24\" dir=\"auto\"><a href=\"https:\/\/untitled+.vscode-resource.vscode-cdn.net\/inserire-link-meteo\" data-href=\"inserire-link-meteo\" title=\"inserire-link-meteo\">Meteo Roletto<\/a>: Verifica le condizioni meteorologiche prima del tuo volo per garantire una esperienza sicura e piacevole.<\/li><li class=\"code-line\" data-line=\"25\" dir=\"auto\"><a href=\"https:\/\/untitled+.vscode-resource.vscode-cdn.net\/inserire-link-associazione\" data-href=\"inserire-link-associazione\" title=\"inserire-link-associazione\">Associazione Volo Libero Torino<\/a>: Scopri ulteriori dettagli sull'associazione locale di volo libero e le attivit\u00e0 connesse nella zona di Torino.<\/li><\/ul><p class=\"code-line\" data-line=\"27\" dir=\"auto\"><strong>Consigli Pratici:<\/strong><\/p><ul class=\"code-line\" data-line=\"28\" dir=\"auto\"><li class=\"code-line\" data-line=\"28\" dir=\"auto\">Prima di decollare, assicurati di controllare le previsioni meteorologiche e di rispettare le regole locali di volo.<\/li><li class=\"code-line\" data-line=\"29\" dir=\"auto\">Il parcheggio \u00e8 disponibile presso il campo da calcio di Roletto, da dove \u00e8 possibile raggiungere comodamente i decolli.<\/li><\/ul><p class=\"code-line code-active-line\" data-line=\"31\" dir=\"auto\">Esplora il cielo di Roletto e lasciati cullare dalla bellezza dei paesaggi piemontesi. Buon volo!<\/p>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ],
+    "field_map_elements": [
+        {
+            "target_type": "storage",
+            "target_uuid": "0e8875f1-3ca6-4dcf-98b9-4d1ae0c1f9e3"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "7d08efdc-04d7-4fd7-aaf0-2e851c5f1db6"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "f1ba3970-5f98-4d18-8f5b-315d9f49336f"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "f71c9e37-d278-411e-9528-38da6ede92e4"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "5c652a85-fcab-48a2-9afc-27e9482bb779"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/99f8a4e3-85f1-425f-b973-b0d1ceb09f6e"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/siti"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

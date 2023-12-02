@@ -1,0 +1,21 @@
+uuid: 92774220-8ed6-4a10-8a50-ad4868f7b367
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_location
+    - storage.storage_type.map_feature
+  module:
+    - geofield
+id: storage.map_feature.field_location
+field_name: field_location
+entity_type: storage
+bundle: map_feature
+label: Location
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geofield

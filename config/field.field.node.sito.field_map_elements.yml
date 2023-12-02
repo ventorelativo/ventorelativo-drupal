@@ -1,0 +1,29 @@
+uuid: 28ae3294-78a8-48ec-8421-c7d4f8a32676
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_map_elements
+    - node.type.sito
+    - storage.storage_type.map_feature
+id: node.sito.field_map_elements
+field_name: field_map_elements
+entity_type: node
+bundle: sito
+label: 'Elementi mappa'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:storage'
+  handler_settings:
+    target_bundles:
+      map_feature: map_feature
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

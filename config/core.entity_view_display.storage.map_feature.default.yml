@@ -1,0 +1,134 @@
+uuid: 1ff006bf-6ecf-4503-ab82-9aad286f9773
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.storage.map_feature.field_location
+    - field.field.storage.map_feature.field_type
+    - storage.storage_type.map_feature
+  module:
+    - leaflet
+    - nomarkup
+    - options
+id: storage.map_feature.default
+targetEntityType: storage
+bundle: map_feature
+mode: default
+content:
+  field_location:
+    type: leaflet_formatter_default
+    label: above
+    settings:
+      multiple_map: false
+      leaflet_map: ~Paragliding
+      height: 600
+      height_unit: px
+      hide_empty_map: true
+      disable_wheel: true
+      gesture_handling: true
+      fitbounds_options: '{"padding":[0,0]}'
+      reset_map:
+        control: true
+        options: '{"position":"topleft","title":"Reset View"}'
+      map_scale:
+        control: true
+        options: '{"position":"bottomright","maxWidth":100,"metric":true,"imperial":false,"updateWhenIdle":false}'
+      locate:
+        control: false
+        options: '{"position":"topright","setView":"untilPanOrZoom","returnToPrevBounds":true,"keepCurrentZoomLevel":true,"strings":{"title":"Locate my position"}}'
+        automatic: false
+      leaflet_tooltip:
+        value: '[storage:name]'
+        options: '{"permanent":false,"direction":"center"}'
+      popup: false
+      popup_content: ''
+      leaflet_popup:
+        control: '0'
+        content: ''
+        options: '{"maxWidth":"300","minWidth":"50","autoPan":true}'
+      map_position:
+        force: false
+        center:
+          lat: 44.903584
+          lon: 7.116547
+        zoomControlPosition: topleft
+        zoom: 14
+        minZoom: 12
+        maxZoom: 18
+        zoomFiner: 0
+      icon:
+        iconType: marker
+        iconUrl: ''
+        shadowUrl: ''
+        className: ''
+        iconSize:
+          x: ''
+          'y': ''
+        iconAnchor:
+          x: ''
+          'y': ''
+        shadowSize:
+          x: ''
+          'y': ''
+        shadowAnchor:
+          x: ''
+          'y': ''
+        popupAnchor:
+          x: ''
+          'y': ''
+        html: '<div></div>'
+        html_class: leaflet-map-divicon
+        circle_marker_options: '{"radius":100,"color":"red","fillColor":"#f03","fillOpacity":0.5}'
+      leaflet_markercluster:
+        control: false
+        options: '{"spiderfyOnMaxZoom":true,"showCoverageOnHover":true,"removeOutsideVisibleBounds": false}'
+        excluded: ''
+        include_path: false
+      fullscreen:
+        control: true
+        options: '{"position":"topleft","pseudoFullscreen":false}'
+      path: '{"color":"#3388ff","opacity":"1.0","stroke":true,"weight":3,"fill":"depends","fillColor":"*","fillOpacity":"0.2","radius":"6"}'
+      feature_properties:
+        values: ''
+      geocoder:
+        control: false
+        settings:
+          autocomplete:
+            placeholder: 'Search Address'
+            title: 'Search an Address on the Map'
+          position: topright
+          input_size: 20
+          providers: {  }
+          min_terms: 4
+          delay: 800
+          zoom: 16
+          popup: false
+          options: ''
+      map_lazy_load:
+        lazy_load: true
+      weight: null
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 2
+    region: content
+  field_type:
+    type: list_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  user_id: true
