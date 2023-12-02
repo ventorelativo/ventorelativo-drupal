@@ -11855,7 +11855,7 @@ a > .ck-content code {
   border-bottom: 3px solid transparent;
   text-align: center;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   .ck-content .region-nav-main .navbar-nav .nav-link, .ck-content .region-nav-main .navbar-nav .media-library-view--widget .view-header a, .ck-content .media-library-view--widget .view-header .region-nav-main .navbar-nav a {
     text-transform: uppercase;
     font-size: 1.5rem;

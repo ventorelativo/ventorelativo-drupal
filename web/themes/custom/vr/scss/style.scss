@@ -13,7 +13,7 @@
   margin-inline: var(--bs-navbar-nav-link-padding-x);
   border-bottom: 3px solid transparent;
   text-align: center;
-  @include media-breakpoint-down(md) {
+  @include media-breakpoint-down(lg) {
     text-transform: uppercase;
     font-size: 1.5rem;
     font-weight: 300;
