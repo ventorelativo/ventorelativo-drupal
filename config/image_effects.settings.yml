@@ -6,10 +6,14 @@ color_selector:
   plugin_settings:
     html_color: {  }
 image_selector:
-  plugin_id: basic
+  plugin_id: dropdown
   plugin_settings:
     basic: {  }
+    dropdown:
+      path: themes/custom/vr
 font_selector:
-  plugin_id: basic
+  plugin_id: dropdown
   plugin_settings:
     basic: {  }
+    dropdown:
+      path: themes/custom/vr/fonts

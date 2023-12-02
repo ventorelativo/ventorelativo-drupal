@@ -8,6 +8,7 @@ dependencies:
     - contact
     - filter
     - system
+    - textimage
 _core:
   default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
 id: anonymous
@@ -17,4 +18,5 @@ is_admin: false
 permissions:
   - 'access content'
   - 'access site-wide contact form'
+  - 'generate textimage url derivatives'
   - 'use text format restricted_html'
