@@ -126,6 +126,7 @@
     },
     "require-dev": {
         "drupal/coder": "^8.3",
-        "drupal/devel": "^5.0"
+        "drupal/devel": "^5.0",
+        "drupal/examples": "^4.0"
     }
 }
