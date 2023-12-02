@@ -21,7 +21,7 @@ float_switcher_open_direction: bottom
 position: inline
 switcher_open_direction: top
 native_language_names: 1
-detect_browser_language: 0
+detect_browser_language: 1
 enable_cdn: 0
 add_new_line: 1
 select_language_label: 'Select Language'
@@ -29,110 +29,532 @@ custom_domains: 0
 custom_domains_config: ''
 custom_css: ''
 languages:
-  en: en
-  fr: fr
-  de: de
   it: it
+  fr: fr
+  en: en
+  de: de
   es: es
-  ar: 0
-  bg: 0
-  zh-CN: 0
-  zh-TW: 0
-  hr: 0
-  cs: 0
-  da: 0
-  nl: 0
-  fi: 0
-  el: 0
-  hi: 0
-  ja: 0
-  ko: 0
-  'no': 0
-  pl: 0
-  pt: 0
-  ro: 0
-  ru: 0
-  sv: 0
-  ca: 0
-  tl: 0
-  iw: 0
-  id: 0
-  lv: 0
-  lt: 0
-  sr: 0
-  sk: 0
-  sl: 0
-  uk: 0
-  vi: 0
-  sq: 0
-  et: 0
-  gl: 0
-  hu: 0
-  mt: 0
-  th: 0
-  tr: 0
-  fa: 0
-  af: 0
-  ms: 0
-  sw: 0
-  ga: 0
-  cy: 0
-  be: 0
-  is: 0
-  mk: 0
-  yi: 0
-  hy: 0
-  az: 0
-  eu: 0
-  ka: 0
-  ht: 0
-  ur: 0
-  bn: 0
-  bs: 0
-  ceb: 0
-  eo: 0
-  gu: 0
-  ha: 0
-  hmn: 0
-  ig: 0
-  jw: 0
-  kn: 0
-  km: 0
-  lo: 0
-  la: 0
-  mi: 0
-  mr: 0
-  mn: 0
-  ne: 0
-  pa: 0
-  so: 0
-  ta: 0
-  te: 0
-  yo: 0
-  zu: 0
-  my: 0
-  ny: 0
-  kk: 0
-  mg: 0
-  ml: 0
-  si: 0
-  st: 0
-  su: 0
-  tg: 0
-  uz: 0
-  am: 0
-  co: 0
-  haw: 0
-  ku: 0
-  ky: 0
-  lb: 0
-  ps: 0
-  sm: 0
-  gd: 0
-  sn: 0
-  sd: 0
-  fy: 0
-  xh: 0
 langcode: it
 flag_languages:
   it: it
+languages_ordered:
+  Italian:
+    weight: '0'
+    checked: '1'
+    language_code: it
+    language: Italian
+  French:
+    weight: '1'
+    checked: '1'
+    language_code: fr
+    language: French
+  English:
+    weight: '2'
+    checked: '1'
+    language_code: en
+    language: English
+  German:
+    weight: '3'
+    checked: '1'
+    language_code: de
+    language: German
+  Spanish:
+    weight: '4'
+    checked: '1'
+    language_code: es
+    language: Spanish
+  Arabic:
+    weight: '5'
+    language_code: ar
+    language: Arabic
+    checked: 0
+  Bulgarian:
+    weight: '6'
+    language_code: bg
+    language: Bulgarian
+    checked: 0
+  'Chinese (Simplified)':
+    weight: '7'
+    language_code: zh-CN
+    language: 'Chinese (Simplified)'
+    checked: 0
+  'Chinese (Traditional)':
+    weight: '8'
+    language_code: zh-TW
+    language: 'Chinese (Traditional)'
+    checked: 0
+  Croatian:
+    weight: '9'
+    language_code: hr
+    language: Croatian
+    checked: 0
+  Czech:
+    weight: '10'
+    language_code: cs
+    language: Czech
+    checked: 0
+  Danish:
+    weight: '11'
+    language_code: da
+    language: Danish
+    checked: 0
+  Dutch:
+    weight: '12'
+    language_code: nl
+    language: Dutch
+    checked: 0
+  Finnish:
+    weight: '13'
+    language_code: fi
+    language: Finnish
+    checked: 0
+  Greek:
+    weight: '14'
+    language_code: el
+    language: Greek
+    checked: 0
+  Hindi:
+    weight: '15'
+    language_code: hi
+    language: Hindi
+    checked: 0
+  Japanese:
+    weight: '16'
+    language_code: ja
+    language: Japanese
+    checked: 0
+  Korean:
+    weight: '17'
+    language_code: ko
+    language: Korean
+    checked: 0
+  Norwegian:
+    weight: '18'
+    language_code: 'no'
+    language: Norwegian
+    checked: 0
+  Polish:
+    weight: '19'
+    language_code: pl
+    language: Polish
+    checked: 0
+  Portuguese:
+    weight: '20'
+    language_code: pt
+    language: Portuguese
+    checked: 0
+  Romanian:
+    weight: '21'
+    language_code: ro
+    language: Romanian
+    checked: 0
+  Russian:
+    weight: '22'
+    language_code: ru
+    language: Russian
+    checked: 0
+  Swedish:
+    weight: '23'
+    language_code: sv
+    language: Swedish
+    checked: 0
+  Catalan:
+    weight: '24'
+    language_code: ca
+    language: Catalan
+    checked: 0
+  Filipino:
+    weight: '25'
+    language_code: tl
+    language: Filipino
+    checked: 0
+  Hebrew:
+    weight: '26'
+    language_code: iw
+    language: Hebrew
+    checked: 0
+  Indonesian:
+    weight: '27'
+    language_code: id
+    language: Indonesian
+    checked: 0
+  Latvian:
+    weight: '28'
+    language_code: lv
+    language: Latvian
+    checked: 0
+  Lithuanian:
+    weight: '29'
+    language_code: lt
+    language: Lithuanian
+    checked: 0
+  Serbian:
+    weight: '30'
+    language_code: sr
+    language: Serbian
+    checked: 0
+  Slovak:
+    weight: '31'
+    language_code: sk
+    language: Slovak
+    checked: 0
+  Slovenian:
+    weight: '32'
+    language_code: sl
+    language: Slovenian
+    checked: 0
+  Ukrainian:
+    weight: '33'
+    language_code: uk
+    language: Ukrainian
+    checked: 0
+  Vietnamese:
+    weight: '34'
+    language_code: vi
+    language: Vietnamese
+    checked: 0
+  Albanian:
+    weight: '35'
+    language_code: sq
+    language: Albanian
+    checked: 0
+  Estonian:
+    weight: '36'
+    language_code: et
+    language: Estonian
+    checked: 0
+  Galician:
+    weight: '37'
+    language_code: gl
+    language: Galician
+    checked: 0
+  Hungarian:
+    weight: '38'
+    language_code: hu
+    language: Hungarian
+    checked: 0
+  Maltese:
+    weight: '39'
+    language_code: mt
+    language: Maltese
+    checked: 0
+  Thai:
+    weight: '40'
+    language_code: th
+    language: Thai
+    checked: 0
+  Turkish:
+    weight: '41'
+    language_code: tr
+    language: Turkish
+    checked: 0
+  Persian:
+    weight: '42'
+    language_code: fa
+    language: Persian
+    checked: 0
+  Afrikaans:
+    weight: '43'
+    language_code: af
+    language: Afrikaans
+    checked: 0
+  Malay:
+    weight: '44'
+    language_code: ms
+    language: Malay
+    checked: 0
+  Swahili:
+    weight: '45'
+    language_code: sw
+    language: Swahili
+    checked: 0
+  Irish:
+    weight: '46'
+    language_code: ga
+    language: Irish
+    checked: 0
+  Welsh:
+    weight: '47'
+    language_code: cy
+    language: Welsh
+    checked: 0
+  Belarusian:
+    weight: '48'
+    language_code: be
+    language: Belarusian
+    checked: 0
+  Icelandic:
+    weight: '49'
+    language_code: is
+    language: Icelandic
+    checked: 0
+  Macedonian:
+    weight: '50'
+    language_code: mk
+    language: Macedonian
+    checked: 0
+  Yiddish:
+    weight: '51'
+    language_code: yi
+    language: Yiddish
+    checked: 0
+  Armenian:
+    weight: '52'
+    language_code: hy
+    language: Armenian
+    checked: 0
+  Azerbaijani:
+    weight: '53'
+    language_code: az
+    language: Azerbaijani
+    checked: 0
+  Basque:
+    weight: '54'
+    language_code: eu
+    language: Basque
+    checked: 0
+  Georgian:
+    weight: '55'
+    language_code: ka
+    language: Georgian
+    checked: 0
+  'Haitian Creole':
+    weight: '56'
+    language_code: ht
+    language: 'Haitian Creole'
+    checked: 0
+  Urdu:
+    weight: '57'
+    language_code: ur
+    language: Urdu
+    checked: 0
+  Bengali:
+    weight: '58'
+    language_code: bn
+    language: Bengali
+    checked: 0
+  Bosnian:
+    weight: '59'
+    language_code: bs
+    language: Bosnian
+    checked: 0
+  Cebuano:
+    weight: '60'
+    language_code: ceb
+    language: Cebuano
+    checked: 0
+  Esperanto:
+    weight: '61'
+    language_code: eo
+    language: Esperanto
+    checked: 0
+  Gujarati:
+    weight: '62'
+    language_code: gu
+    language: Gujarati
+    checked: 0
+  Hausa:
+    weight: '63'
+    language_code: ha
+    language: Hausa
+    checked: 0
+  Hmong:
+    weight: '64'
+    language_code: hmn
+    language: Hmong
+    checked: 0
+  Igbo:
+    weight: '65'
+    language_code: ig
+    language: Igbo
+    checked: 0
+  Javanese:
+    weight: '66'
+    language_code: jw
+    language: Javanese
+    checked: 0
+  Kannada:
+    weight: '67'
+    language_code: kn
+    language: Kannada
+    checked: 0
+  Khmer:
+    weight: '68'
+    language_code: km
+    language: Khmer
+    checked: 0
+  Lao:
+    weight: '69'
+    language_code: lo
+    language: Lao
+    checked: 0
+  Latin:
+    weight: '70'
+    language_code: la
+    language: Latin
+    checked: 0
+  Maori:
+    weight: '71'
+    language_code: mi
+    language: Maori
+    checked: 0
+  Marathi:
+    weight: '72'
+    language_code: mr
+    language: Marathi
+    checked: 0
+  Mongolian:
+    weight: '73'
+    language_code: mn
+    language: Mongolian
+    checked: 0
+  Nepali:
+    weight: '74'
+    language_code: ne
+    language: Nepali
+    checked: 0
+  Punjabi:
+    weight: '75'
+    language_code: pa
+    language: Punjabi
+    checked: 0
+  Somali:
+    weight: '76'
+    language_code: so
+    language: Somali
+    checked: 0
+  Tamil:
+    weight: '77'
+    language_code: ta
+    language: Tamil
+    checked: 0
+  Telugu:
+    weight: '78'
+    language_code: te
+    language: Telugu
+    checked: 0
+  Yoruba:
+    weight: '79'
+    language_code: yo
+    language: Yoruba
+    checked: 0
+  Zulu:
+    weight: '80'
+    language_code: zu
+    language: Zulu
+    checked: 0
+  'Myanmar (Burmese)':
+    weight: '81'
+    language_code: my
+    language: 'Myanmar (Burmese)'
+    checked: 0
+  Chichewa:
+    weight: '82'
+    language_code: ny
+    language: Chichewa
+    checked: 0
+  Kazakh:
+    weight: '83'
+    language_code: kk
+    language: Kazakh
+    checked: 0
+  Malagasy:
+    weight: '84'
+    language_code: mg
+    language: Malagasy
+    checked: 0
+  Malayalam:
+    weight: '85'
+    language_code: ml
+    language: Malayalam
+    checked: 0
+  Sinhala:
+    weight: '86'
+    language_code: si
+    language: Sinhala
+    checked: 0
+  Sesotho:
+    weight: '87'
+    language_code: st
+    language: Sesotho
+    checked: 0
+  Sudanese:
+    weight: '88'
+    language_code: su
+    language: Sudanese
+    checked: 0
+  Tajik:
+    weight: '89'
+    language_code: tg
+    language: Tajik
+    checked: 0
+  Uzbek:
+    weight: '90'
+    language_code: uz
+    language: Uzbek
+    checked: 0
+  Amharic:
+    weight: '91'
+    language_code: am
+    language: Amharic
+    checked: 0
+  Corsican:
+    weight: '92'
+    language_code: co
+    language: Corsican
+    checked: 0
+  Hawaiian:
+    weight: '93'
+    language_code: haw
+    language: Hawaiian
+    checked: 0
+  'Kurdish (Kurmanji)':
+    weight: '94'
+    language_code: ku
+    language: 'Kurdish (Kurmanji)'
+    checked: 0
+  Kyrgyz:
+    weight: '95'
+    language_code: ky
+    language: Kyrgyz
+    checked: 0
+  Luxembourgish:
+    weight: '96'
+    language_code: lb
+    language: Luxembourgish
+    checked: 0
+  Pashto:
+    weight: '97'
+    language_code: ps
+    language: Pashto
+    checked: 0
+  Samoan:
+    weight: '98'
+    language_code: sm
+    language: Samoan
+    checked: 0
+  'Scottish Gaelic':
+    weight: '99'
+    language_code: gd
+    language: 'Scottish Gaelic'
+    checked: 0
+  Shona:
+    weight: '100'
+    language_code: sn
+    language: Shona
+    checked: 0
+  Sindhi:
+    weight: '101'
+    language_code: sd
+    language: Sindhi
+    checked: 0
+  Frisian:
+    weight: '102'
+    language_code: fy
+    language: Frisian
+    checked: 0
+  Xhosa:
+    weight: '103'
+    language_code: xh
+    language: Xhosa
+    checked: 0

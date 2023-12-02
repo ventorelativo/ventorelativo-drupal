@@ -120,6 +120,9 @@
                 "Support for retina tiles - 3404743": "https://git.drupalcode.org/project/leaflet_more_maps/-/merge_requests/10.diff",
                 "Show names in layer switcher, maybe even custom naming - 3394095": "https://git.drupalcode.org/project/leaflet_more_maps/-/merge_requests/9.diff"
             },
+            "drupal/gtranslate": {
+                "Select and order languages using draggable table - 3401669": "https://git.drupalcode.org/project/gtranslate/-/merge_requests/17.diff"
+            },
             "symfony/dom-crawler": {
                 "return empty string on Crawler::attr()": "patches/dom-crawler-attr-exception.patch"
             }
