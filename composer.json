@@ -122,9 +122,6 @@
             },
             "drupal/gtranslate": {
                 "Select and order languages using draggable table - 3401669": "https://git.drupalcode.org/project/gtranslate/-/merge_requests/17.diff"
-            },
-            "symfony/dom-crawler": {
-                "return empty string on Crawler::attr()": "patches/dom-crawler-attr-exception.patch"
             }
         }
     },
