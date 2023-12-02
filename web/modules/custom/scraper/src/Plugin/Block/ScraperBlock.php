@@ -10,6 +10,7 @@ use Drupal\Core\Datetime\DrupalDateTime;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Http\ClientFactory;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
+use Drupal\Core\Site\Settings;
 use Psr\Http\Client\ClientInterface;
 use Symfony\Component\BrowserKit\HttpBrowser;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -177,7 +178,9 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
 
     return [
       '#theme' => 'xct_tables',
-      '#tables' => $this->scrape($pages),
+      '#tables' => Settings::get('local_environment') === TRUE
+        ? []
+        : $this->scrape($pages),
     ];
   }
 
