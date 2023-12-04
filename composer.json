@@ -10,10 +10,6 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/elgandoz/tome_drush.git"
-        },
-        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
@@ -21,7 +17,7 @@
     "require": {
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
-        "drupal-tome/tome_drush": "dev-dev-drush12",
+        "drupal-tome/tome_drush": "dev-master",
         "drupal/background_image_formatter": "^2.0",
         "drupal/block_class": "2.0.x-dev@dev",
         "drupal/bootstrap5": "^3.0",
@@ -39,6 +35,7 @@
         "drupal/minifyhtml": "^2.0",
         "drupal/nomarkup": "^1.0",
         "drupal/pathauto": "^1.11",
+        "drupal/project_browser": "^1.0@beta",
         "drupal/redirect": "^1.8",
         "drupal/seeds_toolbar": "2.x-dev@dev",
         "drupal/simple_sitemap": "^4.1",
@@ -46,8 +43,8 @@
         "drupal/svg_image": "^3.0",
         "drupal/tagify": "^1.0",
         "drupal/textimage": "^4.3",
-        "drupal/tome": "^1.11",
-        "drupal/tome_netlify": "1.x-dev@dev",
+        "drupal/tome": "^1.12",
+        "drupal/tome_netlify": "^1.0@dev",
         "drupal/twbstools": "2.1.x-dev@dev",
         "drupal/twig_field_value": "^2.0",
         "drupal/ui_patterns": "^1.7",
@@ -67,7 +64,8 @@
             "composer/installers": true,
             "drupal/core-composer-scaffold": true,
             "cweagans/composer-patches": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "php-http/discovery": true
         }
     },
     "extra": {
@@ -113,9 +111,6 @@
             },
             "drupal/seeds_toolbar": {
                 "body class \"light\" and \"dark\" may clash with themes with dark mode - 3377986": "https://git.drupalcode.org/project/seeds_toolbar/-/merge_requests/4.diff"
-            },
-            "drupal/tome": {
-                "Tome not working with Drush 12 - 3375608": "https://www.drupal.org/files/issues/2023-08-02/tome_drush12-support.patch"
             },
             "drupal/leaflet_more_maps": {
                 "Support for retina tiles - 3404743": "https://git.drupalcode.org/project/leaflet_more_maps/-/merge_requests/10.diff",
