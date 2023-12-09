@@ -8,6 +8,7 @@ dependencies:
   module:
     - node
     - user
+    - views_bootstrap
 id: flight_sites
 label: 'Siti di volo'
 module: views
@@ -134,14 +135,12 @@ display:
           value:
             sito: sito
       style:
-        type: html_list
+        type: views_bootstrap_list_group
         options:
           row_class: ''
           default_row_class: true
           uses_fields: false
-          type: ul
-          wrapper_class: item-list
-          class: ''
+          title_field: title
       row:
         type: 'entity:node'
         options:

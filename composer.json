@@ -50,6 +50,7 @@
         "drupal/twbstools": "2.1.x-dev@dev",
         "drupal/twig_field_value": "^2.0",
         "drupal/ui_patterns": "^1.7",
+        "drupal/views_bootstrap": "^5.5@alpha",
         "drush/drush": "^12.4",
         "symfony/browser-kit": "^6.3",
         "symfony/css-selector": "^6.3",

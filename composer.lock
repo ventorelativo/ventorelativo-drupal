@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df72fc11d02f80e6a9ca7560a7002b52",
+    "content-hash": "3e9e6f2ac4497e1c5b8de353ed8642cd",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4313,6 +4313,66 @@
             "homepage": "https://www.drupal.org/project/ui_patterns",
             "support": {
                 "source": "https://git.drupalcode.org/project/ui_patterns"
+            }
+        },
+        {
+            "name": "drupal/views_bootstrap",
+            "version": "5.5.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/views_bootstrap.git",
+                "reference": "5.5.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_bootstrap-5.5.0-alpha1.zip",
+                "reference": "5.5.0-alpha1",
+                "shasum": "5f5f82dd33c01271c24f8feeac2a45dc49212cf3"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "5.5.0-alpha1",
+                    "datestamp": "1658954516",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "aburrows",
+                    "homepage": "https://www.drupal.org/user/577844"
+                },
+                {
+                    "name": "ericpugh",
+                    "homepage": "https://www.drupal.org/user/130084"
+                },
+                {
+                    "name": "ikeigenwijs",
+                    "homepage": "https://www.drupal.org/user/583238"
+                },
+                {
+                    "name": "mrded",
+                    "homepage": "https://www.drupal.org/user/556088"
+                },
+                {
+                    "name": "shelane",
+                    "homepage": "https://www.drupal.org/user/2674989"
+                }
+            ],
+            "description": "Allows for different styles to be used in views to work with Bootstrap 5 components.",
+            "homepage": "https://www.drupal.org/project/views_bootstrap",
+            "support": {
+                "source": "https://git.drupalcode.org/project/views_bootstrap"
             }
         },
         {
@@ -10342,7 +10402,8 @@
         "drupal/project_browser": 10,
         "drupal/seeds_toolbar": 20,
         "drupal/tome_netlify": 20,
-        "drupal/twbstools": 20
+        "drupal/twbstools": 20,
+        "drupal/views_bootstrap": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,
