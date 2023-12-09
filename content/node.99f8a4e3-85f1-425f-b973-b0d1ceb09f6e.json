@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-02T23:02:22+00:00",
+            "value": "2023-12-09T21:33:26+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-12-02T23:02:22+00:00",
+            "value": "2023-12-09T21:33:26+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -72,7 +72,11 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
     "path": [
         {
             "alias": "\/siti",
@@ -105,14 +109,14 @@
                                 "entity": "layout_builder.entity"
                             }
                         },
-                        "weight": 2,
+                        "weight": 3,
                         "additional": []
                     },
                     {
-                        "uuid": "dd78ff34-aa70-4b0f-97ad-25ffc4c82712",
+                        "uuid": "44c92903-ffe8-4891-9a4c-e95978a3fbd6",
                         "region": "content",
                         "configuration": {
-                            "id": "views_block:flight_sites-flight_sites_list",
+                            "id": "views_block:sites_map-block_1",
                             "label": "",
                             "label_display": 0,
                             "provider": "views",
@@ -120,7 +124,7 @@
                             "items_per_page": "none",
                             "context_mapping": []
                         },
-                        "weight": 1,
+                        "weight": 2,
                         "additional": []
                     },
                     {
@@ -140,6 +144,21 @@
                             }
                         },
                         "weight": 0,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "dd78ff34-aa70-4b0f-97ad-25ffc4c82712",
+                        "region": "content",
+                        "configuration": {
+                            "id": "views_block:flight_sites-flight_sites_list",
+                            "label": "",
+                            "label_display": 0,
+                            "provider": "views",
+                            "views_label": "",
+                            "items_per_page": "none",
+                            "context_mapping": []
+                        },
+                        "weight": 1,
                         "additional": []
                     }
                 ],

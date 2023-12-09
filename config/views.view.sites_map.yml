@@ -459,12 +459,151 @@ display:
       tags:
         - 'config:field.storage.storage.field_location'
         - 'config:field.storage.storage.field_type'
+  block_1:
+    id: block_1
+    display_title: 'Panoramica siti'
+    display_plugin: block
+    position: 1
+    display_options:
+      arguments: {  }
+      style:
+        type: leaflet_map
+        options:
+          grouping: {  }
+          data_source:
+            field_location: field_location
+          entity_source: __base_table
+          entity_source_submit: 'Update Entity Source'
+          name_field: ''
+          leaflet_tooltip:
+            value: name
+            options: '{"permanent":false,"direction":"center"}'
+          leaflet_popup:
+            value: field_location
+            options: '{"maxWidth":"300","minWidth":"50","autoPan":true}'
+            view_mode: full
+          leaflet_map: ~Paragliding
+          height: '600'
+          height_unit: px
+          hide_empty_map: true
+          disable_wheel: false
+          gesture_handling: true
+          fitbounds_options: '{"padding":[0,0]}'
+          reset_map:
+            control: true
+            options: '{"position":"topleft","title":"Reset View"}'
+          map_scale:
+            control: true
+            options: '{"position":"bottomright","maxWidth":100,"metric":true,"imperial":false,"updateWhenIdle":false}'
+          locate:
+            control: false
+            options: '{"position":"topright","setView":"untilPanOrZoom","returnToPrevBounds":true,"keepCurrentZoomLevel":true,"strings":{"title":"Locate my position"}}'
+            automatic: false
+          map_position:
+            force: false
+            center:
+              lat: null
+              lon: null
+            zoomControlPosition: topleft
+            zoom: 14
+            minZoom: 10
+            maxZoom: 18
+            zoomFiner: 0
+          weight: ''
+          icon:
+            iconType: marker
+            iconUrl: ''
+            shadowUrl: ''
+            className: '{{ field_type }}'
+            iconSize:
+              x: ''
+              'y': ''
+            iconAnchor:
+              x: ''
+              'y': ''
+            shadowSize:
+              x: ''
+              'y': ''
+            shadowAnchor:
+              x: ''
+              'y': ''
+            popupAnchor:
+              x: ''
+              'y': ''
+            html: '<div></div>'
+            html_class: leaflet-map-divicon
+            circle_marker_options: '{"radius":100,"color":"red","fillColor":"#f03","fillOpacity":0.5}'
+          fullscreen:
+            control: true
+            options: '{"position":"topleft","pseudoFullscreen":false}'
+          path: '{"color":"{{ nothing }}","opacity":"1.0","stroke":true,"weight":3,"fill":"depends","fillColor":"*","fillOpacity":"0.2","radius":"6"}'
+          map_lazy_load:
+            lazy_load: true
+          feature_properties:
+            values: '{"content_type":"{{ field_type }}"}'
+      row:
+        type: fields
+        options: {  }
+      defaults:
+        style: false
+        row: false
+        arguments: false
+      display_description: ''
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - user.permissions
+      tags:
+        - 'config:field.storage.storage.field_location'
+        - 'config:field.storage.storage.field_type'
   map_sites_node:
     id: map_sites_node
     display_title: 'Mappa sito di volo'
     display_plugin: block
-    position: 1
+    position: 2
     display_options:
+      arguments:
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: reverse__node__field_map_elements
+          group_type: group
+          admin_label: ''
+          entity_type: node
+          entity_field: nid
+          plugin_id: node_nid
+          default_action: default
+          exception:
+            value: all
+            title_enable: false
+            title: All
+          title_enable: false
+          title: ''
+          default_argument_type: node
+          default_argument_options: {  }
+          default_argument_skip_url: false
+          summary_options:
+            base_path: ''
+            count: true
+            override: false
+            items_per_page: 25
+          summary:
+            sort_order: asc
+            number_of_records: 0
+            format: default_summary
+          specify_validation: false
+          validate:
+            type: none
+            fail: 'not found'
+          validate_options: {  }
+          break_phrase: false
+          not: false
+      defaults:
+        arguments: false
       display_description: ''
       display_extenders: {  }
     cache_metadata:
