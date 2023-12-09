@@ -15,6 +15,7 @@ module:
   coffee: 0
   config: 0
   contact: 0
+  contact_block: 0
   contextual: 0
   datetime: 0
   dblog: 0
@@ -38,6 +39,7 @@ module:
   inline_form_errors: 0
   language: 0
   layout_builder: 0
+  layout_builder_modal: 0
   layout_discovery: 0
   lb_claro: 0
   leaflet: 0

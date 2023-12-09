@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "42178c93-c6df-4059-92a3-0a65cd009b38"
+            "value": "61fdc27c-5858-415b-ad59-dfdb61ce0836"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-09T20:49:04+00:00",
+            "value": "2023-12-09T21:08:22+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,29 +42,29 @@
     ],
     "title": [
         {
-            "value": "Home"
+            "value": "Contatti"
         }
     ],
     "created": [
         {
-            "value": "2023-08-04T15:48:02+00:00",
+            "value": "2023-12-09T20:42:43+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-09T20:49:04+00:00",
+            "value": "2023-12-09T21:08:22+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "promote": [
         {
-            "value": true
+            "value": false
         }
     ],
     "sticky": [
         {
-            "value": true
+            "value": false
         }
     ],
     "default_langcode": [
@@ -72,12 +72,16 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
     "path": [
         {
-            "alias": "\/home",
+            "alias": "\/contatti",
             "langcode": "it",
-            "pathauto": 0
+            "pathauto": 1
         }
     ],
     "body": [],
@@ -105,7 +109,40 @@
                                 "third_party_settings": []
                             }
                         },
-                        "weight": 2,
+                        "weight": 0,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "944cb985-bbc8-4578-a8bc-7741b2247444",
+                        "region": "content",
+                        "configuration": {
+                            "id": "inline_block:basic",
+                            "label": "Contatti",
+                            "label_display": 0,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_revision_id": "11",
+                            "block_serialized": null,
+                            "context_mapping": [],
+                            "type": "basic",
+                            "uuid": "b547e53a-0fe9-476d-8bd3-9cb4915a0404"
+                        },
+                        "weight": 4,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "d0c686a5-4653-4cba-8945-b7a0a61ce3ce",
+                        "region": "content",
+                        "configuration": {
+                            "id": "contact_block",
+                            "label": "Contact block",
+                            "label_display": 0,
+                            "provider": "contact_block",
+                            "contact_form": "contatti",
+                            "form_display": "default",
+                            "context_mapping": []
+                        },
+                        "weight": 7,
                         "additional": []
                     },
                     {
@@ -118,23 +155,7 @@
                                 "entity": "layout_builder.entity"
                             }
                         },
-                        "weight": 3,
-                        "additional": []
-                    },
-                    {
-                        "uuid": "80a98e17-e76f-4bd3-bebc-478d3a12dadb",
-                        "region": "content",
-                        "configuration": {
-                            "id": "system_branding_block",
-                            "label": "Branding del sito",
-                            "label_display": 0,
-                            "provider": "system",
-                            "use_site_logo": 1,
-                            "use_site_name": 0,
-                            "use_site_slogan": 0,
-                            "context_mapping": []
-                        },
-                        "weight": 0,
+                        "weight": 8,
                         "additional": []
                     }
                 ],

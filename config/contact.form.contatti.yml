@@ -10,7 +10,7 @@ third_party_settings:
     use_captcha: false
     use_honeypot: true
 id: contatti
-label: Contatti
+label: 'Form Contatti'
 recipients:
   - segreteria@ventorelativo.it
 reply: ''
