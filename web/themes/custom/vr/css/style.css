@@ -12916,4 +12916,20 @@ footer .region-footer {
   display: none;
 }
 
+@media (max-width: 767.98px) {
+  .tabs-wrapper.is-collapsible .is-open .nav-item:not(.active) {
+    padding: 0;
+  }
+  .tabs-wrapper.is-collapsible .is-open .nav-item:not(.active) > a {
+    background: white;
+  }
+  .tabs-wrapper.is-collapsible .is-open .nav-item:not(.active) > a:hover, .tabs-wrapper.is-collapsible .is-open .nav-item:not(.active) > a:focus {
+    opacity: 0.8;
+  }
+}
+.leaflet-container {
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+}
+
 /*# sourceMappingURL=style.css.map */

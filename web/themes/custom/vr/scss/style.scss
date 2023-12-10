@@ -117,3 +117,25 @@ footer .region-footer {
     display: none;
   }
 }
+
+// Primary tabs background on mobile.
+@include media-breakpoint-down(md) {
+  .tabs-wrapper.is-collapsible .is-open .nav-item:not(.active) {
+    padding: 0;
+
+    > a {
+      background: white;
+
+      &:hover,
+      &:focus {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+// Nice leaflet borders.
+.leaflet-container {
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+}

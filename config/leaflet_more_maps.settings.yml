@@ -9,7 +9,6 @@ leaflet_more_maps_custom_maps:
     layer-keys:
       'bing hybrid layer': 'bing hybrid layer'
       'osm-landscape layer': 'osm-landscape layer'
-      'osm-outdoors layer': 'osm-outdoors layer'
       'bing satellite layer': 0
       'bing road layer': 0
       'esri-world_imagery layer': 0
@@ -30,6 +29,7 @@ leaflet_more_maps_custom_maps:
       'mapbox-streets layer': 0
       'osm-cycle layer': 0
       'osm-transport layer': 0
+      'osm-outdoors layer': 0
       'osm-transport-dark layer': 0
       'osm-spinal-map layer': 0
       'osm-pioneer layer': 0

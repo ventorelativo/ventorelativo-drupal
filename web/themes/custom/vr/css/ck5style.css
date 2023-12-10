@@ -11935,5 +11935,20 @@ a > .ck-content code {
 .ck-content .block-gtranslate-block .gt-current-lang {
   display: none;
 }
+@media (max-width: 767.98px) {
+  .ck-content .tabs-wrapper.is-collapsible .is-open .nav-item:not(.active) {
+    padding: 0;
+  }
+  .ck-content .tabs-wrapper.is-collapsible .is-open .nav-item:not(.active) > a {
+    background: white;
+  }
+  .ck-content .tabs-wrapper.is-collapsible .is-open .nav-item:not(.active) > a:hover, .ck-content .tabs-wrapper.is-collapsible .is-open .nav-item:not(.active) > a:focus {
+    opacity: 0.8;
+  }
+}
+.ck-content .leaflet-container {
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+}
 
 /*# sourceMappingURL=ck5style.css.map */
