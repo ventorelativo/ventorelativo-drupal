@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "f7e5f673-2647-4ccc-ab73-46a0a34a6edc"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/cf42b453-6fd2-4f9d-bddc-81b557b6d52d"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/siti\/podio"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

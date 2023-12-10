@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "71047eab-4ace-4256-a4a9-2059fc609f95"
+            "value": "5c592d7c-dfa0-4c6c-b592-6852867466a8"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-02T22:56:46+00:00",
+            "value": "2023-12-10T11:35:55+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,18 +42,18 @@
     ],
     "name": [
         {
-            "value": "Montoso monumento (In allestimento)"
+            "value": "Colle Lazzar\u00e0"
         }
     ],
     "created": [
         {
-            "value": "2023-12-02T22:56:46+00:00",
+            "value": "2023-12-10T11:35:55+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T11:47:52+00:00",
+            "value": "2023-12-10T11:35:55+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -69,16 +69,16 @@
     ],
     "field_location": [
         {
-            "value": "POINT (7.250703 44.763655)",
+            "value": "POINT (7.178026 44.922466)",
             "geo_type": "Point",
-            "lat": 44.763655,
-            "lon": 7.250703,
-            "left": 7.250703,
-            "top": 44.763655,
-            "right": 7.250703,
-            "bottom": 44.763655,
-            "geohash": "spvnsuzz1wh5",
-            "latlon": "44.763655,7.250703"
+            "lat": 44.922466,
+            "lon": 7.178026,
+            "left": 7.178026,
+            "top": 44.922466,
+            "right": 7.178026,
+            "bottom": 44.922466,
+            "geohash": "spvpe3fuk4s5",
+            "latlon": "44.922466,7.178026"
         }
     ],
     "field_type": [

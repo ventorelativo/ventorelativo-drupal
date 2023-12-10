@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "bff1dda6-a45d-4755-8b24-54e23c6eb2e4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/41f7bec5-a028-4c56-b646-fb13a62bad3e"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/siti\/giuc"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "71047eab-4ace-4256-a4a9-2059fc609f95"
+            "value": "a12da2c5-aaa5-4298-8506-eb750b79191e"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-02T22:56:46+00:00",
+            "value": "2023-12-10T11:33:46+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,18 +42,18 @@
     ],
     "name": [
         {
-            "value": "Montoso monumento (In allestimento)"
+            "value": "Atterraggio \"Beba\""
         }
     ],
     "created": [
         {
-            "value": "2023-12-02T22:56:46+00:00",
+            "value": "2023-12-10T11:33:46+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T11:47:52+00:00",
+            "value": "2023-12-10T11:33:46+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -69,21 +69,21 @@
     ],
     "field_location": [
         {
-            "value": "POINT (7.250703 44.763655)",
-            "geo_type": "Point",
-            "lat": 44.763655,
-            "lon": 7.250703,
-            "left": 7.250703,
-            "top": 44.763655,
-            "right": 7.250703,
-            "bottom": 44.763655,
-            "geohash": "spvnsuzz1wh5",
-            "latlon": "44.763655,7.250703"
+            "value": "GEOMETRYCOLLECTION (POLYGON ((7.238644 44.921349, 7.239363 44.921547, 7.239953 44.920703, 7.239207 44.920437, 7.238644 44.921349)), POINT (7.239255 44.921015))",
+            "geo_type": "GeometryCollection",
+            "lat": 44.920992234622275,
+            "lon": 7.2392985378194155,
+            "left": 7.238644,
+            "top": 44.921547,
+            "right": 7.239953,
+            "bottom": 44.920437,
+            "geohash": "spvps9x",
+            "latlon": "44.920992234622,7.2392985378194"
         }
     ],
     "field_type": [
         {
-            "value": "takeoff"
+            "value": "landing"
         }
     ]
 }

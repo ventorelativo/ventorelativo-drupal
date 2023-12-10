@@ -29,6 +29,7 @@
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/gtranslate": "^3.0",
         "drupal/image_style_quality": "^1.6",
+        "drupal/inline_entity_form": "^3.0@RC",
         "drupal/layout_builder_modal": "^1.2",
         "drupal/lb_claro": "^2.0@alpha",
         "drupal/leaflet_more_maps": "^2.1",

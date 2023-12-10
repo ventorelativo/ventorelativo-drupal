@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "71047eab-4ace-4256-a4a9-2059fc609f95"
+            "value": "8bf5ca36-068a-407e-a440-3417d9b2f217"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-02T22:56:46+00:00",
+            "value": "2023-12-10T11:49:56+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,18 +42,18 @@
     ],
     "name": [
         {
-            "value": "Montoso monumento (In allestimento)"
+            "value": "Atterraggio Inverso Pinasca"
         }
     ],
     "created": [
         {
-            "value": "2023-12-02T22:56:46+00:00",
+            "value": "2023-12-10T11:49:56+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T11:47:52+00:00",
+            "value": "2023-12-10T11:49:56+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -69,21 +69,21 @@
     ],
     "field_location": [
         {
-            "value": "POINT (7.250703 44.763655)",
-            "geo_type": "Point",
-            "lat": 44.763655,
-            "lon": 7.250703,
-            "left": 7.250703,
-            "top": 44.763655,
-            "right": 7.250703,
-            "bottom": 44.763655,
-            "geohash": "spvnsuzz1wh5",
-            "latlon": "44.763655,7.250703"
+            "value": "GEOMETRYCOLLECTION (POLYGON ((7.214499 44.946724, 7.214724 44.946804, 7.21496 44.946762, 7.214965 44.946702, 7.216269 44.946007, 7.215598 44.945449, 7.214499 44.946724)), POINT (7.215389 44.946189))",
+            "geo_type": "GeometryCollection",
+            "lat": 44.94612628673011,
+            "lon": 7.215383965748133,
+            "left": 7.214499,
+            "top": 44.946804,
+            "right": 7.216269,
+            "bottom": 44.945449,
+            "geohash": "spvpsn",
+            "latlon": "44.94612628673,7.2153839657481"
         }
     ],
     "field_type": [
         {
-            "value": "takeoff"
+            "value": "landing"
         }
     ]
 }

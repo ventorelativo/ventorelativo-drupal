@@ -1,0 +1,102 @@
+{
+    "uuid": [
+        {
+            "value": "06ab2735-2bd2-4fde-929f-166cde1a78d9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "sito",
+            "target_type": "node_type",
+            "target_uuid": "f0819210-f20b-4018-a18c-6e20415015a5"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-12-10T12:02:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "title": [
+        {
+            "value": "Le Grange"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-12-10T11:15:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-12-10T12:02:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/siti\/le-grange",
+            "langcode": "it",
+            "pathauto": 1
+        }
+    ],
+    "body": [],
+    "field_map_elements": [
+        {
+            "target_type": "storage",
+            "target_uuid": "546b6221-18b0-4b1b-806c-552cadbd165d"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "a12da2c5-aaa5-4298-8506-eb750b79191e"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "41c02a58-dd24-445a-b9e0-6f2f7c1688d1"
+        }
+    ]
+}

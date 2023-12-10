@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.sito.field_map_elements
     - node.type.sito
   module:
+    - inline_entity_form
     - path
     - text
 id: node.sito.default
@@ -31,14 +32,22 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_map_elements:
-    type: entity_reference_autocomplete
+    type: inline_entity_form_complex
     weight: 123
     region: content
     settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
       match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: optional
     third_party_settings: {  }
   langcode:
     type: language_select
@@ -59,6 +68,11 @@ content:
     region: content
     settings:
       display_label: true
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox

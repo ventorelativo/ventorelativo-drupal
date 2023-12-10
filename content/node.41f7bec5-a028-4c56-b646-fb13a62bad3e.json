@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "71047eab-4ace-4256-a4a9-2059fc609f95"
+            "value": "41f7bec5-a028-4c56-b646-fb13a62bad3e"
         }
     ],
     "langcode": [
@@ -11,14 +11,14 @@
     ],
     "type": [
         {
-            "target_id": "map_feature",
-            "target_type": "storage_type",
-            "target_uuid": "6be398ac-fc82-4b3f-a2ba-5beda88c6458"
+            "target_id": "sito",
+            "target_type": "node_type",
+            "target_uuid": "f0819210-f20b-4018-a18c-6e20415015a5"
         }
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-02T22:56:46+00:00",
+            "value": "2023-12-10T11:13:27+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -34,32 +34,37 @@
             "value": true
         }
     ],
-    "user_id": [
+    "uid": [
         {
             "target_type": "user",
             "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
         }
     ],
-    "name": [
+    "title": [
         {
-            "value": "Montoso monumento (In allestimento)"
+            "value": "Giuc"
         }
     ],
     "created": [
         {
-            "value": "2023-12-02T22:56:46+00:00",
+            "value": "2023-12-10T11:13:16+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T11:47:52+00:00",
+            "value": "2023-12-10T11:13:27+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "revision_translation_affected": [
+    "promote": [
         {
-            "value": true
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
         }
     ],
     "default_langcode": [
@@ -67,23 +72,19 @@
             "value": true
         }
     ],
-    "field_location": [
+    "revision_translation_affected": [
         {
-            "value": "POINT (7.250703 44.763655)",
-            "geo_type": "Point",
-            "lat": 44.763655,
-            "lon": 7.250703,
-            "left": 7.250703,
-            "top": 44.763655,
-            "right": 7.250703,
-            "bottom": 44.763655,
-            "geohash": "spvnsuzz1wh5",
-            "latlon": "44.763655,7.250703"
+            "value": true
         }
     ],
-    "field_type": [
+    "path": [
         {
-            "value": "takeoff"
+            "alias": "",
+            "pid": null,
+            "langcode": "it",
+            "pathauto": 1
         }
-    ]
+    ],
+    "body": [],
+    "field_map_elements": []
 }

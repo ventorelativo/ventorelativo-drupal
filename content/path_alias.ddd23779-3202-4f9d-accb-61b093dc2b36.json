@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "ddd23779-3202-4f9d-accb-61b093dc2b36"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/06ab2735-2bd2-4fde-929f-166cde1a78d9"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/siti\/le-grange"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

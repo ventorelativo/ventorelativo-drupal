@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "71047eab-4ace-4256-a4a9-2059fc609f95"
+            "value": "ef3fe725-1152-44ad-be0e-6b895c088238"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-02T22:56:46+00:00",
+            "value": "2023-12-10T11:55:22+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,18 +42,18 @@
     ],
     "name": [
         {
-            "value": "Montoso monumento (In allestimento)"
+            "value": "Atterraggio Podio"
         }
     ],
     "created": [
         {
-            "value": "2023-12-02T22:56:46+00:00",
+            "value": "2023-12-10T11:55:22+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T11:47:52+00:00",
+            "value": "2023-12-10T11:55:22+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -69,21 +69,21 @@
     ],
     "field_location": [
         {
-            "value": "POINT (7.250703 44.763655)",
-            "geo_type": "Point",
-            "lat": 44.763655,
-            "lon": 7.250703,
-            "left": 7.250703,
-            "top": 44.763655,
-            "right": 7.250703,
-            "bottom": 44.763655,
-            "geohash": "spvnsuzz1wh5",
-            "latlon": "44.763655,7.250703"
+            "value": "GEOMETRYCOLLECTION (POINT (7.236723 44.937456), POLYGON ((7.236809 44.937695, 7.237136 44.937346, 7.236761 44.937103, 7.236117 44.937836, 7.236809 44.937695)))",
+            "geo_type": "GeometryCollection",
+            "lat": 44.93746806982118,
+            "lon": 7.236626269697924,
+            "left": 7.236117,
+            "top": 44.937836,
+            "right": 7.237136,
+            "bottom": 44.937103,
+            "geohash": "spvpsst",
+            "latlon": "44.937468069821,7.2366262696979"
         }
     ],
     "field_type": [
         {
-            "value": "takeoff"
+            "value": "landing"
         }
     ]
 }

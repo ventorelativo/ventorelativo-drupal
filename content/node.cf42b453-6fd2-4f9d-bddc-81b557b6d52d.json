@@ -1,0 +1,98 @@
+{
+    "uuid": [
+        {
+            "value": "cf42b453-6fd2-4f9d-bddc-81b557b6d52d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "sito",
+            "target_type": "node_type",
+            "target_uuid": "f0819210-f20b-4018-a18c-6e20415015a5"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-12-10T11:55:24+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "title": [
+        {
+            "value": "Podio"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-12-10T11:13:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-12-10T11:55:24+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/siti\/podio",
+            "langcode": "it",
+            "pathauto": 1
+        }
+    ],
+    "body": [],
+    "field_map_elements": [
+        {
+            "target_type": "storage",
+            "target_uuid": "3e9bdec4-1e64-4420-a6a1-ce12ed6fe43a"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "ef3fe725-1152-44ad-be0e-6b895c088238"
+        }
+    ]
+}

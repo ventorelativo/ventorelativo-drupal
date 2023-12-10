@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "1b811d91-8670-4002-9e5b-45fa00eae733"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/382ae883-ac21-4116-a53f-01177ccb4325"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/siti\/punta-ceresa"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -20,7 +20,7 @@ content:
     settings:
       map:
         leaflet_map: ~Paragliding
-        height: 600
+        height: 300
         auto_center: 1
         map_position:
           force: true

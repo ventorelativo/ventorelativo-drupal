@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "e9db3dc5-2668-431f-b835-bbd62c9642c6"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/dfa1c93b-04fa-4b75-ab14-e3684460f91f"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/siti\/colle-lazzara"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

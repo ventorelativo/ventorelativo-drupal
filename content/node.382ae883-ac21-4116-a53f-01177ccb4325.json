@@ -1,0 +1,102 @@
+{
+    "uuid": [
+        {
+            "value": "382ae883-ac21-4116-a53f-01177ccb4325"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "sito",
+            "target_type": "node_type",
+            "target_uuid": "f0819210-f20b-4018-a18c-6e20415015a5"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-12-10T12:03:10+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "title": [
+        {
+            "value": "Punta Ceresa"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-12-10T11:13:53+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-12-10T12:03:10+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/siti\/punta-ceresa",
+            "langcode": "it",
+            "pathauto": 1
+        }
+    ],
+    "body": [],
+    "field_map_elements": [
+        {
+            "target_type": "storage",
+            "target_uuid": "a89d10a0-43c1-4a2d-af61-e91c2b0d7f14"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "8bf5ca36-068a-407e-a440-3417d9b2f217"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "41c02a58-dd24-445a-b9e0-6f2f7c1688d1"
+        }
+    ]
+}
