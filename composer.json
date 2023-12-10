@@ -18,6 +18,7 @@
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
         "drupal-tome/tome_drush": "dev-master",
+        "drupal/admin_toolbar_tools": "^3.4",
         "drupal/background_image_formatter": "^2.0",
         "drupal/block_class": "2.0.x-dev@dev",
         "drupal/bootstrap5": "^3.0",
@@ -27,6 +28,8 @@
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-recommended": "^10.0",
         "drupal/easy_breadcrumb": "^2.0",
+        "drupal/gin": "^3.0@rc",
+        "drupal/gin_toolbar": "^1.0@rc",
         "drupal/gtranslate": "^3.0",
         "drupal/image_style_quality": "^1.6",
         "drupal/inline_entity_form": "^3.0@RC",
@@ -40,7 +43,6 @@
         "drupal/pathauto": "^1.11",
         "drupal/project_browser": "^1.0@beta",
         "drupal/redirect": "^1.8",
-        "drupal/seeds_toolbar": "2.x-dev@dev",
         "drupal/simple_sitemap": "^4.1",
         "drupal/storage": "^1.3",
         "drupal/svg_image": "^3.0",
@@ -112,9 +114,6 @@
         "patches": {
             "drupal/core": {
                 "Expose Layout Builder data to REST and JSON:API - 2942975": "https://www.drupal.org/files/issues/2023-08-14/2942975-240.patch"
-            },
-            "drupal/seeds_toolbar": {
-                "body class \"light\" and \"dark\" may clash with themes with dark mode - 3377986": "https://git.drupalcode.org/project/seeds_toolbar/-/merge_requests/4.diff"
             },
             "drupal/leaflet_more_maps": {
                 "Support for retina tiles - 3404743": "https://git.drupalcode.org/project/leaflet_more_maps/-/merge_requests/10.diff",
