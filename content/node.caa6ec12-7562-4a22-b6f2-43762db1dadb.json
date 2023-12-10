@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "41f7bec5-a028-4c56-b646-fb13a62bad3e"
+            "value": "caa6ec12-7562-4a22-b6f2-43762db1dadb"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-10T12:36:06+00:00",
+            "value": "2023-12-10T14:44:25+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,18 +42,18 @@
     ],
     "title": [
         {
-            "value": "Giuc"
+            "value": "Pralamar"
         }
     ],
     "created": [
         {
-            "value": "2023-12-10T11:13:16+00:00",
+            "value": "2023-12-10T14:35:23+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T13:32:40+00:00",
+            "value": "2023-12-10T14:52:43+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -79,7 +79,7 @@
     ],
     "path": [
         {
-            "alias": "\/siti\/giuc",
+            "alias": "\/siti\/pralamar",
             "langcode": "it",
             "pathauto": 1
         }
@@ -88,11 +88,23 @@
     "field_map_elements": [
         {
             "target_type": "storage",
-            "target_uuid": "94446979-2394-400c-9810-7674ca8fd2ce"
+            "target_uuid": "c27665e0-c844-4038-bb2b-7bd39266ce02"
         },
         {
             "target_type": "storage",
-            "target_uuid": "a4e15ec3-2c77-4523-9ffd-19a69e3985fc"
+            "target_uuid": "ef3fe725-1152-44ad-be0e-6b895c088238"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "a12da2c5-aaa5-4298-8506-eb750b79191e"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "8bf5ca36-068a-407e-a440-3417d9b2f217"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "41c02a58-dd24-445a-b9e0-6f2f7c1688d1"
         }
     ]
 }

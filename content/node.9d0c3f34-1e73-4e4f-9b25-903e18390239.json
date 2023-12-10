@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "41f7bec5-a028-4c56-b646-fb13a62bad3e"
+            "value": "9d0c3f34-1e73-4e4f-9b25-903e18390239"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-10T12:36:06+00:00",
+            "value": "2023-12-10T18:30:39+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,18 +42,18 @@
     ],
     "title": [
         {
-            "value": "Giuc"
+            "value": "Pian dell'Alpe"
         }
     ],
     "created": [
         {
-            "value": "2023-12-10T11:13:16+00:00",
+            "value": "2023-12-10T18:17:39+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T13:32:40+00:00",
+            "value": "2023-12-10T18:30:39+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -79,7 +79,7 @@
     ],
     "path": [
         {
-            "alias": "\/siti\/giuc",
+            "alias": "\/siti\/pian-dellalpe",
             "langcode": "it",
             "pathauto": 1
         }
@@ -88,11 +88,11 @@
     "field_map_elements": [
         {
             "target_type": "storage",
-            "target_uuid": "94446979-2394-400c-9810-7674ca8fd2ce"
+            "target_uuid": "f3daf036-7df9-4f54-a3da-ac51e8093565"
         },
         {
             "target_type": "storage",
-            "target_uuid": "a4e15ec3-2c77-4523-9ffd-19a69e3985fc"
+            "target_uuid": "1d7529da-140e-41ce-a8f6-eeb543b19719"
         }
     ]
 }

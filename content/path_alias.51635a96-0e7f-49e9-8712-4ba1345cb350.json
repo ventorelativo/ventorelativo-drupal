@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "51635a96-0e7f-49e9-8712-4ba1345cb350"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/3fbe628c-9c9d-4694-ba1d-3f35fde2da37"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/siti\/sarsena"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

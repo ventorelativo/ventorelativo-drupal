@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "41f7bec5-a028-4c56-b646-fb13a62bad3e"
+            "value": "3fbe628c-9c9d-4694-ba1d-3f35fde2da37"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-10T12:36:06+00:00",
+            "value": "2023-12-10T13:41:26+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,18 +42,18 @@
     ],
     "title": [
         {
-            "value": "Giuc"
+            "value": "Sarsen\u00e0"
         }
     ],
     "created": [
         {
-            "value": "2023-12-10T11:13:16+00:00",
+            "value": "2023-12-10T13:38:05+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T13:32:40+00:00",
+            "value": "2023-12-10T13:50:01+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -79,7 +79,7 @@
     ],
     "path": [
         {
-            "alias": "\/siti\/giuc",
+            "alias": "\/siti\/sarsena",
             "langcode": "it",
             "pathauto": 1
         }
@@ -88,11 +88,11 @@
     "field_map_elements": [
         {
             "target_type": "storage",
-            "target_uuid": "94446979-2394-400c-9810-7674ca8fd2ce"
+            "target_uuid": "8ca1efab-7542-4720-9d1f-c0439a8e32a0"
         },
         {
             "target_type": "storage",
-            "target_uuid": "a4e15ec3-2c77-4523-9ffd-19a69e3985fc"
+            "target_uuid": "441caac5-5908-4b32-b2ea-890836e731b8"
         }
     ]
 }

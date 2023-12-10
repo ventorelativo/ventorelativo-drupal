@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-12-10T11:47:52+00:00",
+            "value": "2023-12-10T15:23:28+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -72,7 +72,11 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
     "path": [
         {
             "alias": "\/siti\/montoso",
@@ -102,7 +106,7 @@
         },
         {
             "target_type": "storage",
-            "target_uuid": "ccbb14c0-2618-4d22-963c-843e01c29207"
+            "target_uuid": "07e4bc39-d90c-4c5e-b007-905bc034c5ab"
         }
     ]
 }

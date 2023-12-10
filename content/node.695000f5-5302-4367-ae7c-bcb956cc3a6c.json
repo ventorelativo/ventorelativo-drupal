@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "41f7bec5-a028-4c56-b646-fb13a62bad3e"
+            "value": "695000f5-5302-4367-ae7c-bcb956cc3a6c"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-10T12:36:06+00:00",
+            "value": "2023-12-10T17:27:31+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,18 +42,18 @@
     ],
     "title": [
         {
-            "value": "Giuc"
+            "value": "Forte di Fenestrelle"
         }
     ],
     "created": [
         {
-            "value": "2023-12-10T11:13:16+00:00",
+            "value": "2023-12-10T16:51:25+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T13:32:40+00:00",
+            "value": "2023-12-10T17:27:31+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -79,7 +79,8 @@
     ],
     "path": [
         {
-            "alias": "\/siti\/giuc",
+            "alias": "",
+            "pid": null,
             "langcode": "it",
             "pathauto": 1
         }
@@ -88,11 +89,11 @@
     "field_map_elements": [
         {
             "target_type": "storage",
-            "target_uuid": "94446979-2394-400c-9810-7674ca8fd2ce"
+            "target_uuid": "3617385f-671a-435a-8cde-eaf6b3adf633"
         },
         {
             "target_type": "storage",
-            "target_uuid": "a4e15ec3-2c77-4523-9ffd-19a69e3985fc"
+            "target_uuid": "6640259a-4faf-4bd9-a00c-1b3146acf4f7"
         }
     ]
 }

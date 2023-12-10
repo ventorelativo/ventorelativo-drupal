@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "41f7bec5-a028-4c56-b646-fb13a62bad3e"
+            "value": "7fc6d031-a4c5-4b58-9194-ea76e13ecddb"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-10T12:36:06+00:00",
+            "value": "2023-12-10T14:28:09+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,18 +42,18 @@
     ],
     "title": [
         {
-            "value": "Giuc"
+            "value": "Prali"
         }
     ],
     "created": [
         {
-            "value": "2023-12-10T11:13:16+00:00",
+            "value": "2023-12-10T14:14:32+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T13:32:40+00:00",
+            "value": "2023-12-10T14:28:45+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -79,7 +79,7 @@
     ],
     "path": [
         {
-            "alias": "\/siti\/giuc",
+            "alias": "\/siti\/praly",
             "langcode": "it",
             "pathauto": 1
         }
@@ -88,11 +88,11 @@
     "field_map_elements": [
         {
             "target_type": "storage",
-            "target_uuid": "94446979-2394-400c-9810-7674ca8fd2ce"
+            "target_uuid": "066519eb-51da-4fd0-93a9-ec642940ea11"
         },
         {
             "target_type": "storage",
-            "target_uuid": "a4e15ec3-2c77-4523-9ffd-19a69e3985fc"
+            "target_uuid": "0aa849eb-018a-4d3b-bf19-15aa19809196"
         }
     ]
 }

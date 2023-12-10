@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "4f84443b-b006-484b-8a4a-d115450b2631"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/caa6ec12-7562-4a22-b6f2-43762db1dadb"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/siti\/pralamar"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

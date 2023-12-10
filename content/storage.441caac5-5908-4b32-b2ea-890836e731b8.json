@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "41c02a58-dd24-445a-b9e0-6f2f7c1688d1"
+            "value": "441caac5-5908-4b32-b2ea-890836e731b8"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-10T12:02:09+00:00",
+            "value": "2023-12-10T13:49:54+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,18 +42,18 @@
     ],
     "name": [
         {
-            "value": "Linea alta tensione Villar Chisone \u26a1\u2620\ufe0f"
+            "value": "Atterraggio Strada Provinciale Bobbio"
         }
     ],
     "created": [
         {
-            "value": "2023-12-10T12:02:09+00:00",
+            "value": "2023-12-10T13:49:54+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T14:52:43+00:00",
+            "value": "2023-12-10T13:49:54+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -69,21 +69,21 @@
     ],
     "field_location": [
         {
-            "value": "LINESTRING (7.222395 44.94442, 7.234583 44.929504, 7.237158 44.928197)",
-            "geo_type": "LineString",
-            "lat": 44.936308499553945,
-            "lon": 7.22977649992696,
-            "left": 7.222395,
-            "top": 44.94442,
-            "right": 7.237158,
-            "bottom": 44.928197,
-            "geohash": "spvps",
-            "latlon": "44.936308499554,7.229776499927"
+            "value": "GEOMETRYCOLLECTION (POLYGON ((7.129799 44.806608, 7.129798 44.80613, 7.130278 44.806077, 7.130965 44.806032, 7.131581 44.806134, 7.131576 44.806553, 7.129799 44.806608)), POINT (7.130602 44.806338))",
+            "geo_type": "GeometryCollection",
+            "lat": 44.806319838847166,
+            "lon": 7.130689474330275,
+            "left": 7.129798,
+            "top": 44.806608,
+            "right": 7.131581,
+            "bottom": 44.806032,
+            "geohash": "spvnf",
+            "latlon": "44.806319838847,7.1306894743303"
         }
     ],
     "field_type": [
         {
-            "value": "obstacle"
+            "value": "landing"
         }
     ]
 }

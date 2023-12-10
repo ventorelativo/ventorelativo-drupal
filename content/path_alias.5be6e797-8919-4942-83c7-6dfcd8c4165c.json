@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "5be6e797-8919-4942-83c7-6dfcd8c4165c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/9d0c3f34-1e73-4e4f-9b25-903e18390239"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/siti\/pian-dellalpe"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "c1c5df7a-c657-4e60-842c-3a399708cad9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/695000f5-5302-4367-ae7c-bcb956cc3a6c"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/siti\/forte-di-fenestrelle"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

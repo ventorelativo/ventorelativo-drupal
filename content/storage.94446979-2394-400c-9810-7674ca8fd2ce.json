@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "41f7bec5-a028-4c56-b646-fb13a62bad3e"
+            "value": "94446979-2394-400c-9810-7674ca8fd2ce"
         }
     ],
     "langcode": [
@@ -11,14 +11,14 @@
     ],
     "type": [
         {
-            "target_id": "sito",
-            "target_type": "node_type",
-            "target_uuid": "f0819210-f20b-4018-a18c-6e20415015a5"
+            "target_id": "map_feature",
+            "target_type": "storage_type",
+            "target_uuid": "6be398ac-fc82-4b3f-a2ba-5beda88c6458"
         }
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-10T12:36:06+00:00",
+            "value": "2023-12-10T12:36:02+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -34,42 +34,27 @@
             "value": true
         }
     ],
-    "uid": [
+    "user_id": [
         {
             "target_type": "user",
             "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
         }
     ],
-    "title": [
+    "name": [
         {
             "value": "Giuc"
         }
     ],
     "created": [
         {
-            "value": "2023-12-10T11:13:16+00:00",
+            "value": "2023-12-10T12:36:02+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T13:32:40+00:00",
+            "value": "2023-12-10T12:36:02+00:00",
             "format": "Y-m-d\\TH:i:sP"
-        }
-    ],
-    "promote": [
-        {
-            "value": false
-        }
-    ],
-    "sticky": [
-        {
-            "value": false
-        }
-    ],
-    "default_langcode": [
-        {
-            "value": true
         }
     ],
     "revision_translation_affected": [
@@ -77,22 +62,28 @@
             "value": true
         }
     ],
-    "path": [
+    "default_langcode": [
         {
-            "alias": "\/siti\/giuc",
-            "langcode": "it",
-            "pathauto": 1
+            "value": true
         }
     ],
-    "body": [],
-    "field_map_elements": [
+    "field_location": [
         {
-            "target_type": "storage",
-            "target_uuid": "94446979-2394-400c-9810-7674ca8fd2ce"
-        },
+            "value": "POINT (7.197992 44.839933)",
+            "geo_type": "Point",
+            "lat": 44.839933,
+            "lon": 7.197992,
+            "left": 7.197992,
+            "top": 44.839933,
+            "right": 7.197992,
+            "bottom": 44.839933,
+            "geohash": "spvp5fc7t37g",
+            "latlon": "44.839933,7.197992"
+        }
+    ],
+    "field_type": [
         {
-            "target_type": "storage",
-            "target_uuid": "a4e15ec3-2c77-4523-9ffd-19a69e3985fc"
+            "value": "takeoff"
         }
     ]
 }

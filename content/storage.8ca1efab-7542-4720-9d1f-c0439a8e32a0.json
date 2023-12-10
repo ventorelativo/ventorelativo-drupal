@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "41c02a58-dd24-445a-b9e0-6f2f7c1688d1"
+            "value": "8ca1efab-7542-4720-9d1f-c0439a8e32a0"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-10T12:02:09+00:00",
+            "value": "2023-12-10T13:41:18+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,18 +42,18 @@
     ],
     "name": [
         {
-            "value": "Linea alta tensione Villar Chisone \u26a1\u2620\ufe0f"
+            "value": "Sarsen\u00e0"
         }
     ],
     "created": [
         {
-            "value": "2023-12-10T12:02:09+00:00",
+            "value": "2023-12-10T13:41:18+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T14:52:43+00:00",
+            "value": "2023-12-10T13:41:18+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -69,21 +69,21 @@
     ],
     "field_location": [
         {
-            "value": "LINESTRING (7.222395 44.94442, 7.234583 44.929504, 7.237158 44.928197)",
-            "geo_type": "LineString",
-            "lat": 44.936308499553945,
-            "lon": 7.22977649992696,
-            "left": 7.222395,
-            "top": 44.94442,
-            "right": 7.237158,
-            "bottom": 44.928197,
-            "geohash": "spvps",
-            "latlon": "44.936308499554,7.229776499927"
+            "value": "POINT (7.114071 44.820542)",
+            "geo_type": "Point",
+            "lat": 44.820542,
+            "lon": 7.114071,
+            "left": 7.114071,
+            "top": 44.820542,
+            "right": 7.114071,
+            "bottom": 44.820542,
+            "geohash": "spvnczk69feg",
+            "latlon": "44.820542,7.114071"
         }
     ],
     "field_type": [
         {
-            "value": "obstacle"
+            "value": "takeoff"
         }
     ]
 }
