@@ -30,7 +30,7 @@ content:
           zoomControlPosition: topleft
           zoom: 10
           minZoom: 1
-          maxZoom: 18
+          maxZoom: 22
           zoomFiner: 0
         scroll_zoom_enabled: 1
       input:

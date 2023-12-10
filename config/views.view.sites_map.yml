@@ -66,14 +66,14 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: ''
+          element_type: '0'
           element_class: ''
-          element_label_type: ''
+          element_label_type: '0'
           element_label_class: ''
           element_label_colon: false
-          element_wrapper_type: ''
+          element_wrapper_type: '0'
           element_wrapper_class: ''
-          element_default_classes: true
+          element_default_classes: false
           empty: ''
           hide_empty: false
           empty_zero: false
@@ -91,55 +91,6 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        nothing:
-          id: nothing
-          table: views
-          field: nothing
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: custom
-          label: ''
-          exclude: false
-          alter:
-            alter_text: true
-            text: "{%- if field_type == \"takeoff\" -%}#3388ff\r\n{%- elseif field_type == \"landing\" -%}green\r\n{%- elseif field_type == \"obstacle\" -%}purple\r\n{%- elseif field_type == \"poi\" -%}yellow\r\n{%- else -%}black\r\n{%- endif -%}"
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: false
         name:
           id: name
           table: storage_field_data
@@ -242,6 +193,69 @@ display:
             trim: false
             preserve_tags: ''
             html: false
+          element_type: '0'
+          element_class: ''
+          element_label_type: '0'
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: false
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: geofield_latlon
+          settings:
+            output_format: decimal
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        nothing:
+          id: nothing
+          table: views
+          field: nothing
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: custom
+          label: 'Path color'
+          exclude: false
+          alter:
+            alter_text: true
+            text: "{%- if field_type == \"takeoff\" -%}#1F52A6\r\n{%- elseif field_type == \"landing\" -%}limegreen\r\n{%- elseif field_type == \"obstacle\" -%}magenta\r\n{%- elseif field_type == \"poi\" -%}gold\r\n{%- else -%}black\r\n{%- endif -%}"
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
           element_type: ''
           element_class: ''
           element_label_type: ''
@@ -253,11 +267,111 @@ display:
           empty: ''
           hide_empty: false
           empty_zero: false
+          hide_alter_empty: false
+        nothing_1:
+          id: nothing_1
+          table: views
+          field: nothing
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: custom
+          label: 'Path fill'
+          exclude: false
+          alter:
+            alter_text: true
+            text: "{%- if field_type == \"takeoff\" -%}#1F52A6\r\n{%- elseif field_type == \"landing\" -%}limegreen\r\n{%- elseif field_type == \"obstacle\" -%}transparent\r\n{%- elseif field_type == \"poi\" -%}gold\r\n{%- else -%}black\r\n{%- endif -%}"
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: false
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: reverse__node__field_map_elements
+          group_type: group
+          admin_label: ''
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: '0'
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: '0'
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
-          type: geofield_latlon
+          type: string
           settings:
-            output_format: dm
+            link_to_entity: true
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -268,6 +382,55 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
+        nothing_2:
+          id: nothing_2
+          table: views
+          field: nothing
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: custom
+          label: 'Contenuto popup'
+          exclude: false
+          alter:
+            alter_text: true
+            text: "{% if field_type == \"takeoff\" %}<h6>{{ title }}</h6>{% endif %}\r\n<a href=\"https://www.google.com/maps/dir/?api=1&destination={{ field_location|striptags }}\" target=\"_blank\">Naviga qui</a>\r\n"
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: false
       pager:
         type: some
         options:
@@ -479,7 +642,7 @@ display:
             value: name
             options: '{"permanent":false,"direction":"center"}'
           leaflet_popup:
-            value: field_location
+            value: field_type
             options: '{"maxWidth":"300","minWidth":"50","autoPan":true}'
             view_mode: full
           leaflet_map: ~Paragliding
@@ -488,7 +651,7 @@ display:
           hide_empty_map: true
           disable_wheel: false
           gesture_handling: true
-          fitbounds_options: '{"padding":[0,0]}'
+          fitbounds_options: '{"padding":[50,50]}'
           reset_map:
             control: true
             options: '{"position":"topleft","title":"Reset View"}'
@@ -502,8 +665,8 @@ display:
           map_position:
             force: false
             center:
-              lat: null
-              lon: null
+              lat: 0.0
+              lon: 0.0
             zoomControlPosition: topleft
             zoom: 14
             minZoom: 10
@@ -511,7 +674,7 @@ display:
             zoomFiner: 0
           weight: ''
           icon:
-            iconType: marker
+            iconType: circle_marker
             iconUrl: ''
             shadowUrl: ''
             className: '{{ field_type }}'
@@ -532,11 +695,11 @@ display:
               'y': ''
             html: '<div></div>'
             html_class: leaflet-map-divicon
-            circle_marker_options: '{"radius":100,"color":"red","fillColor":"#f03","fillOpacity":0.5}'
+            circle_marker_options: '{"radius":5,"color":"{{ nothing }}","fillColor":"{{ nothing }}","fillOpacity":0.5}'
           fullscreen:
             control: true
             options: '{"position":"topleft","pseudoFullscreen":false}'
-          path: '{"color":"{{ nothing }}","opacity":"1.0","stroke":true,"weight":3,"fill":"depends","fillColor":"*","fillOpacity":"0.2","radius":"6"}'
+          path: '{"color":"{{ nothing }}","opacity":"1.0","stroke":true,"weight":3,"fill":"false","fillColor":"{{ nothing_1 }}","fillOpacity":"0.3","radius":"6"}'
           map_lazy_load:
             lazy_load: true
           feature_properties:
