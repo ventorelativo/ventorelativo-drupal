@@ -129,7 +129,7 @@ h3,
 
     & .fixed-top {
       position: absolute;
-      z-index: 1000;
+      z-index: 499;
     }
   }
 
