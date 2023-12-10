@@ -1,0 +1,89 @@
+{
+    "uuid": [
+        {
+            "value": "5479f2e1-a2d5-446d-8210-edb08ab17901"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "map_feature",
+            "target_type": "storage_type",
+            "target_uuid": "6be398ac-fc82-4b3f-a2ba-5beda88c6458"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-12-10T23:20:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "user_id": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "name": [
+        {
+            "value": "Atterraggio Pomarretto"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-12-10T23:20:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-12-10T23:20:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "field_location": [
+        {
+            "value": "GEOMETRYCOLLECTION (POLYGON ((7.180622 44.954276, 7.182065 44.954541, 7.182387 44.954614, 7.183063 44.954583, 7.183911 44.954473, 7.18435 44.954344, 7.184329 44.954147, 7.184039 44.95374, 7.181727 44.954014, 7.18089 44.953953, 7.180622 44.954276)), POINT (7.182425 44.954219))",
+            "geo_type": "GeometryCollection",
+            "lat": 44.95417705410658,
+            "lon": 7.182486008647648,
+            "left": 7.180622,
+            "top": 44.954614,
+            "right": 7.18435,
+            "bottom": 44.95374,
+            "geohash": "spvper",
+            "latlon": "44.954177054107,7.1824860086476"
+        }
+    ],
+    "field_type": [
+        {
+            "value": "landing"
+        }
+    ]
+}
