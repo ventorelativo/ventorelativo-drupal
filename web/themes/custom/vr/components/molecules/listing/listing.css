@@ -1,5 +1,6 @@
 [data-component-id="vr:listing"] {
   overflow: hidden;
+  transition: all 0.2s ease-in-out;
 
   & .image {
     min-height: 10rem;
