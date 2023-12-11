@@ -1,0 +1,23 @@
+$schema: 'https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json'
+name: Card Big
+status: stable
+description: 'A Bootstrap based Big Card item item'
+group: molecules
+props:
+  type: object
+  properties:
+    title:
+      type: string
+      title: Title
+      examples:
+        - 'Ciao Mamma'
+    url:
+      title: URL
+      type: string
+
+slots:
+  summary:
+    title: Summary
+    description: 'The contents of the card.'
+    examples:
+      - '<p>Foo is <strong>NOT</strong> bar.</p>'

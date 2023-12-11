@@ -11911,13 +11911,13 @@ a > .ck-content code {
   }
 }
 .ck-content .shadow-hover:hover {
-  box-shadow: var(--bs-box-shadow);
+  box-shadow: var(--bs-box-shadow) !important;
 }
 .ck-content .shadow-sm-hover:hover {
-  box-shadow: var(--bs-box-shadow-sm);
+  box-shadow: var(--bs-box-shadow-sm) !important;
 }
 .ck-content .shadow-lg-hover:hover {
-  box-shadow: var(--bs-box-shadow-lg);
+  box-shadow: var(--bs-box-shadow-lg) !important;
 }
 .ck-content footer .region-footer {
   align-items: center;
@@ -11949,6 +11949,9 @@ a > .ck-content code {
 .ck-content .leaflet-container {
   border: var(--bs-border-width) solid var(--bs-border-color);
   border-radius: var(--bs-border-radius);
+}
+.ck-content .views-view-responsive-grid__item-inner {
+  height: 100%;
 }
 
 /*# sourceMappingURL=ck5style.css.map */

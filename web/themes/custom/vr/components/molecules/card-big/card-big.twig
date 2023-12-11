@@ -1,0 +1,25 @@
+{%
+  set classes = [
+    'card',
+    'shadow-sm',
+    'shadow-hover',
+    'h-100',
+  ]
+%}
+<article{{ attributes.addClass(classes) }}>
+  <div class="card-body d-flex flex-column gap-2 h-100">
+
+    <h2 class="card-title h4">
+      <a href="{{ url }}" class="text-decoration-none stretched-link">
+        {{- title -}}
+      </a>
+    </h2>
+
+    {% if block('summary') is not empty %}
+      <div class="card-summary">
+        {{ block('summary')|raw }}
+      </div>
+    {% endif %}
+
+  </div>
+</article>
