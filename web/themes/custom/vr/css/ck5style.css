@@ -11953,5 +11953,15 @@ a > .ck-content code {
 .ck-content .views-view-responsive-grid__item-inner {
   height: 100%;
 }
+@media (min-width: 768px) {
+  .ck-content .views-view-responsive-grid--horizontal {
+    --views-responsive-grid--layout-gap: 1.5rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .ck-content .views-view-responsive-grid--horizontal {
+    --views-responsive-grid--layout-gap: 2rem !important;
+  }
+}
 
 /*# sourceMappingURL=ck5style.css.map */

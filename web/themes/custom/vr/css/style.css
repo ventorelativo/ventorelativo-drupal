@@ -12936,4 +12936,15 @@ footer .region-footer {
   height: 100%;
 }
 
+@media (min-width: 768px) {
+  .views-view-responsive-grid--horizontal {
+    --views-responsive-grid--layout-gap: 1.5rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .views-view-responsive-grid--horizontal {
+    --views-responsive-grid--layout-gap: 2rem !important;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

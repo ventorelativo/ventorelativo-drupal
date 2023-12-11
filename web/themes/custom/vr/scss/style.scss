@@ -144,3 +144,13 @@ footer .region-footer {
 .views-view-responsive-grid__item-inner {
   height: 100%;
 }
+
+.views-view-responsive-grid--horizontal {
+  @include media-breakpoint-up(md) {
+    --views-responsive-grid--layout-gap: 1.5rem !important;
+  }
+
+  @include media-breakpoint-up(xl) {
+    --views-responsive-grid--layout-gap: 2rem !important;
+  }
+}
