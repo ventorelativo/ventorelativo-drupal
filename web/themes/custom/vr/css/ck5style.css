@@ -11896,6 +11896,10 @@ a > .ck-content code {
 .ck-content header #logo-offcanvas {
   height: 3.5rem;
   width: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0.8rem;
 }
 .ck-content .region-nav-main .navbar-nav .nav-link, .ck-content .region-nav-main .navbar-nav .media-library-view--widget .view-header a, .ck-content .media-library-view--widget .view-header .region-nav-main .navbar-nav a {
   padding-inline: 0 !important;

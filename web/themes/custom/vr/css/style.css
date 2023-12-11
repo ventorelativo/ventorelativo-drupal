@@ -12868,6 +12868,10 @@ header .navbar-brand a.site-title {
 header #logo-offcanvas {
   height: 3.5rem;
   width: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0.8rem;
 }
 
 .region-nav-main .navbar-nav .nav-link, .region-nav-main .navbar-nav .media-library-view--widget .view-header a, .media-library-view--widget .view-header .region-nav-main .navbar-nav a {

@@ -96,15 +96,15 @@
             <span class="d-none fs-6 pe-1">Apri menu</span>
           </button>
           <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-label="Menu principale">
-            <div class="offcanvas-header p-4 pt-5 pb-0">
+            <div class="offcanvas-header p-4 pt-4 pb-0">
               {# <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Responsive offcanvas</h5> #}
-              <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body p-4 pt-0 p-lg-0">
               <svg xmlns="http://www.w3.org/2000/svg" id="logo-offcanvas" class="d-sm-none" width="354" height="146" fill="none" viewBox="0 0 708 292">
                 <use xlink:href="#logo" />
               </svg>
-              <hr class="d-lg-none text-white-50">
+              <button type="button" class="btn-close ms-auto mt-1" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-4 pt-0 p-lg-0">
+              <hr class="d-sm-none text-white-50 my-4">
               {{ page.nav_main }}
               {{ page.nav_additional }}
             </div>

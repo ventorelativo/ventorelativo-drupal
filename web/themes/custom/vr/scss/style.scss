@@ -67,6 +67,10 @@ header {
   #logo-offcanvas {
     height: 3.5rem;
     width: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0.8rem;
   }
 }
 
