@@ -42,26 +42,35 @@
  * @see html.html.twig
  */
 #}
-{%
-set nav_classes = 'navbar navbar-expand-lg' ~
-  (b5_navbar_schema != 'none' ? " navbar-#{b5_navbar_schema}" : ' ') ~
-  (b5_navbar_schema != 'none' ? (b5_navbar_schema == 'dark' ? ' text-light' : ' text-dark' ) : ' ') ~
-  (is_front ?: b5_navbar_bg_schema != 'none' ? " bg-#{b5_navbar_bg_schema}" : ' ') ~
-  (is_front ? ' fixed-top' : ' ')
-%}
+{%-
+  set nav_classes = [
+    'navbar',
+    'navbar-expand-lg',
+    b5_navbar_schema != 'none' ? "navbar-#{b5_navbar_schema}" : null,
+    b5_navbar_schema != 'none' ? (b5_navbar_schema == 'dark' ? 'text-light' : 'text-dark' ) : null,
+    is_front ?: b5_navbar_bg_schema != 'none' ? "bg-#{b5_navbar_bg_schema}" : null,
+    is_front ? 'fixed-top' : null,
+    is_front ?: 'border-bottom',
+    is_front ?: 'shadow-sm',
+  ]
+-%}
 
-{%
-set footer_classes = ' ' ~
-  (b5_footer_schema != 'none' ? " footer-#{b5_footer_schema}" : ' ') ~
-  (b5_footer_schema != 'none' ? (b5_footer_schema == 'dark' ? ' text-light' : ' text-dark' ) : ' ') ~
-  (b5_footer_bg_schema != 'none' ? " bg-#{b5_footer_bg_schema}" : ' ')
-%}
+{%- set footer_attributes = create_attribute() -%}
+{%-
+  set footer_classes = [
+    'mt-auto',
+    'border-top',
+    b5_footer_schema != 'none' ? "footer-#{b5_footer_schema}" : null,
+    b5_footer_schema != 'none' ? (b5_footer_schema == 'dark' ? 'text-light' : 'text-dark' ) : null,
+    b5_footer_bg_schema != 'none' ? "bg-#{b5_footer_bg_schema}" : null,
+  ]
+-%}
 
 <header>
   {{ page.header }}
 
   {% if page.nav_branding or page.nav_main or page.nav_additional %}
-    <nav class="{{ nav_classes }}">
+    <nav{{ attributes.addClass(nav_classes) }}>
       <div class="{{ b5_top_container }} d-flex">
         {{ page.nav_branding }}
 
@@ -143,7 +152,7 @@ set footer_classes = ' ' ~
 </main>
 
 {% if page.footer %}
-<footer class="mt-auto {{ footer_classes }}">
+<footer{{ footer_attributes.addClass(footer_classes) }}>
   <div class="{{ b5_top_container }}">
     {{ page.footer }}
   </div>
