@@ -1,0 +1,107 @@
+/* FRONTPAGE */
+.path-frontpage {
+  & .region-nav-branding {
+    & .site-logo {
+      @include media-breakpoint-down(sm) {
+        display: none !important;
+      }
+
+      visibility: hidden;
+      width: 0;
+    }
+
+    & .site-title,
+    & .site-slogan {
+      display: block;
+    }
+  }
+
+  & .tabs-primary .nav-tabs {
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  main {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+    /* Home Background */
+    position: relative;
+
+    &::before {
+      content: "";
+      background-image: url("../img/homepage.jpg");
+      background-size: cover;
+      background-position: right 20% bottom;
+      opacity: 0.8;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    @media (min-width: 992px) {
+      font-size: 1.2rem;
+    }
+
+    > a#main-content + .container {
+      position: relative;
+      top: -1.5rem;
+    }
+
+    & .navbar-brand {
+      display: block !important;
+
+      & a.site-title {
+        font-size: 1.5em;
+        letter-spacing: 0;
+      }
+
+      & svg,
+      & img {
+        margin: 0;
+        height: 8rem;
+        width: auto;
+      }
+    }
+
+    & h2 {
+      text-transform: uppercase;
+      font-size: 1.4em;
+    }
+
+    & h3 {
+      font-size: 1.25em;
+
+      & a {
+        text-decoration: none;
+      }
+    }
+
+    & .btn {
+      margin: 0;
+    }
+  }
+
+  footer {
+    /* --bs-bg-opacity: 0; */
+    position: relative;
+    box-shadow: 0 0 10px #00000020;
+
+    .credits {
+      position: absolute;
+      top: -2rem;
+      right: 1rem;
+      font-size: 0.75rem;
+      color: #ccc;
+
+      a {
+        color: currentColor;
+      }
+    }
+  }
+}

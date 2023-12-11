@@ -1,0 +1,158 @@
+header {
+  &.fixed-top {
+    top: var(--drupal-displace-offset-top, 0);
+    z-index: 499;
+
+    body:not(.path-frontpage) &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: -1;
+      backdrop-filter: blur(5px);
+    }
+  }
+
+  > nav.navbar {
+    &.bg-light,
+    &.bg-dark {
+      --bs-bg-opacity: 0.8;
+    }
+
+    .navbar-toggler {
+      position: absolute;
+      right: calc(var(--bs-gutter-x) / 2);
+    }
+  }
+
+  .navbar-brand {
+    margin: 0;
+    gap: 0.5rem;
+
+    svg,
+    img {
+      height: 3.5rem;
+      width: auto;
+    }
+
+    a.site-title {
+      font-family: var(--font-family-alt, sans-serif);
+      font-weight: 300;
+      letter-spacing: -0.02em;
+      color: var(--bs-emphasis-color);
+    }
+  }
+  #logo-offcanvas {
+    height: 3.5rem;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0.8rem;
+  }
+}
+
+.region-nav-main .navbar-nav .nav-link {
+  padding-inline: 0 !important;
+  margin-inline: var(--bs-navbar-nav-link-padding-x);
+  border-bottom: 3px solid transparent;
+  text-align: center;
+  @include media-breakpoint-down(lg) {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  &.is-active {
+    color: var(--bs-navbar-active-color);
+    font-weight: 500;
+    text-decoration: underline;
+    @include media-breakpoint-up(lg) {
+      text-decoration: none;
+      border-bottom-color: currentColor;
+    }
+  }
+}
+
+.region-nav-branding {
+  @include media-breakpoint-down(sm) {
+    .site-title {
+      display: none;
+    }
+  }
+
+  @include media-breakpoint-up(sm) {
+    .site-slogan {
+      display: block;
+    }
+  }
+}
+
+.layout__region {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.offcanvas-lg {
+  @include media-breakpoint-down(md) {
+    box-shadow: var(--bs-box-shadow) !important;
+  }
+}
+
+// Translate block
+.block-gtranslate-block {
+  margin-left: auto;
+
+  .gtranslate_wrapper {
+    display: flex;
+    gap: 0.5rem;
+
+    .gt_switcher .gt_option {
+      position: absolute !important;
+    }
+  }
+
+  .gt-current-lang {
+    display: none;
+  }
+}
+
+// Primary tabs background on mobile.
+@include media-breakpoint-down(md) {
+  .tabs-wrapper.is-collapsible .is-open .nav-item:not(.active) {
+    padding: 0;
+
+    > a {
+      background: white;
+
+      &:hover,
+      &:focus {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+// Nice leaflet borders.
+.leaflet-container {
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+}
+
+// Responsive grid - inner container to match outer one's height.
+.views-view-responsive-grid__item-inner {
+  height: 100%;
+}
+
+.views-view-responsive-grid--horizontal {
+  @include media-breakpoint-up(md) {
+    --views-responsive-grid--layout-gap: 1.5rem !important;
+  }
+
+  @include media-breakpoint-up(xl) {
+    --views-responsive-grid--layout-gap: 2rem !important;
+  }
+}
