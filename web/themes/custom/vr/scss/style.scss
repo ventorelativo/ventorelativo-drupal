@@ -8,6 +8,68 @@
 // Include bootstrap.
 @import "../../../../themes/contrib/bootstrap5/scss/style";
 
+:root {
+  --bs-body-font-family: "Avenir", "Avenir Next", var(--bs-font-sans-serif);
+  --font-family-alt: var(--bs-body-font-family);
+  --header-height: 5.25rem;
+}
+
+.mt-header {
+  margin-top: var(--header-height) !important;
+}
+
+header {
+  &.fixed-top {
+    top: var(--drupal-displace-offset-top, 0);
+    z-index: 499;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: -1;
+      backdrop-filter: blur(5px);
+    }
+  }
+
+  > nav.navbar {
+    &.bg-light,
+    &.bg-dark {
+      --bs-bg-opacity: 0.8;
+    }
+
+    .navbar-toggler {
+      position: absolute;
+      right: calc(var(--bs-gutter-x) / 2);
+    }
+  }
+
+  .navbar-brand {
+    margin: 0;
+    gap: 0.5rem;
+
+    svg,
+    img {
+      height: 3.5rem;
+      width: auto;
+    }
+
+    a.site-title {
+      font-family: var(--font-family-alt, sans-serif);
+      font-weight: 300;
+      letter-spacing: -0.02em;
+      color: var(--bs-emphasis-color);
+    }
+  }
+  #logo-offcanvas {
+    height: 3.5rem;
+    width: auto;
+  }
+}
+
 .region-nav-main .navbar-nav .nav-link {
   padding-inline: 0 !important;
   margin-inline: var(--bs-navbar-nav-link-padding-x);

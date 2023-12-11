@@ -49,9 +49,10 @@
     b5_navbar_schema != 'none' ? "navbar-#{b5_navbar_schema}" : null,
     b5_navbar_schema != 'none' ? (b5_navbar_schema == 'dark' ? 'text-light' : 'text-dark' ) : null,
     is_front ?: b5_navbar_bg_schema != 'none' ? "bg-#{b5_navbar_bg_schema}" : null,
-    is_front ? 'fixed-top' : null,
     is_front ?: 'border-bottom',
     is_front ?: 'shadow-sm',
+    'text-center',
+    'text-sm-start',
   ]
 -%}
 
@@ -66,12 +67,12 @@
   ]
 -%}
 
-<header>
+<header class="fixed-top">
   {{ page.header }}
 
   {% if page.nav_branding or page.nav_main or page.nav_additional %}
     <nav{{ attributes.addClass(nav_classes) }}>
-      <div class="{{ b5_top_container }} d-flex">
+      <div class="{{ b5_top_container }} d-flex justify-content-center justify-content-sm-between">
         {{ page.nav_branding }}
 
         {% if page.nav_main or page.nav_additional %}
@@ -100,6 +101,9 @@
               <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body p-4 pt-0 p-lg-0">
+              <svg xmlns="http://www.w3.org/2000/svg" id="logo-offcanvas" class="d-sm-none" width="354" height="146" fill="none" viewBox="0 0 708 292">
+                <use xlink:href="#logo" />
+              </svg>
               <hr class="d-lg-none text-white-50">
               {{ page.nav_main }}
               {{ page.nav_additional }}
@@ -113,7 +117,7 @@
 
 </header>
 
-<main role="main"{% if not is_front %} class="pt-3 pt-lg-4 pb-5"{% endif %}>
+<main role="main"{% if not is_front %} class="pt-3 pt-lg-4 pb-5 mt-header"{% endif %}>
   <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
   {%
