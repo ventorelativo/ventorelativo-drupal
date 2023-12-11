@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "c1e11119-7981-4e76-93f6-eec286b098e0"
+            "value": "8fba54d8-4ef4-4fd9-9994-5ef1e0310353"
         }
     ],
     "langcode": [
@@ -16,7 +16,7 @@
     ],
     "revision_created": [
         {
-            "value": "2023-11-25T01:50:26+00:00",
+            "value": "2023-12-11T12:12:53+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -29,7 +29,7 @@
     ],
     "title": [
         {
-            "value": "Voli"
+            "value": "Iscrizioni"
         }
     ],
     "description": [],
@@ -40,7 +40,7 @@
     ],
     "link": [
         {
-            "uri": "internal:\/voli",
+            "uri": "entity:node\/04a2b211-1123-44a2-8c6c-6da57467462c",
             "title": "",
             "options": []
         }
@@ -52,12 +52,12 @@
     ],
     "rediscover": [
         {
-            "value": true
+            "value": false
         }
     ],
     "weight": [
         {
-            "value": -48
+            "value": -46
         }
     ],
     "expanded": [

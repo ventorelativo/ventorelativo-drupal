@@ -1,0 +1,65 @@
+{
+    "uuid": [
+        {
+            "value": "20931888-445a-48c2-b972-1b17c7a1dbeb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "6a96034c-4589-4d2a-b216-ae6f3102a084"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-12-11T11:46:49+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Payment options"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-12-11T12:12:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"row row-cols-1 row-cols-md-3 mb-3 text-center justify-content-center\"><div class=\"col\"><div class=\"card mb-4 rounded-3 shadow-sm shadow-hover\"><div class=\"card-header py-3\"><h4 class=\"my-0 fw-normal\">Sostenitore<\/h4><\/div><div class=\"card-body\"><h1 class=\"card-title pricing-card-title\">\u20ac10<\/h1><ul class=\"list-unstyled mt-3 mb-4\"><li>Lorem<\/li><\/ul><p><a class=\"w-100 btn btn-primary stretched-link\" href=\"https:\/\/tag.satispay.com\/dk_txOSIuSjguNLePMkOAjl?amount=1000&amp;currency=EUR\" type=\"button\">Paga con <img src=\"\/themes\/custom\/vr\/img\/satispay_logo.svg\" height=\"20\">&nbsp;<\/a><\/p><\/div><\/div><\/div><div class=\"col\"><div class=\"card mb-4 rounded-3 shadow-sm shadow-hover border-primary\"><div class=\"card-header py-3 text-bg-primary border-primary\"><h4 class=\"my-0 fw-normal\">Socio<\/h4><\/div><div class=\"card-body\"><h1 class=\"card-title pricing-card-title\">\u20ac30<\/h1><ul class=\"list-unstyled mt-3 mb-4\"><li>Lorem<\/li><li>Ipsum<\/li><li>Dolor<\/li><\/ul><p><a class=\"w-100 btn btn-primary stretched-link\" href=\"https:\/\/tag.satispay.com\/dk_txOSIuSjguNLePMkOAjl?amount=3000&amp;currency=EUR\" type=\"button\">Paga con <img src=\"\/themes\/custom\/vr\/img\/satispay_logo.svg\" height=\"20\">&nbsp;<\/a><\/p><\/div><\/div><\/div><\/div>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}

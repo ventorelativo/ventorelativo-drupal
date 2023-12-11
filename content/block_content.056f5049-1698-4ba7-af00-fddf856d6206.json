@@ -1,0 +1,65 @@
+{
+    "uuid": [
+        {
+            "value": "056f5049-1698-4ba7-af00-fddf856d6206"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "6a96034c-4589-4d2a-b216-ae6f3102a084"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-12-11T12:09:46+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "IBAN"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-12-11T12:09:46+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"text-center\"><p>Alternativamente, puoi effettuare un bonifico verso:<\/p><p><strong>Associazione Sportiva Vento Relativo<\/strong><\/p><p><em>IBAN:<\/em> IT67W0326830750052117945240<\/p><\/div>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}

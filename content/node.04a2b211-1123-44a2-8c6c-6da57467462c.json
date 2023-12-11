@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "61fdc27c-5858-415b-ad59-dfdb61ce0836"
+            "value": "04a2b211-1123-44a2-8c6c-6da57467462c"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-11T12:13:48+00:00",
+            "value": "2023-12-11T12:12:22+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,18 +42,18 @@
     ],
     "title": [
         {
-            "value": "Contatti"
+            "value": "Iscrizioni"
         }
     ],
     "created": [
         {
-            "value": "2023-12-09T20:42:43+00:00",
+            "value": "2023-12-11T11:36:55+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-11T12:13:48+00:00",
+            "value": "2023-12-11T12:12:22+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -79,12 +79,18 @@
     ],
     "path": [
         {
-            "alias": "\/contatti",
+            "alias": "\/iscrizioni",
             "langcode": "it",
             "pathauto": 1
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<div class=\"text-center\"><h3>Vuoi aiutarci?<\/h3><p class=\"fs-5 text-muted\">Puoi fare la tessera come <strong>Socio Sostenitore<\/strong><br>Tramite Satispay il versamento \u00e8 facile:<\/p><\/div>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ],
     "layout_builder__layout": [
         {
             "section": {
@@ -113,21 +119,6 @@
                         "additional": []
                     },
                     {
-                        "uuid": "d0c686a5-4653-4cba-8945-b7a0a61ce3ce",
-                        "region": "content",
-                        "configuration": {
-                            "id": "contact_block",
-                            "label": "Contact block",
-                            "label_display": 0,
-                            "provider": "contact_block",
-                            "contact_form": "contatti",
-                            "form_display": "default",
-                            "context_mapping": []
-                        },
-                        "weight": 8,
-                        "additional": []
-                    },
-                    {
                         "uuid": "b26b63ac-66e8-4917-9e18-432851f03362",
                         "region": "content",
                         "configuration": {
@@ -137,7 +128,43 @@
                                 "entity": "layout_builder.entity"
                             }
                         },
-                        "weight": 9,
+                        "weight": 1,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "0a958771-f6d6-4e54-a54b-607e82ba7629",
+                        "region": "content",
+                        "configuration": {
+                            "id": "inline_block:basic",
+                            "label": "Payment options",
+                            "label_display": 0,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_revision_id": "12",
+                            "block_serialized": null,
+                            "context_mapping": [],
+                            "type": "basic",
+                            "uuid": "20931888-445a-48c2-b972-1b17c7a1dbeb"
+                        },
+                        "weight": 2,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "ff995e40-91e2-4712-8a3b-718fc115075f",
+                        "region": "content",
+                        "configuration": {
+                            "id": "inline_block:basic",
+                            "label": "IBAN",
+                            "label_display": 0,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_revision_id": "11",
+                            "block_serialized": null,
+                            "context_mapping": [],
+                            "type": "basic",
+                            "uuid": "056f5049-1698-4ba7-af00-fddf856d6206"
+                        },
+                        "weight": 3,
                         "additional": []
                     }
                 ],

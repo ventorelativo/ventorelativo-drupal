@@ -272,5 +272,16 @@
     ],
     "storage.5479f2e1-a2d5-446d-8210-edb08ab17901": [
         "user.bc8d9670-ef69-4b30-888b-15ace3769f89"
+    ],
+    "node.04a2b211-1123-44a2-8c6c-6da57467462c": [
+        "user.bc8d9670-ef69-4b30-888b-15ace3769f89"
+    ],
+    "path_alias.4c7a1c5b-970c-4942-9ca4-b003fe463d65": [
+        "node.04a2b211-1123-44a2-8c6c-6da57467462c"
+    ],
+    "block_content.20931888-445a-48c2-b972-1b17c7a1dbeb": [],
+    "block_content.056f5049-1698-4ba7-af00-fddf856d6206": [],
+    "menu_link_content.8fba54d8-4ef4-4fd9-9994-5ef1e0310353": [
+        "node.04a2b211-1123-44a2-8c6c-6da57467462c"
     ]
 }

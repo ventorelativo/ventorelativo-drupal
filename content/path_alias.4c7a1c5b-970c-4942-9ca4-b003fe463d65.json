@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "4c7a1c5b-970c-4942-9ca4-b003fe463d65"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/04a2b211-1123-44a2-8c6c-6da57467462c"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/iscrizioni"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
