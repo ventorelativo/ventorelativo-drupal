@@ -1,10 +1,4 @@
 @charset "UTF-8";
-:root {
-  --bs-body-font-family: "Avenir", "Avenir Next", var(--bs-font-sans-serif);
-  --font-family-alt: var(--bs-body-font-family);
-  --header-height: 5.25rem;
-}
-
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -12823,6 +12817,12 @@ em.placeholder {
 
 code {
   overflow-y: auto;
+}
+
+:root {
+  --bs-body-font-family: "Avenir", "Avenir Next", var(--bs-font-sans-serif);
+  --font-family-alt: var(--bs-body-font-family);
+  --header-height: 5.25rem;
 }
 
 /* dark mode media query */
