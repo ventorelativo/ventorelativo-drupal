@@ -11,8 +11,10 @@ dependencies:
     - leaflet_views
     - node
     - options
+    - rest
     - storage
     - user
+    - views_geojson
 id: sites_map
 label: 'Mappa siti'
 module: views
@@ -641,6 +643,42 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - user.permissions
+      tags:
+        - 'config:field.storage.storage.field_location'
+        - 'config:field.storage.storage.field_type'
+  geojson_export_1:
+    id: geojson_export_1
+    display_title: 'GeoJSON export'
+    display_plugin: geojson_export
+    position: 3
+    display_options:
+      access:
+        type: none
+        options: {  }
+      arguments: {  }
+      style:
+        type: geojson
+        options:
+          data_source:
+            value: geofield
+            latitude: field_type
+            longitude: field_type
+            geofield: field_location
+            geolocation: field_type
+            wkt: field_type
+            name_field: name
+            description_field: nothing_2
+          jsonp_prefix: ''
+      defaults:
+        access: false
+        arguments: false
+      display_extenders: {  }
+      path: test
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
       tags:
         - 'config:field.storage.storage.field_location'
         - 'config:field.storage.storage.field_type'
