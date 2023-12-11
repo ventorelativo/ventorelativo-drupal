@@ -646,12 +646,17 @@ display:
       tags:
         - 'config:field.storage.storage.field_location'
         - 'config:field.storage.storage.field_type'
-  geojson_export_1:
-    id: geojson_export_1
-    display_title: 'GeoJSON export'
+  geojson_sites_all:
+    id: geojson_sites_all
+    display_title: 'GeoJSON Tutti'
     display_plugin: geojson_export
     position: 3
     display_options:
+      title: ''
+      pager:
+        type: none
+        options:
+          offset: 0
       access:
         type: none
         options: {  }
@@ -671,14 +676,59 @@ display:
           jsonp_prefix: ''
       defaults:
         access: false
+        title: false
         arguments: false
+      display_description: ''
       display_extenders: {  }
-      path: test
+      path: api/sites-all
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+      tags:
+        - 'config:field.storage.storage.field_location'
+        - 'config:field.storage.storage.field_type'
+  geojson_sites_contextual:
+    id: geojson_sites_contextual
+    display_title: 'GeoJSON Sito'
+    display_plugin: geojson_export
+    position: 3
+    display_options:
+      title: ''
+      pager:
+        type: none
+        options:
+          offset: 0
+      access:
+        type: none
+        options: {  }
+      style:
+        type: geojson
+        options:
+          data_source:
+            value: geofield
+            latitude: field_type
+            longitude: field_type
+            geofield: field_location
+            geolocation: field_type
+            wkt: field_type
+            name_field: name
+            description_field: nothing_2
+          jsonp_prefix: ''
+      defaults:
+        access: false
+        title: false
+        arguments: true
+      display_description: ''
+      display_extenders: {  }
+      path: api/site/%node
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
       tags:
         - 'config:field.storage.storage.field_location'
         - 'config:field.storage.storage.field_type'
