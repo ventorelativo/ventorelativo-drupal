@@ -1,0 +1,17 @@
+'$schema': 'https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json'
+name: Badges
+status: stable
+description: A list of tags without links
+group: molecules
+props:
+  type: object
+  properties:
+    label:
+      type: string
+      title: Label
+      examples:
+        - 'Tags'
+    badges:
+      type: array
+      title: Badges
+      examples: []

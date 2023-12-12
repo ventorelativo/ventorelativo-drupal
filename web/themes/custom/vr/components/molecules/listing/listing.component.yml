@@ -26,6 +26,11 @@ slots:
     description: 'The contents of the card.'
     examples:
       - '<p>Foo is <strong>NOT</strong> bar.</p>'
+  badges:
+    title: Badges
+    description: 'The non-linked tags, presented as badges.'
+    examples:
+      - '<span class="badge bg-secondary">Secondary</span>'
   image:
     title: Image
     description: 'The image of the card.'

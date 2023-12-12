@@ -1,0 +1,8 @@
+<div {{ attributes.addClass('d-flex', 'gap-2') }}>
+  <strong class="visually-hidden">{{ label }}</strong>
+  {% for badge in badges %}
+    <div class="badge text-primary bg-primary bg-opacity-10 border border-primary border-opacity-10">
+      {{ badge }}
+    </div>
+  {% endfor %}
+</div>

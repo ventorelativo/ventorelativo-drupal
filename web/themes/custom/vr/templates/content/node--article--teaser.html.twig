@@ -72,9 +72,11 @@
     url: url,
     created: date,
   } %}
+  {% block badges %}
+    {{ include('vr:badges', { label: content.field_tags|field_label, badges: content.field_tags|field_value }, with_context = false) }}
+  {% endblock %}
   {% block summary %}
     {{ content|without('field_image', 'field_tags') }}
-    {{ include('vr:tags', { label: content.field_tags|field_label, links: content.field_tags|field_value }, with_context = false) }}
   {% endblock %}
   {% block image %}
     {{ content.field_image }}
