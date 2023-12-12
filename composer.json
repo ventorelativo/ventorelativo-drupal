@@ -122,6 +122,9 @@
             },
             "drupal/gtranslate": {
                 "Select and order languages using draggable table - 3401669": "https://git.drupalcode.org/project/gtranslate/-/merge_requests/17.diff"
+            },
+            "drupal/token": {
+                "Add urlencode support to [current-page:title] token - 3221868": "https://git.drupalcode.org/project/token/-/merge_requests/50.diff"
             }
         }
     },
