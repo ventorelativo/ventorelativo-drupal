@@ -93,11 +93,6 @@
   */
   /* FRONTPAGE */
 }
-.ck-content :root {
-  --bs-body-font-family: "Avenir", "Avenir Next", var(--bs-font-sans-serif);
-  --font-family-alt: var(--bs-body-font-family);
-  --header-height: 5.25rem;
-}
 .ck-content :root,
 .ck-content [data-bs-theme=light] {
   --bs-blue: #1f52a6;
@@ -11914,6 +11909,11 @@ a > .ck-content code {
 .ck-content code {
   overflow-y: auto;
 }
+.ck-content :root {
+  --bs-body-font-family: "Avenir", "Avenir Next", var(--bs-font-sans-serif);
+  --font-family-alt: var(--bs-body-font-family);
+  --header-height: 5.25rem;
+}
 .ck-content h1,
 .ck-content h2,
 .ck-content h3,
@@ -12035,6 +12035,11 @@ body:not(.path-frontpage) .ck-content header.fixed-top::after {
     font-weight: 300;
   }
 }
+@media (min-width: 992px) {
+  .ck-content .region-nav-main .navbar-nav .nav-link:hover, .ck-content .region-nav-main .navbar-nav .media-library-view--widget .view-header a:hover, .ck-content .media-library-view--widget .view-header .region-nav-main .navbar-nav a:hover {
+    border-color: var(--bs-gray-400);
+  }
+}
 .ck-content .region-nav-main .navbar-nav .nav-link.is-active, .ck-content .region-nav-main .navbar-nav .media-library-view--widget .view-header a.is-active, .ck-content .media-library-view--widget .view-header .region-nav-main .navbar-nav a.is-active {
   color: var(--bs-navbar-active-color);
   font-weight: 500;
@@ -12061,8 +12066,11 @@ body:not(.path-frontpage) .ck-content header.fixed-top::after {
   flex-direction: column;
   gap: 1rem;
 }
+.ck-content .offcanvas-end {
+  top: var(--drupal-displace-offset-top, 0) !important;
+}
 @media (max-width: 767.98px) {
-  .ck-content .offcanvas-lg {
+  .ck-content .offcanvas-end {
     box-shadow: var(--bs-box-shadow) !important;
   }
 }

@@ -44,6 +44,7 @@ header {
       color: var(--bs-emphasis-color);
     }
   }
+
   #logo-offcanvas {
     height: 3.5rem;
     width: auto;
@@ -59,16 +60,24 @@ header {
   margin-inline: var(--bs-navbar-nav-link-padding-x);
   border-bottom: 3px solid transparent;
   text-align: center;
+
   @include media-breakpoint-down(lg) {
     text-transform: uppercase;
     font-size: 1.5rem;
     font-weight: 300;
   }
 
+  @include media-breakpoint-up(lg) {
+    &:hover {
+      border-color: var(--bs-gray-400);
+    }
+  }
+
   &.is-active {
     color: var(--bs-navbar-active-color);
     font-weight: 500;
     text-decoration: underline;
+
     @include media-breakpoint-up(lg) {
       text-decoration: none;
       border-bottom-color: currentColor;
@@ -96,7 +105,9 @@ header {
   gap: 1rem;
 }
 
-.offcanvas-lg {
+.offcanvas-end {
+  top: var(--drupal-displace-offset-top, 0) !important;
+
   @include media-breakpoint-down(md) {
     box-shadow: var(--bs-box-shadow) !important;
   }

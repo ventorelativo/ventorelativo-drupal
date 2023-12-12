@@ -13019,6 +13019,11 @@ header #logo-offcanvas {
     font-weight: 300;
   }
 }
+@media (min-width: 992px) {
+  .region-nav-main .navbar-nav .nav-link:hover, .region-nav-main .navbar-nav .media-library-view--widget .view-header a:hover, .media-library-view--widget .view-header .region-nav-main .navbar-nav a:hover {
+    border-color: var(--bs-gray-400);
+  }
+}
 .region-nav-main .navbar-nav .nav-link.is-active, .region-nav-main .navbar-nav .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header .region-nav-main .navbar-nav a.is-active {
   color: var(--bs-navbar-active-color);
   font-weight: 500;
@@ -13048,8 +13053,11 @@ header #logo-offcanvas {
   gap: 1rem;
 }
 
+.offcanvas-end {
+  top: var(--drupal-displace-offset-top, 0) !important;
+}
 @media (max-width: 767.98px) {
-  .offcanvas-lg {
+  .offcanvas-end {
     box-shadow: var(--bs-box-shadow) !important;
   }
 }
