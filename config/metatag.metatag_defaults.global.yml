@@ -17,6 +17,13 @@ tags:
     color: '#5bbad5'
   og_description: 'Esplora la passione per il parapendio con Ventorelativo: il tuo punto di riferimento per il parapendio club situato tra Pinerolo, Val Chisone e Val Pellice. Trova informazioni essenziali per i soci, rimani aggiornato sugli eventi del club e scopri dettagli sui migliori siti di volo della zona.'
   og_image: '/sites/default/files/textimage/social_card/[current-page:title-encoded].png'
+  og_image_alt: 'Logo VentoRelativo'
+  og_image_height: '640'
+  og_image_type: image/png
+  og_image_width: '1280'
   og_site_name: '[site:name]'
+  og_title: '[current-page:title]'
+  og_type: website
+  og_url: '[current-page:url]'
   title: '[current-page:title] | [site:name]'
   web_manifest: /themes/custom/vr/favicons/site.webmanifest
