@@ -1,5 +1,5 @@
 name: 'Scraper'
 type: module
 description: '@todo Add description.'
-package: '@todo Add package'
+package: 'Custom'
 core_version_requirement: ^10

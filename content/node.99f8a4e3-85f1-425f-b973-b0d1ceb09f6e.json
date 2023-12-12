@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-09T21:33:26+00:00",
+            "value": "2023-12-12T13:49:07+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-12-09T21:33:26+00:00",
+            "value": "2023-12-12T13:49:07+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -99,19 +99,6 @@
                     "label": ""
                 },
                 "components": [
-                    {
-                        "uuid": "b26b63ac-66e8-4917-9e18-432851f03362",
-                        "region": "content",
-                        "configuration": {
-                            "id": "extra_field_block:node:page:links",
-                            "label_display": "0",
-                            "context_mapping": {
-                                "entity": "layout_builder.entity"
-                            }
-                        },
-                        "weight": 3,
-                        "additional": []
-                    },
                     {
                         "uuid": "44c92903-ffe8-4891-9a4c-e95978a3fbd6",
                         "region": "content",
@@ -159,6 +146,33 @@
                             "context_mapping": []
                         },
                         "weight": 1,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "769be118-75da-435a-aabf-12d321185c6b",
+                        "region": "content",
+                        "configuration": {
+                            "id": "mapper_maptiler_map",
+                            "label": "Maptiler map",
+                            "label_display": 0,
+                            "provider": "mapper",
+                            "url": null,
+                            "context_mapping": []
+                        },
+                        "weight": 7,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "b26b63ac-66e8-4917-9e18-432851f03362",
+                        "region": "content",
+                        "configuration": {
+                            "id": "extra_field_block:node:page:links",
+                            "label_display": "0",
+                            "context_mapping": {
+                                "entity": "layout_builder.entity"
+                            }
+                        },
+                        "weight": 8,
                         "additional": []
                     }
                 ],

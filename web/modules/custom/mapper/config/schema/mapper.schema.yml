@@ -1,0 +1,7 @@
+block.settings.mapper_maptiler_map:
+  type: block_settings
+  label: 'Maptiler map block'
+  mapping:
+    url:
+      type: string
+      label: URL GeoJSON

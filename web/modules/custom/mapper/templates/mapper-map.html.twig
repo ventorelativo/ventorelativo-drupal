@@ -1,0 +1,15 @@
+{#
+/**
+ * @file
+ * Default theme implementation for Geofield LatLon.
+ *
+ * @ingroup themeable
+ */
+#}
+{{ attach_library('mapper/maptiler-map') }}
+
+<div id="mapper-map" class="loading" data-url="{{ url }}">
+  <noscript></noscript>
+  <a href="{{ url }}">{{ 'Map features'|t }}
+  </a>
+</div>

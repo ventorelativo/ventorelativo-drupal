@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for UNEP map module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function mapper_theme() {
+  return [
+    'mapper' => [
+      'variables' => [
+        'lonlat' => NULL,
+      ],
+    ],
+    'mapper_map' => [
+      'variables' => [
+        'url' => NULL,
+      ],
+    ],
+  ];
+}
