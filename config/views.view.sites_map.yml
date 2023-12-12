@@ -680,7 +680,7 @@ display:
         arguments: false
       display_description: ''
       display_extenders: {  }
-      path: api/sites-all
+      path: api/sites/all/geo.json
     cache_metadata:
       max-age: -1
       contexts:
@@ -722,7 +722,7 @@ display:
         arguments: true
       display_description: ''
       display_extenders: {  }
-      path: api/site/%node
+      path: api/sites/%node/geo.json
     cache_metadata:
       max-age: -1
       contexts:
