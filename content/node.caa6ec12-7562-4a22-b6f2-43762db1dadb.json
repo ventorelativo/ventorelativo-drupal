@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-12T00:37:15+00:00",
+            "value": "2023-12-13T20:06:06+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-12-12T00:37:15+00:00",
+            "value": "2023-12-13T20:06:06+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -84,13 +84,7 @@
             "pathauto": 1
         }
     ],
-    "body": [
-        {
-            "value": "<p><a href=\"\/api\/sites\/18\/geo.json\">geoJson<\/a><\/p>",
-            "format": "full_html",
-            "summary": ""
-        }
-    ],
+    "body": [],
     "field_map_elements": [
         {
             "target_type": "storage",

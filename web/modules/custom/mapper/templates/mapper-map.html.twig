@@ -8,8 +8,77 @@
 #}
 {{ attach_library('mapper/maptiler-map') }}
 
-<div id="mapper-map" class="loading" data-url="{{ url }}">
-  <noscript></noscript>
-  <a href="{{ url }}">{{ 'Map features'|t }}
-  </a>
+<div class="map-wrapper">
+  <div id="mapper-map" class="map" class="loading" data-url="{{ url }}"></div>
+
+  <select
+    name="mapstyles"
+    id="mapstyles"
+    class="form-select map-styles-select"
+  >
+    <optgroup label="VentoRelativo">
+      <option value="3d203d09-e79b-4c16-a28d-b9564619b3a7" selected>PG</option>
+    </optgroup>
+    <optgroup label="Navigation and city exploration">
+      <option value="STREETS">STREETS</option>
+      <option value="STREETS.DARK">STREETS.DARK</option>
+      <option value="STREETS.LIGHT">STREETS.LIGHT</option>
+      <option value="STREETS.PASTEL">STREETS.PASTEL</option>
+    </optgroup>
+    <option value="OUTDOOR">OUTDOOR</option>
+    <option value="WINTER">WINTER</option>
+    <option value="SATELLITE">SATELLITE</option>
+    <option value="HYBRID">HYBRID</option>
+    <optgroup label="Data visualization">
+      <option value="DATAVIZ">DATAVIZ</option>
+      <option value="DATAVIZ.DARK">DATAVIZ.DARK</option>
+      <option value="DATAVIZ.LIGHT">DATAVIZ.LIGHT</option>
+    </optgroup>
+    <optgroup label="Minimalist and general purpose">
+      <option value="BASIC">BASIC</option>
+      <option value="BASIC.DARK">BASIC.DARK</option>
+      <option value="BASIC.LIGHT">BASIC.LIGHT</option>
+    </optgroup>
+    <optgroup label="High contrast navigation">
+      <option value="BRIGHT">BRIGHT</option>
+      <option value="BRIGHT.DARK">BRIGHT.DARK</option>
+      <option value="BRIGHT.LIGHT">BRIGHT.LIGHT</option>
+      <option value="BRIGHT.PASTEL">BRIGHT.PASTEL</option>
+    </optgroup>
+    <optgroup label="Topographic study">
+      <option value="TOPO">TOPO</option>
+      <option value="TOPO.SHINY">TOPO.SHINY</option>
+      <option value="TOPO.PASTEL">TOPO.PASTEL</option>
+      <option value="TOPO.TOPOGRAPHIQUE">TOPO.TOPOGRAPHIQUE</option>
+    </optgroup>
+    <optgroup label="Minimalist">
+      <option value="VOYAGER">VOYAGER</option>
+      <option value="VOYAGER.DARK">VOYAGER.DARK</option>
+      <option value="VOYAGER.LIGHT">VOYAGER.LIGHT</option>
+      <option value="VOYAGER.VINTAGE">VOYAGER.VINTAGE</option>
+    </optgroup>
+    <optgroup label="High contrast">
+      <option value="TONER">TONER</option>
+      <option value="TONER.BACKGROUND">TONER.BACKGROUND</option>
+      <option value="TONER.LITE">TONER.LITE</option>
+      <option value="TONER.LINES">TONER.LINES</option>
+    </optgroup>
+    <optgroup label="Neutral greyscale style with hillshading">
+      <option value="BACKDROP">BACKDROP</option>
+      <option value="BACKDROP.DARK">BACKDROP.DARK</option>
+      <option value="BACKDROP.LIGHT">BACKDROP.LIGHT</option>
+    </optgroup>
+    <option value="OPENSTREETMAP">OPENSTREETMAP</option>
+  </select>
+
+  <img
+    src="/modules/custom/mapper/config/assets/img/takeoff.png"
+    alt=""
+    class="hidden"
+    loading="lazy" />
+  <img
+    src="/modules/custom/mapper/config/assets/img/landing.png"
+    alt=""
+    class="hidden"
+    loading="lazy" />
 </div>

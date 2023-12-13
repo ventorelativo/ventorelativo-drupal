@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-12T13:49:07+00:00",
+            "value": "2023-12-13T20:05:07+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-12-12T13:49:07+00:00",
+            "value": "2023-12-13T20:05:07+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -99,21 +99,6 @@
                     "label": ""
                 },
                 "components": [
-                    {
-                        "uuid": "44c92903-ffe8-4891-9a4c-e95978a3fbd6",
-                        "region": "content",
-                        "configuration": {
-                            "id": "views_block:sites_map-block_1",
-                            "label": "",
-                            "label_display": 0,
-                            "provider": "views",
-                            "views_label": "",
-                            "items_per_page": "none",
-                            "context_mapping": []
-                        },
-                        "weight": 2,
-                        "additional": []
-                    },
                     {
                         "uuid": "88f8ebf4-2a78-43d8-97e5-f727ab6eb6e0",
                         "region": "content",

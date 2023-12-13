@@ -1,0 +1,26 @@
+.map-wrapper {
+  position: relative;
+  z-index: 400;
+
+  .map {
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    box-shadow: var(--bs-box-shadow-sm) !important;
+  }
+  .map-styles-select {
+    min-width: 0;
+    --bs-bg-opacity: 0.8;
+    background-color: rgba(
+      var(--bs-light-rgb),
+      var(--bs-bg-opacity)
+    ) !important;
+    backdrop-filter: blur(5px);
+    box-shadow: var(--bs-box-shadow-sm) !important;
+    font-size: small;
+    width: 6em;
+
+    @include media-breakpoint-up(sm) {
+      width: auto;
+    }
+  }
+}

@@ -102,7 +102,7 @@ header {
 .layout__region {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .offcanvas-end {
@@ -166,4 +166,9 @@ header {
   @include media-breakpoint-up(xl) {
     --views-responsive-grid--layout-gap: 2rem !important;
   }
+}
+
+
+.view-flight-sites {
+
 }

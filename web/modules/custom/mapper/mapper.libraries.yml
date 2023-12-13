@@ -48,8 +48,8 @@ maptiler-widget:
     - mapper/maptiler-geocoder
     - mapper/maptiler-base
 
-# Maptiler map formatter.
-maptiler-map-test:
+# Maptiler Homepage map attachment.
+maptiler-map:
   js:
     js/maptiler-map.js: { attributes: { defer: true } }
   css:
@@ -58,24 +58,3 @@ maptiler-map-test:
   dependencies:
     - mapper/maptiler
     - mapper/maptiler-base
-
-# Maptiler Search map attachment.
-maptiler-search-map:
-  js:
-    js/maptiler-search-map.js: { attributes: { defer: true } }
-  dependencies:
-    - mapper/maptiler
-    - mapper/maptiler-base
-    - unep/views-initiatives-map
-
-# Maptiler Homepage map attachment.
-maptiler-map:
-  js:
-    js/maptiler-url-map.js: { attributes: { defer: true } }
-  css:
-    component:
-      css/maptiler-url-map.css: {}
-  dependencies:
-    - mapper/maptiler
-    - mapper/maptiler-base
-
