@@ -44,13 +44,8 @@
         terrain: true,
         terrainControl: true,
         terrainExaggeration: 1.2,
-        // pitch: 25,
         maxPitch: 70,
-        // scrollZoom: false,
-        cooperativeGestures: isTouchDevice(),
-        maptilerLogo: false,
-        attributionControl: false,
-        crossSourceCollisions: false,
+        cooperativeGestures: isTouchDevice() ? { mobileHelpText: 'Usa due dita per muovere la mappa' } : false,
       })
 
       // Add source and layer whenever base style is loaded
