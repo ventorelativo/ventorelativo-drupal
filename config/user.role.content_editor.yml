@@ -9,6 +9,7 @@ dependencies:
   module:
     - contextual
     - file
+    - help
     - node
     - path
     - system
@@ -26,6 +27,7 @@ permissions:
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
+  - 'access help pages'
   - 'access toolbar'
   - 'administer url aliases'
   - 'create article content'
