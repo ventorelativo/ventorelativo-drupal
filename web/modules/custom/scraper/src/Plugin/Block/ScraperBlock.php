@@ -27,6 +27,8 @@ use Symfony\Component\DomCrawler\Crawler;
  */
 final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInterface {
 
+  public static $xctUrlBase = "https://www.xcontest.org/world/en/";
+
   /**
    * Constructs the plugin instance.
    */
@@ -93,21 +95,18 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
 
     $client = new HttpBrowser();
     $tables = [];
-    $i = 0;
+
+    // Login to Xcontest.
+    $login_crawler = $client->request('GET', self::$xctUrlBase);
+    $form = $login_crawler->filter('#login')->form([
+      'login[username]' => $xct_user,
+      'login[password]' => $xct_pass,
+    ]);
+    $client->submit($form);
+
     foreach ($pages as $key => $page) {
       $crawler = $client->request('GET', $page['url']);
-
-      // Login on the first table.
-      if ($i === 0) {
-        $form = $crawler->filter('#login')->form([
-          'login[username]' => $xct_user,
-          'login[password]' => $xct_pass,
-        ]);
-        $crawler = $client->submit($form);
-      }
-
       $crawler = $crawler->filter($xct_table_selector);
-
       $tables[$key] = $page;
 
       $tables[$key]['rows'] = $crawler->filter('tbody tr')->slice(0, 25)->each(function (Crawler $node, $i) {
@@ -132,8 +131,6 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
           'link' => $node->filter('td:nth-child(10) a.detail')->link()->getUri(),
         ];
       });
-      $i++;
-
     }
 
     return $tables;
@@ -144,10 +141,9 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
    * {@inheritdoc}
    */
   public function build(): array {
-    $xct_url_base = "https://www.xcontest.org/world/en/";
     $xct_url_search = "flights-search/?";
     $xct_url_location = "filter[point]=7.116547+44.903584&filter[radius]=20000&";
-    $xct_url_vr = $xct_url_base . $xct_url_search . $xct_url_location;
+    $xct_url_vr = self::$xctUrlBase . $xct_url_search . $xct_url_location;
     $xct_url_recent = $xct_url_vr . "list[sort]=time_start&filter[mode]=START&filter[date_mode]=dmy&filter[value_mode]=dst&filter[catg]=FAI3";
     $xct_url_daily = $xct_url_vr . "filter[mode]=START&filter[date_mode]=dmy&filter[date]=" . date('Y-m-d') . "&filter[value_mode]=dst&filter[catg]=FAI3&list[sort]=pts&list[dir]=down";
     $xct_url_month = $xct_url_vr . "filter[mode]=START&filter[date_mode]=dmy&filter[date]=" . date('Y-m') . "&filter[value_mode]=dst&filter[catg]=FAI3&list[sort]=pts&list[dir]=down";
