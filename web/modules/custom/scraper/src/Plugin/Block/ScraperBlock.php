@@ -150,23 +150,23 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
     $xct_url_year = $xct_url_vr . "filter[mode]=START&filter[date_mode]=dmy&filter[date]=" . date('Y') . "&filter[value_mode]=dst&filter[catg]=FAI3&list[sort]=pts&list[dir]=down";
     $xct_url_best = $xct_url_vr . "filter[mode]=START&filter[date_mode]=dmy&filter[value_mode]=dst&filter[catg]=FAI3&list[sort]=pts&list[dir]=down";
     $pages = [
-      'recent' => [
+      'recenti' => [
         'label' => '⏱️ Recenti',
         'url' => $xct_url_recent,
       ],
-      'day' => [
+      'migliori-giornata' => [
         'label' => '🐥 Migliori giornata',
         'url' => $xct_url_daily,
       ],
-      'month' => [
+      'migliori-mese' => [
         'label' => '🐓 Migliori mese',
         'url' => $xct_url_month,
       ],
-      'year' => [
+      'migliori-anno' => [
         'label' => '🦅 Migliori anno',
         'url' => $xct_url_year,
       ],
-      'ever' => [
+      'migliori-sempre' => [
         'label' => '🏆 Migliori sempre',
         'url' => $xct_url_best,
       ],

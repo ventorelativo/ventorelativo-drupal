@@ -7,5 +7,7 @@ overrides:
   css:
     theme:
       css/overrides.css: {}
+  js:
+    js/global.js: {}
   dependencies:
     - vr/global-styling
