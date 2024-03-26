@@ -21,7 +21,8 @@ tabs.forEach(tab => {
 
     // Scroll to the tab content with an offset
     const headerHeight = document.querySelector('header').offsetHeight;
-    const tabContentOffset = document.querySelector(event.target.getAttribute('data-bs-target')).offsetTop - headerHeight;
+    const tabsHeight = document.querySelector('#pills-tab').offsetHeight ?? 0;
+    const tabContentOffset = document.querySelector(event.target.getAttribute('data-bs-target')).offsetTop - (headerHeight + tabsHeight + 40);
     window.scrollTo({ top: tabContentOffset, behavior: 'smooth' });
   });
 });
