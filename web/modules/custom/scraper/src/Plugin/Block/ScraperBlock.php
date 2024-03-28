@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace Drupal\scraper\Plugin\Block;
 
@@ -10,7 +10,6 @@ use Drupal\Core\Datetime\DrupalDateTime;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Http\ClientFactory;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
-use Drupal\Core\Site\Settings;
 use Psr\Http\Client\ClientInterface;
 use Symfony\Component\BrowserKit\HttpBrowser;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -27,6 +26,11 @@ use Symfony\Component\DomCrawler\Crawler;
  */
 final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInterface {
 
+  /**
+   * The Xcontest URL base.
+   *
+   * @var string
+   */
   public static $xctUrlBase = "https://www.xcontest.org/world/en/";
 
   /**
