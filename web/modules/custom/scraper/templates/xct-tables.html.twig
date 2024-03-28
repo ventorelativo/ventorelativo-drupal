@@ -87,15 +87,15 @@
             <table class="xct-flights recents table table-hover table-striped">
               <thead class="{#table-light#}">
                 <tr>
-                  {% if key != 'recent' %}
+                  {% if key != 'recenti' %}
                     <th class="xct-flights-rank"><span class="visually-hidden">Posizione</span></th>
                   {% endif %}
-                  <th class="xct-flights-date{{ key == 'recent' ? ' sort' }}"><div><span>Data</span>{{ key == 'recent' ? ico_sort }}</div></th>
+                  <th class="xct-flights-date{{ key == 'recenti' ? ' sort' }}"><div><span>Data</span>{{ key == 'recenti' ? ico_sort }}</div></th>
                   <th class="xct-flights-name">Pilota</th>
                   <th class="xct-flights-launch">Decollo</th>
                   <th class="xct-flights-route">Rotta</th>
                   <th class="xct-flights-length">Lunghezza</th>
-                  <th class="xct-flights-points{{ key != 'recent' ? ' sort' }}"><div><span>Punteggio</span>{{ key != 'recent' ? ico_sort }}</div></th>
+                  <th class="xct-flights-points{{ key != 'recenti' ? ' sort' }}"><div><span>Punteggio</span>{{ key != 'recenti' ? ico_sort }}</div></th>
                   <th class="xct-flights-glider">Vela</th>
                   <th class="xct-flights-link">Dettagli</th>
                 </tr>
@@ -116,7 +116,7 @@
                   {% endset %}
 
                   <tr>
-                    {% if key != 'recent' %}
+                    {% if key != 'recenti' %}
                       <td class="xct-flights-rank rank-{{ row.rank }} notranslate">
                         {%- if row.rank <= 3 %}
                           {%- if row.rank == 1 %}🥇{% elseif row.rank == 2 %}🥈{% elseif row.rank == 3 %}🥉{% endif -%}
@@ -125,12 +125,12 @@
                         {% endif -%}
                       </td>
                     {% endif %}
-                    <td class="xct-flights-date{{ key == 'recent' ? ' sort' }}" title="{{ row.date_time|date('U')|format_date('long') }}"><time datetime="{{row.date_time}}">{{ row.date_time|date('d M y') }} <small>{{ row.time }}</small></time></td>
+                    <td class="xct-flights-date{{ key == 'recenti' ? ' sort' }}" title="{{ row.date_time|date('U')|format_date('long') }}"><time datetime="{{row.date_time}}">{{ row.date_time|date('d M y') }} <small>{{ row.time }}</small></time></td>
                     <td class="xct-flights-name notranslate">{{ link(row.name, row.name_link, {'target':['_blank']} ) }}</td>
                     <td class="xct-flights-launch notranslate">{{ link(row.launch, row.launch_link, {'target':['_blank']} ) }}</td>
                     <td class="xct-flights-route" title="{{ route_title }}"><svg class="icon" width="16" height="16"><use xlink:href="#{{ row.route|lower }}"></use></svg></td>
                     <td class="xct-flights-length notranslate"><strong>{{ row.length }}</strong> <small>km</small></td>
-                    <td class="xct-flights-points notranslate{{ key != 'recent' ? ' sort' }}"><strong>{{ row.points }}</strong> <small>p.</small></td>
+                    <td class="xct-flights-points notranslate{{ key != 'recenti' ? ' sort' }}"><strong>{{ row.points }}</strong> <small>p.</small></td>
                     <td class="xct-flights-glider notranslate">{{ row.glider_model }} {{ rating }}</td>
                     <td class="xct-flights-link">{{ link(ico_link, row.link, {'target':['_blank'], 'title':'Dettagli del volo'} ) }}</td>
                   </tr>
