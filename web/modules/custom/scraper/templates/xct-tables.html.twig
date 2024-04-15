@@ -139,6 +139,7 @@
             </table>
           </div>
         {% else %}
+          <p><small><em>Ultimo aggiornamento al {{ date|date('d M Y - H:i') }}</em></small></p>
           <p>Nessun volo disponibile al momento. Ripassa più tardi, oppure controlla su {{ link('XContest', table.url, {'target':['_blank'], 'title':'XContest: ' ~ table.label} ) }}</p>
         {% endif %}
       </div>
