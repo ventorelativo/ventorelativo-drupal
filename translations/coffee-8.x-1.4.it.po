@@ -1,10 +1,10 @@
-# Italian translation of No Markup (1.0.4)
-# Copyright (c) 2023 by the Italian translation team
+# Italian translation of Coffee (8.x-1.4)
+# Copyright (c) 2024 by the Italian translation team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: No Markup (1.0.4)\n"
-"POT-Creation-Date: 2023-11-22 17:42+0000\n"
+"Project-Id-Version: Coffee (8.x-1.4)\n"
+"POT-Creation-Date: 2024-02-28 19:46+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-msgid "Enabled"
-msgstr "Attivato"
+msgid "Menu"
+msgstr "Menu"
+msgid "Permissions"
+msgstr "Permessi"
 msgid "About"
 msgstr "Informazioni"
+msgid "Uses"
+msgstr "Usa"
