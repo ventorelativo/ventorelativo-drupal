@@ -1,10 +1,10 @@
-# Italian translation of Gin Admin Theme (8.x-3.0-rc7)
-# Copyright (c) 2023 by the Italian translation team
+# Italian translation of Gin Admin Theme (8.x-3.0-rc10)
+# Copyright (c) 2024 by the Italian translation team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Gin Admin Theme (8.x-3.0-rc7)\n"
-"POT-Creation-Date: 2023-10-13 10:46+0000\n"
+"Project-Id-Version: Gin Admin Theme (8.x-3.0-rc10)\n"
+"POT-Creation-Date: 2024-04-09 18:46+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -118,6 +118,14 @@ msgid "Status messages"
 msgstr "Messaggi di stato"
 msgid "Main page content"
 msgstr "Contenuto della pagina principale"
+msgid ""
+"You have not created any content types yet. Go to the <a "
+"href=\"@create-content\">content type creation page</a> to add a new "
+"content type."
+msgstr ""
+"Non hai ancora creato nessun tipo di contenuto. Vai all pagina di <a "
+"href=\"@create-content\">creazione dei tipi di contenuto</a> per "
+"creare un nuovo tipo di contenuto."
 msgid "Collapse"
 msgstr "Raggruppa"
 msgid "Highlighted"
