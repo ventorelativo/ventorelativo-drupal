@@ -241,15 +241,11 @@
         map.easeTo({ pitch: 25, duration: 2000 })
       })
 
-      map.on('load', function () {
-        map.loadImage('/modules/custom/mapper/config/assets/img/takeoff.png', (error, image) => {
-          if (error) throw error
-          map.addImage('takeoff', image)
-        })
-        map.loadImage('/modules/custom/mapper/config/assets/img/landing.png', (error, image) => {
-          if (error) throw error
-          map.addImage('landing', image)
-        })
+      map.on('load', async function () {
+        const mapImgTakeOff = await map.loadImage('/modules/custom/mapper/config/assets/img/takeoff.png');
+        const mapImgLanding = await map.loadImage('/modules/custom/mapper/config/assets/img/landing.png');
+        map.addImage('takeoff', mapImgTakeOff.data);
+        map.addImage('landing', mapImgLanding.data);
         mapContainer.classList.remove('loading');
         document
           .getElementById('mapstyles')
