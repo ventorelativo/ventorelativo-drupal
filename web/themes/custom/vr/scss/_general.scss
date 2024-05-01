@@ -168,7 +168,71 @@ header {
   }
 }
 
+@include media-breakpoint-down(lg) {
+  /* Set Horzontal Scroll gradient direction based on lanuage direction.  */
+  [dir=ltr] {
+    & .table-responsive table {
+      background:
+          /* Left start and right start 'inside' container colors (they overlap the shadows). */
+          linear-gradient(90deg, var(--bs-body-bg) 0%, rgba(255,255,255,0)),
+          linear-gradient(-90deg, var(--bs-body-bg) 0%, rgba(255,255,255,0)) 100% 0,
+          /* Left and right scroll shadows. */
+          radial-gradient(
+            farthest-side at 0% 50%,
+            rgba(0,0,0,0.25),
+            rgba(0,0,0,0)
+          ),
+          radial-gradient(
+            farthest-side at 100% 50%,
+            rgba(0,0,0,0.25),
+            rgba(0,0,0,0)
+          ) 100% 0%;
 
-.view-flight-sites {
+      @media screen and (-ms-high-contrast: active) {
+        background: none; /* FF & Edge's high contrast does show the background image, so we hide it. */
+      }
+    }
+  }
 
+  [dir=rtl] {
+    & .table-responsive table {
+      background:
+          /* Right start and Left start 'inside' container colors (they overlap the shadows). */
+          linear-gradient(-90deg, var(--bs-body-bg) 0%, rgba(255,255,255,0)),
+          linear-gradient(90deg, var(--bs-body-bg) 0%, rgba(255,255,255,0)) 0 100%,
+          /* Right and Left scroll shadows. */
+          radial-gradient(
+            farthest-side at 0% 50%,
+            rgba(0,0,0,0.25),
+            rgba(0,0,0,0)
+          ),
+          radial-gradient(
+            farthest-side at 100% 50%,
+            rgba(0,0,0,0.25),
+            rgba(0,0,0,0)
+          ) 100% 0%;
+    }
+  }
+
+  [dir=ltr],
+  [dir=rtl] {
+    & .table-responsive table {
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      background-repeat: no-repeat;
+      background-color: var(--bs-body-bg);
+      background-attachment: local, local, scroll, scroll;
+      background-size: 100px 100%, 100px 100%, 14px 100%, 14px 100%;
+    }
+  }
+
+  /* Make table cell semi-transparent to allow table's scroll gradient visibility */
+  .table > :not(caption) > * > * {
+    background-color: transparent;
+  }
+
+  .table-striped > tbody > tr:nth-of-type(odd) > * {
+    --bs-table-bg-type: #bdbdbd26;
+  }
 }

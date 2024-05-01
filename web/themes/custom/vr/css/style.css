@@ -13096,6 +13096,39 @@ header #logo-offcanvas {
   }
 }
 
+@media (max-width: 991.98px) {
+  /* Set Horzontal Scroll gradient direction based on lanuage direction.  */
+  [dir=ltr] .table-responsive table {
+    background: linear-gradient(90deg, var(--bs-body-bg) 0%, rgba(255, 255, 255, 0)), linear-gradient(-90deg, var(--bs-body-bg) 0%, rgba(255, 255, 255, 0)) 100% 0, radial-gradient(farthest-side at 0% 50%, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)) 100% 0%;
+  }
+  /* Make table cell semi-transparent to allow table's scroll gradient visibility */
+}
+@media screen and (max-width: 991.98px) and (-ms-high-contrast: active) {
+  [dir=ltr] .table-responsive table {
+    background: none; /* FF & Edge's high contrast does show the background image, so we hide it. */
+  }
+}
+@media (max-width: 991.98px) {
+  [dir=rtl] .table-responsive table {
+    background: linear-gradient(-90deg, var(--bs-body-bg) 0%, rgba(255, 255, 255, 0)), linear-gradient(90deg, var(--bs-body-bg) 0%, rgba(255, 255, 255, 0)) 0 100%, radial-gradient(farthest-side at 0% 50%, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)) 100% 0%;
+  }
+  [dir=ltr] .table-responsive table,
+  [dir=rtl] .table-responsive table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    background-repeat: no-repeat;
+    background-color: var(--bs-body-bg);
+    background-attachment: local, local, scroll, scroll;
+    background-size: 100px 100%, 100px 100%, 14px 100%, 14px 100%;
+  }
+  .table > :not(caption) > * > * {
+    background-color: transparent;
+  }
+  .table-striped > tbody > tr:nth-of-type(odd) > * {
+    --bs-table-bg-type: #bdbdbd26;
+  }
+}
 /* FRONTPAGE */
 .path-frontpage .region-nav-branding .site-logo {
   visibility: hidden;

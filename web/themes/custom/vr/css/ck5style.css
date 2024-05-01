@@ -12104,6 +12104,41 @@ body:not(.path-frontpage) .ck-content header.fixed-top::after {
     --views-responsive-grid--layout-gap: 2rem !important;
   }
 }
+@media (max-width: 991.98px) {
+  .ck-content {
+    /* Set Horzontal Scroll gradient direction based on lanuage direction.  */
+    /* Make table cell semi-transparent to allow table's scroll gradient visibility */
+  }
+  .ck-content [dir=ltr] .table-responsive table {
+    background: linear-gradient(90deg, var(--bs-body-bg) 0%, rgba(255, 255, 255, 0)), linear-gradient(-90deg, var(--bs-body-bg) 0%, rgba(255, 255, 255, 0)) 100% 0, radial-gradient(farthest-side at 0% 50%, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)) 100% 0%;
+  }
+}
+@media screen and (max-width: 991.98px) and (-ms-high-contrast: active) {
+  .ck-content [dir=ltr] .table-responsive table {
+    background: none; /* FF & Edge's high contrast does show the background image, so we hide it. */
+  }
+}
+@media (max-width: 991.98px) {
+  .ck-content [dir=rtl] .table-responsive table {
+    background: linear-gradient(-90deg, var(--bs-body-bg) 0%, rgba(255, 255, 255, 0)), linear-gradient(90deg, var(--bs-body-bg) 0%, rgba(255, 255, 255, 0)) 0 100%, radial-gradient(farthest-side at 0% 50%, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)) 100% 0%;
+  }
+  .ck-content [dir=ltr] .table-responsive table,
+  .ck-content [dir=rtl] .table-responsive table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    background-repeat: no-repeat;
+    background-color: var(--bs-body-bg);
+    background-attachment: local, local, scroll, scroll;
+    background-size: 100px 100%, 100px 100%, 14px 100%, 14px 100%;
+  }
+  .ck-content .table > :not(caption) > * > * {
+    background-color: transparent;
+  }
+  .ck-content .table-striped > tbody > tr:nth-of-type(odd) > * {
+    --bs-table-bg-type: #bdbdbd26;
+  }
+}
 .ck-content .path-frontpage .region-nav-branding .site-logo {
   visibility: hidden;
   width: 0;
