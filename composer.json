@@ -114,7 +114,7 @@
         "composer-exit-on-patch-failure": true,
         "patches": {
             "drupal/core": {
-                "Expose Layout Builder data to REST and JSON:API - 2942975": "https://www.drupal.org/files/issues/2023-08-14/2942975-240.patch"
+                "Expose Layout Builder data to REST and JSON:API - 2942975": "https://www.drupal.org/files/issues/2024-09-06/2942975-10.3.x.patch"
             },
             "drupal/leaflet_more_maps": {
                 "Support for retina tiles - 3404743": "https://git.drupalcode.org/project/leaflet_more_maps/-/merge_requests/10.diff",
