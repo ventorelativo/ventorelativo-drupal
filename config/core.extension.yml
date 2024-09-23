@@ -1,6 +1,5 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
-langcode: it
 module:
   admin_toolbar: 0
   admin_toolbar_tools: 0
@@ -41,6 +40,7 @@ module:
   inline_form_errors: 0
   language: 0
   layout_builder: 0
+  layout_builder_expose_all_field_blocks: 0
   layout_builder_modal: 0
   layout_discovery: 0
   lb_claro: 0

@@ -11,7 +11,7 @@ third_party_settings:
 name: 'Sito di volo'
 type: sito
 description: 'Utilizza un <em>sito di volo</em> per aggiungere una zona di volo, compresiva di decollo, atterraggio, e indicazioni per raggiungere e volare la zone.'
-help: ''
+help: null
 new_revision: true
 preview_mode: 1
 display_submitted: false

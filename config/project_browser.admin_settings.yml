@@ -1,6 +1,5 @@
 _core:
   default_config_hash: TgohPSKQv6vKfToguTCvb8Wp899q7b2l_Rh4sVKDmBs
-langcode: it
 enabled_sources:
   - drupalorg_mockapi
 allow_ui_install: false
