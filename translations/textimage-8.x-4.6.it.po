@@ -1,10 +1,10 @@
-# Italian translation of Textimage (8.x-4.3)
-# Copyright (c) 2022 by the Italian translation team
+# Italian translation of Textimage (8.x-4.6)
+# Copyright (c) 2024 by the Italian translation team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Textimage (8.x-4.3)\n"
-"POT-Creation-Date: 2022-11-26 15:46+0000\n"
+"Project-Id-Version: Textimage (8.x-4.6)\n"
+"POT-Creation-Date: 2024-09-14 11:46+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"

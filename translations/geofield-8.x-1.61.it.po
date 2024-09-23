@@ -1,10 +1,10 @@
-# Italian translation of Geofield (8.x-1.57)
-# Copyright (c) 2023 by the Italian translation team
+# Italian translation of Geofield (8.x-1.61)
+# Copyright (c) 2024 by the Italian translation team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Geofield (8.x-1.57)\n"
-"POT-Creation-Date: 2023-11-26 23:46+0000\n"
+"Project-Id-Version: Geofield (8.x-1.61)\n"
+"POT-Creation-Date: 2024-09-04 09:46+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -62,8 +62,6 @@ msgid "Feet"
 msgstr "Piede"
 msgid "Output format"
 msgstr "Formato di output"
-msgid "Default value"
-msgstr "Valore predefinito"
 msgid "Distance"
 msgstr "Distanza"
 msgid "Miles"

@@ -1,10 +1,10 @@
-# Italian translation of Inline Entity Form (3.0.0-rc15)
-# Copyright (c) 2023 by the Italian translation team
+# Italian translation of Inline Entity Form (3.0.0-rc20)
+# Copyright (c) 2024 by the Italian translation team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Inline Entity Form (3.0.0-rc15)\n"
-"POT-Creation-Date: 2023-12-09 16:46+0000\n"
+"Project-Id-Version: Inline Entity Form (3.0.0-rc20)\n"
+"POT-Creation-Date: 2024-07-26 19:06+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -66,6 +66,8 @@ msgstr ""
 "Selezionare il metodo usato per raccogliere i suggerimenti per "
 "l'autocompletamento. Notare che <em>Contiene</em> può creare problemi "
 "di prestazioni sui siti con migliaia di nodi."
+msgid "Weight for row @number"
+msgstr "Peso per la riga @number"
 msgid "@name field is required."
 msgstr "Il campo @name è obbligatorio."
 msgid "Add new @type_singular"

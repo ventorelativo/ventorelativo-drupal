@@ -1,10 +1,10 @@
-# Italian translation of Tagify (1.2.11)
+# Italian translation of Tagify (1.2.21)
 # Copyright (c) 2024 by the Italian translation team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Tagify (1.2.11)\n"
-"POT-Creation-Date: 2024-04-10 09:46+0000\n"
+"Project-Id-Version: Tagify (1.2.21)\n"
+"POT-Creation-Date: 2024-09-05 20:46+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,8 @@ msgid "User interface"
 msgstr "Interfaccia utente"
 msgid "Search"
 msgstr "Cerca"
+msgid "Field name"
+msgstr "Nome del campo"
 msgid "Contains"
 msgstr "Contiene"
 msgid "unlimited"

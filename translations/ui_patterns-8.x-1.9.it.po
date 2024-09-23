@@ -1,10 +1,10 @@
-# Italian translation of UI Patterns (8.x-1.8)
+# Italian translation of UI Patterns (8.x-1.9)
 # Copyright (c) 2024 by the Italian translation team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: UI Patterns (8.x-1.8)\n"
-"POT-Creation-Date: 2024-02-01 10:46+0000\n"
+"Project-Id-Version: UI Patterns (8.x-1.9)\n"
+"POT-Creation-Date: 2024-08-29 13:46+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"

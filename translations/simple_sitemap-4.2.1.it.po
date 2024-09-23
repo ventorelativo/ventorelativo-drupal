@@ -1,10 +1,10 @@
-# Italian translation of Simple XML sitemap (4.1.9)
+# Italian translation of Simple XML sitemap (4.2.1)
 # Copyright (c) 2024 by the Italian translation team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Simple XML sitemap (4.1.9)\n"
-"POT-Creation-Date: 2024-04-06 22:46+0000\n"
+"Project-Id-Version: Simple XML sitemap (4.2.1)\n"
+"POT-Creation-Date: 2024-08-16 10:46+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"

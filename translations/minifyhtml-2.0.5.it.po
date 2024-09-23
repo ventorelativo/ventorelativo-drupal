@@ -1,10 +1,10 @@
-# Italian translation of Minify Source HTML (2.0.2)
-# Copyright (c) 2023 by the Italian translation team
+# Italian translation of Minify Source HTML (2.0.5)
+# Copyright (c) 2024 by the Italian translation team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Minify Source HTML (2.0.2)\n"
-"POT-Creation-Date: 2023-04-12 16:46+0000\n"
+"Project-Id-Version: Minify Source HTML (2.0.5)\n"
+"POT-Creation-Date: 2024-05-01 18:46+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"

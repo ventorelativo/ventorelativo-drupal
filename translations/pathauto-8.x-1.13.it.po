@@ -1,10 +1,10 @@
-# Italian translation of Pathauto (8.x-1.11)
-# Copyright (c) 2022 by the Italian translation team
+# Italian translation of Pathauto (8.x-1.13)
+# Copyright (c) 2024 by the Italian translation team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Pathauto (8.x-1.11)\n"
-"POT-Creation-Date: 2022-08-03 01:02+0000\n"
+"Project-Id-Version: Pathauto (8.x-1.13)\n"
+"POT-Creation-Date: 2024-08-01 10:46+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -178,12 +178,6 @@ msgid "Created new alias %alias for %source."
 msgstr "Creato un nuovo alias %alias per %source."
 msgid "Administer pathauto"
 msgstr "Amministra pathauto"
-msgid ""
-"Allows a user to configure patterns for automated aliases and bulk "
-"delete URL-aliases."
-msgstr ""
-"Permette ad un utente la configurazione di schemi per alias automatici "
-"e rimozione di massa di alias URL."
 msgid "Notify of Path Changes"
 msgstr "Notifica di cambiamenti di percorso"
 msgid "Determines whether or not users are notified."
