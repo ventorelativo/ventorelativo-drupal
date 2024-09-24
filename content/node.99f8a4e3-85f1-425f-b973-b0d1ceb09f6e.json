@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-13T20:05:07+00:00",
+            "value": "2024-09-24T12:47:54+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-12-13T20:05:07+00:00",
+            "value": "2024-09-24T12:47:54+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -86,7 +86,7 @@
     ],
     "body": [
         {
-            "value": "<p>Benvenuto nel cuore dell'avventura aerea con VentoRelativo! La nostra passione per il parapendio ci porta a esplorare i cieli da siti eccezionali, ognuno con la propria magia e bellezza uniche. Siamo entusiasti di condividere con te i dettagli dei nostri siti di volo, luoghi incantevoli che offrono panorami mozzafiato e l'emozione pura di solcare il vento.<\/p>",
+            "value": "<p class=\"p1\">Esplora la mappa per scoprire i nostri punti di decollo, atterraggio e altri luoghi interessanti nell\u2019area del club. Trovi inoltre le schede dettagliate per ogni decollo e atterraggio, con tutte le informazioni utili per i tuoi prossimi voli.<\/p>",
             "format": "full_html",
             "summary": ""
         }
@@ -119,6 +119,20 @@
                         "additional": []
                     },
                     {
+                        "uuid": "769be118-75da-435a-aabf-12d321185c6b",
+                        "region": "content",
+                        "configuration": {
+                            "id": "mapper_maptiler_map",
+                            "label": "Maptiler map",
+                            "label_display": 0,
+                            "provider": "mapper",
+                            "url": null,
+                            "context_mapping": []
+                        },
+                        "weight": 9,
+                        "additional": []
+                    },
+                    {
                         "uuid": "dd78ff34-aa70-4b0f-97ad-25ffc4c82712",
                         "region": "content",
                         "configuration": {
@@ -130,21 +144,7 @@
                             "items_per_page": "none",
                             "context_mapping": []
                         },
-                        "weight": 1,
-                        "additional": []
-                    },
-                    {
-                        "uuid": "769be118-75da-435a-aabf-12d321185c6b",
-                        "region": "content",
-                        "configuration": {
-                            "id": "mapper_maptiler_map",
-                            "label": "Maptiler map",
-                            "label_display": 0,
-                            "provider": "mapper",
-                            "url": null,
-                            "context_mapping": []
-                        },
-                        "weight": 7,
+                        "weight": 11,
                         "additional": []
                     },
                     {
@@ -157,7 +157,7 @@
                                 "entity": "layout_builder.entity"
                             }
                         },
-                        "weight": 8,
+                        "weight": 10,
                         "additional": []
                     }
                 ],
