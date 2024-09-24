@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "b1e094d6-fca0-4ca2-aec4-8f458a8e10a0"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "filename": [
+        {
+            "value": "IMG_9953.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-09\/IMG_9953.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1525978
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-24T13:38:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-24T13:39:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "8df617b3-dda3-4084-a30f-85faa7fb096d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "filename": [
+        {
+            "value": "IMG_9931.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-09\/IMG_9931.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1721646
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-24T13:38:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-24T13:39:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

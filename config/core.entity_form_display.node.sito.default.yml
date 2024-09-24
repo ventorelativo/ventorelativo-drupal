@@ -4,11 +4,14 @@ status: true
 dependencies:
   config:
     - field.field.node.sito.body
+    - field.field.node.sito.field_images
     - field.field.node.sito.field_map_elements
+    - image.style.thumbnail
     - node.type.sito
   module:
     - inline_entity_form
     - path
+    - svg_image
     - text
 id: node.sito.default
 targetEntityType: node
@@ -30,6 +33,14 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_images:
+    type: image_image
+    weight: 124
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
   field_map_elements:
     type: inline_entity_form_complex

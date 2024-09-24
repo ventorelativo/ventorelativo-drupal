@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.sito.body
+    - field.field.node.sito.field_images
     - field.field.node.sito.field_map_elements
     - node.type.sito
   module:
@@ -38,5 +39,6 @@ content:
     weight: 0
     region: content
 hidden:
+  field_images: true
   langcode: true
   links: true

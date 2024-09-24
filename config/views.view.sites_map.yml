@@ -396,7 +396,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"popup-header\">\r\n{% if field_type == \"takeoff\" %}\r\n<h6>{{ title }}</h6>🪂 \r\n{% elseif field_type == \"landing\" %}🎯 \r\n{% elseif field_type == \"obstacle\" %}⚠️ \r\n{% elseif field_type == \"parking\" %}🅿️ \r\n{% elseif field_type == \"poi\" %}ℹ \r\n{% endif %}\r\n<strong>{{ name }}</strong>\r\n</div>\r\n<p><a href=\"https://www.google.com/maps/dir/?api=1&destination={{ field_location|striptags|spaceless }}\" target=\"_blank\">🗺️ Naviga qui</a></p>\r\n"
+            text: "<div class=\"popup-header\">\r\n{% if field_type == \"takeoff\" %}\r\n<h6>{{ title }}</h6>🪂 \r\n{% elseif field_type == \"landing\" %}🎯 \r\n{% elseif field_type == \"obstacle\" %}⚠️ \r\n{% elseif field_type == \"parking\" %}🅿️ \r\n{% elseif field_type == \"poi\" %}ℹ \r\n{% endif %}\r\n<strong>{{ name }}</strong>\r\n</div>\r\n<div class=\"popup-body\">\r\n{{ field_location|striptags|spaceless }}<br>\r\n<a href=\"https://www.google.com/maps/dir/?api=1&destination={{ field_location|striptags|spaceless }}\" target=\"_blank\">🗺️ Naviga qui</a>\r\n</div>\r\n"
             make_link: false
             path: ''
             absolute: false
@@ -1018,7 +1018,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"popup-header\">\r\n{% if field_type == \"takeoff\" %}\r\n<h6>{{ title }}</h6>🪂 \r\n{% elseif field_type == \"landing\" %}🎯 \r\n{% elseif field_type == \"obstacle\" %}⚠️ \r\n{% elseif field_type == \"parking\" %}🅿️ \r\n{% elseif field_type == \"poi\" %}ℹ \r\n{% endif %}\r\n<strong>{{ name }}</strong>\r\n</div>\r\n<p><a href=\"https://www.google.com/maps/dir/?api=1&destination={{ field_location|striptags|spaceless }}\" target=\"_blank\">🗺️ Naviga qui</a></p>\r\n<p><a href=\"geo:{{ field_location|striptags|spaceless }})?q={{ field_location|striptags|spaceless }}({{ name }})&daddr=&z=18\" target=\"_blank\">🧭 Test GEO URI</a></p>\r\n"
+            text: "<div class=\"popup-header\">\r\n{% if field_type == \"takeoff\" %}\r\n<h6>{{ title }}</h6>🪂 \r\n{% elseif field_type == \"landing\" %}🎯 \r\n{% elseif field_type == \"obstacle\" %}⚠️ \r\n{% elseif field_type == \"parking\" %}🅿️ \r\n{% elseif field_type == \"poi\" %}ℹ \r\n{% endif %}\r\n<strong>{{ name }}</strong>\r\n</div>\r\n<div class=\"popup-body\">\r\n{{ field_location|striptags|spaceless }}<br>\r\n<a href=\"https://www.google.com/maps/dir/?api=1&destination={{ field_location|striptags|spaceless }}\" target=\"_blank\">🗺️ Naviga qui</a>\r\n{#<a href=\"geo:{{ field_location|striptags|spaceless }})?q={{ field_location|striptags|spaceless }}({{ name }})&daddr=&z=18\" target=\"_blank\">🧭 Test GEO URI</a>#}\r\n</div>\r\n"
             make_link: false
             path: ''
             absolute: false
@@ -1465,7 +1465,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"popup-header\">\r\n{% if field_type == \"takeoff\" %}\r\n<h6>{{ title }}</h6>🪂 \r\n{% elseif field_type == \"landing\" %}🎯 \r\n{% elseif field_type == \"obstacle\" %}⚠️ \r\n{% elseif field_type == \"parking\" %}🅿️ \r\n{% elseif field_type == \"poi\" %}ℹ \r\n{% endif %}\r\n<strong>{{ name }}</strong>\r\n</div>\r\n<p><a href=\"https://www.google.com/maps/dir/?api=1&destination={{ field_location|striptags|spaceless }}\" target=\"_blank\">🗺️ Naviga qui</a></p>\r\n<p><a href=\"geo:{{ field_location|striptags|spaceless }})?q={{ field_location|striptags|spaceless }}({{ name }})&daddr=&z=18\" target=\"_blank\">🧭 Test GEO URI</a></p>\r\n\r\n"
+            text: "<div class=\"popup-header\">\r\n{% if field_type == \"takeoff\" %}\r\n<h6>{{ title }}</h6>🪂 \r\n{% elseif field_type == \"landing\" %}🎯 \r\n{% elseif field_type == \"obstacle\" %}⚠️ \r\n{% elseif field_type == \"parking\" %}🅿️ \r\n{% elseif field_type == \"poi\" %}ℹ \r\n{% endif %}\r\n<strong>{{ name }}</strong>\r\n</div>\r\n<div class=\"popup-body\">\r\n{{ field_location|striptags|spaceless }}<br>\r\n<a href=\"https://www.google.com/maps/dir/?api=1&destination={{ field_location|striptags|spaceless }}\" target=\"_blank\">🗺️ Naviga qui</a>\r\n{#<a href=\"geo:{{ field_location|striptags|spaceless }})?q={{ field_location|striptags|spaceless }}({{ name }})&daddr=&z=18\" target=\"_blank\">🧭 Test GEO URI</a>#}\r\n</div>\r\n"
             make_link: false
             path: ''
             absolute: false

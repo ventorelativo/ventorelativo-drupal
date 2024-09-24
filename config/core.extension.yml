@@ -6,6 +6,7 @@ module:
   automated_cron: 0
   background_image_formatter: 0
   big_pipe: 0
+  blazy: 0
   block: 0
   block_class: 0
   block_content: 0
@@ -50,6 +51,7 @@ module:
   linkit: 0
   locale: 0
   mapper: 0
+  media: 0
   menu_link_content: 0
   menu_ui: 0
   metatag: 0
@@ -73,6 +75,8 @@ module:
   serialization: 0
   shortcut: 0
   simple_sitemap: 0
+  slick: 0
+  slick_ui: 0
   sqlite: 0
   storage: 0
   svg_image: 0

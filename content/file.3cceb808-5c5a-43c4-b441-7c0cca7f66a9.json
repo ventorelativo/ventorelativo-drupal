@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "3cceb808-5c5a-43c4-b441-7c0cca7f66a9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "filename": [
+        {
+            "value": "IMG_9937.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-09\/IMG_9937.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1561726
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-24T13:38:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-24T13:39:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
