@@ -237,7 +237,12 @@ header {
   }
 }
 
-
 .node--view-mode-full .field--name-field-image img {
   margin-bottom: 1rem;
+}
+
+.node--type-sito.node--view-mode-full {
+  & > h2:first-of-type {
+    display: none;
+  }
 }
