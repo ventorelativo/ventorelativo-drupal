@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "4b7a2a63-12ce-4a40-af21-2379dc5ceb33"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "filename": [
+        {
+            "value": "x-cro-title.jpeg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-09\/x-cro-title.jpeg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 241185
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-24T10:01:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-24T10:01:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

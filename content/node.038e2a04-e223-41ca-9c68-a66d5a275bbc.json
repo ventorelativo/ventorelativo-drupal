@@ -1,0 +1,114 @@
+{
+    "uuid": [
+        {
+            "value": "038e2a04-e223-41ca-9c68-a66d5a275bbc"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article",
+            "target_type": "node_type",
+            "target_uuid": "b6bcf908-450f-4894-aa3f-2044222a6ed8"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-09-24T10:01:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "title": [
+        {
+            "value": "Parte la prima gara Hike & Fly: X-CRO \ud83c\udfde\ufe0f\ud83e\ude82"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-24T07:45:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-24T10:01:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/news\/parte-la-prima-gara-hike-fly-x-cro",
+            "langcode": "it",
+            "pathauto": 1
+        }
+    ],
+    "body": [
+        {
+            "value": "<p class=\"p1\">La FIVL ha lanciato una nuova avventura per gli appassionati di volo libero e montagna: nasce la <strong>X-CRO<\/strong>, la prima gara Hike &amp; Fly del Campionato Regioni Occidentali! \ud83d\udeb6\u200d\u2642\ufe0f\u26f0\ufe0f<\/p><p class=\"p1\">Immagina di percorrere le nostre magnifiche valli in stile <strong>X-Alps<\/strong>, combinando corsa in montagna e volo libero in una sfida dove strategia, avventura e divertimento si fondono perfettamente. Con un innovativo sistema di refertazione, potrai seguire le gare <strong>LIVE<\/strong> e tifare per i piloti in tempo reale! \ud83c\udfa5\ud83d\udc40<\/p><p class=\"p1\">Anche con l\u2019arrivo delle stagioni fredde, i nostri piloti non si fermeranno, pronti a mettersi alla prova con task emozionanti nel nord-ovest. Chi sar\u00e0 il primo a raggiungere il traguardo? \ud83c\udfc1<\/p><p class=\"p1\">Scopri di pi\u00f9 sulla gara e come partecipare qui: <a href=\"https:\/\/www.paracro.it\/x-cro-h-f\">X-CRO Hike &amp; Fly<\/a><\/p>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ],
+    "field_image": [
+        {
+            "alt": "Locandina X-CRO",
+            "title": "",
+            "width": 1131,
+            "height": 504,
+            "target_type": "file",
+            "target_uuid": "4b7a2a63-12ce-4a40-af21-2379dc5ceb33"
+        }
+    ],
+    "field_tags": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "e3068453-e593-499f-9796-15d4f764271a"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "0d94ddc9-2d3b-4091-b5dc-6da5868fe68f"
+        }
+    ]
+}

@@ -31,6 +31,7 @@ display:
         type: full
         options:
           offset: 0
+          pagination_heading_level: h4
           items_per_page: 10
           total_pages: 0
           id: 0
@@ -48,7 +49,6 @@ display:
             offset: false
             offset_label: Scostamento
           quantity: 9
-          pagination_heading_level: h4
       exposed_form:
         type: basic
         options:
@@ -77,7 +77,7 @@ display:
           plugin_id: text_custom
           label: ''
           empty: true
-          content: 'No front page content has been created yet.<br/>Follow the <a target="_blank" href="https://www.drupal.org/docs/user_guide/en/index.html">User Guide</a> to start building your site.'
+          content: "<p>\r\n<strong>Nessuna news al momento!</strong><br>\r\nSiamo in aria, ma non preoccuparti, presto torneremo con nuove avventure e aggiornamenti. Resta sintonizzato per le prossime novità del club!\r\n</p>"
           tokenize: false
         node_listing_empty:
           id: node_listing_empty
@@ -90,17 +90,6 @@ display:
           plugin_id: node_listing_empty
           label: ''
           empty: true
-        title:
-          id: title
-          table: views
-          field: title
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: title
-          label: ''
-          empty: true
-          title: Welcome!
       sorts:
         sticky:
           id: sticky

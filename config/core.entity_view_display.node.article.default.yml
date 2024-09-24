@@ -55,7 +55,7 @@ content:
     third_party_settings:
       nomarkup:
         enabled: false
-        separator: '|'
+        separator: ''
         referenced_entity: ''
     weight: 0
     region: content
