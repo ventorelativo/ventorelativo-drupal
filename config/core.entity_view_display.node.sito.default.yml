@@ -51,7 +51,7 @@ third_party_settings:
                   background: true
                   box_caption: ''
                   box_caption_custom: ''
-                  loading: ''
+                  loading: auto
                   preload: false
                   box_style: ''
                   image_style: wide
