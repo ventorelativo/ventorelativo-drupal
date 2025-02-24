@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2024-09-24T11:20:23+00:00",
+            "value": "2024-09-25T10:01:56+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2024-09-24T11:20:23+00:00",
+            "value": "2024-09-25T10:01:56+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -86,7 +86,7 @@
     ],
     "body": [
         {
-            "value": "<p><strong>Benvenuto nella sezione dedicata ai voli del nostro club.&nbsp;<\/strong><br>Qui trovi tutti i voli registrati su XContest dai nostri decolli. Dai un\u2019occhiata ai <a href=\"#recenti\">voli pi\u00f9 recenti<\/a> o scopri chi ha fatto <a href=\"#migliori-giornata\">i migliori voli della giornata<\/a>, <a href=\"#migliori-mese\">del mese<\/a>, <a href=\"#migliori-anno\">dell\u2019anno<\/a> o <a href=\"#migliori-sempre\">di sempre<\/a>. \u00c8 il posto perfetto per seguire le performance dei piloti dai nostri decolli.<\/p>",
+            "value": "<p><strong>Benvenuto nella sezione dedicata ai voli del nostro club.&nbsp;<\/strong><br>Qui trovi tutti i voli registrati su <a href=\"https:\/\/www.xcontest.org\/world\/en\/flights-search\/?filter%5Bpoint%5D=7.116547%2044.903584&amp;filter%5Bradius%5D=20000&amp;filter%5Bmode%5D=START&amp;filter%5Bdate_mode%5D=dmy&amp;filter%5Bvalue_mode%5D=dst&amp;filter%5Bcatg%5D=FAI3&amp;list%5Bsort%5D=time_start\" target=\"_blank\">XContest<\/a> dai nostri decolli. Dai un\u2019occhiata ai voli pi\u00f9 recenti o scopri chi ha fatto i migliori voli della giornata, del mese, dell\u2019anno o di sempre. \u00c8 il posto perfetto per seguire le performance dei piloti dai nostri decolli.<\/p>",
             "format": "full_html",
             "summary": ""
         }
