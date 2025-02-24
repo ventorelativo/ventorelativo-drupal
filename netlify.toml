@@ -1,6 +1,7 @@
 [build]
 command = """
 export PATH="./vendor/bin:$PATH"
+command = "./install_sqlite.sh"
 
 drush tome:install -y \
 && drush cr \
