@@ -40,7 +40,7 @@ drush tome:install -y \
 publish = "html"
 
 [build.environment]
-PHP_VERSION="8.2"
+PHP_VERSION="8.3"
 
 [[redirects]]
 from = "/home"
