@@ -2,4 +2,4 @@ name: 'Mapper'
 type: module
 description: 'A module providing customised map rendering'
 package: 'Custom'
-core_version_requirement: ^10
+core_version_requirement: ^10 || ^11
