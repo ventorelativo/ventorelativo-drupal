@@ -7,7 +7,7 @@ drush tome:install -y \
 && drush cron \
 && drush locale:update \
 && drush simple-sitemap:generate -l $URL \
-&& drush un lb_claro \
+&& drush un project_browser \
 && drush tome:static -l $URL \
 
 && mkdir -p html/themes/custom/vr/img \
