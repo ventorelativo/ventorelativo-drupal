@@ -56,6 +56,7 @@ content:
         minZoom: 12
         maxZoom: 18
         zoomFiner: 0
+      weight: null
       icon:
         iconType: marker
         iconUrl: ''
@@ -93,6 +94,7 @@ content:
       geocoder:
         control: false
         settings:
+          popup: false
           autocomplete:
             placeholder: 'Search Address'
             title: 'Search an Address on the Map'
@@ -102,11 +104,9 @@ content:
           min_terms: 4
           delay: 800
           zoom: 16
-          popup: false
           options: ''
       map_lazy_load:
         lazy_load: true
-      weight: null
     third_party_settings:
       nomarkup:
         enabled: true

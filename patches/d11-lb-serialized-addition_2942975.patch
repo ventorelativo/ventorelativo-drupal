@@ -1,0 +1,18 @@
+diff --git a/core/modules/layout_builder/src/Normalizer/SectionDataNormalizer.php b/core/modules/layout_builder/src/Normalizer/SectionDataNormalizer.php
+index ac8d0b7a..00c0ddab 100644
+--- a/core/modules/layout_builder/src/Normalizer/SectionDataNormalizer.php
++++ b/core/modules/layout_builder/src/Normalizer/SectionDataNormalizer.php
+@@ -34,4 +34,13 @@ class SectionDataNormalizer extends TypedDataNormalizer implements DenormalizerI
+     return Section::fromArray((array) $data);
+   }
+ 
++  /**
++   * {@inheritdoc}
++   */
++  public function getSupportedTypes(?string $format): array {
++    return [
++      SectionData::class => TRUE,
++    ];
++  }
++
+ }
