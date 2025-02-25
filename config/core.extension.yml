@@ -89,6 +89,7 @@ module:
   textimage: 0
   token: 0
   tome: 0
+  tome_add_paths: 0
   tome_base: 0
   tome_netlify_contact: 0
   tome_static: 0
