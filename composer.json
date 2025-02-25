@@ -115,8 +115,7 @@
         "composer-exit-on-patch-failure": true,
         "patches": {
             "drupal/core": {
-                "Expose Layout Builder data to REST and JSON:API - https://drupal.org/i/2942975": "https://www.drupal.org/files/issues/2024-12-20/2942975-273_0.patch",
-                "CUSTOM - Expose Layout Builder D11 compatibility - https://drupal.org/i/2942975": "./patches/d11-lb-serialized-addition_2942975.patch",
+                "Expose Layout Builder data to REST and JSON:API - https://drupal.org/i/2942975": "https://www.drupal.org/files/issues/2025-02-25/2942975-274.patch",
                 "Workaround for netlify Sqlite3 old version": "./patches/netlify-requirements.patch"
             },
             "drupal/gtranslate": {
