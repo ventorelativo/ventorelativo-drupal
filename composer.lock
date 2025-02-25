@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4820a31b0a678898b9af60411d50faef",
+    "content-hash": "02ba3ef990964ce72e7f90a2e657f0bf",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4380,6 +4380,59 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/tome",
                 "issues": "https://www.drupal.org/project/issues/tome"
+            }
+        },
+        {
+            "name": "drupal/tome_add_paths",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/tome_add_paths.git",
+                "reference": "1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/tome_add_paths-1.0.3.zip",
+                "reference": "1.0.3",
+                "shasum": "66e17b104a0dbef14f09749200890fcf8a0b720c"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10 || ^11",
+                "drupal/tome": "*",
+                "drupal/tome_static": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.3",
+                    "datestamp": "1737022130",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo Urrea",
+                    "homepage": "https://www.drupal.org/user/3685606",
+                    "email": "paurca@gmail.com"
+                }
+            ],
+            "description": "Add custom paths to be exported on a Tome static site.",
+            "homepage": "https://www.drupal.org/project/tome_add_paths",
+            "keywords": [
+                "Drupal",
+                "Static",
+                "Tome"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/tome_add_paths",
+                "issues": "http://drupal.org/project/issues/tome_add_paths"
             }
         },
         {
