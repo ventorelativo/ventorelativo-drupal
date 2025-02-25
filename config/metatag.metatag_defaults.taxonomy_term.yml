@@ -9,4 +9,5 @@ label: 'Termine della tassonomia'
 tags:
   canonical_url: '[term:url]'
   description: '[term:description]'
+  og_image: '/sites/default/files/textimage/social_card/[term:name].png'
   title: '[term:name] | [site:name]'

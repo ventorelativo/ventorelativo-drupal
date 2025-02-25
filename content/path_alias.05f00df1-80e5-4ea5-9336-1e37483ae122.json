@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "05f00df1-80e5-4ea5-9336-1e37483ae122"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/3"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/tags\/gare"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

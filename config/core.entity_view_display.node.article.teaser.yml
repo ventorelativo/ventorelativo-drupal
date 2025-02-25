@@ -54,7 +54,7 @@ content:
       link: false
     third_party_settings:
       nomarkup:
-        enabled: true
+        enabled: false
         separator: ''
         referenced_entity: ''
     weight: 2

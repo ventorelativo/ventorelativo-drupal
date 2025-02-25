@@ -2,7 +2,15 @@
   <strong class="visually-hidden">{{ label }}</strong>
   {% for link in links %}
     <div>
-      <a href="{{ link.content['#url'] }}" class="btn btn btn-outline-primary btn-sm" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">{{ link.content['#title'] }}</a>
+    {% if link.content['#url'] %}
+      <a href="{{ link.content['#url'] }}" class="btn btn-outline-primary btn-sm" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        {{- link.content['#title'] -}}
+      </a>
+    {% else %}
+      <span class="btn btn-outline-primary btn-sm disabled" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        {{- link.content['#plain_text'] -}}
+      </span>
+    {% endif %}
     </div>
   {% endfor %}
 </div>

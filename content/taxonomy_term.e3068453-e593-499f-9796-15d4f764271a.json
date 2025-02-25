@@ -18,8 +18,7 @@
     ],
     "revision_created": [
         {
-            "value": "2024-09-24T07:57:23+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2024-09-24T07:57:23+00:00"
         }
     ],
     "revision_user": [],
@@ -47,8 +46,7 @@
     ],
     "changed": [
         {
-            "value": "2024-09-24T07:59:00+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-02-25T22:25:07+00:00"
         }
     ],
     "default_langcode": [
@@ -63,10 +61,9 @@
     ],
     "path": [
         {
-            "alias": null,
+            "alias": "",
             "pid": null,
-            "langcode": "it",
-            "pathauto": 0
+            "langcode": "it"
         }
     ]
 }

@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "9deb3de3-844d-4be3-98ff-e3dc4df9df80"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/1"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/tags\/eventi"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
