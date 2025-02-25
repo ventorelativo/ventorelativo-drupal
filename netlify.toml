@@ -7,7 +7,7 @@ drush tome:install -y \
 && drush cron \
 && drush locale:update \
 && drush simple-sitemap:generate -l $URL \
-&& drush un project_browser \
+&& drush pmu project_browser \
 && drush tome:static -l $URL
 """
 
