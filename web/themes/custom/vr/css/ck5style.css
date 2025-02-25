@@ -12139,6 +12139,12 @@ body:not(.path-frontpage) .ck-content header.fixed-top::after {
     --bs-table-bg-type: #bdbdbd26;
   }
 }
+.ck-content .node--view-mode-full .field--name-field-image img {
+  margin-bottom: 1rem;
+}
+.ck-content .node--type-sito.node--view-mode-full > h2:first-of-type, .ck-content .node--type-sito.node--view-mode-full > .h2:first-of-type {
+  display: none;
+}
 .ck-content .path-frontpage .region-nav-branding .site-logo {
   visibility: hidden;
   width: 0;
