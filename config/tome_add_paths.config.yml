@@ -1,3 +1,3 @@
 _core:
   default_config_hash: ZTlZN6aktESMkJbjuFplZ4FUmrNB_EIlBA4eA4y3azA
-paths: ''
+paths: "/themes/custom/vr/img\r\n/themes/custom/vr/favicons\r\n\r\n/modules/contrib/leaflet/js/leaflet/dist/images\r\n/modules/contrib/leaflet/js/Leaflet.fullscreen-gh-pages/dist\r\n\r\n/modules/contrib/gtranslate/js\r\n/modules/contrib/gtranslate/flags"

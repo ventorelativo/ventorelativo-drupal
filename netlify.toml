@@ -8,24 +8,11 @@ drush tome:install -y \
 && drush locale:update \
 && drush simple-sitemap:generate -l $URL \
 && drush un project_browser \
-&& drush tome:static -l $URL \
-
-&& mkdir -p html/themes/custom/vr/img \
-&& cp -r web/themes/custom/vr/img/homepage.jpg html/themes/custom/vr/img \
-
-&& mkdir -p html/modules/contrib/leaflet/js/leaflet/dist \
-&& cp -r web/modules/contrib/leaflet/js/leaflet/dist/images html/modules/contrib/leaflet/js/leaflet/dist \
-
-&& mkdir -p html/modules/contrib/leaflet/js/Leaflet.fullscreen-gh-pages \
-&& cp -r web/modules/contrib/leaflet/js/Leaflet.fullscreen-gh-pages/dist html/modules/contrib/leaflet/js/Leaflet.fullscreen-gh-pages \
-&& cp web/themes/custom/vr/favicons/android-chrome-192x192.png html/themes/custom/vr/favicons \
-
-&& mkdir -p html/modules/contrib/gtranslate \
-&& cp -r web/modules/contrib/gtranslate/js html/modules/contrib/gtranslate \
-&& cp -r web/modules/contrib/gtranslate/flags html/modules/contrib/gtranslate
+&& drush tome:static -l $URL
 """
 
 # && mkdir -p html/themes/custom/vr/img \
+# && cp -r web/themes/custom/vr/img/homepage.jpg html/themes/custom/vr/img \
 # && drush cim -y \
 # && rm -rf html \
 # && drush tome:static -l $URL \
