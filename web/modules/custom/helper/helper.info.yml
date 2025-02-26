@@ -1,0 +1,5 @@
+name: 'Helper'
+type: module
+description: 'A helper module for the custom build'
+package: 'Custom'
+core_version_requirement: ^10 || ^11

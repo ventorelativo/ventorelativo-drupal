@@ -11,7 +11,7 @@ dependencies:
 id: vr_socialmedia
 theme: vr
 region: footer
-weight: -6
+weight: -7
 provider: null
 plugin: 'block_content:55f2ab23-0ee8-498d-9a22-ba8a8d35d8b0'
 settings:

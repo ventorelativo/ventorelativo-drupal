@@ -8,6 +8,11 @@ block_classes_stored:
   - d-inline-flex
   - justify-content-center
   - credits
+  - text-secondary
+  - text-light
+  - text-white
+  - ms-auto
+  - me-1
 enable_attributes: false
 enable_auto_complete: true
 qty_classes_per_block: 10

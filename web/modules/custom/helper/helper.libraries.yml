@@ -1,0 +1,6 @@
+theme_toggle:
+  js:
+    js/theme-toggle.js: {}
+  css:
+    theme:
+      css/theme-toggle.css: {}

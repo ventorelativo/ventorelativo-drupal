@@ -34,6 +34,11 @@
     &::before {
       content: "";
       background-image: url("../img/homepage.jpg");
+      background-image: image-set(
+        url("../img/homepage.avif") type("image/avif"),
+        url("../img/homepage.webp") type("image/webp"),
+        url("../img/homepage.jpg") type("image/jpeg")
+      );
       background-size: cover;
       background-position: right 20% bottom;
       opacity: 0.8;
@@ -97,7 +102,7 @@
       top: -2rem;
       right: 1rem;
       font-size: 0.75rem;
-      color: #ccc;
+      // color: #ccc;
 
       a {
         color: currentColor;

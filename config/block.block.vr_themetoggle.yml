@@ -1,0 +1,24 @@
+uuid: 37652fce-08b4-40a3-82d7-a158acefde43
+langcode: it
+status: true
+dependencies:
+  module:
+    - block_class
+    - helper
+  theme:
+    - vr
+third_party_settings:
+  block_class:
+    classes: 'ms-auto me-1'
+id: vr_themetoggle
+theme: vr
+region: footer
+weight: -4
+provider: null
+plugin: helper_theme_toggle
+settings:
+  id: helper_theme_toggle
+  label: 'Theme toggle'
+  label_display: '0'
+  provider: helper
+visibility: {  }

@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Helper module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function helper_theme($existing, $type, $theme, $path) {
+  return [
+    'theme_toggle' => [
+      'variables' => [],
+    ],
+  ];
+}

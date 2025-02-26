@@ -12,11 +12,11 @@ dependencies:
     - vr
 third_party_settings:
   block_class:
-    classes: credits
+    classes: 'credits text-white'
 id: vr_creditiimmagine
 theme: vr
 region: footer
-weight: -4
+weight: -5
 provider: null
 plugin: 'block_content:eec19931-2ffa-4bdb-b772-11bdf6a65871'
 settings:

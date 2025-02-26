@@ -13054,9 +13054,6 @@ header #logo-offcanvas {
   }
 }
 
-.block-gtranslate-block {
-  margin-left: auto;
-}
 .block-gtranslate-block .gtranslate_wrapper {
   display: flex;
   gap: 0.5rem;
@@ -13171,6 +13168,7 @@ header #logo-offcanvas {
 .path-frontpage main::before {
   content: "";
   background-image: url("../img/homepage.jpg");
+  background-image: image-set(url("../img/homepage.avif") type("image/avif"), url("../img/homepage.webp") type("image/webp"), url("../img/homepage.jpg") type("image/jpeg"));
   background-size: cover;
   background-position: right 20% bottom;
   opacity: 0.8;
@@ -13224,7 +13222,6 @@ header #logo-offcanvas {
   top: -2rem;
   right: 1rem;
   font-size: 0.75rem;
-  color: #ccc;
 }
 .path-frontpage footer .credits a {
   color: currentColor;

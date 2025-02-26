@@ -12066,9 +12066,6 @@ body:not(.path-frontpage) .ck-content header.fixed-top::after {
     box-shadow: var(--bs-box-shadow) !important;
   }
 }
-.ck-content .block-gtranslate-block {
-  margin-left: auto;
-}
 .ck-content .block-gtranslate-block .gtranslate_wrapper {
   display: flex;
   gap: 0.5rem;
@@ -12177,6 +12174,7 @@ body:not(.path-frontpage) .ck-content header.fixed-top::after {
 .ck-content .path-frontpage main::before {
   content: "";
   background-image: url("../img/homepage.jpg");
+  background-image: image-set(url("../img/homepage.avif") type("image/avif"), url("../img/homepage.webp") type("image/webp"), url("../img/homepage.jpg") type("image/jpeg"));
   background-size: cover;
   background-position: right 20% bottom;
   opacity: 0.8;
@@ -12230,7 +12228,6 @@ body:not(.path-frontpage) .ck-content header.fixed-top::after {
   top: -2rem;
   right: 1rem;
   font-size: 0.75rem;
-  color: #ccc;
 }
 .ck-content .path-frontpage footer .credits a {
   color: currentColor;
