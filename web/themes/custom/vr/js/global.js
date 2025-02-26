@@ -20,9 +20,9 @@ tabs.forEach(tab => {
     window.location.hash = event.target.getAttribute('data-bs-target');
 
     // Scroll to the tab content with an offset
-    const headerHeight = document.querySelector('header').offsetHeight;
-    const tabsHeight = document.querySelector('#pills-tab').offsetHeight ?? 0;
-    const tabContentOffset = document.querySelector(event.target.getAttribute('data-bs-target')).offsetTop - (headerHeight + tabsHeight + 40);
+    const headerHeight = document.querySelector('header')?.offsetHeight ?? 0;
+    const tabsHeight = document.querySelector('#pills-tab')?.offsetHeight ?? 0;
+    const tabContentOffset = document.querySelector(event.target.getAttribute('data-bs-target'))?.offsetTop - (headerHeight + tabsHeight + 40)  ?? 0;
     window.scrollTo({ top: tabContentOffset, behavior: 'smooth' });
   });
 });
