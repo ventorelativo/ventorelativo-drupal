@@ -13,6 +13,9 @@ block_classes_stored:
   - text-white
   - ms-auto
   - me-1
+  - me-2
+  - text-body-secondary
+  - me-3
 enable_attributes: false
 enable_auto_complete: true
 qty_classes_per_block: 10

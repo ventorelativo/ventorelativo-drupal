@@ -1,6 +1,14 @@
-.bi {
-  width: 1em;
-  height: 1em;
-  vertical-align: -.125em;
-  fill: currentcolor;
+.block-helper-theme-toggle {
+  .bi {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+    fill: currentcolor;
+  }
+
+  .dropdown-menu {
+    @media (max-width: 991px) {
+      --bs-dropdown-min-width: 1rem;
+    }
+  }
 }

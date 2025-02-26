@@ -9,7 +9,7 @@ dependencies:
     - vr
 third_party_settings:
   block_class:
-    classes: 'ms-auto me-1'
+    classes: 'ms-auto me-3 text-body-secondary'
 id: vr_themetoggle
 theme: vr
 region: footer
