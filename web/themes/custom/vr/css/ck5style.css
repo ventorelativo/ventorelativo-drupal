@@ -12138,9 +12138,9 @@ body:not(.path-frontpage) .ck-content header.fixed-top::after {
   .ck-content .table > :not(caption) > * > * {
     background-color: transparent;
   }
-  .ck-content .table-striped > tbody > tr:nth-of-type(odd) > * {
-    --bs-table-bg-type: #bdbdbd26;
-  }
+}
+.ck-content .table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-bg-type: #bdbdbd26;
 }
 .ck-content .node--view-mode-full .field--name-field-image img {
   margin-bottom: 1rem;

@@ -233,9 +233,10 @@ header {
     background-color: transparent;
   }
 
-  .table-striped > tbody > tr:nth-of-type(odd) > * {
-    --bs-table-bg-type: #bdbdbd26;
-  }
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-bg-type: #bdbdbd26;
 }
 
 .node--view-mode-full .field--name-field-image img {
