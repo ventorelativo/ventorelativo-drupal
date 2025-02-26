@@ -11,7 +11,7 @@
 {% if breadcrumb %}
   <nav aria-label="breadcrumb">
     <h2 id="system-breadcrumb" class="visually-hidden">{{ 'Breadcrumb'|t }}</h2>
-    <ol class="breadcrumb breadcrumb-chevron p-2 bg-body-tertiary bg-gradient rounded-3">
+    <ol class="breadcrumb breadcrumb-chevron p-2 bg-body-tertiary rounded-3">
     {% for item in breadcrumb %}
       <li class="breadcrumb-item {{ item.text ? 'active' }}">
         {% if item.url %}

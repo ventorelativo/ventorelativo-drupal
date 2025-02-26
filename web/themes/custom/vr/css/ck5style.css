@@ -11981,8 +11981,11 @@ body:not(.path-frontpage) .ck-content header.fixed-top::after {
   z-index: -1;
   backdrop-filter: blur(5px);
 }
-.ck-content header > nav.navbar.bg-light, .ck-content header > nav.navbar.bg-dark {
+.ck-content header > nav.navbar {
   --bs-bg-opacity: 0.8;
+}
+.path-frontpage .ck-content header > nav.navbar {
+  --bs-bg-opacity: 0;
 }
 .ck-content header > nav.navbar .navbar-toggler {
   position: absolute;

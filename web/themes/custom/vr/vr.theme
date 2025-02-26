@@ -6,6 +6,7 @@
  */
 
 use Drupal\Component\Utility\Xss;
+use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Template\Attribute;
 
 /**
@@ -62,7 +63,7 @@ function vr_preprocess_block(&$variables) {
  * Implements template_preprocess_input().
  */
 function vr_preprocess_input(&$variables) {
-  // Use Netiflyh form subject.
+  // Use Netlifly form subject.
   if (isset($variables['attributes']['name']) && $variables['attributes']['name'] === 'subject_0_value') {
     $variables['attributes']['name'] = 'subject';
   }
@@ -77,5 +78,21 @@ function vr_page_attachments_alter(&$variables) {
     $variables['#attached']['html_head'] = array_filter($variables['#attached']['html_head'], function ($item) {
       return $item[1] !== 'anti_flicker_js';
     });
+  }
+}
+
+/**
+ * Implements hook_form_system_theme_settings_alter().
+ */
+function vr_form_system_theme_settings_alter(&$form, FormStateInterface $form_state, $form_id = NULL){
+  $bg_schemas = [
+    'body-secondary' => 'body secondary',
+    'body-tertiary' => 'body tertiary',
+  ];
+
+  foreach ($bg_schemas as $key => $value) {
+    $form['body_details']['b5_body_bg_schema']['#options'][$key] = $value;
+    $form['nav_details']['b5_navbar_bg_schema']['#options'][$key] = $value;
+    $form['footer_details']['b5_footer_bg_schema']['#options'][$key] = $value;
   }
 }

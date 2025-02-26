@@ -16,9 +16,10 @@ header {
   }
 
   > nav.navbar {
-    &.bg-light,
-    &.bg-dark {
-      --bs-bg-opacity: 0.8;
+    --bs-bg-opacity: 0.8;
+
+    .path-frontpage & {
+      --bs-bg-opacity: 0;
     }
 
     .navbar-toggler {

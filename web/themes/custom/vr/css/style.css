@@ -12964,8 +12964,11 @@ body:not(.path-frontpage) header.fixed-top::after {
   z-index: -1;
   backdrop-filter: blur(5px);
 }
-header > nav.navbar.bg-light, header > nav.navbar.bg-dark {
+header > nav.navbar {
   --bs-bg-opacity: 0.8;
+}
+.path-frontpage header > nav.navbar {
+  --bs-bg-opacity: 0;
 }
 header > nav.navbar .navbar-toggler {
   position: absolute;
