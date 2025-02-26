@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02ba3ef990964ce72e7f90a2e657f0bf",
+    "content-hash": "7640785667784268a5510d1ed3c20f65",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4128,17 +4128,17 @@
         },
         {
             "name": "drupal/tagify",
-            "version": "1.2.32",
+            "version": "1.2.33",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/tagify.git",
-                "reference": "1.2.32"
+                "reference": "1.2.33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/tagify-1.2.32.zip",
-                "reference": "1.2.32",
-                "shasum": "cf588739a670a5e32f4abbbcbe003005ad09e0fa"
+                "url": "https://ftp.drupal.org/files/projects/tagify-1.2.33.zip",
+                "reference": "1.2.33",
+                "shasum": "3b38da132ec126a03a5d8fa723a40f0618a0aad7"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9 || ^10 || ^11"
@@ -4154,8 +4154,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.2.32",
-                    "datestamp": "1739895222",
+                    "version": "1.2.33",
+                    "datestamp": "1740501921",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
