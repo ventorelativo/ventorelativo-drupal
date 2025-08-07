@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2025-08-07T13:11:46+00:00"
+            "value": "2025-08-07T13:22:31+00:00"
         }
     ],
     "revision_uid": [
@@ -51,7 +51,7 @@
     ],
     "changed": [
         {
-            "value": "2025-08-07T13:11:46+00:00"
+            "value": "2025-08-07T13:22:31+00:00"
         }
     ],
     "promote": [
@@ -69,7 +69,11 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
     "path": [
         {
             "alias": "\/siti\/bourcet",
@@ -81,7 +85,7 @@
             "value": "<p><strong>Localit\u00e0:<\/strong><br>Bourcet, Frazione di Roure (TO)<\/p><p><strong>Altitudine:<\/strong><br>1.969 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud\/Sud-Est<\/p>",
             "format": "full_html",
             "processed": "<p><strong>Localit\u00e0:<\/strong><br>Bourcet, Frazione di Roure (TO)<\/p><p><strong>Altitudine:<\/strong><br>1.969 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud\/Sud-Est<\/p>",
-            "summary": ""
+            "summary": "1969 m, S-SE, Roure (TO)"
         }
     ],
     "field_images": [],
