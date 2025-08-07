@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "74a5bcfe-514f-4c6d-a306-996edbdf598d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/6afe62a4-cda9-453b-b3c1-1407a45d487a"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/siti\/bourcet"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

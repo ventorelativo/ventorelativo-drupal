@@ -1,0 +1,86 @@
+{
+    "uuid": [
+        {
+            "value": "3724b26b-2370-452d-9d05-e3f193011bc2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "map_feature",
+            "target_type": "storage_type",
+            "target_uuid": "6be398ac-fc82-4b3f-a2ba-5beda88c6458"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2025-08-07T13:09:51+00:00"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "user_id": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "name": [
+        {
+            "value": "Atterraggio Castel del Bosco"
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-08-07T13:09:51+00:00"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-08-07T13:11:46+00:00"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "field_location": [
+        {
+            "value": "GEOMETRYCOLLECTION (POINT (7.145485 44.983032), POLYGON ((7.14474 44.984084, 7.14445 44.983852, 7.143919 44.98433, 7.143409 44.984019, 7.144933 44.983173, 7.146735 44.981484, 7.147551 44.982471, 7.145759 44.983219, 7.14474 44.984084)))",
+            "geo_type": "GeometryCollection",
+            "lat": 44.98290694647497,
+            "lon": 7.1454799915029295,
+            "left": 7.143409,
+            "top": 44.98433,
+            "right": 7.147551,
+            "bottom": 44.981484,
+            "geohash": "spvpf",
+            "latlon": "44.982906946475,7.1454799915029"
+        }
+    ],
+    "field_type": [
+        {
+            "value": "landing"
+        }
+    ]
+}

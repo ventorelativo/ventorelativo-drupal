@@ -1,0 +1,86 @@
+{
+    "uuid": [
+        {
+            "value": "99286890-e93b-49d3-989b-ebf2067057ce"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "map_feature",
+            "target_type": "storage_type",
+            "target_uuid": "6be398ac-fc82-4b3f-a2ba-5beda88c6458"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2025-08-07T13:06:44+00:00"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "user_id": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "name": [
+        {
+            "value": "Bourcet"
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-08-07T13:06:44+00:00"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-08-07T13:06:44+00:00"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "field_location": [
+        {
+            "value": "POINT (7.098498 44.997218)",
+            "geo_type": "Point",
+            "lat": 44.997218,
+            "lon": 7.098498,
+            "left": 7.098498,
+            "top": 44.997218,
+            "right": 7.098498,
+            "bottom": 44.997218,
+            "geohash": "spvpcx2zycrs",
+            "latlon": "44.997218,7.098498"
+        }
+    ],
+    "field_type": [
+        {
+            "value": "takeoff"
+        }
+    ]
+}

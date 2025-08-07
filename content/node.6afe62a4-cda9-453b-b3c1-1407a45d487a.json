@@ -1,0 +1,98 @@
+{
+    "uuid": [
+        {
+            "value": "6afe62a4-cda9-453b-b3c1-1407a45d487a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "sito",
+            "target_type": "node_type",
+            "target_uuid": "f0819210-f20b-4018-a18c-6e20415015a5"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2025-08-07T13:11:46+00:00"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "title": [
+        {
+            "value": "Bourcet"
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-08-07T13:03:24+00:00"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-08-07T13:11:46+00:00"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "path": [
+        {
+            "alias": "\/siti\/bourcet",
+            "langcode": "it"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><strong>Localit\u00e0:<\/strong><br>Bourcet, Frazione di Roure (TO)<\/p><p><strong>Altitudine:<\/strong><br>1.969 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud\/Sud-Est<\/p>",
+            "format": "full_html",
+            "processed": "<p><strong>Localit\u00e0:<\/strong><br>Bourcet, Frazione di Roure (TO)<\/p><p><strong>Altitudine:<\/strong><br>1.969 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud\/Sud-Est<\/p>",
+            "summary": ""
+        }
+    ],
+    "field_images": [],
+    "field_map_elements": [
+        {
+            "target_type": "storage",
+            "target_uuid": "99286890-e93b-49d3-989b-ebf2067057ce"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "3724b26b-2370-452d-9d05-e3f193011bc2"
+        }
+    ]
+}
