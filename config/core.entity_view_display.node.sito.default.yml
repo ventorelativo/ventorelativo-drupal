@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.sito.field_map_elements
     - node.type.sito
     - views.view.sites_map
+    - views.view.xcontest_flights
   module:
     - layout_builder
     - layout_discovery
@@ -112,8 +113,21 @@ third_party_settings:
               provider: views
               context_mapping: {  }
               views_label: ''
-              items_per_page: none
+              items_per_page: 0
             weight: 2
+            additional: {  }
+          -
+            uuid: d354dc2b-7cb5-4b78-990e-8dca80aecb2d
+            region: content
+            configuration:
+              id: 'views_block:xcontest_flights-map_sites_node'
+              label: ''
+              label_display: '0'
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: null
+            weight: 5
             additional: {  }
         third_party_settings: {  }
 id: node.sito.default
