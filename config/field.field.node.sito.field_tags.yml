@@ -1,0 +1,29 @@
+uuid: d05dd9f6-86f4-4e9f-a6f9-c6c3499a27d7
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.sito
+    - taxonomy.vocabulary.tags
+id: node.sito.field_tags
+field_name: field_tags
+entity_type: node
+bundle: sito
+label: Etichette
+description: 'Inserire un elenco separato da virgole. Per esempio: Amsterdam, Mexico City, "Cleveland, Ohio"'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: _none
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "05f00df1-80e5-4ea5-9336-1e37483ae122"
+            "value": "f15641d7-eda5-48f0-ae69-c88bcb1c334c"
         }
     ],
     "langcode": [
@@ -11,12 +11,12 @@
     ],
     "path": [
         {
-            "value": "\/taxonomy\/term\/3"
+            "value": "\/taxonomy\/term\/4"
         }
     ],
     "alias": [
         {
-            "value": "\/tags\/competizioni"
+            "value": "\/tags\/adatto-ai-principianti"
         }
     ],
     "status": [

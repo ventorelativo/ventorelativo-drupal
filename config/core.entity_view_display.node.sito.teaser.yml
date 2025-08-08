@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.sito.body
     - field.field.node.sito.field_images
     - field.field.node.sito.field_map_elements
+    - field.field.node.sito.field_tags
     - node.type.sito
   module:
     - nomarkup
@@ -37,6 +38,18 @@ content:
       link: true
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: visually_hidden
+    settings:
+      link: false
+    third_party_settings:
+      nomarkup:
+        enabled: false
+        separator: ''
+        referenced_entity: ''
+    weight: 2
     region: content
 hidden:
   field_images: true

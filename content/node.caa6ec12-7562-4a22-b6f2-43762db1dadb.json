@@ -18,8 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-13T20:06:06+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-08-08T13:29:29+00:00"
         }
     ],
     "revision_uid": [
@@ -47,14 +46,12 @@
     ],
     "created": [
         {
-            "value": "2023-12-10T14:35:23+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2023-12-10T14:35:23+00:00"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-13T20:06:06+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-08-08T13:29:29+00:00"
         }
     ],
     "promote": [
@@ -72,19 +69,15 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true
-        }
-    ],
+    "revision_translation_affected": [],
     "path": [
         {
             "alias": "\/siti\/pralamar",
-            "langcode": "it",
-            "pathauto": 1
+            "langcode": "it"
         }
     ],
     "body": [],
+    "field_images": [],
     "field_map_elements": [
         {
             "target_type": "storage",
@@ -109,6 +102,12 @@
         {
             "target_type": "storage",
             "target_uuid": "41c02a58-dd24-445a-b9e0-6f2f7c1688d1"
+        }
+    ],
+    "field_tags": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "0d94ddc9-2d3b-4091-b5dc-6da5868fe68f"
         }
     ]
 }

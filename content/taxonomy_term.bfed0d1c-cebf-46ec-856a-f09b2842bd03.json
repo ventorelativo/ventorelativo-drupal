@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "e3068453-e593-499f-9796-15d4f764271a"
+            "value": "bfed0d1c-cebf-46ec-856a-f09b2842bd03"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_created": [
         {
-            "value": "2024-09-24T07:57:23+00:00"
+            "value": "2025-08-08T13:17:11+00:00"
         }
     ],
     "revision_user": [],
@@ -30,13 +30,13 @@
     ],
     "name": [
         {
-            "value": "Competizioni"
+            "value": "Adatto ai principianti"
         }
     ],
     "description": [],
     "weight": [
         {
-            "value": 1
+            "value": 0
         }
     ],
     "parent": [
@@ -46,7 +46,7 @@
     ],
     "changed": [
         {
-            "value": "2025-08-08T13:23:23+00:00"
+            "value": "2025-08-08T13:17:11+00:00"
         }
     ],
     "default_langcode": [
@@ -61,7 +61,8 @@
     ],
     "path": [
         {
-            "alias": "\/tags\/gare",
+            "alias": null,
+            "pid": null,
             "langcode": "it"
         }
     ]

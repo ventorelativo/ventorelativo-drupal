@@ -21,5 +21,9 @@
       </div>
     {% endif %}
 
+    {% if content.field_tags is not empty %}
+      {{ include('vr:badges', { label: content.field_tags|field_label, badges: content.field_tags|field_value }, with_context = false) }}
+    {% endif %}
+
   </div>
 </article>
