@@ -18,8 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-13T20:06:45+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-08-08T13:13:19+00:00"
         }
     ],
     "revision_uid": [
@@ -47,14 +46,12 @@
     ],
     "created": [
         {
-            "value": "2023-12-10T11:15:41+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2023-12-10T11:15:41+00:00"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-13T20:06:45+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-08-08T13:13:19+00:00"
         }
     ],
     "promote": [
@@ -72,15 +69,26 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
     "path": [
         {
             "alias": "\/siti\/le-grange",
-            "langcode": "it",
-            "pathauto": 1
+            "langcode": "it"
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p><strong>Localit\u00e0:<\/strong><br>Prato delle Grange, 10065 Pramollo (TO)<\/p><p><strong>Altitudine:<\/strong><br>1.450 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud-Sud-Ovest<\/p>",
+            "format": "full_html",
+            "processed": "<p><strong>Localit\u00e0:<\/strong><br>Prato delle Grange, 10065 Pramollo (TO)<\/p><p><strong>Altitudine:<\/strong><br>1.450 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud-Sud-Ovest<\/p>",
+            "summary": "1450m, SSW, Pramollo (TO)"
+        }
+    ],
+    "field_images": [],
     "field_map_elements": [
         {
             "target_type": "storage",

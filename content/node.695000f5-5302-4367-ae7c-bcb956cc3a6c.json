@@ -18,8 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-10T17:27:31+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-08-08T13:10:05+00:00"
         }
     ],
     "revision_uid": [
@@ -47,14 +46,12 @@
     ],
     "created": [
         {
-            "value": "2023-12-10T16:51:25+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2023-12-10T16:51:25+00:00"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T17:27:31+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-08-08T13:10:05+00:00"
         }
     ],
     "promote": [
@@ -79,13 +76,19 @@
     ],
     "path": [
         {
-            "alias": "",
-            "pid": null,
-            "langcode": "it",
-            "pathauto": 1
+            "alias": "\/siti\/forte-di-fenestrelle",
+            "langcode": "it"
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p><strong>Localit\u00e0:<\/strong><br>Bergerie Ciardonnet, 10060 Roure (TO)<\/p><p><strong>Altitudine:<\/strong><br>2.635 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud-Ovest\/Sud-Est<\/p>",
+            "format": "full_html",
+            "processed": "<p><strong>Localit\u00e0:<\/strong><br>Bergerie Ciardonnet, 10060 Roure (TO)<\/p><p><strong>Altitudine:<\/strong><br>2.635 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud-Ovest\/Sud-Est<\/p>",
+            "summary": "2635m, SW-SE, Roure (TO)"
+        }
+    ],
+    "field_images": [],
     "field_map_elements": [
         {
             "target_type": "storage",
