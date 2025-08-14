@@ -18,8 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-11T12:12:22+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-08-14T06:21:57+00:00"
         }
     ],
     "revision_uid": [
@@ -47,14 +46,12 @@
     ],
     "created": [
         {
-            "value": "2023-12-11T11:36:55+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2023-12-11T11:36:55+00:00"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-11T12:12:22+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-08-14T06:21:57+00:00"
         }
     ],
     "promote": [
@@ -80,14 +77,14 @@
     "path": [
         {
             "alias": "\/iscrizioni",
-            "langcode": "it",
-            "pathauto": 1
+            "langcode": "it"
         }
     ],
     "body": [
         {
             "value": "<div class=\"text-center\"><h3>Vuoi aiutarci?<\/h3><p class=\"fs-5 text-muted\">Puoi fare la tessera come <strong>Socio Sostenitore<\/strong><br>Tramite Satispay il versamento \u00e8 facile:<\/p><\/div>",
             "format": "full_html",
+            "processed": "<div class=\"text-center\"><h3>Vuoi aiutarci?<\/h3><p class=\"fs-5 text-muted\">Puoi fare la tessera come <strong>Socio Sostenitore<\/strong><br>Tramite Satispay il versamento \u00e8 facile:<\/p><\/div>",
             "summary": ""
         }
     ],
@@ -140,31 +137,14 @@
                             "label_display": 0,
                             "provider": "layout_builder",
                             "view_mode": "full",
-                            "block_revision_id": "12",
+                            "block_id": "2",
+                            "block_revision_id": "11",
                             "block_serialized": null,
                             "context_mapping": [],
                             "type": "basic",
                             "uuid": "20931888-445a-48c2-b972-1b17c7a1dbeb"
                         },
                         "weight": 2,
-                        "additional": []
-                    },
-                    {
-                        "uuid": "ff995e40-91e2-4712-8a3b-718fc115075f",
-                        "region": "content",
-                        "configuration": {
-                            "id": "inline_block:basic",
-                            "label": "IBAN",
-                            "label_display": 0,
-                            "provider": "layout_builder",
-                            "view_mode": "full",
-                            "block_revision_id": "11",
-                            "block_serialized": null,
-                            "context_mapping": [],
-                            "type": "basic",
-                            "uuid": "056f5049-1698-4ba7-af00-fddf856d6206"
-                        },
-                        "weight": 3,
                         "additional": []
                     }
                 ],

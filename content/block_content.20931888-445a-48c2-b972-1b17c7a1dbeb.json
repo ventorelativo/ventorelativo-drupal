@@ -18,12 +18,10 @@
     ],
     "revision_created": [
         {
-            "value": "2023-12-11T11:46:49+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2023-12-11T11:46:49+00:00"
         }
     ],
     "revision_user": [],
-    "revision_log": [],
     "status": [
         {
             "value": true
@@ -36,8 +34,7 @@
     ],
     "changed": [
         {
-            "value": "2023-12-11T12:12:22+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-08-14T06:21:34+00:00"
         }
     ],
     "reusable": [
@@ -57,8 +54,9 @@
     ],
     "body": [
         {
-            "value": "<div class=\"row row-cols-1 row-cols-md-3 mb-3 text-center justify-content-center\"><div class=\"col\"><div class=\"card mb-4 rounded-3 shadow-sm shadow-hover\"><div class=\"card-header py-3\"><h4 class=\"my-0 fw-normal\">Sostenitore<\/h4><\/div><div class=\"card-body\"><h1 class=\"card-title pricing-card-title\">\u20ac10<\/h1><ul class=\"list-unstyled mt-3 mb-4\"><li>Lorem<\/li><\/ul><p><a class=\"w-100 btn btn-primary stretched-link\" href=\"https:\/\/tag.satispay.com\/dk_txOSIuSjguNLePMkOAjl?amount=1000&amp;currency=EUR\" type=\"button\">Paga con <img src=\"\/themes\/custom\/vr\/img\/satispay_logo.svg\" height=\"20\">&nbsp;<\/a><\/p><\/div><\/div><\/div><div class=\"col\"><div class=\"card mb-4 rounded-3 shadow-sm shadow-hover border-primary\"><div class=\"card-header py-3 text-bg-primary border-primary\"><h4 class=\"my-0 fw-normal\">Socio<\/h4><\/div><div class=\"card-body\"><h1 class=\"card-title pricing-card-title\">\u20ac30<\/h1><ul class=\"list-unstyled mt-3 mb-4\"><li>Lorem<\/li><li>Ipsum<\/li><li>Dolor<\/li><\/ul><p><a class=\"w-100 btn btn-primary stretched-link\" href=\"https:\/\/tag.satispay.com\/dk_txOSIuSjguNLePMkOAjl?amount=3000&amp;currency=EUR\" type=\"button\">Paga con <img src=\"\/themes\/custom\/vr\/img\/satispay_logo.svg\" height=\"20\">&nbsp;<\/a><\/p><\/div><\/div><\/div><\/div>",
+            "value": "<div class=\"row row-cols-1 row-cols-md-3 mb-3 text-center justify-content-center\"><div class=\"col\"><div class=\"card mb-4 rounded-3 shadow-sm shadow-hover\"><div class=\"card-header py-3\"><h4 class=\"my-0 fw-normal\">Sostenitore<\/h4><\/div><div class=\"card-body\"><h1 class=\"card-title pricing-card-title\">\u20ac10<\/h1><ul class=\"list-unstyled mt-3 mb-4\"><li>Supporto al club e alle sue iniziative<\/li><\/ul><p><a class=\"w-100 btn btn-primary stretched-link\" href=\"https:\/\/www.satispay.com\/app\/pay\/shops\/1746ccbc-eae4-4ad8-90d8-96712d59e356?amount=1000&amp;currency=EUR&amp;external_code=Sostenitore\" type=\"button\">Paga con <img src=\"\/themes\/custom\/vr\/img\/satispay_logo.svg\" height=\"20\">&nbsp;<\/a><\/p><\/div><\/div><\/div><div class=\"col\"><div class=\"card mb-4 rounded-3 shadow-sm shadow-hover border-primary\"><div class=\"card-header py-3 text-bg-primary border-primary\"><h4 class=\"my-0 fw-normal\">Socio<\/h4><\/div><div class=\"card-body\"><h1 class=\"card-title pricing-card-title\">\u20ac30<\/h1><ul class=\"list-unstyled mt-3 mb-4\"><li>Partecipazione alle decisioni<\/li><li>Diritto di voto alle assemblee<\/li><li>Priorit\u00e0 per i posti agli eventi<\/li><\/ul><p><a class=\"w-100 btn btn-primary stretched-link\" href=\"https:\/\/www.satispay.com\/app\/pay\/shops\/1746ccbc-eae4-4ad8-90d8-96712d59e356?amount=3000&amp;currency=EUR&amp;external_code=Socio\" type=\"button\">Paga con <img src=\"\/themes\/custom\/vr\/img\/satispay_logo.svg\" height=\"20\">&nbsp;<\/a><\/p><\/div><\/div><\/div><\/div>",
             "format": "full_html",
+            "processed": "<div class=\"row row-cols-1 row-cols-md-3 mb-3 text-center justify-content-center\"><div class=\"col\"><div class=\"card mb-4 rounded-3 shadow-sm shadow-hover\"><div class=\"card-header py-3\"><h4 class=\"my-0 fw-normal\">Sostenitore<\/h4><\/div><div class=\"card-body\"><h1 class=\"card-title pricing-card-title\">\u20ac10<\/h1><ul class=\"list-unstyled mt-3 mb-4\"><li>Supporto al club e alle sue iniziative<\/li><\/ul><p><a class=\"w-100 btn btn-primary stretched-link\" href=\"https:\/\/www.satispay.com\/app\/pay\/shops\/1746ccbc-eae4-4ad8-90d8-96712d59e356?amount=1000&amp;currency=EUR&amp;external_code=Sostenitore\" type=\"button\">Paga con <img src=\"\/themes\/custom\/vr\/img\/satispay_logo.svg\" height=\"20\">&nbsp;<\/a><\/p><\/div><\/div><\/div><div class=\"col\"><div class=\"card mb-4 rounded-3 shadow-sm shadow-hover border-primary\"><div class=\"card-header py-3 text-bg-primary border-primary\"><h4 class=\"my-0 fw-normal\">Socio<\/h4><\/div><div class=\"card-body\"><h1 class=\"card-title pricing-card-title\">\u20ac30<\/h1><ul class=\"list-unstyled mt-3 mb-4\"><li>Partecipazione alle decisioni<\/li><li>Diritto di voto alle assemblee<\/li><li>Priorit\u00e0 per i posti agli eventi<\/li><\/ul><p><a class=\"w-100 btn btn-primary stretched-link\" href=\"https:\/\/www.satispay.com\/app\/pay\/shops\/1746ccbc-eae4-4ad8-90d8-96712d59e356?amount=3000&amp;currency=EUR&amp;external_code=Socio\" type=\"button\">Paga con <img src=\"\/themes\/custom\/vr\/img\/satispay_logo.svg\" height=\"20\">&nbsp;<\/a><\/p><\/div><\/div><\/div><\/div>",
             "summary": ""
         }
     ]
