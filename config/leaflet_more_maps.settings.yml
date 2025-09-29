@@ -8,13 +8,13 @@ leaflet_more_maps_custom_maps:
     map-key: Paragliding
     layer-keys:
       'bing hybrid layer': 'bing hybrid layer'
-      'osm-landscape layer': 'osm-landscape layer'
+      'tracestrack-topo-base layer': 'tracestrack-topo-base layer'
       'bing satellite layer': 0
       'bing road layer': 0
       'esri-world_imagery layer': 0
       'esri-natgeo_world_map layer': 0
       'esri-world_physical_map layer': 0
-      'esri-ocean_basemap layer': 0
+      'esri-ocean_world_ocean_base layer': 0
       'esri-world_topo_map layer': 0
       'esri-world_street_map layer': 0
       'google-hybrid layer': 0
@@ -27,21 +27,37 @@ leaflet_more_maps_custom_maps:
       'mapbox-light layer': 0
       'mapbox-satellite-streets layer': 0
       'mapbox-streets layer': 0
+      'mapycz-basic layer': 0
+      'mapycz-outdoor layer': 0
+      'mapycz-winter layer': 0
+      'mapycz-aerial layer': 0
+      'osm-de layer': 0
       'osm-cycle layer': 0
       'osm-transport layer': 0
+      'osm-landscape layer': 0
       'osm-outdoors layer': 0
       'osm-transport-dark layer': 0
       'osm-spinal-map layer': 0
       'osm-pioneer layer': 0
       'osm-mobile-atlas layer': 0
       'osm-neighbourhood layer': 0
-      'wikimedia layer': 0
+      'opentopomap layer': 0
       'stamen-terrain layer': 0
-      'stamen-toner-lite layer': 0
+      'stamen-terrain-background layer': 0
+      'stamen-terrain-labels layer': 0
+      'stamen-terrain-lines layer': 0
+      'stamen-toner layer': 0
+      'stamen-toner-background layer': 0
+      'stamen-toner-hybrid layer': 0
       'stamen-toner-labels layer': 0
+      'stamen-toner-lines layer': 0
+      'stamen-toner-lite layer': 0
       'stamen-watercolor layer': 0
       'here-base layer': 0
       'navionics nautical-non-transparent': 0
       'navionics sonar': 0
       'navionics ski': 0
+      'tracestrack-carto-base layer': 0
     reverse-order: 1
+mapycz_api_key: ''
+tracestrack_api_key: b9c2fabd9b0774eb89ea495c32bb7c91
