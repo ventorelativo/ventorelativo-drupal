@@ -74,10 +74,11 @@
     "config": {
         "sort-packages": true,
         "allow-plugins": {
+            "chx/drupal-issue-fork": true,
             "composer/installers": true,
-            "drupal/core-composer-scaffold": true,
             "cweagans/composer-patches": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
+            "drupal/core-composer-scaffold": true,
             "php-http/discovery": true
         }
     },
@@ -131,6 +132,7 @@
         }
     },
     "require-dev": {
+        "chx/drupal-issue-fork": "^1.0",
         "drupal/coder": "^8.3",
         "drupal/devel": "^5.0",
         "drupal/examples": "^4.0"

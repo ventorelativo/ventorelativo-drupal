@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "74861d7b59ce131cf07ccc97ea1c7db3",
+    "content-hash": "b802dac173fbac7b08719ea792983eae",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -10972,6 +10972,53 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "chx/drupal-issue-fork",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chx/drupal-issue-fork.git",
+                "reference": "e2b09d91efb2a6bea310e334da425a91a4999fdd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chx/drupal-issue-fork/zipball/e2b09d91efb2a6bea310e334da425a91a4999fdd",
+                "reference": "e2b09d91efb2a6bea310e334da425a91a4999fdd",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0",
+                "php": ">=8.1.0"
+            },
+            "require-dev": {
+                "composer/composer": "^2.6"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "chx\\Composer\\Plugin\\DrupalIssueFork"
+            },
+            "autoload": {
+                "psr-4": {
+                    "chx\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Karoly Negyesi",
+                    "email": "chx1975@gmail.com"
+                }
+            ],
+            "description": "Sets up a project to use an issue fork",
+            "support": {
+                "issues": "https://github.com/chx/drupal-issue-fork/issues",
+                "source": "https://github.com/chx/drupal-issue-fork/tree/1.0.0"
+            },
+            "time": "2025-05-09T13:21:37+00:00"
+        },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
             "version": "v1.1.2",
