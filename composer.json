@@ -11,14 +11,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://packages.drupal.org/8",
-            "exclude": [
-                "drupal/leaflet_more_maps"
-            ]
-        },
-        {
-            "type": "git",
-            "url": "https://git.drupalcode.org/issue/leaflet_more_maps-3540692.git"
+            "url": "https://packages.drupal.org/8"
         }
     ],
     "require": {
@@ -46,7 +39,7 @@
         "drupal/inline_entity_form": "^3.0@RC",
         "drupal/layout_builder_modal": "^2.0",
         "drupal/leaflet": "^10.3",
-        "drupal/leaflet_more_maps": "dev-3540692-tracestrack-map",
+        "drupal/leaflet_more_maps": "^2.2",
         "drupal/linkit": "^7.0",
         "drupal/metatag": "^2.0",
         "drupal/minifyhtml": "^2.0",
@@ -135,6 +128,9 @@
             },
             "drupal/token": {
                 "Add urlencode support to [current-page:title] token - https://drupal.org/i/3221868": "https://git.drupalcode.org/project/token/-/merge_requests/50.diff"
+            },
+            "drupal/leaflet_more_maps": {
+                "Add Tracestrack Maps - https://drupal.org/i/3540692": "https://git.drupalcode.org/project/leaflet_more_maps/-/merge_requests/17.diff"
             }
         }
     },

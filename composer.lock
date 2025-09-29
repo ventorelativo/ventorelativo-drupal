@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "71c2ab26e5dcfdf9b337c722b0dcc8b6",
+    "content-hash": "88ffbbb216dd4c38c0b9b3f8ee084bf5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3266,30 +3266,71 @@
         },
         {
             "name": "drupal/leaflet_more_maps",
-            "version": "dev-3540692-tracestrack-map",
+            "version": "2.2.3",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/issue/leaflet_more_maps-3540692.git",
-                "reference": "0ac8f234433fffa8fd70ed6293f16ded311d9f1c"
+                "url": "https://git.drupalcode.org/project/leaflet_more_maps.git",
+                "reference": "2.2.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/leaflet_more_maps-2.2.3.zip",
+                "reference": "2.2.3",
+                "shasum": "73b39b8acb7cfe68a2a9251eff32f64fb4851bc7"
             },
             "require": {
+                "drupal/core": "^8.8 || ^9 || ^10 || ^11",
                 "drupal/leaflet": "^2.1.0 || ^10.0"
+            },
+            "require-dev": {
+                "drupal/leaflet": "*"
             },
             "type": "drupal-module",
             "extra": {
+                "drupal": {
+                    "version": "2.2.3",
+                    "datestamp": "1737668201",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
                 "branch-alias": {
                     "dev-8.x-1.x": "1.x-dev"
                 }
             },
+            "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
                 "GPL-2.0-or-later"
             ],
+            "authors": [
+                {
+                    "name": "berramou",
+                    "homepage": "https://www.drupal.org/user/3535998"
+                },
+                {
+                    "name": "itamair",
+                    "homepage": "https://www.drupal.org/user/1179076"
+                },
+                {
+                    "name": "japerry",
+                    "homepage": "https://www.drupal.org/user/45640"
+                },
+                {
+                    "name": "rachel_norfolk",
+                    "homepage": "https://www.drupal.org/user/66273"
+                },
+                {
+                    "name": "rdeboer",
+                    "homepage": "https://www.drupal.org/user/404007"
+                }
+            ],
             "description": "Adds a swag of map styles to Leaflet, e.g Thunderforest, Esri, Stamen, Google.",
+            "homepage": "https://www.drupal.org/project/leaflet_more_maps",
             "support": {
-                "issues": "https://www.drupal.org/project/issues/leaflet_more_maps",
-                "source": "https://git.drupalcode.org/project/leaflet_more_maps"
-            },
-            "time": "2025-01-22T16:34:38+00:00"
+                "source": "https://git.drupalcode.org/project/leaflet_more_maps",
+                "issues": "https://www.drupal.org/project/issues/leaflet_more_maps"
+            }
         },
         {
             "name": "drupal/linkit",
@@ -11897,7 +11938,6 @@
     "stability-flags": {
         "drupal-tome/tome_drush": 20,
         "drupal/inline_entity_form": 5,
-        "drupal/leaflet_more_maps": 20,
         "drupal/project_browser": 10,
         "drupal/storage": 10,
         "drupal/tome_netlify": 20,
