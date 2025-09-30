@@ -561,7 +561,7 @@ display:
             zoomControlPosition: topleft
             zoom: 13
             minZoom: 8
-            maxZoom: 22
+            maxZoom: 18
             zoomFiner: 0
           weight: ''
           icon:
