@@ -8,6 +8,11 @@ leaflet_more_maps_custom_maps:
     map-key: Paragliding
     layer-keys:
       'bing hybrid layer': 'bing hybrid layer'
+      'google-hybrid layer': 'google-hybrid layer'
+      'google-high-res terrain': 'google-high-res terrain'
+      'osm-landscape layer': 'osm-landscape layer'
+      'osm-outdoors layer': 'osm-outdoors layer'
+      'opentopomap layer': 'opentopomap layer'
       'tracestrack-topo-base layer': 'tracestrack-topo-base layer'
       'bing satellite layer': 0
       'bing road layer': 0
@@ -17,11 +22,9 @@ leaflet_more_maps_custom_maps:
       'esri-ocean_world_ocean_base layer': 0
       'esri-world_topo_map layer': 0
       'esri-world_street_map layer': 0
-      'google-hybrid layer': 0
       'google-hybrid overlay': 0
       'google-satellite layer': 0
       'google-roadmap layer': 0
-      'google-high-res terrain': 0
       'google-high-res roadmap': 0
       'mapbox-dark layer': 0
       'mapbox-light layer': 0
@@ -34,14 +37,11 @@ leaflet_more_maps_custom_maps:
       'osm-de layer': 0
       'osm-cycle layer': 0
       'osm-transport layer': 0
-      'osm-landscape layer': 0
-      'osm-outdoors layer': 0
       'osm-transport-dark layer': 0
       'osm-spinal-map layer': 0
       'osm-pioneer layer': 0
       'osm-mobile-atlas layer': 0
       'osm-neighbourhood layer': 0
-      'opentopomap layer': 0
       'stamen-terrain layer': 0
       'stamen-terrain-background layer': 0
       'stamen-terrain-labels layer': 0
