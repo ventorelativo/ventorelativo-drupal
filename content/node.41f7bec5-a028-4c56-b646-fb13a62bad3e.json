@@ -18,8 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2024-02-09T15:43:39+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-09-30T10:41:25+00:00"
         }
     ],
     "revision_uid": [
@@ -47,14 +46,12 @@
     ],
     "created": [
         {
-            "value": "2023-12-10T11:13:16+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2023-12-10T11:13:16+00:00"
         }
     ],
     "changed": [
         {
-            "value": "2024-02-09T15:43:39+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-09-30T10:41:25+00:00"
         }
     ],
     "promote": [
@@ -79,12 +76,12 @@
     ],
     "path": [
         {
-            "alias": "\/siti\/giuc",
-            "langcode": "it",
-            "pathauto": 1
+            "alias": "\/siti\/sea-di-torre",
+            "langcode": "it"
         }
     ],
     "body": [],
+    "field_images": [],
     "field_map_elements": [
         {
             "target_type": "storage",
@@ -94,5 +91,6 @@
             "target_type": "storage",
             "target_uuid": "a4e15ec3-2c77-4523-9ffd-19a69e3985fc"
         }
-    ]
+    ],
+    "field_tags": []
 }

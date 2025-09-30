@@ -18,8 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-10T13:32:20+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2023-12-10T13:32:20+00:00"
         }
     ],
     "revision_uid": [
@@ -47,14 +46,12 @@
     ],
     "created": [
         {
-            "value": "2023-12-10T13:32:20+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2023-12-10T13:32:20+00:00"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T13:32:20+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2023-12-10T13:32:20+00:00"
         }
     ],
     "revision_translation_affected": [

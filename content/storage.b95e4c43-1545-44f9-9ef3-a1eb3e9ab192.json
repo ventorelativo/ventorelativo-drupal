@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "70d6f526-ec67-493b-b45f-494758c8c0e0"
+            "value": "b95e4c43-1545-44f9-9ef3-a1eb3e9ab192"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-02T22:55:37+00:00"
+            "value": "2025-09-30T10:36:24+00:00"
         }
     ],
     "revision_uid": [
@@ -41,17 +41,17 @@
     ],
     "name": [
         {
-            "value": "Rucas"
+            "value": "Ritrovo: Villa Glicini"
         }
     ],
     "created": [
         {
-            "value": "2023-12-02T22:55:37+00:00"
+            "value": "2025-09-30T10:36:24+00:00"
         }
     ],
     "changed": [
         {
-            "value": "2025-09-30T09:30:19+00:00"
+            "value": "2025-09-30T10:38:29+00:00"
         }
     ],
     "revision_translation_affected": [
@@ -66,21 +66,21 @@
     ],
     "field_location": [
         {
-            "value": "POINT (7.229615 44.744791)",
+            "value": "POINT (7.323402 44.855184)",
             "geo_type": "Point",
-            "lat": 44.744791,
-            "lon": 7.229615,
-            "left": 7.229615,
-            "top": 44.744791,
-            "right": 7.229615,
-            "bottom": 44.744791,
-            "geohash": "spvns983q1xe",
-            "latlon": "44.744791,7.229615"
+            "lat": 44.855184,
+            "lon": 7.323402,
+            "left": 7.323402,
+            "top": 44.855184,
+            "right": 7.323402,
+            "bottom": 44.855184,
+            "geohash": "spvpntssrsk6",
+            "latlon": "44.855184,7.323402"
         }
     ],
     "field_type": [
         {
-            "value": "takeoff"
+            "value": "poi"
         }
     ]
 }

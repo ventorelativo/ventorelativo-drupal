@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "70d6f526-ec67-493b-b45f-494758c8c0e0"
+            "value": "b4202a40-68c2-4cb4-a3b2-165190b1ff1e"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-02T22:55:37+00:00"
+            "value": "2025-09-30T10:34:46+00:00"
         }
     ],
     "revision_uid": [
@@ -41,17 +41,17 @@
     ],
     "name": [
         {
-            "value": "Rucas"
+            "value": "Ritrovo: Ponte di Bibiana"
         }
     ],
     "created": [
         {
-            "value": "2023-12-02T22:55:37+00:00"
+            "value": "2025-09-30T10:34:46+00:00"
         }
     ],
     "changed": [
         {
-            "value": "2025-09-30T09:30:19+00:00"
+            "value": "2025-09-30T10:34:46+00:00"
         }
     ],
     "revision_translation_affected": [
@@ -66,21 +66,21 @@
     ],
     "field_location": [
         {
-            "value": "POINT (7.229615 44.744791)",
+            "value": "POINT (7.290158 44.80916)",
             "geo_type": "Point",
-            "lat": 44.744791,
-            "lon": 7.229615,
-            "left": 7.229615,
-            "top": 44.744791,
-            "right": 7.229615,
-            "bottom": 44.744791,
-            "geohash": "spvns983q1xe",
-            "latlon": "44.744791,7.229615"
+            "lat": 44.80916,
+            "lon": 7.290158,
+            "left": 7.290158,
+            "top": 44.80916,
+            "right": 7.290158,
+            "bottom": 44.80916,
+            "geohash": "spvnvvk82bzg",
+            "latlon": "44.80916,7.290158"
         }
     ],
     "field_type": [
         {
-            "value": "takeoff"
+            "value": "poi"
         }
     ]
 }

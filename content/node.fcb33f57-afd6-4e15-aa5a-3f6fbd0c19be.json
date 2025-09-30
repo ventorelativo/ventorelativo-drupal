@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2025-08-08T13:22:50+00:00"
+            "value": "2025-09-30T10:38:44+00:00"
         }
     ],
     "revision_uid": [
@@ -51,7 +51,7 @@
     ],
     "changed": [
         {
-            "value": "2025-08-08T13:22:50+00:00"
+            "value": "2025-09-30T10:38:44+00:00"
         }
     ],
     "promote": [
@@ -105,6 +105,18 @@
         {
             "target_type": "storage",
             "target_uuid": "07e4bc39-d90c-4c5e-b007-905bc034c5ab"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "a4e15ec3-2c77-4523-9ffd-19a69e3985fc"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "b4202a40-68c2-4cb4-a3b2-165190b1ff1e"
+        },
+        {
+            "target_type": "storage",
+            "target_uuid": "b95e4c43-1545-44f9-9ef3-a1eb3e9ab192"
         }
     ],
     "field_tags": [
