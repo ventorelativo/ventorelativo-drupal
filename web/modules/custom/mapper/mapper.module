@@ -22,3 +22,88 @@ function mapper_theme() {
     ],
   ];
 }
+
+/**
+ * Implements hook_leaflet_map_view_geofield_value_alter().
+ */
+function mapper_leaflet_map_view_geofield_value_alter(&$geofield_value, &$map, &$leaflet_view_geofield_value_alter_context) {
+  // $geofield_value is an array of WKT strings. The Leaflet module may
+  // provide GEOMETRYCOLLECTIONs that include POINT(s) and other geometries.
+  // We want to extract POINT geometries as individual array items and
+  // keep the remaining geometries grouped as a GEOMETRYCOLLECTION (if any).
+  // This allows Leaflet to render POINTs as markers, with the proper icon.
+  $result = [];
+
+  foreach ($geofield_value as $wkt) {
+    // Trim whitespace.
+    $wkt = trim($wkt);
+
+    // Quick check: if this is not a GEOMETRYCOLLECTION, keep as-is.
+    if (stripos($wkt, 'GEOMETRYCOLLECTION') !== 0) {
+      $result[] = $wkt;
+      continue;
+    }
+
+    // Extract the inner content of the GEOMETRYCOLLECTION(...)
+    $start = strpos($wkt, '(');
+    $end = strrpos($wkt, ')');
+    if ($start === FALSE || $end === FALSE || $end <= $start) {
+      // Malformed WKT - keep original.
+      $result[] = $wkt;
+      continue;
+    }
+
+    $inner = substr($wkt, $start + 1, $end - $start - 1);
+
+    // We need to split the inner geometries by comma, but commas may
+    // appear in coordinate lists (e.g. LINESTRING). A simple parser: walk
+    // the string and split at commas that are at top nesting level.
+    $geoms = [];
+    $buffer = '';
+    $level = 0;
+    $len = strlen($inner);
+    for ($i = 0; $i < $len; $i++) {
+      $ch = $inner[$i];
+      if ($ch === '(') {
+        $level++;
+        $buffer .= $ch;
+        continue;
+      }
+      if ($ch === ')') {
+        $level--;
+        $buffer .= $ch;
+        continue;
+      }
+      if ($ch === ',' && $level === 0) {
+        // Top-level separator between geometries.
+        $geoms[] = trim($buffer);
+        $buffer = '';
+        continue;
+      }
+      $buffer .= $ch;
+    }
+    if (strlen(trim($buffer)) > 0) {
+      $geoms[] = trim($buffer);
+    }
+
+    // Now classify geometries: POINTs are extracted; others remain.
+    $others = [];
+    foreach ($geoms as $g) {
+      if (stripos($g, 'POINT') === 0) {
+        // Ensure POINT is a standalone WKT (no trailing comma etc).
+        $result[] = $g;
+      }
+      else {
+        $others[] = $g;
+      }
+    }
+
+    if (!empty($others)) {
+      // Rebuild a GEOMETRYCOLLECTION with the remaining geometries.
+      $result[] = 'GEOMETRYCOLLECTION (' . implode(', ', $others) . ')';
+    }
+  }
+
+  // Replace the original array with our normalized result.
+  $geofield_value = $result;
+}

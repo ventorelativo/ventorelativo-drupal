@@ -517,7 +517,13 @@ display:
       style:
         type: leaflet_map
         options:
-          grouping: {  }
+          grouping:
+            -
+              field: field_type
+              rendered: true
+              overlays_options:
+                disabled_overlays: {  }
+                hidden_overlays_controls: {  }
           data_source:
             field_location: field_location
           entity_source: __base_table
@@ -528,15 +534,15 @@ display:
             options: '{"permanent":false,"direction":"center"}'
           leaflet_popup:
             value: nothing_2
+            view_mode: default
             options: '{"maxWidth":"300","minWidth":"50","autoPan":true}'
-            view_mode: full
           leaflet_map: ~Paragliding
           height: '600'
           height_unit: px
           hide_empty_map: true
           disable_wheel: false
           gesture_handling: true
-          fitbounds_options: '{"padding":[10,10]}'
+          fitbounds_options: '{"padding":[14,14]}'
           reset_map:
             control: true
             options: '{"position":"topleft","title":"Reset View"}'
@@ -559,13 +565,13 @@ display:
             zoomFiner: 0
           weight: ''
           icon:
-            iconType: circle_marker
-            iconUrl: ''
+            iconType: marker
+            iconUrl: "{%- if field_type is not null and field_type is not empty -%}\r\n/modules/custom/mapper/config/assets/img/{{ field_type }}.png\r\n{%- endif -%}"
             shadowUrl: ''
             className: '{{ field_type }}'
             iconSize:
-              x: ''
-              'y': ''
+              x: '24'
+              'y': '24'
             iconAnchor:
               x: ''
               'y': ''
@@ -585,10 +591,10 @@ display:
             control: true
             options: '{"position":"topleft","pseudoFullscreen":false}'
           path: '{"color":"{{ nothing }}","opacity":"1.0","stroke":true,"weight":3,"fill":"false","fillColor":"{{ nothing_1 }}","fillOpacity":"0.3","radius":"6"}'
-          map_lazy_load:
-            lazy_load: true
           feature_properties:
             values: '{"content_type":"{{ field_type }}"}'
+          map_lazy_load:
+            lazy_load: true
       row:
         type: fields
       query:
