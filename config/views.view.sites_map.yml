@@ -210,7 +210,7 @@ display:
           click_sort_column: value
           type: geofield_latlon
           settings:
-            output_format: decimal
+            output_format: dms
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -384,19 +384,19 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        nothing_2:
-          id: nothing_2
-          table: views
-          field: nothing
+        field_location_1:
+          id: field_location_1
+          table: storage__field_location
+          field: field_location
           relationship: none
           group_type: group
           admin_label: ''
-          plugin_id: custom
+          plugin_id: field
           label: 'Contenuto popup'
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"popup-header\">\r\n{% if field_type == \"takeoff\" %}\r\n<h6>{{ title }}</h6>🪂 \r\n{% elseif field_type == \"landing\" %}🎯 \r\n{% elseif field_type == \"obstacle\" %}⚠️ \r\n{% elseif field_type == \"parking\" %}🅿️ \r\n{% elseif field_type == \"poi\" %}ℹ \r\n{% endif %}\r\n<strong>{{ name }}</strong>\r\n</div>\r\n<div class=\"popup-body\">\r\n{{ field_location|striptags|spaceless }}<br>\r\n<a href=\"https://www.google.com/maps/dir/?api=1&destination={{ field_location|striptags|spaceless }}\" target=\"_blank\">🗺️ Naviga qui</a>\r\n</div>\r\n"
+            text: "<div class=\"popup-header\">\r\n{% if field_type == \"takeoff\" %}\r\n<h6>{{ title }}</h6>🪂 \r\n{% elseif field_type == \"landing\" %}🎯 \r\n{% elseif field_type == \"obstacle\" %}⚠️ \r\n{% elseif field_type == \"parking\" %}🅿️ \r\n{% elseif field_type == \"poi\" %}ℹ \r\n{% endif %}\r\n<strong>{{ name }}</strong>\r\n</div>\r\n<div class=\"popup-body\">\r\n{{ field_location|striptags|spaceless }}<br />\r\n<a href=\"https://www.google.com/maps/dir/?api=1&destination={{ field_location_1__lat }} {{ field_location_1__lon }}\" target=\"_blank\">🗺️ Naviga</a>\r\n{% if field_type == \"takeoff\" %} - <a href=\"https://meteo-parapente.com/#/{{ field_location_1__lat }},{{ field_location_1__lon }},13\" target=\"_blank\">🌤️ Previsioni</a>{%- endif -%}\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -428,11 +428,25 @@ display:
           element_label_colon: false
           element_wrapper_type: ''
           element_wrapper_class: ''
-          element_default_classes: true
+          element_default_classes: false
           empty: ''
           hide_empty: false
           empty_zero: false
-          hide_alter_empty: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: geofield_latlon
+          settings:
+            output_format: decimal
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
       pager:
         type: some
         options:
@@ -533,7 +547,7 @@ display:
             value: name
             options: '{"permanent":false,"direction":"center"}'
           leaflet_popup:
-            value: nothing_2
+            value: field_location_1
             view_mode: default
             options: '{"maxWidth":"300","minWidth":"50","autoPan":true}'
           leaflet_map: ~Paragliding

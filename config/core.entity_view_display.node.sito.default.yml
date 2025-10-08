@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.sito.field_map_elements
     - field.field.node.sito.field_tags
     - node.type.sito
+    - views.view.site_features
     - views.view.sites_map
     - views.view.xcontest_flights
   module:
@@ -129,7 +130,7 @@ third_party_settings:
               context_mapping: {  }
               views_label: ''
               items_per_page: null
-            weight: 6
+            weight: 7
             additional: {  }
           -
             uuid: 79770210-3b03-403f-b88c-3b45438e7236
@@ -150,6 +151,19 @@ third_party_settings:
                     separator: ''
                     referenced_entity: ''
             weight: 2
+            additional: {  }
+          -
+            uuid: c7cd7b24-b34c-4167-8b38-8047fc260ad9
+            region: content
+            configuration:
+              id: 'views_block:site_features-map_sites_node'
+              label: ''
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: null
+            weight: 6
             additional: {  }
         third_party_settings: {  }
 id: node.sito.default
