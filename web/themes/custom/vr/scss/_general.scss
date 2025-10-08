@@ -40,9 +40,13 @@ header {
 
     a.site-title {
       font-family: var(--font-family-alt, sans-serif);
-      font-weight: 300;
+
+      // font-weight: 300;
       letter-spacing: -0.02em;
-      color: var(--bs-emphasis-color);
+      // color: var(--bs-emphasis-color);
+      color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+      // -webkit-text-fill-color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+      // -webkit-text-stroke: 0.5px rgba(var(--bs-body-bg-rgb), 0.8);
     }
   }
 
@@ -65,10 +69,11 @@ header {
 
   @include media-breakpoint-down(lg) {
     font-size: 1.5rem;
-    font-weight: 300;
+    // font-weight: 300;
   }
 
   @include media-breakpoint-up(lg) {
+    font-weight: 600;
     &:hover {
       border-color: var(--bs-gray-400);
     }
@@ -76,7 +81,7 @@ header {
 
   &.is-active {
     color: var(--bs-navbar-active-color);
-    font-weight: 500;
+    // font-weight: 500;
     text-decoration: underline;
 
     @include media-breakpoint-up(lg) {
@@ -244,5 +249,16 @@ header {
 .node--type-sito.node--view-mode-full {
   & > h2:first-of-type {
     display: none;
+  }
+}
+
+.view-site-features {
+  table {
+    caption {
+      font-weight: 500;
+    }
+    td, th {
+      width: 30%;
+    }
   }
 }

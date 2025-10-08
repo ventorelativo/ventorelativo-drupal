@@ -33,3 +33,10 @@ img.leaflet-marker-icon {
     filter: drop-shadow(2px 4px 4px rgba(0,0,0,0.7))
   }
 }
+
+.leaflet-container {
+	font-family: var(--bs-body-font-family);
+	// font-size: 12px;
+	font-size: 0.9rem;
+	// line-height: 1.5;
+	}

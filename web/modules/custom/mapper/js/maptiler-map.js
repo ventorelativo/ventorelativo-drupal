@@ -177,7 +177,7 @@
                 //   ],
                 // },
               ],
-              'text-font': [ 'Avenir Bold', 'Avenir Next' ],
+              'text-font': [ 'Outfit', 'Avenir Bold', 'Avenir Next' ],
               'text-size': 11,
               'text-anchor': 'top',
               'text-offset': [ 0, 0.5 ],
