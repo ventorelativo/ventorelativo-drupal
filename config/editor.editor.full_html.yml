@@ -31,9 +31,11 @@ settings:
       - horizontalLine
       - '|'
       - heading
-      - codeBlock
       - '|'
+      - codeBlock
       - sourceEditing
+      - code
+      - showBlocks
   plugins:
     ckeditor5_codeBlock:
       languages:
@@ -98,6 +100,8 @@ settings:
     linkit_extension:
       linkit_enabled: true
       linkit_profile: default
+    media_media:
+      allow_view_mode_override: false
 image_upload:
   status: true
   scheme: public
