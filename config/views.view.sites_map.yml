@@ -1026,19 +1026,19 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        nothing_2:
-          id: nothing_2
-          table: views
-          field: nothing
+        field_location_1:
+          id: field_location_1
+          table: storage__field_location
+          field: field_location
           relationship: none
           group_type: group
           admin_label: ''
-          plugin_id: custom
+          plugin_id: field
           label: content
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"popup-header\">\r\n{% if field_type == \"takeoff\" %}\r\n<h6>{{ title }}</h6>🪂 \r\n{% elseif field_type == \"landing\" %}🎯 \r\n{% elseif field_type == \"obstacle\" %}⚠️ \r\n{% elseif field_type == \"parking\" %}🅿️ \r\n{% elseif field_type == \"poi\" %}ℹ \r\n{% endif %}\r\n<strong>{{ name }}</strong>\r\n</div>\r\n<div class=\"popup-body\">\r\n{{ field_location|striptags|spaceless }}<br>\r\n<a href=\"https://www.google.com/maps/dir/?api=1&destination={{ field_location|striptags|spaceless }}\" target=\"_blank\">🗺️ Naviga qui</a>\r\n{#<a href=\"geo:{{ field_location|striptags|spaceless }})?q={{ field_location|striptags|spaceless }}({{ name }})&daddr=&z=18\" target=\"_blank\">🧭 Test GEO URI</a>#}\r\n</div>\r\n"
+            text: "<div class=\"popup-header\">\r\n{% if field_type == \"takeoff\" %}\r\n<h6>{{ title }}</h6>🪂 \r\n{% elseif field_type == \"landing\" %}🎯 \r\n{% elseif field_type == \"obstacle\" %}⚠️ \r\n{% elseif field_type == \"parking\" %}🅿️ \r\n{% elseif field_type == \"poi\" %}ℹ \r\n{% endif %}\r\n<strong>{{ name }}</strong>\r\n</div>\r\n<div class=\"popup-body\">\r\n{{ field_location|striptags|spaceless }}<br />\r\n<a href=\"https://www.google.com/maps/dir/?api=1&destination={{ field_location_1__lat }} {{ field_location_1__lon }}\" target=\"_blank\">🗺️ Naviga</a>\r\n{% if field_type == \"takeoff\" %} - <a href=\"https://meteo-parapente.com/#/{{ field_location_1__lat }},{{ field_location_1__lon }},13\" target=\"_blank\">🌤️ Previsioni</a>{%- endif -%}\r\n{# - <a href=\"geo:{{ field_location_1__lat }},{{ field_location_1__lon }}?q={{ field_location_1__lat }},{{ field_location_1__lon }}({{ name }})&daddr=&z=18\" target=\"_blank\">🧭 Test GEO URI</a>\r\n - <a href=\"geo:0,0?q={{ field_location_1__lat }},{{ field_location_1__lon }}({{ name }})\" target=\"_blank\">🧭 Open in Trail Map</a> #}\r\n\r\n\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -1074,7 +1074,21 @@ display:
           empty: ''
           hide_empty: false
           empty_zero: false
-          hide_alter_empty: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: geofield_latlon
+          settings:
+            output_format: decimal
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
       pager:
         type: none
         options:
@@ -1095,7 +1109,7 @@ display:
             wkt: field_type
             id_field: ''
             name_field: name
-            description_field: nothing_2
+            description_field: field_location_1
           jsonp_prefix: ''
       defaults:
         access: false
@@ -1474,19 +1488,19 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        nothing_2:
-          id: nothing_2
-          table: views
-          field: nothing
+        field_location_1:
+          id: field_location_1
+          table: storage__field_location
+          field: field_location
           relationship: none
           group_type: group
           admin_label: ''
-          plugin_id: custom
+          plugin_id: field
           label: content
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"popup-header\">\r\n{% if field_type == \"takeoff\" %}\r\n<h6>{{ title }}</h6>🪂 \r\n{% elseif field_type == \"landing\" %}🎯 \r\n{% elseif field_type == \"obstacle\" %}⚠️ \r\n{% elseif field_type == \"parking\" %}🅿️ \r\n{% elseif field_type == \"poi\" %}ℹ \r\n{% endif %}\r\n<strong>{{ name }}</strong>\r\n</div>\r\n<div class=\"popup-body\">\r\n{{ field_location|striptags|spaceless }}<br>\r\n<a href=\"https://www.google.com/maps/dir/?api=1&destination={{ field_location|striptags|spaceless }}\" target=\"_blank\">🗺️ Naviga qui</a>\r\n{#<a href=\"geo:{{ field_location|striptags|spaceless }})?q={{ field_location|striptags|spaceless }}({{ name }})&daddr=&z=18\" target=\"_blank\">🧭 Test GEO URI</a>#}\r\n</div>\r\n"
+            text: "<div class=\"popup-header\">\r\n{% if field_type == \"takeoff\" %}\r\n<h6>{{ title }}</h6>🪂 \r\n{% elseif field_type == \"landing\" %}🎯 \r\n{% elseif field_type == \"obstacle\" %}⚠️ \r\n{% elseif field_type == \"parking\" %}🅿️ \r\n{% elseif field_type == \"poi\" %}ℹ \r\n{% endif %}\r\n<strong>{{ name }}</strong>\r\n</div>\r\n<div class=\"popup-body\">\r\n{{ field_location|striptags|spaceless }}<br />\r\n<a href=\"https://www.google.com/maps/dir/?api=1&destination={{ field_location_1__lat }} {{ field_location_1__lon }}\" target=\"_blank\">🗺️ Naviga</a>\r\n{% if field_type == \"takeoff\" %} - <a href=\"https://meteo-parapente.com/#/{{ field_location_1__lat }},{{ field_location_1__lon }},13\" target=\"_blank\">🌤️ Previsioni</a>{%- endif -%}\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -1522,7 +1536,21 @@ display:
           empty: ''
           hide_empty: false
           empty_zero: false
-          hide_alter_empty: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: geofield_latlon
+          settings:
+            output_format: decimal
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
       pager:
         type: none
         options:
@@ -1542,7 +1570,7 @@ display:
             wkt: field_type
             id_field: ''
             name_field: name
-            description_field: nothing_2
+            description_field: field_location_1
           jsonp_prefix: ''
       defaults:
         access: false
