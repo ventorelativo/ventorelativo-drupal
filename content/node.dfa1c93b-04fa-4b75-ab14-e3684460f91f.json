@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2025-08-08T13:05:38+00:00"
+            "value": "2025-10-08T15:19:40+00:00"
         }
     ],
     "revision_uid": [
@@ -51,7 +51,7 @@
     ],
     "changed": [
         {
-            "value": "2025-08-08T13:05:38+00:00"
+            "value": "2025-10-08T15:19:40+00:00"
         }
     ],
     "promote": [
@@ -102,5 +102,6 @@
             "target_type": "storage",
             "target_uuid": "41c02a58-dd24-445a-b9e0-6f2f7c1688d1"
         }
-    ]
+    ],
+    "field_tags": []
 }

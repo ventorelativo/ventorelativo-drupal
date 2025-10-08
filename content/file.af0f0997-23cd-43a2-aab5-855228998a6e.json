@@ -1,0 +1,54 @@
+{
+    "uuid": [
+        {
+            "value": "af0f0997-23cd-43a2-aab5-855228998a6e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "filename": [
+        {
+            "value": "forte.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2025-10\/forte.jpg",
+            "url": "\/sites\/default\/files\/2025-10\/forte.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 266159
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-10-08T12:01:16+00:00"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-10-08T12:01:44+00:00"
+        }
+    ]
+}

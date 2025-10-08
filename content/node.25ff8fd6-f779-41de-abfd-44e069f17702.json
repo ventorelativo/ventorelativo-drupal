@@ -1,0 +1,107 @@
+{
+    "uuid": [
+        {
+            "value": "25ff8fd6-f779-41de-abfd-44e069f17702"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article",
+            "target_type": "node_type",
+            "target_uuid": "b6bcf908-450f-4894-aa3f-2044222a6ed8"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2025-10-08T13:14:09+00:00"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": false
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "title": [
+        {
+            "value": "In volo sulla fortezza pi\u00f9 grande d\u2019Europa - 2025"
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-10-08T11:50:18+00:00"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-10-08T14:48:01+00:00"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/news\/volo-sulla-fortezza-piu-grande-deuropa-2025",
+            "langcode": "it"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p class=\"p1\">Torna uno degli appuntamenti pi\u00f9 attesi dell\u2019anno!<\/p><p class=\"p1\"><span class=\"s1\"><strong>VentoRelativo<\/strong><\/span> organizza anche quest\u2019anno il <span class=\"s1\"><strong>volo sul Forte di Fenestrelle<\/strong><\/span>, la fortezza pi\u00f9 grande d\u2019Europa! \ud83e\ude82<\/p><p class=\"p1\">&nbsp;<\/p><p class=\"p1\">\ud83d\udcc5 <span class=\"s1\"><strong>Data prevista:<\/strong><\/span> Gioved\u00ec 25 o Venerd\u00ec 26 Settembre 2025 <em>(in attesa della conferma ufficiale)<\/em><\/p><p class=\"p1\">\ud83d\udccd <span class=\"s1\"><strong>Luogo:<\/strong><\/span> <a href=\"\/node\/19\" data-entity-type=\"node\" data-entity-uuid=\"695000f5-5302-4367-ae7c-bcb956cc3a6c\" data-entity-substitution=\"canonical\">Fenestrelle<\/a> o <a href=\"\/node\/22\" data-entity-type=\"node\" data-entity-uuid=\"6afe62a4-cda9-453b-b3c1-1407a45d487a\" data-entity-substitution=\"canonical\">Bourcet<\/a> \u2013 con ritrovo in atterraggio a <a href=\"\/node\/19\" data-entity-type=\"node\" data-entity-uuid=\"695000f5-5302-4367-ae7c-bcb956cc3a6c\" data-entity-substitution=\"canonical\"><span class=\"s1\">Chambons<\/span><\/a><\/p><p class=\"p1\">&nbsp;<\/p><p class=\"p1\">Come sempre, sar\u00e0 una giornata di volo, amicizia e divertimento\u2026<\/p><p class=\"p3\"><span class=\"s2\">eee <\/span><strong>attenzione alle sorprese in atterraggio!<\/strong><span class=\"s2\"> \ud83d\ude04<\/span><\/p><hr><p class=\"p1\"><span class=\"s1\">\ud83c\udf9f\ufe0f <\/span><strong>Informazioni pratiche:<\/strong><\/p><ul><li><p class=\"p1\"><strong>Voli biposto:<\/strong><span class=\"s1\"> 150 \u20ac<\/span><\/p><\/li><li><p class=\"p1\"><strong>Servizio navetta:<\/strong><span class=\"s1\"> 10 \u20ac<\/span><\/p><\/li><li><p class=\"p1\"><strong>Info e prenotazioni biposto:<\/strong><span class=\"s1\"> \ud83d\udcde <\/span><a href=\"tel:+393491098090\"><span class=\"s1\">349 109 8090<\/span><\/a><\/p><\/li><\/ul>",
+            "format": "full_html",
+            "processed": "<p class=\"p1\">Torna uno degli appuntamenti pi\u00f9 attesi dell\u2019anno!<\/p><p class=\"p1\"><span class=\"s1\"><strong>VentoRelativo<\/strong><\/span> organizza anche quest\u2019anno il <span class=\"s1\"><strong>volo sul Forte di Fenestrelle<\/strong><\/span>, la fortezza pi\u00f9 grande d\u2019Europa! \ud83e\ude82<\/p><p class=\"p1\">&nbsp;<\/p><p class=\"p1\">\ud83d\udcc5 <span class=\"s1\"><strong>Data prevista:<\/strong><\/span> Gioved\u00ec 25 o Venerd\u00ec 26 Settembre 2025 <em>(in attesa della conferma ufficiale)<\/em><\/p><p class=\"p1\">\ud83d\udccd <span class=\"s1\"><strong>Luogo:<\/strong><\/span> <a href=\"\/siti\/forte-di-fenestrelle\" data-entity-type=\"node\" data-entity-uuid=\"695000f5-5302-4367-ae7c-bcb956cc3a6c\" data-entity-substitution=\"canonical\" title=\"Forte di Fenestrelle\">Fenestrelle<\/a> o <a href=\"\/siti\/bourcet\" data-entity-type=\"node\" data-entity-uuid=\"6afe62a4-cda9-453b-b3c1-1407a45d487a\" data-entity-substitution=\"canonical\" title=\"Bourcet\">Bourcet<\/a> \u2013 con ritrovo in atterraggio a <a href=\"\/siti\/forte-di-fenestrelle\" data-entity-type=\"node\" data-entity-uuid=\"695000f5-5302-4367-ae7c-bcb956cc3a6c\" data-entity-substitution=\"canonical\" title=\"Forte di Fenestrelle\"><span class=\"s1\">Chambons<\/span><\/a><\/p><p class=\"p1\">&nbsp;<\/p><p class=\"p1\">Come sempre, sar\u00e0 una giornata di volo, amicizia e divertimento\u2026<\/p><p class=\"p3\"><span class=\"s2\">eee <\/span><strong>attenzione alle sorprese in atterraggio!<\/strong><span class=\"s2\"> \ud83d\ude04<\/span><\/p><hr><p class=\"p1\"><span class=\"s1\">\ud83c\udf9f\ufe0f <\/span><strong>Informazioni pratiche:<\/strong><\/p><ul><li><p class=\"p1\"><strong>Voli biposto:<\/strong><span class=\"s1\"> 150 \u20ac<\/span><\/p><\/li><li><p class=\"p1\"><strong>Servizio navetta:<\/strong><span class=\"s1\"> 10 \u20ac<\/span><\/p><\/li><li><p class=\"p1\"><strong>Info e prenotazioni biposto:<\/strong><span class=\"s1\"> \ud83d\udcde <\/span><a href=\"tel:+393491098090\"><span class=\"s1\">349 109 8090<\/span><\/a><\/p><\/li><\/ul>",
+            "summary": ""
+        }
+    ],
+    "field_image": [
+        {
+            "alt": "Veduta aerea del Forte di Fenestrelle, Val Chisone",
+            "title": "",
+            "width": 1170,
+            "height": 650,
+            "target_type": "file",
+            "target_uuid": "af0f0997-23cd-43a2-aab5-855228998a6e"
+        }
+    ],
+    "field_tags": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "7908d1a4-b21a-4733-abec-3869ed7ad176"
+        }
+    ]
+}

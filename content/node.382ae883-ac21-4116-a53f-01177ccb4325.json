@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2025-08-08T13:30:42+00:00"
+            "value": "2025-10-08T15:02:58+00:00"
         }
     ],
     "revision_uid": [
@@ -51,7 +51,7 @@
     ],
     "changed": [
         {
-            "value": "2025-08-08T13:30:42+00:00"
+            "value": "2025-10-08T15:02:58+00:00"
         }
     ],
     "promote": [
@@ -80,7 +80,14 @@
             "langcode": "it"
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p><strong>Localit\u00e0:<\/strong><br>Punta Ceresa, 10063 Pomaretto (TO)<\/p><p><strong>Altitudine:<\/strong><br>1.254 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Est\/Sud-Est<\/p>",
+            "format": "full_html",
+            "processed": "<p><strong>Localit\u00e0:<\/strong><br>Punta Ceresa, 10063 Pomaretto (TO)<\/p><p><strong>Altitudine:<\/strong><br>1.254 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Est\/Sud-Est<\/p>",
+            "summary": "1254m, E-SE, Pomaretto (TO)"
+        }
+    ],
     "field_images": [],
     "field_map_elements": [
         {

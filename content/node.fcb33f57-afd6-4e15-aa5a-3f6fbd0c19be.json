@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2025-09-30T12:18:14+00:00"
+            "value": "2025-10-08T15:26:02+00:00"
         }
     ],
     "revision_uid": [
@@ -51,7 +51,7 @@
     ],
     "changed": [
         {
-            "value": "2025-09-30T12:18:14+00:00"
+            "value": "2025-10-08T15:26:02+00:00"
         }
     ],
     "promote": [
@@ -61,7 +61,7 @@
     ],
     "sticky": [
         {
-            "value": false
+            "value": true
         }
     ],
     "default_langcode": [
@@ -82,9 +82,9 @@
     ],
     "body": [
         {
-            "value": "<p><strong>Localit\u00e0:<\/strong><br>Montoso, vicino a Bagnolo Piemonte (CN)<\/p><p><strong>Altitudine:<\/strong><br>1.300 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud-Est<\/p><p><strong>Descrizione:<\/strong><br>Il sito di volo Montoso offre un'esperienza mozzafiato nel cuore delle Alpi italiane. Situato a circa 1.300 metri di altitudine, questo sito \u00e8 apprezzato dai parapendisti per la sua esposizione sud-ovest, che regala condizioni di volo ideali per la maggior parte dell'anno.<\/p><p><strong>Caratteristiche:<\/strong><br>Vista Panoramica: Goditi una vista spettacolare sulle Alpi Marittime e sulla valle sottostante mentre solchi i cieli sopra Montoso.<br>Condizioni di Volo Ottimali: L'esposizione sud-ovest del sito crea termiche e correnti ascensionali che rendono il volo un'esperienza entusiasmante.<br>Accesso Facile: Il sito \u00e8 facilmente accessibile da Bagnolo Piemonte e offre un parcheggio comodo per i piloti.<\/p><p><br><strong>Link Utili:<\/strong><br><a href=\"https:\/\/example.com\">Meteo Montoso:<\/a> Controlla le condizioni meteorologiche attuali e previste per Montoso prima di decollare.<br><a href=\"https:\/\/example.com\">Associazione Volo Libero Piemonte<\/a>: Scopri pi\u00f9 informazioni sull'associazione locale di volo libero e le attivit\u00e0 connesse.<\/p><p><br><strong>Consigli Pratici:<\/strong><\/p><p>Prima di volare, assicurati di controllare le condizioni meteorologiche e di consultare le regole locali di volo libero.<br>Rispetta l'ambiente e segue le pratiche di volo sicure per garantire un'esperienza positiva per tutti i piloti.<\/p>",
+            "value": "<p><strong>Localit\u00e0:<\/strong><br>Montoso, vicino a Bagnolo Piemonte (CN)<\/p><p><strong>Altitudine:<\/strong><br>1.300 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud-Est<\/p><p><strong>Descrizione:<\/strong><br>Il sito di volo Montoso offre un'esperienza mozzafiato nel cuore delle Alpi italiane. Situato a circa 1.300 metri di altitudine, questo sito \u00e8 apprezzato dai parapendisti per la sua esposizione sud-ovest, che regala condizioni di volo ideali per la maggior parte dell'anno.<\/p><p><strong>Caratteristiche:<\/strong><br>Vista Panoramica: Goditi una vista spettacolare sulle Alpi Marittime e sulla valle sottostante mentre solchi i cieli sopra Montoso.<br>Condizioni di Volo Ottimali: L'esposizione sud-ovest del sito crea termiche e correnti ascensionali che rendono il volo un'esperienza entusiasmante.<br>Accesso Facile: Il sito \u00e8 facilmente accessibile da Bagnolo Piemonte e offre un parcheggio comodo per i piloti.<\/p><p><br><strong>Consigli Pratici:<\/strong><\/p><p>Prima di volare, assicurati di controllare le condizioni meteorologiche e di consultare le regole locali di volo libero.<br>Rispetta l'ambiente e segue le pratiche di volo sicure per garantire un'esperienza positiva per tutti i piloti.<\/p>",
             "format": "full_html",
-            "processed": "<p><strong>Localit\u00e0:<\/strong><br>Montoso, vicino a Bagnolo Piemonte (CN)<\/p><p><strong>Altitudine:<\/strong><br>1.300 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud-Est<\/p><p><strong>Descrizione:<\/strong><br>Il sito di volo Montoso offre un'esperienza mozzafiato nel cuore delle Alpi italiane. Situato a circa 1.300 metri di altitudine, questo sito \u00e8 apprezzato dai parapendisti per la sua esposizione sud-ovest, che regala condizioni di volo ideali per la maggior parte dell'anno.<\/p><p><strong>Caratteristiche:<\/strong><br>Vista Panoramica: Goditi una vista spettacolare sulle Alpi Marittime e sulla valle sottostante mentre solchi i cieli sopra Montoso.<br>Condizioni di Volo Ottimali: L'esposizione sud-ovest del sito crea termiche e correnti ascensionali che rendono il volo un'esperienza entusiasmante.<br>Accesso Facile: Il sito \u00e8 facilmente accessibile da Bagnolo Piemonte e offre un parcheggio comodo per i piloti.<\/p><p><br><strong>Link Utili:<\/strong><br><a href=\"https:\/\/example.com\">Meteo Montoso:<\/a> Controlla le condizioni meteorologiche attuali e previste per Montoso prima di decollare.<br><a href=\"https:\/\/example.com\">Associazione Volo Libero Piemonte<\/a>: Scopri pi\u00f9 informazioni sull'associazione locale di volo libero e le attivit\u00e0 connesse.<\/p><p><br><strong>Consigli Pratici:<\/strong><\/p><p>Prima di volare, assicurati di controllare le condizioni meteorologiche e di consultare le regole locali di volo libero.<br>Rispetta l'ambiente e segue le pratiche di volo sicure per garantire un'esperienza positiva per tutti i piloti.<\/p>",
+            "processed": "<p><strong>Localit\u00e0:<\/strong><br>Montoso, vicino a Bagnolo Piemonte (CN)<\/p><p><strong>Altitudine:<\/strong><br>1.300 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud-Est<\/p><p><strong>Descrizione:<\/strong><br>Il sito di volo Montoso offre un'esperienza mozzafiato nel cuore delle Alpi italiane. Situato a circa 1.300 metri di altitudine, questo sito \u00e8 apprezzato dai parapendisti per la sua esposizione sud-ovest, che regala condizioni di volo ideali per la maggior parte dell'anno.<\/p><p><strong>Caratteristiche:<\/strong><br>Vista Panoramica: Goditi una vista spettacolare sulle Alpi Marittime e sulla valle sottostante mentre solchi i cieli sopra Montoso.<br>Condizioni di Volo Ottimali: L'esposizione sud-ovest del sito crea termiche e correnti ascensionali che rendono il volo un'esperienza entusiasmante.<br>Accesso Facile: Il sito \u00e8 facilmente accessibile da Bagnolo Piemonte e offre un parcheggio comodo per i piloti.<\/p><p><br><strong>Consigli Pratici:<\/strong><\/p><p>Prima di volare, assicurati di controllare le condizioni meteorologiche e di consultare le regole locali di volo libero.<br>Rispetta l'ambiente e segue le pratiche di volo sicure per garantire un'esperienza positiva per tutti i piloti.<\/p>",
             "summary": "1300m, SE, Bagnolo Piemonte (CN)"
         }
     ],

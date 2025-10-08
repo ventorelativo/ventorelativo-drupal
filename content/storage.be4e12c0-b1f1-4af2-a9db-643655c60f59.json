@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "c27665e0-c844-4038-bb2b-7bd39266ce02"
+            "value": "be4e12c0-b1f1-4af2-a9db-643655c60f59"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-10T14:44:18+00:00"
+            "value": "2025-10-08T15:22:18+00:00"
         }
     ],
     "revision_uid": [
@@ -41,17 +41,17 @@
     ],
     "name": [
         {
-            "value": "Pralamar (fontana)"
+            "value": "Tabellone"
         }
     ],
     "created": [
         {
-            "value": "2023-12-10T14:44:18+00:00"
+            "value": "2025-10-08T15:22:18+00:00"
         }
     ],
     "changed": [
         {
-            "value": "2025-10-08T15:21:31+00:00"
+            "value": "2025-10-08T15:22:18+00:00"
         }
     ],
     "revision_translation_affected": [
@@ -66,16 +66,16 @@
     ],
     "field_location": [
         {
-            "value": "POINT (7.234432 44.976705)",
+            "value": "POINT (7.234502 44.980253)",
             "geo_type": "Point",
-            "lat": 44.976705,
-            "lon": 7.234432,
-            "left": 7.234432,
-            "top": 44.976705,
-            "right": 7.234432,
-            "bottom": 44.976705,
-            "geohash": "spvpuegbq3rr",
-            "latlon": "44.976705,7.234432"
+            "lat": 44.980253,
+            "lon": 7.234502,
+            "left": 7.234502,
+            "top": 44.980253,
+            "right": 7.234502,
+            "bottom": 44.980253,
+            "geohash": "spvpuskhbngs",
+            "latlon": "44.980253,7.234502"
         }
     ],
     "field_type": [

@@ -18,8 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-10T11:55:24+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-10-08T14:53:26+00:00"
         }
     ],
     "revision_uid": [
@@ -47,14 +46,12 @@
     ],
     "created": [
         {
-            "value": "2023-12-10T11:13:30+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2023-12-10T11:13:30+00:00"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T11:55:24+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-10-08T14:53:26+00:00"
         }
     ],
     "promote": [
@@ -79,12 +76,19 @@
     ],
     "path": [
         {
-            "alias": "\/siti\/podio",
-            "langcode": "it",
-            "pathauto": 1
+            "alias": "\/siti\/il-podio",
+            "langcode": "it"
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p><strong>Localit\u00e0:<\/strong><br>Podio, 10060 Pinasca (TO)<\/p><p><strong>Altitudine:<\/strong><br>780 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud-Est<\/p>",
+            "format": "full_html",
+            "processed": "<p><strong>Localit\u00e0:<\/strong><br>Podio, 10060 Pinasca (TO)<\/p><p><strong>Altitudine:<\/strong><br>780 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud-Est<\/p>",
+            "summary": "780m, SE, Pinasca (TO)"
+        }
+    ],
+    "field_images": [],
     "field_map_elements": [
         {
             "target_type": "storage",
@@ -94,5 +98,6 @@
             "target_type": "storage",
             "target_uuid": "ef3fe725-1152-44ad-be0e-6b895c088238"
         }
-    ]
+    ],
+    "field_tags": []
 }

@@ -18,8 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-10T14:28:09+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-10-08T14:59:43+00:00"
         }
     ],
     "revision_uid": [
@@ -47,14 +46,12 @@
     ],
     "created": [
         {
-            "value": "2023-12-10T14:14:32+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2023-12-10T14:14:32+00:00"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-10T14:28:45+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2025-10-08T14:59:43+00:00"
         }
     ],
     "promote": [
@@ -79,12 +76,19 @@
     ],
     "path": [
         {
-            "alias": "\/siti\/praly",
-            "langcode": "it",
-            "pathauto": 1
+            "alias": "\/siti\/prali",
+            "langcode": "it"
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p><strong>Localit\u00e0:<\/strong><br>Casermette del Bric Rond, 10060 Prali (TO)<\/p><p><strong>Altitudine:<\/strong><br>2.464 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Nord-Ovest\/Sud-Ovest<\/p>",
+            "format": "full_html",
+            "processed": "<p><strong>Localit\u00e0:<\/strong><br>Casermette del Bric Rond, 10060 Prali (TO)<\/p><p><strong>Altitudine:<\/strong><br>2.464 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Nord-Ovest\/Sud-Ovest<\/p>",
+            "summary": "2464m, NW-SW, Prali (TO)"
+        }
+    ],
+    "field_images": [],
     "field_map_elements": [
         {
             "target_type": "storage",
@@ -94,5 +98,6 @@
             "target_type": "storage",
             "target_uuid": "0aa849eb-018a-4d3b-bf19-15aa19809196"
         }
-    ]
+    ],
+    "field_tags": []
 }

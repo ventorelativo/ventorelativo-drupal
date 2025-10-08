@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2025-08-08T13:29:29+00:00"
+            "value": "2025-10-08T15:24:58+00:00"
         }
     ],
     "revision_uid": [
@@ -41,7 +41,7 @@
     ],
     "title": [
         {
-            "value": "Pralamar"
+            "value": "Monte Cucetto"
         }
     ],
     "created": [
@@ -51,7 +51,7 @@
     ],
     "changed": [
         {
-            "value": "2025-08-08T13:29:29+00:00"
+            "value": "2025-10-08T15:24:58+00:00"
         }
     ],
     "promote": [
@@ -61,7 +61,7 @@
     ],
     "sticky": [
         {
-            "value": false
+            "value": true
         }
     ],
     "default_langcode": [
@@ -69,16 +69,31 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
     "path": [
         {
-            "alias": "\/siti\/pralamar",
+            "alias": "\/siti\/monte-cucetto",
             "langcode": "it"
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p><strong>Localit\u00e0:<\/strong><br>Pralamar, 10060 Pinasca (TO)<\/p><p><strong>Altitudine:<\/strong><br>1.737\/1.600 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud\/Sud-Est<\/p>",
+            "format": "full_html",
+            "processed": "<p><strong>Localit\u00e0:<\/strong><br>Pralamar, 10060 Pinasca (TO)<\/p><p><strong>Altitudine:<\/strong><br>1.737\/1.600 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud\/Sud-Est<\/p>",
+            "summary": "1737\/1600m, S-SE, Pinasca (TO)"
+        }
+    ],
     "field_images": [],
     "field_map_elements": [
+        {
+            "target_type": "storage",
+            "target_uuid": "be4e12c0-b1f1-4af2-a9db-643655c60f59"
+        },
         {
             "target_type": "storage",
             "target_uuid": "c27665e0-c844-4038-bb2b-7bd39266ce02"

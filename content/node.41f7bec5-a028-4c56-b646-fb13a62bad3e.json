@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2025-09-30T10:41:25+00:00"
+            "value": "2025-10-08T15:18:38+00:00"
         }
     ],
     "revision_uid": [
@@ -51,7 +51,7 @@
     ],
     "changed": [
         {
-            "value": "2025-09-30T10:41:25+00:00"
+            "value": "2025-10-08T15:18:38+00:00"
         }
     ],
     "promote": [
@@ -61,7 +61,7 @@
     ],
     "sticky": [
         {
-            "value": false
+            "value": true
         }
     ],
     "default_langcode": [
@@ -80,7 +80,14 @@
             "langcode": "it"
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p><strong>Localit\u00e0:<\/strong><br>Sea di Torre, 10066 Torre Pellice (TO)<\/p><p><strong>Altitudine:<\/strong><br>1.257 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud\/Sud-Ovest<\/p>",
+            "format": "full_html",
+            "processed": "<p><strong>Localit\u00e0:<\/strong><br>Sea di Torre, 10066 Torre Pellice (TO)<\/p><p><strong>Altitudine:<\/strong><br>1.257 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud\/Sud-Ovest<\/p>",
+            "summary": "1257m, S-SW, Torre Pellice (TO)"
+        }
+    ],
     "field_images": [],
     "field_map_elements": [
         {

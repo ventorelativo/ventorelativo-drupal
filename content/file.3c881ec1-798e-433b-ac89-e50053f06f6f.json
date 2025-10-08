@@ -1,0 +1,54 @@
+{
+    "uuid": [
+        {
+            "value": "3c881ec1-798e-433b-ac89-e50053f06f6f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "filename": [
+        {
+            "value": "generateImage_tm38hjes8tbi5rZtIEG.gif"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2025-10\/generateImage_tm38hjes8tbi5rZtIEG.gif",
+            "url": "\/sites\/default\/files\/2025-10\/generateImage_tm38hjes8tbi5rZtIEG.gif"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/gif"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1812
+        }
+    ],
+    "status": [
+        {
+            "value": false
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-10-08T13:27:54+00:00"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-10-08T13:27:54+00:00"
+        }
+    ]
+}
