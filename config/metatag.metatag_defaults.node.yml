@@ -7,6 +7,8 @@ _core:
 id: node
 label: Contenuto
 tags:
-  title: '[node:title] | [site:name]'
-  description: '[node:summary]'
   canonical_url: '[node:url]'
+  description: '[node:summary]'
+  geo_placename: '[node:field_map_elements:0:entity]'
+  og_description: '[node:summary]'
+  title: '[node:title] | [site:name]'

@@ -1,0 +1,9 @@
+uuid: 4cb11fc0-9d67-4763-b0ec-b058e98e3dcd
+langcode: it
+status: true
+dependencies: {  }
+id: node__article
+label: 'Contenuto: Articolo'
+tags:
+  description: 'News: [node:summary]'
+  og_description: 'News: [node:summary]'
