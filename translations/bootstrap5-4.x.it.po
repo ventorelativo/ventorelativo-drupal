@@ -1,10 +1,10 @@
-# Italian translation of Bootstrap5 (4.0.5)
+# Italian translation of Bootstrap5 (4.0.6)
 # Copyright (c) 2025 by the Italian translation team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Bootstrap5 (4.0.5)\n"
-"POT-Creation-Date: 2025-06-25 12:46+0000\n"
+"Project-Id-Version: Bootstrap5 (4.0.6)\n"
+"POT-Creation-Date: 2025-09-30 07:46+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
