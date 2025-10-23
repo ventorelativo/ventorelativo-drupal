@@ -7,3 +7,5 @@ label: 'Contenuto: Articolo'
 tags:
   description: 'News: [node:summary]'
   og_description: 'News: [node:summary]'
+  og_image: '[node:field_image:social_card_node]'
+  og_image_type: image/jpeg
