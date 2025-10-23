@@ -5,12 +5,12 @@ export PATH="./vendor/bin:$PATH"
 drush tome:install -y \
 && drush cr \
 && drush cron \
-&& drush locale:update \
 && drush simple-sitemap:generate -l $URL \
 && drush pmu project_browser \
 && drush tome:static -l $URL
 """
 
+# && drush locale:update \
 # && mkdir -p html/themes/custom/vr/img \
 # && cp -r web/themes/custom/vr/img/homepage.jpg html/themes/custom/vr/img \
 # && drush cim -y \
