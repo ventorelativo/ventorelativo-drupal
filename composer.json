@@ -53,6 +53,7 @@
         "drupal/svg_image": "^3.0",
         "drupal/tagify": "^1.2.33",
         "drupal/textimage": "^4.3",
+        "drupal/token_or": "^2.3",
         "drupal/tome": "^1.12",
         "drupal/tome_add_paths": "^1.0",
         "drupal/tome_netlify": "^1.0@dev",

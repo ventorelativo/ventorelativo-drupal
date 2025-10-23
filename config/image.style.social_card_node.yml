@@ -1,0 +1,23 @@
+uuid: db7c3301-a1a1-44a0-95d0-d68538a2b85c
+langcode: it
+status: true
+dependencies:
+  module:
+    - image_effects
+    - textimage
+third_party_settings:
+  textimage:
+    uri_scheme: public
+name: social_card_node
+label: 'Social Card node'
+effects:
+  cc8264c7-c1c3-4292-9799-d0dbd13f996a:
+    uuid: cc8264c7-c1c3-4292-9799-d0dbd13f996a
+    id: image_effects_scale_and_smart_crop
+    weight: 1
+    data:
+      width: '1280'
+      height: '640'
+      upscale: true
+      simulate: false
+      algorithm: entropy_slice

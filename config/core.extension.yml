@@ -88,6 +88,7 @@ module:
   text: 0
   textimage: 0
   token: 0
+  token_or: 0
   tome: 0
   tome_add_paths: 0
   tome_base: 0
