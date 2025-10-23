@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2025-10-08T13:14:09+00:00"
+            "value": "2025-10-23T16:04:27+00:00"
         }
     ],
     "revision_uid": [
@@ -30,7 +30,7 @@
     "revision_log": [],
     "status": [
         {
-            "value": false
+            "value": true
         }
     ],
     "uid": [
@@ -41,7 +41,7 @@
     ],
     "title": [
         {
-            "value": "In volo sulla fortezza pi\u00f9 grande d\u2019Europa - 2025"
+            "value": "Volo dei Briganti \u2013 Hike & Fly al Bourcet"
         }
     ],
     "created": [
@@ -51,7 +51,7 @@
     ],
     "changed": [
         {
-            "value": "2025-10-08T14:48:01+00:00"
+            "value": "2025-10-23T16:04:27+00:00"
         }
     ],
     "promote": [
@@ -69,33 +69,29 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true
-        }
-    ],
+    "revision_translation_affected": [],
     "path": [
         {
-            "alias": "\/news\/volo-sulla-fortezza-piu-grande-deuropa-2025",
+            "alias": "\/news\/volo-dei-briganti-bourcet-2025",
             "langcode": "it"
         }
     ],
     "body": [
         {
-            "value": "<p class=\"p1\">Torna uno degli appuntamenti pi\u00f9 attesi dell\u2019anno!<\/p><p class=\"p1\"><span class=\"s1\"><strong>VentoRelativo<\/strong><\/span> organizza anche quest\u2019anno il <span class=\"s1\"><strong>volo sul Forte di Fenestrelle<\/strong><\/span>, la fortezza pi\u00f9 grande d\u2019Europa! \ud83e\ude82<\/p><p class=\"p1\">&nbsp;<\/p><p class=\"p1\">\ud83d\udcc5 <span class=\"s1\"><strong>Data prevista:<\/strong><\/span> Gioved\u00ec 25 o Venerd\u00ec 26 Settembre 2025 <em>(in attesa della conferma ufficiale)<\/em><\/p><p class=\"p1\">\ud83d\udccd <span class=\"s1\"><strong>Luogo:<\/strong><\/span> <a href=\"\/node\/19\" data-entity-type=\"node\" data-entity-uuid=\"695000f5-5302-4367-ae7c-bcb956cc3a6c\" data-entity-substitution=\"canonical\">Fenestrelle<\/a> o <a href=\"\/node\/22\" data-entity-type=\"node\" data-entity-uuid=\"6afe62a4-cda9-453b-b3c1-1407a45d487a\" data-entity-substitution=\"canonical\">Bourcet<\/a> \u2013 con ritrovo in atterraggio a <a href=\"\/node\/19\" data-entity-type=\"node\" data-entity-uuid=\"695000f5-5302-4367-ae7c-bcb956cc3a6c\" data-entity-substitution=\"canonical\"><span class=\"s1\">Chambons<\/span><\/a><\/p><p class=\"p1\">&nbsp;<\/p><p class=\"p1\">Come sempre, sar\u00e0 una giornata di volo, amicizia e divertimento\u2026<\/p><p class=\"p3\"><span class=\"s2\">eee <\/span><strong>attenzione alle sorprese in atterraggio!<\/strong><span class=\"s2\"> \ud83d\ude04<\/span><\/p><hr><p class=\"p1\"><span class=\"s1\">\ud83c\udf9f\ufe0f <\/span><strong>Informazioni pratiche:<\/strong><\/p><ul><li><p class=\"p1\"><strong>Voli biposto:<\/strong><span class=\"s1\"> 150 \u20ac<\/span><\/p><\/li><li><p class=\"p1\"><strong>Servizio navetta:<\/strong><span class=\"s1\"> 10 \u20ac<\/span><\/p><\/li><li><p class=\"p1\"><strong>Info e prenotazioni biposto:<\/strong><span class=\"s1\"> \ud83d\udcde <\/span><a href=\"tel:+393491098090\"><span class=\"s1\">349 109 8090<\/span><\/a><\/p><\/li><\/ul>",
+            "value": "<p>Torna il nostro appuntamento d\u2019autunno con una nuova avventura targata <strong>VentoRelativo Parapendio Club<\/strong>: il <strong>Volo dei Briganti<\/strong>, un'uscita <strong>Hike &amp; Fly<\/strong> tra i sentieri e i panorami selvaggi del <a href=\"\/node\/22\" data-entity-type=\"node\" data-entity-uuid=\"6afe62a4-cda9-453b-b3c1-1407a45d487a\" data-entity-substitution=\"canonical\"><strong>Bourcet<\/strong><\/a>! \ud83e\ude82<\/p><p>\ud83d\udcc5 <strong>Data:<\/strong> domenica 26 ottobre 2025<br>\ud83d\udccd <strong>Partenza:<\/strong> Roure<br>\ud83c\udfaf <strong>Atterraggio:<\/strong> Castel del Bosco<\/p><p>Una giornata di sport, natura e buona compagnia \u2014 con il giusto spirito \u201cbrigantesco\u201d!<br>E all\u2019atterraggio\u2026 <strong>vino, castagne e altre cibanze varie<\/strong> per tutti \ud83c\udf77\ud83c\udf30\ud83c\udf5e<\/p><hr><p>\ud83c\udf9f\ufe0f <strong>Informazioni pratiche:<\/strong><br>- <strong>Voli biposto:<\/strong> 150 \u20ac<br>- <strong>Servizio navetta:<\/strong> 10 \u20ac<br>- <strong>Info e prenotazioni biposto:<\/strong> \ud83d\udcde <a href=\"tel:+393491098090\">349 109 8090<\/a><\/p><hr><p>\ud83d\udccb <strong>Registrazione partecipanti<\/strong><br>Per aiutarci a organizzare al meglio l\u2019evento, ti chiediamo di segnalare la tua partecipazione compilando il breve sondaggio qui sotto:<br><a class=\"btn btn-primary btn-sm\" href=\"https:\/\/framadate.org\/volo-dei-briganti-2025\" data-entity-type=\"external\" target=\"_blank\" rel=\"noopener\"><svg class=\"bi bi-journal-bookmark-fill\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" viewBox=\"0 0 16 16\"><path fill-rule=\"evenodd\" d=\"M6 1h6v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z\"><\/path><path d=\"M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2\"><\/path><path d=\"M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z\"><\/path><\/svg>Iscriviti al Volo dei Briganti su Framadate<\/a><\/p><hr><p>\ud83d\udd17 <strong>Dettagli sul sito di volo:<\/strong><br>Per conoscere meglio il decollo, l\u2019atterraggio e le caratteristiche del sito di volo del Bourcet, visita la pagina dedicata:<br><a class=\"btn btn-secondary btn-sm\" href=\"\/siti-di-volo\/bourcet\" target=\"_blank\" rel=\"noopener\"><svg class=\"bi bi-map\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" viewBox=\"0 0 16 16\">\r\n  <path fill-rule=\"evenodd\" d=\"M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.5.5 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103M10 1.91l-4-.8v12.98l4 .8zm1 12.98 4-.8V1.11l-4 .8zm-6-.8V1.11l-4 .8v12.98z\"><\/path>\r\n<\/svg>&nbsp;Scopri il sito di volo del Bourcet<\/a><\/p><hr><p>\ud83d\udce1 <em>Tieni d\u2019occhio questa pagina per aggiornamenti o eventuali cancellazioni dovute alle condizioni meteo.<\/em><\/p>",
             "format": "full_html",
-            "processed": "<p class=\"p1\">Torna uno degli appuntamenti pi\u00f9 attesi dell\u2019anno!<\/p><p class=\"p1\"><span class=\"s1\"><strong>VentoRelativo<\/strong><\/span> organizza anche quest\u2019anno il <span class=\"s1\"><strong>volo sul Forte di Fenestrelle<\/strong><\/span>, la fortezza pi\u00f9 grande d\u2019Europa! \ud83e\ude82<\/p><p class=\"p1\">&nbsp;<\/p><p class=\"p1\">\ud83d\udcc5 <span class=\"s1\"><strong>Data prevista:<\/strong><\/span> Gioved\u00ec 25 o Venerd\u00ec 26 Settembre 2025 <em>(in attesa della conferma ufficiale)<\/em><\/p><p class=\"p1\">\ud83d\udccd <span class=\"s1\"><strong>Luogo:<\/strong><\/span> <a href=\"\/siti\/forte-di-fenestrelle\" data-entity-type=\"node\" data-entity-uuid=\"695000f5-5302-4367-ae7c-bcb956cc3a6c\" data-entity-substitution=\"canonical\" title=\"Forte di Fenestrelle\">Fenestrelle<\/a> o <a href=\"\/siti\/bourcet\" data-entity-type=\"node\" data-entity-uuid=\"6afe62a4-cda9-453b-b3c1-1407a45d487a\" data-entity-substitution=\"canonical\" title=\"Bourcet\">Bourcet<\/a> \u2013 con ritrovo in atterraggio a <a href=\"\/siti\/forte-di-fenestrelle\" data-entity-type=\"node\" data-entity-uuid=\"695000f5-5302-4367-ae7c-bcb956cc3a6c\" data-entity-substitution=\"canonical\" title=\"Forte di Fenestrelle\"><span class=\"s1\">Chambons<\/span><\/a><\/p><p class=\"p1\">&nbsp;<\/p><p class=\"p1\">Come sempre, sar\u00e0 una giornata di volo, amicizia e divertimento\u2026<\/p><p class=\"p3\"><span class=\"s2\">eee <\/span><strong>attenzione alle sorprese in atterraggio!<\/strong><span class=\"s2\"> \ud83d\ude04<\/span><\/p><hr><p class=\"p1\"><span class=\"s1\">\ud83c\udf9f\ufe0f <\/span><strong>Informazioni pratiche:<\/strong><\/p><ul><li><p class=\"p1\"><strong>Voli biposto:<\/strong><span class=\"s1\"> 150 \u20ac<\/span><\/p><\/li><li><p class=\"p1\"><strong>Servizio navetta:<\/strong><span class=\"s1\"> 10 \u20ac<\/span><\/p><\/li><li><p class=\"p1\"><strong>Info e prenotazioni biposto:<\/strong><span class=\"s1\"> \ud83d\udcde <\/span><a href=\"tel:+393491098090\"><span class=\"s1\">349 109 8090<\/span><\/a><\/p><\/li><\/ul>",
+            "processed": "<p>Torna il nostro appuntamento d\u2019autunno con una nuova avventura targata <strong>VentoRelativo Parapendio Club<\/strong>: il <strong>Volo dei Briganti<\/strong>, un'uscita <strong>Hike &amp; Fly<\/strong> tra i sentieri e i panorami selvaggi del <a href=\"\/siti\/bourcet\" data-entity-type=\"node\" data-entity-uuid=\"6afe62a4-cda9-453b-b3c1-1407a45d487a\" data-entity-substitution=\"canonical\" title=\"Bourcet\"><strong>Bourcet<\/strong><\/a>! \ud83e\ude82<\/p><p>\ud83d\udcc5 <strong>Data:<\/strong> domenica 26 ottobre 2025<br>\ud83d\udccd <strong>Partenza:<\/strong> Roure<br>\ud83c\udfaf <strong>Atterraggio:<\/strong> Castel del Bosco<\/p><p>Una giornata di sport, natura e buona compagnia \u2014 con il giusto spirito \u201cbrigantesco\u201d!<br>E all\u2019atterraggio\u2026 <strong>vino, castagne e altre cibanze varie<\/strong> per tutti \ud83c\udf77\ud83c\udf30\ud83c\udf5e<\/p><hr><p>\ud83c\udf9f\ufe0f <strong>Informazioni pratiche:<\/strong><br>- <strong>Voli biposto:<\/strong> 150 \u20ac<br>- <strong>Servizio navetta:<\/strong> 10 \u20ac<br>- <strong>Info e prenotazioni biposto:<\/strong> \ud83d\udcde <a href=\"tel:+393491098090\">349 109 8090<\/a><\/p><hr><p>\ud83d\udccb <strong>Registrazione partecipanti<\/strong><br>Per aiutarci a organizzare al meglio l\u2019evento, ti chiediamo di segnalare la tua partecipazione compilando il breve sondaggio qui sotto:<br><a class=\"btn btn-primary btn-sm\" href=\"https:\/\/framadate.org\/volo-dei-briganti-2025\" data-entity-type=\"external\" target=\"_blank\" rel=\"noopener\"><svg class=\"bi bi-journal-bookmark-fill\" width=\"16\" height=\"16\" fill=\"currentColor\" viewBox=\"0 0 16 16\"><path fill-rule=\"evenodd\" d=\"M6 1h6v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z\" \/><path d=\"M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2\" \/><path d=\"M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z\" \/><\/svg>Iscriviti al Volo dei Briganti su Framadate<\/a><\/p><hr><p>\ud83d\udd17 <strong>Dettagli sul sito di volo:<\/strong><br>Per conoscere meglio il decollo, l\u2019atterraggio e le caratteristiche del sito di volo del Bourcet, visita la pagina dedicata:<br><a class=\"btn btn-secondary btn-sm\" href=\"\/siti-di-volo\/bourcet\" target=\"_blank\" rel=\"noopener\"><svg class=\"bi bi-map\" width=\"16\" height=\"16\" fill=\"currentColor\" viewBox=\"0 0 16 16\">\n  <path fill-rule=\"evenodd\" d=\"M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.5.5 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103M10 1.91l-4-.8v12.98l4 .8zm1 12.98 4-.8V1.11l-4 .8zm-6-.8V1.11l-4 .8v12.98z\" \/>\n<\/svg>&nbsp;Scopri il sito di volo del Bourcet<\/a><\/p><hr><p>\ud83d\udce1 <em>Tieni d\u2019occhio questa pagina per aggiornamenti o eventuali cancellazioni dovute alle condizioni meteo.<\/em><\/p>",
             "summary": ""
         }
     ],
     "field_image": [
         {
-            "alt": "Veduta aerea del Forte di Fenestrelle, Val Chisone",
+            "alt": "Veduta di Bourcet, Roure, Val Chisone (TO)",
             "title": "",
-            "width": 1170,
-            "height": 650,
+            "width": 1536,
+            "height": 1024,
             "target_type": "file",
-            "target_uuid": "af0f0997-23cd-43a2-aab5-855228998a6e"
+            "target_uuid": "05d41cef-cfa8-4c0d-9323-f32b3cb101d8"
         }
     ],
     "field_tags": [

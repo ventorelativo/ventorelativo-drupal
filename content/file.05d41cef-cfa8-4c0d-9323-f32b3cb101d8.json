@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "3c881ec1-798e-433b-ac89-e50053f06f6f"
+            "value": "05d41cef-cfa8-4c0d-9323-f32b3cb101d8"
         }
     ],
     "langcode": [
@@ -17,38 +17,38 @@
     ],
     "filename": [
         {
-            "value": "generateImage_tm38hjes8tbi5rZtIEG.gif"
+            "value": "VoloBriganti.jpeg"
         }
     ],
     "uri": [
         {
-            "value": "public:\/\/2025-10\/generateImage_tm38hjes8tbi5rZtIEG.gif",
-            "url": "\/sites\/default\/files\/2025-10\/generateImage_tm38hjes8tbi5rZtIEG.gif"
+            "value": "public:\/\/2025-10\/VoloBriganti.jpeg",
+            "url": "\/sites\/default\/files\/2025-10\/VoloBriganti.jpeg"
         }
     ],
     "filemime": [
         {
-            "value": "image\/gif"
+            "value": "image\/jpeg"
         }
     ],
     "filesize": [
         {
-            "value": 1812
+            "value": 710853
         }
     ],
     "status": [
         {
-            "value": false
+            "value": true
         }
     ],
     "created": [
         {
-            "value": "2025-10-08T13:27:54+00:00"
+            "value": "2025-10-23T15:38:39+00:00"
         }
     ],
     "changed": [
         {
-            "value": "2025-10-08T13:27:54+00:00"
+            "value": "2025-10-23T15:38:44+00:00"
         }
     ]
 }

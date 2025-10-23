@@ -1,0 +1,54 @@
+{
+    "uuid": [
+        {
+            "value": "ff3d73ee-2b25-447a-9fe9-c73d2262ee6f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Briganti.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2025-10\/Briganti.jpg",
+            "url": "\/sites\/default\/files\/2025-10\/Briganti.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 324064
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-10-23T15:33:45+00:00"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-10-23T15:34:19+00:00"
+        }
+    ]
+}
