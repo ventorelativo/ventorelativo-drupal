@@ -783,6 +783,8 @@ $settings['skip_permissions_hardening'] = TRUE;
 // Test for fonts
 // $config['system.performance']['css']['preprocess'] = FALSE;
 
+$settings['testing_package_manager'] = TRUE;
+
 /**
  * Load local development override configuration, if available.
  *
