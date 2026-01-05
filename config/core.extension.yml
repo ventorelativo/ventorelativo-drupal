@@ -98,7 +98,9 @@ module:
   twbstools: 0
   twig_field_value: 0
   ui_patterns: 0
+  ui_patterns_blocks: 0
   ui_patterns_layouts: 0
+  ui_patterns_legacy: 0
   ui_patterns_library: 0
   ui_patterns_views: 0
   update: 0
