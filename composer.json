@@ -56,6 +56,7 @@
         "drupal/tome": "^1.12",
         "drupal/tome_add_paths": "^1.0",
         "drupal/tome_netlify": "^1.0@dev",
+        "drupal/trash": "^3.0",
         "drupal/twbstools": "^2.1",
         "drupal/twig_field_value": "^2.0",
         "drupal/ui_patterns": "^2.0",
@@ -121,7 +122,7 @@
         "composer-exit-on-patch-failure": true,
         "patches": {
             "drupal/core": {
-                "Expose Layout Builder data to REST and JSON:API - https://drupal.org/i/2942975": "https://www.drupal.org/files/issues/2025-02-25/2942975-274.patch"
+                "Expose Layout Builder data to REST and JSON:API - https://drupal.org/i/2942975": "https://www.drupal.org/files/issues/2025-12-19/%20json-api-layout-fix-D11.3-2942975-281.patch"
             },
             "drupal/gtranslate": {
                 "Select and order languages using draggable table - https://drupal.org/i/3401669": "https://git.drupalcode.org/project/gtranslate/-/merge_requests/17.diff"
@@ -137,7 +138,7 @@
     "require-dev": {
         "chx/drupal-issue-fork": "^1.0",
         "drupal/coder": "^8.3",
-        "drupal/devel": "^5.0",
+        "drupal/devel": "^5.5",
         "drupal/examples": "^4.0"
     }
 }

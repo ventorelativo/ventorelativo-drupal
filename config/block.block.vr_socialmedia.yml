@@ -19,7 +19,5 @@ settings:
   label: 'Social media'
   label_display: '0'
   provider: block_content
-  status: true
-  info: ''
   view_mode: full
 visibility: {  }
