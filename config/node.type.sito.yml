@@ -1,13 +1,7 @@
 uuid: f0819210-f20b-4018-a18c-6e20415015a5
 langcode: it
 status: true
-dependencies:
-  module:
-    - menu_ui
-third_party_settings:
-  menu_ui:
-    available_menus: {  }
-    parent: ''
+dependencies: {  }
 name: 'Sito di volo'
 type: sito
 description: 'Utilizza un <em>sito di volo</em> per aggiungere una zona di volo, compresiva di decollo, atterraggio, e indicazioni per raggiungere e volare la zone.'

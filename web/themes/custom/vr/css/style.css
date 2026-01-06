@@ -12985,7 +12985,7 @@ main + footer {
 
 header.fixed-top {
   top: var(--drupal-displace-offset-top, 0);
-  z-index: 499;
+  z-index: calc(var(--admin-toolbar-z-index-top-bar, 490) - 5);
 }
 body:not(.path-frontpage) header.fixed-top::after {
   content: "";

@@ -1,0 +1,92 @@
+{
+    "uuid": [
+        {
+            "value": "5e3a002e-4f49-4d77-8539-ee8d80ae931a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "0879c2c8-f6b2-4f2d-9411-9b398641d6a3"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2026-01-06T11:53:32+00:00"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "title": [
+        {
+            "value": "Iscrizioni"
+        }
+    ],
+    "created": [
+        {
+            "value": "2026-01-06T11:03:55+00:00"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2026-01-06T11:53:32+00:00"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/iscrizioni",
+            "langcode": "it"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"text-center\"><h3>Vuoi aiutarci?<\/h3><p class=\"fs-5 text-muted\">Puoi fare la tessera come <strong>Socio Sostenitore<\/strong><br>Tramite Satispay il versamento \u00e8 facile:<\/p><\/div><div><p class=\"fs-5 text-muted\">&nbsp;<\/p><\/div><div class=\"row row-cols-1 row-cols-md-3 mb-3 text-center justify-content-center\"><div class=\"col\"><div class=\"card mb-4 rounded-3 shadow-sm shadow-hover\"><div class=\"card-header py-3\"><h4 class=\"my-0 fw-normal\">Sostenitore<\/h4><\/div><div class=\"card-body\"><h1 class=\"card-title pricing-card-title\">\u20ac10<\/h1><ul class=\"list-unstyled mt-3 mb-4\"><li data-list-item-id=\"eb3b999101dcba57ff6dbbdc69285d129\">Supporto al club e alle sue iniziative<\/li><\/ul><p><a class=\"w-100 btn btn-primary stretched-link\" href=\"https:\/\/www.satispay.com\/app\/pay\/shops\/1746ccbc-eae4-4ad8-90d8-96712d59e356?amount=1000&amp;currency=EUR&amp;external_code=Sostenitore\" type=\"button\">Paga con <img src=\"\/themes\/custom\/vr\/img\/satispay_logo.svg\" width=\"100\" height=\"30\" loading=\"lazy\">&nbsp;<\/a><\/p><\/div><\/div><\/div><div class=\"col\"><div class=\"card mb-4 rounded-3 shadow-sm shadow-hover border-primary\"><div class=\"card-header py-3 text-bg-primary border-primary\"><h4 class=\"my-0 fw-normal\">Socio<\/h4><\/div><div class=\"card-body\"><h1 class=\"card-title pricing-card-title\">\u20ac30<\/h1><ul class=\"list-unstyled mt-3 mb-4\"><li data-list-item-id=\"ef26f0e7d09e9772b679edd3f8fca6896\">Partecipazione alle decisioni<\/li><li data-list-item-id=\"eb04318ad5a9a6d42f9fdcb6ddc201098\">Diritto di voto alle assemblee<\/li><li data-list-item-id=\"e5dfa5e81db625ec1f04170b2324d221a\">Priorit\u00e0 per i posti agli eventi<\/li><\/ul><p><a class=\"w-100 btn btn-primary stretched-link\" href=\"https:\/\/www.satispay.com\/app\/pay\/shops\/1746ccbc-eae4-4ad8-90d8-96712d59e356?amount=3000&amp;currency=EUR&amp;external_code=Socio\" type=\"button\">Paga con <img src=\"\/themes\/custom\/vr\/img\/satispay_logo.svg\" width=\"100\" height=\"30\" loading=\"lazy\">&nbsp;<\/a><\/p><\/div><\/div><\/div><\/div><div><p class=\"fs-5 text-muted\">&nbsp;<\/p><\/div><div class=\"text-center\"><p>Alternativamente, puoi effettuare un bonifico verso:<\/p><p><strong>Associazione Sportiva Vento Relativo<\/strong><\/p><p><em>IBAN:<\/em> IT67W0326830750052117945240<\/p><\/div>",
+            "format": "full_html",
+            "processed": "<div class=\"text-center\"><h3>Vuoi aiutarci?<\/h3><p class=\"fs-5 text-muted\">Puoi fare la tessera come <strong>Socio Sostenitore<\/strong><br>Tramite Satispay il versamento \u00e8 facile:<\/p><\/div><div><p class=\"fs-5 text-muted\">&nbsp;<\/p><\/div><div class=\"row row-cols-1 row-cols-md-3 mb-3 text-center justify-content-center\"><div class=\"col\"><div class=\"card mb-4 rounded-3 shadow-sm shadow-hover\"><div class=\"card-header py-3\"><h4 class=\"my-0 fw-normal\">Sostenitore<\/h4><\/div><div class=\"card-body\"><h1 class=\"card-title pricing-card-title\">\u20ac10<\/h1><ul class=\"list-unstyled mt-3 mb-4\"><li data-list-item-id=\"eb3b999101dcba57ff6dbbdc69285d129\">Supporto al club e alle sue iniziative<\/li><\/ul><p><a class=\"w-100 btn btn-primary stretched-link\" href=\"https:\/\/www.satispay.com\/app\/pay\/shops\/1746ccbc-eae4-4ad8-90d8-96712d59e356?amount=1000&amp;currency=EUR&amp;external_code=Sostenitore\" type=\"button\">Paga con <img src=\"\/themes\/custom\/vr\/img\/satispay_logo.svg\" width=\"100\" height=\"30\" loading=\"lazy\">&nbsp;<\/a><\/p><\/div><\/div><\/div><div class=\"col\"><div class=\"card mb-4 rounded-3 shadow-sm shadow-hover border-primary\"><div class=\"card-header py-3 text-bg-primary border-primary\"><h4 class=\"my-0 fw-normal\">Socio<\/h4><\/div><div class=\"card-body\"><h1 class=\"card-title pricing-card-title\">\u20ac30<\/h1><ul class=\"list-unstyled mt-3 mb-4\"><li data-list-item-id=\"ef26f0e7d09e9772b679edd3f8fca6896\">Partecipazione alle decisioni<\/li><li data-list-item-id=\"eb04318ad5a9a6d42f9fdcb6ddc201098\">Diritto di voto alle assemblee<\/li><li data-list-item-id=\"e5dfa5e81db625ec1f04170b2324d221a\">Priorit\u00e0 per i posti agli eventi<\/li><\/ul><p><a class=\"w-100 btn btn-primary stretched-link\" href=\"https:\/\/www.satispay.com\/app\/pay\/shops\/1746ccbc-eae4-4ad8-90d8-96712d59e356?amount=3000&amp;currency=EUR&amp;external_code=Socio\" type=\"button\">Paga con <img src=\"\/themes\/custom\/vr\/img\/satispay_logo.svg\" width=\"100\" height=\"30\" loading=\"lazy\">&nbsp;<\/a><\/p><\/div><\/div><\/div><\/div><div><p class=\"fs-5 text-muted\">&nbsp;<\/p><\/div><div class=\"text-center\"><p>Alternativamente, puoi effettuare un bonifico verso:<\/p><p><strong>Associazione Sportiva Vento Relativo<\/strong><\/p><p><em>IBAN:<\/em> IT67W0326830750052117945240<\/p><\/div>",
+            "summary": ""
+        }
+    ],
+    "layout_builder__layout": []
+}

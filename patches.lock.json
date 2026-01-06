@@ -1,0 +1,53 @@
+{
+    "_hash": "1f0a0a39b31b700378af9eba1c1ab4e9bf095e2d125e9ed17b56e7688b5584e1",
+    "patches": {
+        "drupal/core": [
+            {
+                "package": "drupal/core",
+                "description": "Expose Layout Builder data to REST and JSON:API - https://drupal.org/i/2942975",
+                "url": "https://www.drupal.org/files/issues/2026-01-06/core-2942975-285-core-layout-entity-normalizers.patch",
+                "sha256": "4327103c96aab092898bc74de60c5e94259cb8ddd4389d20a41891e3b8a23481",
+                "depth": 2,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ],
+        "drupal/gtranslate": [
+            {
+                "package": "drupal/gtranslate",
+                "description": "Select and order languages using draggable table - https://drupal.org/i/3401669",
+                "url": "https://git.drupalcode.org/project/gtranslate/-/merge_requests/17.diff",
+                "sha256": "1b1e51543835647e52bcf85842064da5fcdef4513f905f6da5fe532a71428cd1",
+                "depth": 1,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ],
+        "drupal/token": [
+            {
+                "package": "drupal/token",
+                "description": "Add urlencode support to [current-page:title] token - https://drupal.org/i/3221868",
+                "url": "https://git.drupalcode.org/project/token/-/merge_requests/50.diff",
+                "sha256": "ea346cb237abacb7b98bd61a220e7b4b8b054194057c2402a0ac429a8582f0b5",
+                "depth": 1,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ],
+        "drupal/leaflet_more_maps": [
+            {
+                "package": "drupal/leaflet_more_maps",
+                "description": "Add Tracestrack Maps - https://drupal.org/i/3540692",
+                "url": "https://git.drupalcode.org/project/leaflet_more_maps/-/merge_requests/17.diff",
+                "sha256": "7f14bf0f9ea230b9f1d290d0746ee2c0aebefb3695cacac03e2913684337a531",
+                "depth": 1,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ]
+    }
+}
