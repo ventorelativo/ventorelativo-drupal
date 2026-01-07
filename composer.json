@@ -45,6 +45,7 @@
         "drupal/nomarkup": "^1.0",
         "drupal/pathauto": "^1.11",
         "drupal/project_browser": "^2.1@beta",
+        "drupal/quicklink": "^2.0",
         "drupal/redirect": "^1.8",
         "drupal/simple_sitemap": "^4.1",
         "drupal/slick": "^3.0",
