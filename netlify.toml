@@ -29,10 +29,10 @@ publish = "html"
 [build.environment]
 PHP_VERSION="8.3"
 
-[[redirects]]
-from = "/home"
-to = "/"
-status = 301
+# [[redirects]]
+# from = "/home"
+# to = "/"
+# status = 301
 
 # https://www.netlify.com/blog/how-to-schedule-deploys-with-netlify/
 [functions]
