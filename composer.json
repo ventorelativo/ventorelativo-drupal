@@ -15,6 +15,7 @@
         }
     ],
     "require": {
+        "php": ">=8.3 <8.4",
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^2.0",
         "drupal-tome/tome_drush": "dev-master",
@@ -67,9 +68,9 @@
         "drupal/views_bootstrap": "^5.5@alpha",
         "drupal/views_geojson": "^1.2",
         "drush/drush": "^13.7",
-        "symfony/browser-kit": "^7.3",
-        "symfony/css-selector": "^7.3",
-        "symfony/http-client": "^7.3"
+        "symfony/browser-kit": "^7.4",
+        "symfony/css-selector": "^7.4",
+        "symfony/http-client": "^7.4"
     },
     "conflict": {
         "drupal/drupal": "*"
