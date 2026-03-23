@@ -8,7 +8,7 @@ const BUILD_HOOK =
 // Schedules the handler function to run at 16 UTC.
 // 16:00 UTC is 18:00 CET during summer (CEST, UTC+2)
 // 16:00 UTC is 17:00 CET during winter (CET, UTC+1)
-const handler = schedule('0 16 * * *', async () => {
+/* const handler = schedule('0 16 * * *', async () => {
   await fetch(BUILD_HOOK, {
     method: 'POST'
   }).then(response => {
@@ -18,6 +18,6 @@ const handler = schedule('0 16 * * *', async () => {
   return {
     statusCode: 200
   }
-})
+}) */
 
 export { handler }
