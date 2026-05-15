@@ -47,7 +47,7 @@
         "drupal/nomarkup": "^1.0",
         "drupal/pathauto": "^1.11",
         "drupal/project_browser": "^2.1@beta",
-        "drupal/quicklink": "^2.0",
+        "drupal/quicklink": "^3.0",
         "drupal/redirect": "^1.8",
         "drupal/simple_sitemap": "^4.1",
         "drupal/slick": "^3.0",
@@ -140,7 +140,6 @@
     "require-dev": {
         "chx/drupal-issue-fork": "^1.0",
         "drupal/coder": "^8.3",
-        "drupal/devel": "^5.5",
-        "drupal/examples": "^4.0"
+        "drupal/devel": "^5.5"
     }
 }
