@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2025-10-08T15:26:02+00:00"
+            "value": "2026-05-15T09:39:54+00:00"
         }
     ],
     "revision_uid": [
@@ -51,7 +51,7 @@
     ],
     "changed": [
         {
-            "value": "2025-10-08T15:26:02+00:00"
+            "value": "2026-05-15T09:39:54+00:00"
         }
     ],
     "promote": [
@@ -69,11 +69,7 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true
-        }
-    ],
+    "revision_translation_affected": [],
     "path": [
         {
             "alias": "\/siti\/montoso",
@@ -82,13 +78,38 @@
     ],
     "body": [
         {
-            "value": "<p><strong>Localit\u00e0:<\/strong><br>Montoso, vicino a Bagnolo Piemonte (CN)<\/p><p><strong>Altitudine:<\/strong><br>1.300 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud-Est<\/p><p><strong>Descrizione:<\/strong><br>Il sito di volo Montoso offre un'esperienza mozzafiato nel cuore delle Alpi italiane. Situato a circa 1.300 metri di altitudine, questo sito \u00e8 apprezzato dai parapendisti per la sua esposizione sud-ovest, che regala condizioni di volo ideali per la maggior parte dell'anno.<\/p><p><strong>Caratteristiche:<\/strong><br>Vista Panoramica: Goditi una vista spettacolare sulle Alpi Marittime e sulla valle sottostante mentre solchi i cieli sopra Montoso.<br>Condizioni di Volo Ottimali: L'esposizione sud-ovest del sito crea termiche e correnti ascensionali che rendono il volo un'esperienza entusiasmante.<br>Accesso Facile: Il sito \u00e8 facilmente accessibile da Bagnolo Piemonte e offre un parcheggio comodo per i piloti.<\/p><p><br><strong>Consigli Pratici:<\/strong><\/p><p>Prima di volare, assicurati di controllare le condizioni meteorologiche e di consultare le regole locali di volo libero.<br>Rispetta l'ambiente e segue le pratiche di volo sicure per garantire un'esperienza positiva per tutti i piloti.<\/p>",
+            "value": "<p><strong>Localit\u00e0:<\/strong><br>Montoso, vicino a Bagnolo Piemonte (CN)<\/p><p><strong>Altitudine:<\/strong><br>1581m (Rucas Antenne), 1276m (Montoso Monumento)<\/p><p><strong>Esposizione:<\/strong><br>Sud-Est<\/p><p><strong>Descrizione:<\/strong><br>Il sito di volo Montoso offre un'esperienza mozzafiato nel cuore delle Alpi italiane. Situato a circa 1.600 metri di altitudine, questo sito \u00e8 apprezzato dai parapendisti per la sua esposizione sud-est, che regala condizioni di volo ideali per la maggior parte dell'anno.<\/p><p><strong>Caratteristiche:<\/strong><br>Vista Panoramica: Goditi una vista spettacolare sulle Alpi Marittime e sulla valle sottostante mentre solchi i cieli sopra Montoso.<br>Condizioni di Volo Ottimali: L'esposizione sud-ovest del sito crea termiche e correnti ascensionali che rendono il volo un'esperienza entusiasmante.<br>Accesso Facile: Il sito \u00e8 facilmente accessibile da Bagnolo Piemonte e offre un parcheggio comodo per i piloti, o in alternativa usando la navetta con ritrovo <span style=\"-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(34, 35, 48);display:inline !important;float:none;font-family:Ginter, Inter, &quot;Helvetica Neue&quot;, &quot;system-ui&quot;, -apple-system, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">dal Ponte di Bibiana o all'atterraggio (sempre da confermare!).<\/span><\/p><p><br><strong>Consigli Pratici:<\/strong><br>Prima di volare, assicurati di controllare le condizioni meteorologiche e di consultare le regole locali di volo libero.<br>Rispetta l'ambiente e segue le pratiche di volo sicure per garantire un'esperienza positiva per tutti i piloti.<\/p>",
             "format": "full_html",
-            "processed": "<p><strong>Localit\u00e0:<\/strong><br>Montoso, vicino a Bagnolo Piemonte (CN)<\/p><p><strong>Altitudine:<\/strong><br>1.300 metri (circa)<\/p><p><strong>Esposizione:<\/strong><br>Sud-Est<\/p><p><strong>Descrizione:<\/strong><br>Il sito di volo Montoso offre un'esperienza mozzafiato nel cuore delle Alpi italiane. Situato a circa 1.300 metri di altitudine, questo sito \u00e8 apprezzato dai parapendisti per la sua esposizione sud-ovest, che regala condizioni di volo ideali per la maggior parte dell'anno.<\/p><p><strong>Caratteristiche:<\/strong><br>Vista Panoramica: Goditi una vista spettacolare sulle Alpi Marittime e sulla valle sottostante mentre solchi i cieli sopra Montoso.<br>Condizioni di Volo Ottimali: L'esposizione sud-ovest del sito crea termiche e correnti ascensionali che rendono il volo un'esperienza entusiasmante.<br>Accesso Facile: Il sito \u00e8 facilmente accessibile da Bagnolo Piemonte e offre un parcheggio comodo per i piloti.<\/p><p><br><strong>Consigli Pratici:<\/strong><\/p><p>Prima di volare, assicurati di controllare le condizioni meteorologiche e di consultare le regole locali di volo libero.<br>Rispetta l'ambiente e segue le pratiche di volo sicure per garantire un'esperienza positiva per tutti i piloti.<\/p>",
-            "summary": "1300m, SE, Bagnolo Piemonte (CN)"
+            "processed": "<p><strong>Localit\u00e0:<\/strong><br>Montoso, vicino a Bagnolo Piemonte (CN)<\/p><p><strong>Altitudine:<\/strong><br>1581m (Rucas Antenne), 1276m (Montoso Monumento)<\/p><p><strong>Esposizione:<\/strong><br>Sud-Est<\/p><p><strong>Descrizione:<\/strong><br>Il sito di volo Montoso offre un'esperienza mozzafiato nel cuore delle Alpi italiane. Situato a circa 1.600 metri di altitudine, questo sito \u00e8 apprezzato dai parapendisti per la sua esposizione sud-est, che regala condizioni di volo ideali per la maggior parte dell'anno.<\/p><p><strong>Caratteristiche:<\/strong><br>Vista Panoramica: Goditi una vista spettacolare sulle Alpi Marittime e sulla valle sottostante mentre solchi i cieli sopra Montoso.<br>Condizioni di Volo Ottimali: L'esposizione sud-ovest del sito crea termiche e correnti ascensionali che rendono il volo un'esperienza entusiasmante.<br>Accesso Facile: Il sito \u00e8 facilmente accessibile da Bagnolo Piemonte e offre un parcheggio comodo per i piloti, o in alternativa usando la navetta con ritrovo <span style=\"-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(34, 35, 48);display:inline !important;float:none;font-family:Ginter, Inter, &quot;Helvetica Neue&quot;, &quot;system-ui&quot;, -apple-system, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">dal Ponte di Bibiana o all'atterraggio (sempre da confermare!).<\/span><\/p><p><br><strong>Consigli Pratici:<\/strong><br>Prima di volare, assicurati di controllare le condizioni meteorologiche e di consultare le regole locali di volo libero.<br>Rispetta l'ambiente e segue le pratiche di volo sicure per garantire un'esperienza positiva per tutti i piloti.<\/p>",
+            "summary": "1581m\/1276m, SE, Bagnolo Piemonte (CN)"
         }
     ],
-    "field_images": [],
+    "field_images": [
+        {
+            "alt": "Decollo Rucas in volo guardando a NO",
+            "title": "",
+            "width": 1599,
+            "height": 899,
+            "target_type": "file",
+            "target_uuid": "f8728760-2680-4819-9cc3-7c6cae6c8bf6"
+        },
+        {
+            "alt": "Decollo Rucas  in volo guardando a E",
+            "title": "",
+            "width": 1599,
+            "height": 899,
+            "target_type": "file",
+            "target_uuid": "0b8cdd12-dd56-4830-8d2c-cd9fd3db3f13"
+        },
+        {
+            "alt": "Decollo Rucas da terra",
+            "title": "",
+            "width": 1600,
+            "height": 1067,
+            "target_type": "file",
+            "target_uuid": "cd0ee8e2-8d09-4f12-a755-0e5bcb5034ff"
+        }
+    ],
     "field_map_elements": [
         {
             "target_type": "storage",

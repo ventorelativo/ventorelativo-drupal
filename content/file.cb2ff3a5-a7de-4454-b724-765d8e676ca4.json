@@ -1,0 +1,54 @@
+{
+    "uuid": [
+        {
+            "value": "cb2ff3a5-a7de-4454-b724-765d8e676ca4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "filename": [
+        {
+            "value": "cccp-montoso.jpeg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2026-05\/cccp-montoso.jpeg",
+            "url": "\/sites\/default\/files\/2026-05\/cccp-montoso.jpeg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 200209
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2026-05-15T09:47:20+00:00"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2026-05-15T09:47:39+00:00"
+        }
+    ]
+}

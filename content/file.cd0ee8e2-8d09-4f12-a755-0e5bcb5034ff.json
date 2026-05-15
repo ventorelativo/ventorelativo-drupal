@@ -1,0 +1,54 @@
+{
+    "uuid": [
+        {
+            "value": "cd0ee8e2-8d09-4f12-a755-0e5bcb5034ff"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "it"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "bc8d9670-ef69-4b30-888b-15ace3769f89"
+        }
+    ],
+    "filename": [
+        {
+            "value": "WhatsApp Image 2026-05-13 at 18.52.59.jpeg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2026-05\/WhatsApp Image 2026-05-13 at 18.52.59.jpeg",
+            "url": "\/sites\/default\/files\/2026-05\/WhatsApp%20Image%202026-05-13%20at%2018.52.59.jpeg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 150086
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2026-05-15T09:28:16+00:00"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2026-05-15T09:29:17+00:00"
+        }
+    ]
+}

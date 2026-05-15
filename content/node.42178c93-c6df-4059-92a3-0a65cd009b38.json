@@ -18,8 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-12-09T20:49:04+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2026-05-15T09:24:26+00:00"
         }
     ],
     "revision_uid": [
@@ -47,14 +46,12 @@
     ],
     "created": [
         {
-            "value": "2023-08-04T15:48:02+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2023-08-04T15:48:02+00:00"
         }
     ],
     "changed": [
         {
-            "value": "2023-12-09T20:49:04+00:00",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": "2026-05-15T09:24:26+00:00"
         }
     ],
     "promote": [
@@ -72,15 +69,25 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
     "path": [
         {
             "alias": "\/home",
-            "langcode": "it",
-            "pathauto": 0
+            "langcode": "it"
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p class=\"lead my-3\"><a class=\"btn btn-primary me-2\" href=\"\/siti\">Siti di volo<\/a> <a class=\"btn btn-outline-primary me-2\" href=\"\/news\">News<\/a> <a class=\"btn btn-outline-primary\" href=\"\/iscrizioni\">Iscrizioni<\/a><\/p>",
+            "format": "full_html",
+            "processed": "<p class=\"lead my-3\"><a class=\"btn btn-primary me-2\" href=\"\/siti\">Siti di volo<\/a> <a class=\"btn btn-outline-primary me-2\" href=\"\/news\">News<\/a> <a class=\"btn btn-outline-primary\" href=\"\/iscrizioni\">Iscrizioni<\/a><\/p>",
+            "summary": ""
+        }
+    ],
     "layout_builder__layout": [
         {
             "section": {
