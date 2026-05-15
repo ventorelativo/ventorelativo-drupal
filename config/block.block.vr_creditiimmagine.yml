@@ -2,11 +2,8 @@ uuid: e003d9c7-23cf-407f-926e-ec6d86b86668
 langcode: it
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:eec19931-2ffa-4bdb-b772-11bdf6a65871'
   module:
     - block_class
-    - block_content
     - system
   theme:
     - vr

@@ -18,6 +18,7 @@ content:
     weight: 2
     region: content
     settings:
+      geometry_validation: false
       map:
         leaflet_map: ~Paragliding
         height: 300
@@ -59,6 +60,8 @@ content:
         control: true
         options: '{"position":"topleft","pseudoFullscreen":false}'
       path: '{"color":"#3388ff","opacity":"1.0","stroke":true,"weight":3,"fill":"depends","fillColor":"*","fillOpacity":"0.2","radius":"6"}'
+      feature_properties:
+        values: ''
       locate:
         control: false
         options: '{"position":"topright","setView":"untilPanOrZoom","returnToPrevBounds":true,"keepCurrentZoomLevel":true,"strings":{"title":"Locate my position"}}'
@@ -74,9 +77,6 @@ content:
           delay: 800
           zoom: 16
           options: ''
-      geometry_validation: 0
-      feature_properties:
-        values: ''
     third_party_settings: {  }
   field_type:
     type: options_select
