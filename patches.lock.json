@@ -1,5 +1,5 @@
 {
-    "_hash": "1f0a0a39b31b700378af9eba1c1ab4e9bf095e2d125e9ed17b56e7688b5584e1",
+    "_hash": "601bcf615f0ad1f67b0fc36d920670c4b6b8927d52199a933aeccb55d02238ad",
     "patches": {
         "drupal/core": [
             {
@@ -8,18 +8,6 @@
                 "url": "https://www.drupal.org/files/issues/2026-01-06/core-2942975-285-core-layout-entity-normalizers.patch",
                 "sha256": "4327103c96aab092898bc74de60c5e94259cb8ddd4389d20a41891e3b8a23481",
                 "depth": 2,
-                "extra": {
-                    "provenance": "root"
-                }
-            }
-        ],
-        "drupal/gtranslate": [
-            {
-                "package": "drupal/gtranslate",
-                "description": "Select and order languages using draggable table - https://drupal.org/i/3401669",
-                "url": "https://git.drupalcode.org/project/gtranslate/-/merge_requests/17.diff",
-                "sha256": "1b1e51543835647e52bcf85842064da5fcdef4513f905f6da5fe532a71428cd1",
-                "depth": 1,
                 "extra": {
                     "provenance": "root"
                 }
