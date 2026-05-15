@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2026-05-15T09:49:34+00:00"
+            "value": "2026-05-15T12:41:20+00:00"
         }
     ],
     "revision_uid": [
@@ -51,7 +51,7 @@
     ],
     "changed": [
         {
-            "value": "2026-05-15T09:49:34+00:00"
+            "value": "2026-05-15T12:41:20+00:00"
         }
     ],
     "promote": [
@@ -82,9 +82,9 @@
     ],
     "body": [
         {
-            "value": "<p class=\"mb-3\">Questo weekend il cielo di Montoso ospita una tappa del campionato regionale di parapendio. Vento Relativo \u00e8 tra i co-organizzatori: \u00e8 il momento di volare tutti insieme e far vedere che siamo presenti.<\/p><div class=\"alert alert-warning d-flex gap-2 align-items-start mb-4\" role=\"alert\"><p><span class=\"mt-1\">\u26a0\ufe0f<\/span><\/p><div><strong>Data da confermare.<\/strong> La scelta tra sabato 16 e domenica 17 dipende dal meteo \u2014 la decisione viene presa gioved\u00ec 14 maggio. Torna su questa pagina per la conferma!<\/div><\/div><div class=\"row g-3 mb-4\"><div class=\"col-sm-4\"><div class=\"bg-light rounded-3 p-3 h-100\"><div class=\"text-uppercase text-muted mb-1\" style=\"font-size:.7rem;letter-spacing:.06em;\">Quando<\/div><div class=\"fw-semibold\">Sab 16 o Dom 17 Maggio<\/div><\/div><\/div><div class=\"col-sm-4\"><div class=\"bg-light rounded-3 p-3 h-100\"><div class=\"text-uppercase text-muted mb-1\" style=\"font-size:.7rem;letter-spacing:.06em;\">Decollo<\/div><p><a class=\"fw-semibold text-decoration-none\" href=\"\/siti\/montoso\">Montoso (Bagnolo P.)&nbsp;<\/a><\/p><\/div><\/div><div class=\"col-sm-4\"><div class=\"bg-light rounded-3 p-3 h-100\"><div class=\"text-uppercase text-muted mb-1\" style=\"font-size:.7rem;letter-spacing:.06em;\">Atterraggio<\/div><p><a class=\"fw-semibold text-decoration-none\" href=\"https:\/\/maps.app.goo.gl\/Gfa3e6btSm449HCC7\" target=\"_blank\" rel=\"noopener\">Bagnolo Piemonte \ud83d\udccd&nbsp;<\/a><\/p><\/div><\/div><\/div><p class=\"mb-4\">Puoi partecipare come pilota o dare una mano a terra nell'organizzazione \u2014 ogni presenza conta. Le iscrizioni sono ancora aperte!<\/p><div class=\"d-flex flex-wrap gap-2\"><a class=\"btn btn-primary\" href=\"https:\/\/ccpiemonte.it\/\" target=\"_blank\" rel=\"noopener\">Info e iscrizioni \u2192 <\/a><a class=\"btn btn-outline-primary\" href=\"https:\/\/maps.app.goo.gl\/Gfa3e6btSm449HCC7\" target=\"_blank\" rel=\"noopener\">Atterraggio su Maps&nbsp;<\/a><\/div>",
+            "value": "<p class=\"mb-3\">Questo sabato <strong>16 Maggio<\/strong> il cielo di <strong>Montoso<\/strong> ospita una tappa del campionato regionale di parapendio. VentoRelativo \u00e8 tra i co-organizzatori: \u00e8 il momento di volare tutti insieme e far vedere che siamo presenti.<\/p><div class=\"row g-3 mb-4\"><div class=\"col-sm-4\"><div class=\"bg-light rounded-3 p-3 h-100\"><div class=\"text-uppercase text-muted mb-1\" style=\"font-size:.7rem;letter-spacing:.06em;\">Quando<\/div><div class=\"fw-semibold\">Sabato 16 Maggio<\/div><\/div><\/div><div class=\"col-sm-4\"><div class=\"bg-light rounded-3 p-3 h-100\"><div class=\"text-uppercase text-muted mb-1\" style=\"font-size:.7rem;letter-spacing:.06em;\">Decollo<\/div><p><a class=\"fw-semibold text-decoration-none\" href=\"\/siti\/montoso\">Montoso (Bagnolo P.)&nbsp;<\/a><\/p><\/div><\/div><div class=\"col-sm-4\"><div class=\"bg-light rounded-3 p-3 h-100\"><div class=\"text-uppercase text-muted mb-1\" style=\"font-size:.7rem;letter-spacing:.06em;\">Atterraggio<\/div><p><a class=\"fw-semibold text-decoration-none\" href=\"https:\/\/maps.app.goo.gl\/Gfa3e6btSm449HCC7\" target=\"_blank\" rel=\"noopener\">Bagnolo Piemonte \ud83d\udccd&nbsp;<\/a><\/p><\/div><\/div><\/div><p class=\"mb-4\">Puoi partecipare come pilota o dare una mano a terra nell'organizzazione, ogni presenza conta. Le iscrizioni sono ancora aperte!<\/p><div class=\"d-flex flex-wrap gap-2\"><a class=\"btn btn-primary\" href=\"https:\/\/ccpiemonte.it\/\" target=\"_blank\" rel=\"noopener\">Info e iscrizioni \u2192 <\/a><a class=\"btn btn-outline-primary\" href=\"https:\/\/maps.app.goo.gl\/Gfa3e6btSm449HCC7\" target=\"_blank\" rel=\"noopener\">Atterraggio su Maps&nbsp;<\/a><\/div>",
             "format": "full_html",
-            "processed": "<p class=\"mb-3\">Questo weekend il cielo di Montoso ospita una tappa del campionato regionale di parapendio. Vento Relativo \u00e8 tra i co-organizzatori: \u00e8 il momento di volare tutti insieme e far vedere che siamo presenti.<\/p><div class=\"alert alert-warning d-flex gap-2 align-items-start mb-4\" role=\"alert\"><p><span class=\"mt-1\">\u26a0\ufe0f<\/span><\/p><div><strong>Data da confermare.<\/strong> La scelta tra sabato 16 e domenica 17 dipende dal meteo \u2014 la decisione viene presa gioved\u00ec 14 maggio. Torna su questa pagina per la conferma!<\/div><\/div><div class=\"row g-3 mb-4\"><div class=\"col-sm-4\"><div class=\"bg-light rounded-3 p-3 h-100\"><div class=\"text-uppercase text-muted mb-1\" style=\"font-size:.7rem;letter-spacing:.06em;\">Quando<\/div><div class=\"fw-semibold\">Sab 16 o Dom 17 Maggio<\/div><\/div><\/div><div class=\"col-sm-4\"><div class=\"bg-light rounded-3 p-3 h-100\"><div class=\"text-uppercase text-muted mb-1\" style=\"font-size:.7rem;letter-spacing:.06em;\">Decollo<\/div><p><a class=\"fw-semibold text-decoration-none\" href=\"\/siti\/montoso\">Montoso (Bagnolo P.)&nbsp;<\/a><\/p><\/div><\/div><div class=\"col-sm-4\"><div class=\"bg-light rounded-3 p-3 h-100\"><div class=\"text-uppercase text-muted mb-1\" style=\"font-size:.7rem;letter-spacing:.06em;\">Atterraggio<\/div><p><a class=\"fw-semibold text-decoration-none\" href=\"https:\/\/maps.app.goo.gl\/Gfa3e6btSm449HCC7\" target=\"_blank\" rel=\"noopener\">Bagnolo Piemonte \ud83d\udccd&nbsp;<\/a><\/p><\/div><\/div><\/div><p class=\"mb-4\">Puoi partecipare come pilota o dare una mano a terra nell'organizzazione \u2014 ogni presenza conta. Le iscrizioni sono ancora aperte!<\/p><div class=\"d-flex flex-wrap gap-2\"><a class=\"btn btn-primary\" href=\"https:\/\/ccpiemonte.it\/\" target=\"_blank\" rel=\"noopener\">Info e iscrizioni \u2192 <\/a><a class=\"btn btn-outline-primary\" href=\"https:\/\/maps.app.goo.gl\/Gfa3e6btSm449HCC7\" target=\"_blank\" rel=\"noopener\">Atterraggio su Maps&nbsp;<\/a><\/div>",
+            "processed": "<p class=\"mb-3\">Questo sabato <strong>16 Maggio<\/strong> il cielo di <strong>Montoso<\/strong> ospita una tappa del campionato regionale di parapendio. VentoRelativo \u00e8 tra i co-organizzatori: \u00e8 il momento di volare tutti insieme e far vedere che siamo presenti.<\/p><div class=\"row g-3 mb-4\"><div class=\"col-sm-4\"><div class=\"bg-light rounded-3 p-3 h-100\"><div class=\"text-uppercase text-muted mb-1\" style=\"font-size:.7rem;letter-spacing:.06em;\">Quando<\/div><div class=\"fw-semibold\">Sabato 16 Maggio<\/div><\/div><\/div><div class=\"col-sm-4\"><div class=\"bg-light rounded-3 p-3 h-100\"><div class=\"text-uppercase text-muted mb-1\" style=\"font-size:.7rem;letter-spacing:.06em;\">Decollo<\/div><p><a class=\"fw-semibold text-decoration-none\" href=\"\/siti\/montoso\">Montoso (Bagnolo P.)&nbsp;<\/a><\/p><\/div><\/div><div class=\"col-sm-4\"><div class=\"bg-light rounded-3 p-3 h-100\"><div class=\"text-uppercase text-muted mb-1\" style=\"font-size:.7rem;letter-spacing:.06em;\">Atterraggio<\/div><p><a class=\"fw-semibold text-decoration-none\" href=\"https:\/\/maps.app.goo.gl\/Gfa3e6btSm449HCC7\" target=\"_blank\" rel=\"noopener\">Bagnolo Piemonte \ud83d\udccd&nbsp;<\/a><\/p><\/div><\/div><\/div><p class=\"mb-4\">Puoi partecipare come pilota o dare una mano a terra nell'organizzazione, ogni presenza conta. Le iscrizioni sono ancora aperte!<\/p><div class=\"d-flex flex-wrap gap-2\"><a class=\"btn btn-primary\" href=\"https:\/\/ccpiemonte.it\/\" target=\"_blank\" rel=\"noopener\">Info e iscrizioni \u2192 <\/a><a class=\"btn btn-outline-primary\" href=\"https:\/\/maps.app.goo.gl\/Gfa3e6btSm449HCC7\" target=\"_blank\" rel=\"noopener\">Atterraggio su Maps&nbsp;<\/a><\/div>",
             "summary": ""
         }
     ],
@@ -92,10 +92,10 @@
         {
             "alt": "locandina Cross Country Piemonte tappa Montoso",
             "title": "",
-            "width": 581,
-            "height": 894,
+            "width": 832,
+            "height": 1280,
             "target_type": "file",
-            "target_uuid": "cb2ff3a5-a7de-4454-b724-765d8e676ca4"
+            "target_uuid": "15b0a451-9195-439d-898a-2438eba171e1"
         }
     ],
     "field_tags": [
