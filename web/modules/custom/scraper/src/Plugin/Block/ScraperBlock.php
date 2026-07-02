@@ -101,13 +101,13 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
     $client = new HttpBrowser();
     $tables = [];
 
-    // Login to Xcontest.
-    $login_crawler = $client->request('GET', self::$xctUrlBase);
-    $form = $login_crawler->filter('#login')->form([
-      'login[username]' => $xct_user,
-      'login[password]' => $xct_pass,
-    ]);
-    $client->submit($form);
+    // Login to Xcontest. Disabled since Cloudflare changes.
+    // $login_crawler = $client->request('GET', self::$xctUrlBase);
+    // $form = $login_crawler->filter('#login')->form([
+    //   'login[username]' => $xct_user,
+    //   'login[password]' => $xct_pass,
+    // ]);
+    // $client->submit($form);
 
     foreach ($pages as $key => $page) {
       $crawler = $client->request('GET', $page['url']);
@@ -179,9 +179,12 @@ final class ScraperBlock extends BlockBase implements ContainerFactoryPluginInte
 
     return [
       '#theme' => 'xct_tables',
+      '#tables' => $this->scrape($pages),
+      /*
       '#tables' => Settings::get('local_environment') === TRUE
         ? []
         : $this->scrape($pages),
+      */
     ];
   }
 

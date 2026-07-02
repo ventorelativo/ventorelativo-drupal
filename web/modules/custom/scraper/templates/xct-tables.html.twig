@@ -74,6 +74,20 @@
   {% set ico_link %}<svg class="icon" width="16" height="16"><use xlink:href="#details"></use></svg> Dettagli del volo{% endset %}
   {% set ico_sort %} <svg class="icon" width="16" height="16"><use xlink:href="#sort-down"></use></svg>{% endset %}
 
+  <ul class="nav nav-pills flex-column flex-sm-row justify-content-center mb-3">
+    {% for key, table in tables %}
+      <li class="nav-item" role="presentation">
+        <a
+          class="btn btn-outline-primary me-2 mb-2"
+          target="_blank"
+          href="{{ table.url }}">
+            {{ table.label }}
+          </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {# OLD SCRAPER TABLE
   <ul class="nav nav-pills nav-justified flex-column flex-sm-row mb-3" id="pills-tab" role="tablist">
     {% for key, table in tables %}
       <li class="nav-item" role="presentation">
@@ -100,7 +114,7 @@
 
           <div class="table-responsive">
             <table class="xct-flights recents table table-hover table-striped">
-              <thead class="{#table-light#}">
+              <thead class="table-light">
                 <tr>
                   {% if key != 'recenti' %}
                     <th class="xct-flights-rank"><span class="visually-hidden">Posizione</span></th>
@@ -163,6 +177,7 @@
       </div>
     {% endfor %}
   </div>
+  #}
 
 {% else %}
   <p>{{ 'Errore nel recupero dei dati da XContest 😥. Ripassa più tardi.'|t }}</p>
