@@ -15,7 +15,6 @@
         }
     ],
     "require": {
-        "php": ">=8.3 <8.4",
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^2.0",
         "drupal-tome/tome_drush": "dev-master",
@@ -78,14 +77,22 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true,
         "allow-plugins": {
             "chx/drupal-issue-fork": true,
             "composer/installers": true,
             "cweagans/composer-patches": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "symfony/runtime": true
+        },
+        "bin-dir": "vendor/bin",
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "policy": {
+            "advisories": {
+                "block": false
+            }
         }
     },
     "extra": {
