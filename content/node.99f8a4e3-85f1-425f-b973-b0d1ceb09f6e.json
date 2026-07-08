@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2026-07-08T11:49:03+00:00"
+            "value": "2026-07-08T13:07:47+00:00"
         }
     ],
     "revision_uid": [
@@ -51,7 +51,7 @@
     ],
     "changed": [
         {
-            "value": "2026-07-08T11:49:03+00:00"
+            "value": "2026-07-08T13:07:47+00:00"
         }
     ],
     "promote": [
@@ -165,6 +165,10 @@
                             "label": "Download",
                             "label_display": "visible",
                             "provider": "navdata",
+                            "description": {
+                                "value": "<p>\r\nQui puoi scaricare i file da usare su <a href=\"https:\/\/xctrack.org\/\" target=\"_blank\">XCTrack<\/a>, <a href=\"https:\/\/naviter.com\/seeyou-navigator\/\" target=\"_blank\">SeeYou Navigator<\/a>, <a href=\"https:\/\/xcsoar.org\/\" target=\"_blank\">XCSoar<\/a> e app simili.<br \/>\r\nScarica <strong>Spazi aerei<\/strong> per avere gli atterraggi e altri volumi rilevanti, e i <strong>Waypoint<\/strong> per i punti di decollo, atterraggio e altri punti di interesse: usali insieme per avere il quadro completo.\r\n<\/p>\r\n",
+                                "format": "restricted_html"
+                            },
                             "context_mapping": []
                         },
                         "weight": 12,

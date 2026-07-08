@@ -5,6 +5,9 @@ description: 'List of download links for flight computer files (OpenAir, CUP).'
 props:
   type: object
   properties:
+    hasDescription:
+      type: boolean
+      title: Has description
     links:
       type: array
       title: Links
@@ -17,3 +20,9 @@ props:
           title:
             type: string
             title: Title
+slots:
+  description:
+    title: Description
+    description: 'Optional editable text shown above the links.'
+    examples:
+      - '<p>Download these to your flight computer before you fly.</p>'
