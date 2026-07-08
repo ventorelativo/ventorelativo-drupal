@@ -1,0 +1,19 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json
+name: 'Nav Data links'
+status: stable
+description: 'List of download links for flight computer files (OpenAir, CUP).'
+props:
+  type: object
+  properties:
+    links:
+      type: array
+      title: Links
+      items:
+        type: object
+        properties:
+          url:
+            type: string
+            title: URL
+          title:
+            type: string
+            title: Title

@@ -58,6 +58,7 @@ module:
   metatag_routes: 0
   metatag_twitter_cards: 0
   minifyhtml: 0
+  navdata: 0
   navigation: 0
   navigation_extra_tools: 0
   node: 0

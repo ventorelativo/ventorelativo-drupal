@@ -1,0 +1,9 @@
+name: 'Nav Data'
+type: module
+description: 'Exports storage entities as OpenAir airspace and SeeYou CUP waypoint files for flight computers.'
+package: 'Custom'
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:views
+  - geofield:geofield
+  - storage:storage

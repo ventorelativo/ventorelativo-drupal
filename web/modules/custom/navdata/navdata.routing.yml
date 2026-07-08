@@ -1,0 +1,15 @@
+navdata.openair:
+  path: '/api/navdata/ventorelativo-airspace.txt'
+  defaults:
+    _controller: 'Drupal\navdata\Controller\NavdataController::openair'
+  requirements:
+    # Public download, exported to the static build by Tome.
+    _access: 'TRUE'
+
+navdata.cup:
+  path: '/api/navdata/ventorelativo-waypoints.cup'
+  defaults:
+    _controller: 'Drupal\navdata\Controller\NavdataController::cup'
+  requirements:
+    # Public download, exported to the static build by Tome.
+    _access: 'TRUE'
