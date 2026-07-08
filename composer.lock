@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f111d3aed6677a441aa7cba554319e54",
+    "content-hash": "6b1da5b31db9e39c334fec9a0f60d5eb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2902,6 +2902,51 @@
             "homepage": "https://www.drupal.org/project/inline_entity_form",
             "support": {
                 "source": "https://git.drupalcode.org/project/inline_entity_form"
+            }
+        },
+        {
+            "name": "drupal/layout_builder_component_attributes",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/layout_builder_component_attributes.git",
+                "reference": "2.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/layout_builder_component_attributes-2.3.0.zip",
+                "reference": "2.3.0",
+                "shasum": "0fa3f353cc25c1c0416b1014e997041e33495b58"
+            },
+            "require": {
+                "drupal/core": "^10.0|^11.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.3.0",
+                    "datestamp": "1781524963",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "chris burge",
+                    "homepage": "https://www.drupal.org/user/1826152"
+                }
+            ],
+            "description": "Allows editors to add HTML attributes to Layout Builder components (blocks)",
+            "homepage": "https://drupal.org/project/layout_builder_component_attributes",
+            "support": {
+                "source": "https://cgit.drupalcode.org/layout_builder_component_attributes",
+                "issues": "https://drupal.org/project/issues/layout_builder_component_attributes"
             }
         },
         {
