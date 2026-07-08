@@ -40,6 +40,7 @@ module:
   language: 0
   layout_builder: 0
   layout_builder_modal: 0
+  layout_builder_operation_link: 0
   layout_discovery: 0
   leaflet: 0
   leaflet_more_maps: 0
