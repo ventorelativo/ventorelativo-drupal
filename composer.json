@@ -95,6 +95,9 @@
             "advisories": {
                 "block": false
             }
+        },
+        "platform": {
+            "php": "8.3.32"
         }
     },
     "extra": {
