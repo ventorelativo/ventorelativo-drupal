@@ -62,6 +62,27 @@ Common Drush tasks (`vendor/bin/drush`, on `PATH` after `composer install`):
 - Import config: `drush cim -y`
 - Content lives in Tome JSON under `content/` — use Tome's export (`drush tome:export`) rather than editing JSON by hand unless you know exactly what you're doing.
 
+### Patching contrib/core (`cweagans/composer-patches` v2)
+
+Fixes to contrib/core (e.g. an unreleased bug fix or a merge request from the drupal.org
+issue queue) are applied as Composer patches, **never** by editing files under
+`web/core/`, `web/modules/contrib/`, or `web/themes/contrib/` (those are wiped on rebuild).
+
+The plugin is **v2**, so the flow differs from the old v1 `extra.patches`-only style:
+
+1. **Author the patch in `composer.json`** → `extra.patches` → `"drupal/<package>"`, as
+   `"Description - issue URL": "<patch or MR .diff URL>"`. This is the *only* place patches
+   are declared by hand.
+2. **`composer patches-relock`** (alias `prl`) — regenerates `patches.lock.json`,
+   downloading each patch and computing its `sha256`. **Never write the hash by hand** — it
+   is an integrity check of the downloaded diff, so a copied/edited value is always wrong.
+3. **`composer patches-repatch`** (alias `prp`) — re-downloads and re-applies the patched
+   packages so the fix is live in the working tree.
+4. `composer patches-doctor` (alias `pd`) — sanity-checks the patching environment.
+
+Commit `composer.json` **and** `patches.lock.json` together. Netlify runs a fresh
+`composer install`, so committed patches re-apply automatically at build time.
+
 ## Production build & deploy (Netlify)
 
 Push to `main` → Netlify runs the command in `netlify.toml` (PHP 8.3, publish dir `html`):
@@ -135,5 +156,7 @@ but is **currently disabled** (`netlify/functions/scheduled-deploy.js` is commen
 - **Don't touch generated/ignored dirs** (`vendor/`, `web/core/`, `web/modules/contrib/`,
   `web/themes/contrib/`, `html/`) — changes there are wiped on rebuild.
 - **Contrib changes go through Composer** (`composer require/update`), and code fixes to
-  contrib/core go through `patches.lock.json` + `patches/`, never by editing files in place.
+  contrib/core go through Composer patches (declared in `composer.json` `extra.patches`,
+  then `composer patches-relock` + `patches-repatch` — see "Patching contrib/core" above),
+  never by editing files in place.
 - Match existing code style (Drupal coding standards; `drupal/coder` is in `require-dev`).

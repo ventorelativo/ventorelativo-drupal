@@ -141,6 +141,9 @@
             },
             "drupal/leaflet_more_maps": {
                 "Add Tracestrack Maps - https://drupal.org/i/3540692": "https://git.drupalcode.org/project/leaflet_more_maps/-/merge_requests/17.diff"
+            },
+            "drupal/gin": {
+                "row.node_field_data_langcode in views-view-field--status.html.twig may be null - https://www.drupal.org/i/3591598": "https://git.drupalcode.org/project/gin/-/merge_requests/788.diff"
             }
         }
     },
